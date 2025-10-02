@@ -12,9 +12,17 @@ namespace QuanLyLaptop
 {
     public partial class frmQuanLyLaptop_QTV : Form
     {
+        List<Laptop> laptops = new List<Laptop>();
         public frmQuanLyLaptop_QTV()
         {
             InitializeComponent();
+        }
+
+        private void frmQuanLyLaptop_QTV_Load(object sender, EventArgs e)
+        {
+            Laptop lt = new Laptop();
+            laptops = lt.TaoList();
+            dgvDanhSachLaptop.DataSource = laptops;
         }
     }
 }
