@@ -1,154 +1,145 @@
 ﻿Mã Laptop,Tên Laptop,Tên Hãng (Laptop),Ngày Nhập,Số Tồn,Số Lượng,Giá Tiền (Laptop),CPU,Tên Hãng (CPU),GPU,Tên Hãng (GPU),Ổ Cứng,Tên Hãng (Ổ cứng),RAM,Tên Hãng (RAM)
-1501030411001,Acer Nitro 5 AN515-45,Acer,01/12/2025,11,5,"28,000,000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1501030411002,Acer Nitro 5 AN515-45-R92M,Acer,20/03/2025,14,7,"29,000,000 VND",AMD Ryzen 5 5600H,AMD,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 512GB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030911003,Acer Predator Helios 300 PH315-54,Acer,20/04/2025,9,5,"34,000,000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030911004,Acer Predator Triton 500 PT515-52,Acer,22/02/2025,6,3,"42,000,000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2070,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030911005,Acer Predator Triton 300 SE,Acer,15/03/2025,7,4,"40,000,000 VND",Intel Core i7-11375H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030911006,Acer Predator Helios 300 PH315-55,Acer,02/05/2025,9,5,"34,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030911007,Acer Predator Helios 300 PH317-55,Acer,28/01/2025,8,4,"36,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030911008,Acer Predator Helios 300,Acer,02/10/2025,10,7,"35,000,000 VND",Intel Core i7-12700H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1502030411009,Acer Nitro 5 AN515-58,Acer,15/01/2025,12,6,"32,000,000 VND",Intel Core i7-12700H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Crucial P5 Plus 1TB,Crucial,Corsair Vengeance 16GB DDR5 4800MHz,Corsair
-1502030411010,Acer Nitro 5 AN515-58-50RS,Acer,25/01/2025,13,6,"31,000,000 VND",Intel Core i5-12500H,Intel,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 Plus 512GB,Crucial,Corsair Vengeance 16GB DDR5 4800MHz,Corsair
-1502030411011,Acer Nitro 5 AN515-58-50RS,Acer,22/02/2025,13,6,"31,000,000 VND",Intel Core i5-12500H,Intel,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 Plus 512GB,Crucial,Corsair Vengeance 16GB DDR5 4800MHz,Corsair
-1502030911012,Acer Predator Triton 500 SE,Acer,25/02/2025,5,3,"45,000,000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080 Ti,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
-1502020405013,Acer Swift 3 SF314-59,Acer,15/03/2025,17,8,"20,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P2 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1501030405014,Acer Swift X,Acer,18/03/2025,18,8,"21,000,000 VND",AMD Ryzen 7 5800U,AMD,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Crucial P2 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1502020505015,Acer Spin 5,Acer,20/02/2025,8,4,"22,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
-1502020505016,Acer Swift 5 SF514-55T,Acer,04/12/2025,10,5,"24,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-1502020505017,Acer Swift 5,Acer,28/03/2025,15,6,"25,000,000 VND",Intel Core i7-1260P,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-1502020505018,Acer Swift 5 SF514-55T-50QX,Acer,18/03/2025,12,6,"23,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-1502020505019,Acer Chromebook 315,Acer,02/05/2025,28,18,"10,000,000 VND",Intel Celeron N4000,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
-1502020505020,Acer Chromebook Spin 311,Acer,15/02/2025,30,20,"9,000,000 VND",Intel Celeron N4020,Intel,Integrated Intel UHD,Intel,Kingston A2000 64GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
-1502020505021,Acer Chromebook 514,Acer,01/10/2025,25,15,"11,000,000 VND",Intel Celeron N4500,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 3200MHz,Kingston
-1502020905022,Acer Aspire 5,Acer,01/12/2025,25,15,"15,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 2666MHz,Kingston
-1502030905023,Acer Aspire 7 A715-75G,Acer,04/10/2025,15,7,"21,000,000 VND",Intel Core i5-9300H,Intel,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 2666MHz,Kingston
-1501010405024,Acer Swift 3 SF314-43,Acer,18/04/2025,19,9,"17,000,000 VND",AMD Ryzen 5 4500U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
-1501010405025,Acer Swift 3,Acer,03/05/2025,20,10,"18,000,000 VND",AMD Ryzen 7 5700U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
-1502020405026,Acer Swift 3 SF314-512,Acer,01/05/2025,18,9,"19,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
-1502020505027,Acer Chromebook Spin 713,Acer,04/10/2025,30,20,"12,000,000 VND",Intel Core i5-1135G7,Intel,Integrated Intel Iris Xe,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1501010905028,Acer Aspire 5 A515-45-R92M,Acer,04/10/2025,20,10,"15,000,000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1502020905029,Acer Aspire 5 A515-56,Acer,20/02/2025,22,12,"16,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1501030905030,Acer Aspire 7 A715-42G,Acer,03/05/2025,16,8,"22,000,000 VND",AMD Ryzen 5 4600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1501030905031,Acer Aspire 7,Acer,22/01/2025,14,7,"23,000,000 VND",AMD Ryzen 5 5500U,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1502030505032,Acer Nitro 5,Acer,18/01/2025,14,5,"30,000,000 VND",Intel Core i5-13450HX,Intel,NVIDIA Geforce RTX 4050,NVIDIA,Kingston KC3000 512 GB,Kingston,Kingston Fury Beast 16GB DDR5 5200MHz,Kingston
-1602011600033,MacBook Pro 15-inch (2019) 256GB,Apple,21/05/2019,9,4,"45,000,000 VND",Intel Core i7-9750H,Intel,AMD Radeon Pro 555X,AMD,Apple SSD  PCIe Gen3 x4 256 GB,Apple,16GB DDR4 2400MHz,Không xác định
-1602011600034,MacBook Pro 15-inch (2019) 512GB,Apple,21/05/2019,8,4,"52,000,000 VND",Intel Core i9-9880H,Intel,AMD Radeon Pro 560X,AMD,Apple SSD  PCIe Gen3 x4 512 GB,Apple,16GB DDR4 2400MHz,Không xác định
-1602011600035,MacBook Pro 16-inch (2019) 512GB,Apple,15/11/2019,10,5,"60,000,000 VND",Intel Core i7-9750H,Intel,AMD Radeon Pro 5300M,AMD,Apple SSD  PCIe Gen3 x4 512 GB,Apple,16GB DDR4 2666MHz,Không xác định
-1616161600036,MacBook Pro 14-inch M2 Pro (2023),Apple,25/01/2023,12,6,"55,000,000 VND",Apple M2 Pro 10-core,Apple,Apple 16-core GPU,Apple,Apple SSD   512 GB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
-1616161600037,MacBook Pro Custom 21,Apple,01/01/2025,5,3,"50,000,000 VND",Apple M3 Pro 12-core,Apple,Apple 18-core GPU,Apple,Apple SSD   512 GB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
-1616161600038,MacBook Pro 16-inch (2021,Apple,18/10/2021,10,5,"65,000,000 VND",Apple M1 Pro 10-core,Apple,Apple 16-core GPU,Apple,Apple SSD  PCIe Gen3 x4 1 TB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
-1616161600039,MacBook Pro 14-inch (2021,Apple,18/10/2021,12,6,"52,000,000 VND",Apple M1 Pro 8-core,Apple,Apple 14-core GPU,Apple,Apple SSD  PCIe Gen3 x4 512 GB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
-1616161600040,MacBook Pro 14-inch M3 Pro (2024),Apple,05/10/2024,12,6,"60,000,000 VND",Apple M3 Pro 12-core,Apple,Apple 18-core GPU,Apple,Apple SSD   512 GB,Apple,18GB Unified LPDDR5 6400MHz,Không xác định
-1602011600041,MacBook Pro 16-inch (2019) 1TB,Apple,15/11/2019,8,4,"70,000,000 VND",Intel Core i9-9880H,Intel,AMD Radeon Pro 5500M,AMD,Apple SSD  PCIe Gen3 x4 1 TB,Apple,32GB DDR4 2666MHz,Không xác định
-1616161600042,MacBook Pro 16-inch M2 Max (2023),Apple,25/01/2023,8,4,"90,000,000 VND",Apple M2 Max 12-core,Apple,Apple 38-core GPU,Apple,Apple SSD   1 TB,Apple,32GB Unified LPDDR5 6400MHz,Không xác định
-1616161600043,MacBook Pro 16-inch (2021,Apple,18/10/2021,8,4,"85,000,000 VND",Apple M1 Max 10-core,Apple,Apple 32-core GPU,Apple,Apple SSD  PCIe Gen3 x4 1 TB,Apple,32GB Unified LPDDR5 6400MHz,Không xác định
-1616161600044,MacBook Pro 16-inch M3 Max (2024),Apple,05/10/2024,8,4,"95,000,000 VND",Apple M3 Max 16-core,Apple,Apple 40-core GPU,Apple,Apple SSD   1 TB,Apple,48GB Unified LPDDR5 6400MHz,Không xác định
-1602021600045,MacBook Air Retina 13-inch (2019) 128GB,Apple,20/03/2019,15,7,"25,000,000 VND",Intel Core i5-8210Y,Intel,Intel UHD Graphics 617,Intel,Apple SSD  PCIe Gen3 x4 128 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
-1602021600046,MacBook Pro 13-inch (2020,Apple,05/05/2020,10,5,"32,000,000 VND",Intel Core i5-8257U,Intel,Intel Iris Plus Graphics 645,Intel,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
-1602021600047,MacBook Pro 13-inch (2019,Apple,10/07/2019,12,6,"35,000,000 VND",Intel Core i5-8279U,Intel,Intel Iris Plus Graphics 655,Intel,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
-1602021600048,MacBook Air Retina 13-inch (2019) 256GB,Apple,20/03/2019,14,6,"28,000,000 VND",Intel Core i5-8210Y,Intel,Intel UHD Graphics 617,Intel,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
-1616161600049,MacBook Air M1 (2020) 256GB,Apple,20/11/2020,22,12,"28,000,000 VND",Apple M1,Apple,Apple 7-core GPU,Apple,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB Unified LPDDR4X 4266MHz,Không xác định
-1616161600050,MacBook Pro 13-inch (2020,Apple,20/11/2020,20,10,"35,000,000 VND",Apple M1,Apple,Apple 8-core GPU,Apple,Apple SSD  PCIe Gen3 x4 512 GB,Apple,8GB Unified LPDDR4X 4266MHz,Không xác định
-1616161600051,MacBook Air M2 (2022),Apple,15/07/2022,15,7,"29,000,000 VND",Apple M2 8-core,Apple,Apple 10-core GPU,Apple,Apple SSD   256 GB,Apple,8GB Unified LPDDR5 6400MHz,Không xác định
-1616161600052,MacBook Air M3 (2024),Apple,10/03/2024,18,9,"30,000,000 VND",Apple M3 8-core,Apple,Apple 10-core GPU,Apple,Apple SSD   256 GB,Apple,8GB Unified LPDDR5 6400MHz,Không xác định
-1616161600053,MacBook Pro 13-inch M2 (2022),Apple,15/07/2022,14,7,"36,000,000 VND",Apple M2 8-core,Apple,Apple 10-core GPU,Apple,Apple SSD   512 GB,Apple,8GB Unified LPDDR5 6400MHz,Không xác định
-1702030411054,ASUS TUF Gaming F17,Asus,20/03/2025,14,7,"24,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1701030411055,ASUS TUF Gaming A15,Asus,22/02/2025,13,6,"28,000,000 VND",AMD Ryzen 7 4800H,AMD,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 512GB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1701010411056,ASUS ROG Strix G15 Advantage Edition,Asus,25/01/2025,13,6,"38,000,000 VND",AMD Ryzen 9 5900HX,AMD,AMD Radeon RX 6800M,AMD,Crucial P5 Plus 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1702030911057,ASUS ROG Strix G17,Asus,02/05/2025,9,5,"35,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1701010411058,ASUS ROG Zephyrus G14,Asus,20/02/2025,7,4,"40,000,000 VND",AMD Ryzen 9 6900HS,AMD,AMD Radeon RX 6800S,AMD,Crucial P5 Plus 1TB,Crucial,Corsair Vengeance 16GB DDR5 5200MHz,Corsair
-1701030511059,ASUS ROG Flow X13,Asus,01/12/2025,11,5,"42,000,000 VND",AMD Ryzen 9 5980HS,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Kingston KC3000 1TB,Kingston,Corsair Vengeance 32GB DDR4 4266MHz,Corsair
-1701030911060,ASUS ROG Zephyrus G15 GA503,Asus,22/02/2025,6,3,"42,000,000 VND",AMD Ryzen 9 5900HS,AMD,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR4 5200MHz,Corsair
-1701030911061,ASUS ROG Strix Scar 15 G533,Asus,20/04/2025,9,5,"44,000,000 VND",AMD Ryzen 9 5900HX,AMD,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR4 5200MHz,Corsair
-1702030911062,ASUS ROG Zephyrus M16,Asus,15/03/2025,7,4,"43,000,000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
-1702030911063,ASUS ROG Strix Scar 15,Asus,25/02/2025,5,3,"45,000,000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
-1702030911064,ASUS ROG Strix Scar 17,Asus,28/01/2025,8,4,"48,000,000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
-1702020405065,ASUS ZenBook 14,Asus,02/10/2025,12,6,"25,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Crucial P2 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1702020405066,ASUS ZenBook 13,Asus,18/04/2025,19,9,"26,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1702030405067,ASUS TUF Dash F15,Asus,22/01/2025,16,8,"23,000,000 VND",Intel Core i7-11370H,Intel,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Crucial P5 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1702020405068,ASUS ZenBook 13 OLED,Asus,15/03/2025,17,8,"27,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1702020405069,ASUS ZenBook 14 OLED,Asus,01/05/2025,18,9,"28,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1702020505070,ASUS ZenBook Duo 14,Asus,04/12/2025,10,5,"35,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-1702020505071,ASUS ZenBook Flip 13,Asus,18/03/2025,14,7,"27,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-1702020505072,ASUS Chromebook Flip C214,Asus,15/02/2025,30,20,"11,000,000 VND",Intel Celeron N4020,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 3200MHz,Kingston
-1702020405073,ASUS VivoBook S14,Asus,28/03/2025,15,6,"18,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
-1701010505074,ASUS VivoBook 15,Asus,01/12/2025,20,10,"15,000,000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1702020505075,ASUS Chromebook Flip C434,Asus,04/10/2025,30,20,"12,000,000 VND",Intel Core m3-8100Y,Intel,Integrated Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1702020505076,ASUS Chromebook Flip C436,Asus,02/05/2025,28,18,"14,000,000 VND",Intel Core i5-10210U,Intel,Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1702020505077,ASUS VivoBook 15 K513,Asus,18/03/2025,12,6,"19,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1702020905078,ASUS VivoBook 14,Asus,20/02/2025,22,12,"14,000,000 VND",Intel Core i3-1115G4,Intel,Intel UHD,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1702020905079,ASUS ExpertBook B1,Asus,15/01/2025,10,5,"18,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1702020905080,ASUS VivoBook 15 X515,Asus,03/05/2025,16,8,"16,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1702020905081,ASUS VivoBook Flip 14,Asus,04/10/2025,20,10,"17,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1701030905082,ASUS TUF Gaming FX506,Asus,04/10/2025,15,7,"21,000,000 VND",AMD Ryzen 5 4600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1702030905083,ASUS TUF Gaming F15,Asus,03/05/2025,18,8,"22,000,000 VND",Intel Core i5-11400H,Intel,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1702030505084,ASUS ROG Strix G15,Asus,18/01/2025,14,5,"32,000,000 VND",Intel Core i7-12700H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Kingston KC3000 1TB,Kingston,Kingston Fury Beast 16GB DDR5 4800MHz,Kingston
-1802030411085,Dell G15 Gaming,Dell,03/05/2025,18,8,"30,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1802030511086,Dell XPS 15,Dell,25/02/2025,5,3,"42,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Kingston KC3000 1TB,Kingston,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1802030911087,Dell Alienware m15,Dell,15/01/2025,10,5,"45,000,000 VND",Intel Core i9-11900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR4 3200MHz,Corsair
-1802020505088,Dell Latitude 7420,Dell,01/12/2025,20,10,"32,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
-1802020505089,Dell XPS 13,Dell,18/01/2025,14,5,"35,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
-1802020905090,Dell Vostro 15 3500,Dell,20/02/2025,7,4,"16,000,000 VND",Intel Core i5-1035G1,Intel,Intel UHD,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 2666MHz,Kingston
-1802020905091,Dell Inspiron 15 5000,Dell,02/10/2025,12,6,"18,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1902030911092,HP Omen 15-ek0013dx,HP,01/12/2025,11,5,"34,000,000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1901030911093,HP Omen 15,HP,03/05/2025,18,8,"35,000,000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1902030911094,HP Omen 15-ek0020nr,HP,20/03/2025,14,7,"33,000,000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2060,NVIDIA,Western Digital Black SN750 512GB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1901030911095,HP Omen 16,HP,22/02/2025,13,6,"37,000,000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-1902020511096,HP Elite Dragonfly,HP,02/05/2025,9,5,"45,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Corsair Vengeance 16GB DDR4 4266MHz,Corsair
-1902020511097,HP EliteBook 850,HP,28/01/2025,8,4,"30,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Corsair Vengeance 16GB DDR4 4266MHz,Corsair
-1902030911098,HP Omen 17,HP,25/02/2025,5,3,"42,000,000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR4 3200MHz,Corsair
-1902030911099,HP Omen 17-cb1000,HP,18/03/2025,12,6,"44,000,000 VND",Intel Core i9-11900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR4 3200MHz,Corsair
-1901010405100,HP Envy x360,HP,04/10/2025,30,20,"23,000,000 VND",AMD Ryzen 7 5700U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1902020405101,HP Envy 13,HP,02/10/2025,12,6,"25,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1902020405102,HP Pavilion 15-eg0073cl,HP,04/12/2025,10,5,"21,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1902020405103,HP Spectre x360 13,HP,01/05/2025,18,9,"27,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-1902020505104,HP EliteBook x360,HP,01/10/2025,25,15,"28,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
-1902020405105,HP Spectre x360 14,HP,15/03/2025,7,4,"36,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 4266MHz,Kingston
-1902020505106,HP Spectre x360,HP,01/12/2025,20,10,"32,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-1902020505107,HP Chromebook 14,HP,18/04/2025,19,9,"11,000,000 VND",Intel Celeron N4000,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
-1902020505108,HP Chromebook x360,HP,22/01/2025,16,8,"12,000,000 VND",Intel Celeron N4020,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
-1902020505109,HP ProBook 450,HP,15/01/2025,10,5,"16,000,000 VND",Intel Core i5-10210U,Intel,Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 2666MHz,Kingston
-1901030405110,HP Pavilion Gaming 15,HP,18/03/2025,14,7,"22,000,000 VND",AMD Ryzen 5 4600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Crucial P5 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
-1902020505111,HP Chromebook x360 14c,HP,04/10/2025,15,7,"13,000,000 VND",Intel Pentium Silver N5030,Intel,Integrated Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1902020505112,HP Pavilion 14,HP,20/02/2025,22,12,"17,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1902020505113,HP Pavilion 14-ce3600,HP,04/10/2025,20,10,"16,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1902020505114,HP Pavilion 15,HP,18/01/2025,14,5,"18,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-1901010905115,HP ProBook 455,HP,03/05/2025,16,8,"18,000,000 VND",AMD Ryzen 5 4500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1902020905116,HP EliteBook 840,HP,20/02/2025,7,4,"28,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1902020905117,HP ProBook 640,HP,28/03/2025,15,6,"19,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-1902020905118,HP EliteBook 840 G7,HP,22/02/2025,6,3,"29,000,000 VND",Intel Core i5-10310U,Intel,Intel UHD,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-2001030411119,Lenovo Legion 5,Lenovo,03/05/2025,18,8,"32,000,000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-2002020511120,Lenovo ThinkPad X13,Lenovo,01/12/2025,11,5,"35,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 512GB,Kingston,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-2001030911121,Lenovo Legion 5 15ACH6,Lenovo,04/12/2025,10,5,"34,000,000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-2002020911122,Lenovo ThinkPad T14,Lenovo,22/02/2025,13,6,"32,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
-2001030911123,Lenovo Legion 5 Pro,Lenovo,02/05/2025,9,5,"38,000,000 VND",AMD Ryzen 7 6800H,AMD,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 16GB DDR5 5200MHz,Corsair
-2001030911124,Lenovo Legion Slim 7,Lenovo,15/03/2025,7,4,"42,000,000 VND",AMD Ryzen 9 5900HX,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR4 5200MHz,Corsair
-2002030911125,Lenovo Legion 7,Lenovo,25/02/2025,5,3,"45,000,000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
-2002030911126,Lenovo Legion 7i,Lenovo,01/05/2025,18,9,"46,000,000 VND",Intel Core i9-12900HK,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
-2001010405127,Lenovo IdeaPad Flex 5,Lenovo,15/01/2025,10,5,"22,000,000 VND",AMD Ryzen 7 5700U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-2002020405128,Lenovo Yoga C940,Lenovo,04/10/2025,15,7,"35,000,000 VND",Intel Core i7-1065G7,Intel,Intel Iris Plus,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-2002020405129,Lenovo Yoga 7i,Lenovo,28/03/2025,15,6,"27,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-2002020405130,Lenovo Yoga 9i,Lenovo,04/10/2025,20,10,"40,000,000 VND",Intel Core i7-1185G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
-2002020505131,Lenovo Yoga Slim 7,Lenovo,01/12/2025,20,10,"28,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
-2002020405132,Lenovo Yoga Slim 7 Carbon,Lenovo,18/04/2025,19,9,"30,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 4266MHz,Kingston
-2002020505133,Lenovo ThinkPad X1 Yoga,Lenovo,28/01/2025,8,4,"42,000,000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
-2002020505134,Lenovo ThinkPad X1 Carbon,Lenovo,18/01/2025,14,5,"40,000,000 VND",Intel Core i7-1260P,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR5 5200MHz,Kingston
-2001010505135,Lenovo IdeaPad 3 15ADA,Lenovo,03/05/2025,16,8,"14,000,000 VND",AMD Ryzen 3 3250U,AMD,Integrated AMD Radeon,AMD,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-2002020505136,Lenovo Chromebook Flex 5,Lenovo,04/10/2025,30,20,"12,000,000 VND",Intel Core i3-10110U,Intel,Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-2002020505137,Lenovo ThinkPad E15,Lenovo,18/03/2025,14,7,"20,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-2002030505138,Lenovo IdeaPad Gaming 3 15IMH05,Lenovo,18/03/2025,12,6,"22,000,000 VND",Intel Core i5-10300H,Intel,NVIDIA Geforce GTX 1650,NVIDIA,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
-2002020905139,Lenovo ThinkBook 14,Lenovo,20/02/2025,7,4,"18,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-2002020905140,Lenovo IdeaPad Flex 3,Lenovo,20/03/2025,14,7,"16,000,000 VND",Intel Core i3-1115G4,Intel,Intel UHD,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-2001010905141,Lenovo IdeaPad 3,Lenovo,02/10/2025,12,6,"15,000,000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-2001010905142,Lenovo IdeaPad 5,Lenovo,22/01/2025,16,8,"18,000,000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-2002020905143,Lenovo ThinkPad L14,Lenovo,22/02/2025,6,3,"21,000,000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-2001030905144,Lenovo IdeaPad Gaming 3,Lenovo,20/02/2025,22,12,"21,000,000 VND",AMD Ryzen 5 5600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+1501030411001,Acer Nitro 5 AN515-45,Acer,01/12/2025,11,5,"28000000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1501030411002,Acer Nitro 5 AN515-45-R92M,Acer,20/03/2025,14,7,"29000000 VND",AMD Ryzen 5 5600H,AMD,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 512GB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030911003,Acer Predator Helios 300 PH315-54,Acer,20/04/2025,9,5,"34000000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030911004,Acer Predator Triton 500 PT515-52,Acer,22/02/2025,6,3,"42000000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2070,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030911005,Acer Predator Triton 300 SE,Acer,15/03/2025,7,4,"40000000 VND",Intel Core i7-11375H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030911006,Acer Predator Helios 300 PH315-55,Acer,02/05/2025,9,5,"34000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030911007,Acer Predator Helios 300 PH317-55,Acer,28/01/2025,8,4,"36000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030911008,Acer Predator Helios 300,Acer,02/10/2025,10,7,"35000000 VND",Intel Core i7-12700H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1502030411009,Acer Nitro 5 AN515-58,Acer,15/01/2025,12,6,"32000000 VND",Intel Core i7-12700H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Crucial P5 Plus 1TB,Crucial,Corsair Vengeance 16GB DDR5 4800MHz,Corsair
+1502030411010,Acer Nitro 5 AN515-58-50RS,Acer,25/01/2025,13,6,"31000000 VND",Intel Core i5-12500H,Intel,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 Plus 512GB,Crucial,Corsair Vengeance 16GB DDR5 4800MHz,Corsair
+1502030411011,Acer Nitro 5 AN515-58-50RS,Acer,22/02/2025,13,6,"31000000 VND",Intel Core i5-12500H,Intel,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 Plus 512GB,Crucial,Corsair Vengeance 16GB DDR5 4800MHz,Corsair
+1502030911012,Acer Predator Triton 500 SE,Acer,25/02/2025,5,3,"45000000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080 Ti,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
+1502020405013,Acer Swift 3 SF314-59,Acer,15/03/2025,17,8,"20000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P2 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1501030405014,Acer Swift X,Acer,18/03/2025,18,8,"21000000 VND",AMD Ryzen 7 5800U,AMD,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Crucial P2 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1502020505015,Acer Spin 5,Acer,20/02/2025,8,4,"22000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
+1502020505016,Acer Swift 5 SF514-55T,Acer,04/12/2025,10,5,"24000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+1502020505017,Acer Swift 5,Acer,28/03/2025,15,6,"25000000 VND",Intel Core i7-1260P,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+1502020505018,Acer Swift 5 SF514-55T-50QX,Acer,18/03/2025,12,6,"23000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+1502020505019,Acer Chromebook 315,Acer,02/05/2025,28,18,"10000000 VND",Intel Celeron N4000,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
+1502020505020,Acer Chromebook Spin 311,Acer,15/02/2025,30,20,"9000000 VND",Intel Celeron N4020,Intel,Integrated Intel UHD,Intel,Kingston A2000 64GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
+1502020505021,Acer Chromebook 514,Acer,01/10/2025,25,15,"11000000 VND",Intel Celeron N4500,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 3200MHz,Kingston
+1502020905022,Acer Aspire 5,Acer,01/12/2025,25,15,"15000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 2666MHz,Kingston
+1502030905023,Acer Aspire 7 A715-75G,Acer,04/10/2025,15,7,"21000000 VND",Intel Core i5-9300H,Intel,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 2666MHz,Kingston
+1501010405024,Acer Swift 3 SF314-43,Acer,18/04/2025,19,9,"17000000 VND",AMD Ryzen 5 4500U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
+1501010405025,Acer Swift 3,Acer,03/05/2025,20,10,"18000000 VND",AMD Ryzen 7 5700U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
+1502020405026,Acer Swift 3 SF314-512,Acer,01/05/2025,18,9,"19000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
+1502020505027,Acer Chromebook Spin 713,Acer,04/10/2025,30,20,"12000000 VND",Intel Core i5-1135G7,Intel,Integrated Intel Iris Xe,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1501010905028,Acer Aspire 5 A515-45-R92M,Acer,04/10/2025,20,10,"15000000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1502020905029,Acer Aspire 5 A515-56,Acer,20/02/2025,22,12,"16000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1501030905030,Acer Aspire 7 A715-42G,Acer,03/05/2025,16,8,"22000000 VND",AMD Ryzen 5 4600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1501030905031,Acer Aspire 7,Acer,22/01/2025,14,7,"23000000 VND",AMD Ryzen 5 5500U,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1502030505032,Acer Nitro 5,Acer,18/01/2025,14,5,"30000000 VND",Intel Core i5-13450HX,Intel,NVIDIA Geforce RTX 4050,NVIDIA,Kingston KC3000 512 GB,Kingston,Kingston Fury Beast 16GB DDR5 5200MHz,Kingston
+1602011600033,MacBook Pro 15-inch (2019) 256GB,Apple,21/05/2019,9,4,"45000000 VND",Intel Core i7-9750H,Intel,AMD Radeon Pro 555X,AMD,Apple SSD  PCIe Gen3 x4 256 GB,Apple,16GB DDR4 2400MHz,Không xác định
+1602011600034,MacBook Pro 15-inch (2019) 512GB,Apple,21/05/2019,8,4,"52000000 VND",Intel Core i9-9880H,Intel,AMD Radeon Pro 560X,AMD,Apple SSD  PCIe Gen3 x4 512 GB,Apple,16GB DDR4 2400MHz,Không xác định
+1602011600035,MacBook Pro 16-inch (2019) 512GB,Apple,15/11/2019,10,5,"60000000 VND",Intel Core i7-9750H,Intel,AMD Radeon Pro 5300M,AMD,Apple SSD  PCIe Gen3 x4 512 GB,Apple,16GB DDR4 2666MHz,Không xác định
+1616161600036,MacBook Pro 14-inch M2 Pro (2023),Apple,25/01/2023,12,6,"55000000 VND",Apple M2 Pro 10-core,Apple,Apple 16-core GPU,Apple,Apple SSD   512 GB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
+1616161600037,MacBook Pro Custom 21,Apple,01/01/2025,5,3,"50000000 VND",Apple M3 Pro 12-core,Apple,Apple 18-core GPU,Apple,Apple SSD   512 GB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
+1616161600038,MacBook Pro 16-inch (2021,Apple,18/10/2021,10,5,"65000000 VND",Apple M1 Pro 10-core,Apple,Apple 16-core GPU,Apple,Apple SSD  PCIe Gen3 x4 1 TB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
+1616161600039,MacBook Pro 14-inch (2021,Apple,18/10/2021,12,6,"52000000 VND",Apple M1 Pro 8-core,Apple,Apple 14-core GPU,Apple,Apple SSD  PCIe Gen3 x4 512 GB,Apple,16GB Unified LPDDR5 6400MHz,Không xác định
+1616161600040,MacBook Pro 14-inch M3 Pro (2024),Apple,05/10/2024,12,6,"60000000 VND",Apple M3 Pro 12-core,Apple,Apple 18-core GPU,Apple,Apple SSD   512 GB,Apple,18GB Unified LPDDR5 6400MHz,Không xác định
+1602011600041,MacBook Pro 16-inch (2019) 1TB,Apple,15/11/2019,8,4,"70000000 VND",Intel Core i9-9880H,Intel,AMD Radeon Pro 5500M,AMD,Apple SSD  PCIe Gen3 x4 1 TB,Apple,32GB DDR4 2666MHz,Không xác định
+1616161600042,MacBook Pro 16-inch M2 Max (2023),Apple,25/01/2023,8,4,"90000000 VND",Apple M2 Max 12-core,Apple,Apple 38-core GPU,Apple,Apple SSD   1 TB,Apple,32GB Unified LPDDR5 6400MHz,Không xác định
+1616161600043,MacBook Pro 16-inch (2021,Apple,18/10/2021,8,4,"85000000 VND",Apple M1 Max 10-core,Apple,Apple 32-core GPU,Apple,Apple SSD  PCIe Gen3 x4 1 TB,Apple,32GB Unified LPDDR5 6400MHz,Không xác định
+1616161600044,MacBook Pro 16-inch M3 Max (2024),Apple,05/10/2024,8,4,"95000000 VND",Apple M3 Max 16-core,Apple,Apple 40-core GPU,Apple,Apple SSD   1 TB,Apple,48GB Unified LPDDR5 6400MHz,Không xác định
+1602021600045,MacBook Air Retina 13-inch (2019) 128GB,Apple,20/03/2019,15,7,"25000000 VND",Intel Core i5-8210Y,Intel,Intel UHD Graphics 617,Intel,Apple SSD  PCIe Gen3 x4 128 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
+1602021600046,MacBook Pro 13-inch (2020,Apple,05/05/2020,10,5,"32000000 VND",Intel Core i5-8257U,Intel,Intel Iris Plus Graphics 645,Intel,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
+1602021600047,MacBook Pro 13-inch (2019,Apple,10/07/2019,12,6,"35000000 VND",Intel Core i5-8279U,Intel,Intel Iris Plus Graphics 655,Intel,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
+1602021600048,MacBook Air Retina 13-inch (2019) 256GB,Apple,20/03/2019,14,6,"28000000 VND",Intel Core i5-8210Y,Intel,Intel UHD Graphics 617,Intel,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB LPDDR3 2133MHz,Không xác định
+1616161600049,MacBook Air M1 (2020) 256GB,Apple,20/11/2020,22,12,"28000000 VND",Apple M1,Apple,Apple 7-core GPU,Apple,Apple SSD  PCIe Gen3 x4 256 GB,Apple,8GB Unified LPDDR4X 4266MHz,Không xác định
+1616161600050,MacBook Pro 13-inch (2020,Apple,20/11/2020,20,10,"35000000 VND",Apple M1,Apple,Apple 8-core GPU,Apple,Apple SSD  PCIe Gen3 x4 512 GB,Apple,8GB Unified LPDDR4X 4266MHz,Không xác định
+1616161600051,MacBook Air M2 (2022),Apple,15/07/2022,15,7,"29000000 VND",Apple M2 8-core,Apple,Apple 10-core GPU,Apple,Apple SSD   256 GB,Apple,8GB Unified LPDDR5 6400MHz,Không xác định
+1616161600052,MacBook Air M3 (2024),Apple,10/03/2024,18,9,"30000000 VND",Apple M3 8-core,Apple,Apple 10-core GPU,Apple,Apple SSD   256 GB,Apple,8GB Unified LPDDR5 6400MHz,Không xác định
+1616161600053,MacBook Pro 13-inch M2 (2022),Apple,15/07/2022,14,7,"36000000 VND",Apple M2 8-core,Apple,Apple 10-core GPU,Apple,Apple SSD   512 GB,Apple,8GB Unified LPDDR5 6400MHz,Không xác định
+1702030411054,ASUS TUF Gaming F17,Asus,20/03/2025,14,7,"24000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1701030411055,ASUS TUF Gaming A15,Asus,22/02/2025,13,6,"28000000 VND",AMD Ryzen 7 4800H,AMD,NVIDIA Geforce RTX 3050,NVIDIA,Crucial P5 512GB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1701010411056,ASUS ROG Strix G15 Advantage Edition,Asus,25/01/2025,13,6,"38000000 VND",AMD Ryzen 9 5900HX,AMD,AMD Radeon RX 6800M,AMD,Crucial P5 Plus 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1702030911057,ASUS ROG Strix G17,Asus,02/05/2025,9,5,"35000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1701010411058,ASUS ROG Zephyrus G14,Asus,20/02/2025,7,4,"40000000 VND",AMD Ryzen 9 6900HS,AMD,AMD Radeon RX 6800S,AMD,Crucial P5 Plus 1TB,Crucial,Corsair Vengeance 16GB DDR5 5200MHz,Corsair
+1701030511059,ASUS ROG Flow X13,Asus,01/12/2025,11,5,"42000000 VND",AMD Ryzen 9 5980HS,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Kingston KC3000 1TB,Kingston,Corsair Vengeance 32GB DDR4 4266MHz,Corsair
+1701030911060,ASUS ROG Zephyrus G15 GA503,Asus,22/02/2025,6,3,"42000000 VND",AMD Ryzen 9 5900HS,AMD,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR4 5200MHz,Corsair
+1701030911061,ASUS ROG Strix Scar 15 G533,Asus,20/04/2025,9,5,"44000000 VND",AMD Ryzen 9 5900HX,AMD,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR4 5200MHz,Corsair
+1702030911062,ASUS ROG Zephyrus M16,Asus,15/03/2025,7,4,"43000000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
+1702030911063,ASUS ROG Strix Scar 15,Asus,25/02/2025,5,3,"45000000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
+1702030911064,ASUS ROG Strix Scar 17,Asus,28/01/2025,8,4,"48000000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
+1702020405065,ASUS ZenBook 14,Asus,02/10/2025,12,6,"25000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Crucial P2 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1702020405066,ASUS ZenBook 13,Asus,18/04/2025,19,9,"26000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1702030405067,ASUS TUF Dash F15,Asus,22/01/2025,16,8,"23000000 VND",Intel Core i7-11370H,Intel,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Crucial P5 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1702020405068,ASUS ZenBook 13 OLED,Asus,15/03/2025,17,8,"27000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1702020405069,ASUS ZenBook 14 OLED,Asus,01/05/2025,18,9,"28000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1702020505070,ASUS ZenBook Duo 14,Asus,04/12/2025,10,5,"35000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+1702020505071,ASUS ZenBook Flip 13,Asus,18/03/2025,14,7,"27000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+1702020505072,ASUS Chromebook Flip C214,Asus,15/02/2025,30,20,"11000000 VND",Intel Celeron N4020,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 3200MHz,Kingston
+1702020405073,ASUS VivoBook S14,Asus,28/03/2025,15,6,"18000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Crucial P2 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
+1701010505074,ASUS VivoBook 15,Asus,01/12/2025,20,10,"15000000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1702020505075,ASUS Chromebook Flip C434,Asus,04/10/2025,30,20,"12000000 VND",Intel Core m3-8100Y,Intel,Integrated Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1702020505076,ASUS Chromebook Flip C436,Asus,02/05/2025,28,18,"14000000 VND",Intel Core i5-10210U,Intel,Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1702020505077,ASUS VivoBook 15 K513,Asus,18/03/2025,12,6,"19000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1702020905078,ASUS VivoBook 14,Asus,20/02/2025,22,12,"14000000 VND",Intel Core i3-1115G4,Intel,Intel UHD,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1702020905079,ASUS ExpertBook B1,Asus,15/01/2025,10,5,"18000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1702020905080,ASUS VivoBook 15 X515,Asus,03/05/2025,16,8,"16000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1702020905081,ASUS VivoBook Flip 14,Asus,04/10/2025,20,10,"17000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1701030905082,ASUS TUF Gaming FX506,Asus,04/10/2025,15,7,"21000000 VND",AMD Ryzen 5 4600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1702030905083,ASUS TUF Gaming F15,Asus,03/05/2025,18,8,"22000000 VND",Intel Core i5-11400H,Intel,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1702030505084,ASUS ROG Strix G15,Asus,18/01/2025,14,5,"32000000 VND",Intel Core i7-12700H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Kingston KC3000 1TB,Kingston,Kingston Fury Beast 16GB DDR5 4800MHz,Kingston
+1802030411085,Dell G15 Gaming,Dell,03/05/2025,18,8,"30000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3060,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1802030511086,Dell XPS 15,Dell,25/02/2025,5,3,"42000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3050 Ti,NVIDIA,Kingston KC3000 1TB,Kingston,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1802030911087,Dell Alienware m15,Dell,15/01/2025,10,5,"45000000 VND",Intel Core i9-11900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR4 3200MHz,Corsair
+1802020505088,Dell Latitude 7420,Dell,01/12/2025,20,10,"32000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
+1802020505089,Dell XPS 13,Dell,18/01/2025,14,5,"35000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
+1802020905090,Dell Vostro 15 3500,Dell,20/02/2025,7,4,"16000000 VND",Intel Core i5-1035G1,Intel,Intel UHD,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 2666MHz,Kingston
+1802020905091,Dell Inspiron 15 5000,Dell,02/10/2025,12,6,"18000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1902030911092,HP Omen 15-ek0013dx,HP,01/12/2025,11,5,"34000000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1901030911093,HP Omen 15,HP,03/05/2025,18,8,"35000000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1902030911094,HP Omen 15-ek0020nr,HP,20/03/2025,14,7,"33000000 VND",Intel Core i7-10750H,Intel,NVIDIA Geforce RTX 2060,NVIDIA,Western Digital Black SN750 512GB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1901030911095,HP Omen 16,HP,22/02/2025,13,6,"37000000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+1902020511096,HP Elite Dragonfly,HP,02/05/2025,9,5,"45000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Corsair Vengeance 16GB DDR4 4266MHz,Corsair
+1902020511097,HP EliteBook 850,HP,28/01/2025,8,4,"30000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Corsair Vengeance 16GB DDR4 4266MHz,Corsair
+1902030911098,HP Omen 17,HP,25/02/2025,5,3,"42000000 VND",Intel Core i7-11800H,Intel,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR4 3200MHz,Corsair
+1902030911099,HP Omen 17-cb1000,HP,18/03/2025,12,6,"44000000 VND",Intel Core i9-11900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR4 3200MHz,Corsair
+1901010405100,HP Envy x360,HP,04/10/2025,30,20,"23000000 VND",AMD Ryzen 7 5700U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1902020405101,HP Envy 13,HP,02/10/2025,12,6,"25000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1902020405102,HP Pavilion 15-eg0073cl,HP,04/12/2025,10,5,"21000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1902020405103,HP Spectre x360 13,HP,01/05/2025,18,9,"27000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+1902020505104,HP EliteBook x360,HP,01/10/2025,25,15,"28000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
+1902020405105,HP Spectre x360 14,HP,15/03/2025,7,4,"36000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 4266MHz,Kingston
+1902020505106,HP Spectre x360,HP,01/12/2025,20,10,"32000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+1902020505107,HP Chromebook 14,HP,18/04/2025,19,9,"11000000 VND",Intel Celeron N4000,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
+1902020505108,HP Chromebook x360,HP,22/01/2025,16,8,"12000000 VND",Intel Celeron N4020,Intel,Integrated Intel UHD,Intel,Kingston A2000 128GB,Kingston,Kingston 4GB DDR4 2400MHz,Kingston
+1902020505109,HP ProBook 450,HP,15/01/2025,10,5,"16000000 VND",Intel Core i5-10210U,Intel,Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 2666MHz,Kingston
+1901030405110,HP Pavilion Gaming 15,HP,18/03/2025,14,7,"22000000 VND",AMD Ryzen 5 4600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Crucial P5 512GB,Crucial,Kingston 8GB DDR4 3200MHz,Kingston
+1902020505111,HP Chromebook x360 14c,HP,04/10/2025,15,7,"13000000 VND",Intel Pentium Silver N5030,Intel,Integrated Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1902020505112,HP Pavilion 14,HP,20/02/2025,22,12,"17000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1902020505113,HP Pavilion 14-ce3600,HP,04/10/2025,20,10,"16000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1902020505114,HP Pavilion 15,HP,18/01/2025,14,5,"18000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+1901010905115,HP ProBook 455,HP,03/05/2025,16,8,"18000000 VND",AMD Ryzen 5 4500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1902020905116,HP EliteBook 840,HP,20/02/2025,7,4,"28000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1902020905117,HP ProBook 640,HP,28/03/2025,15,6,"19000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+1902020905118,HP EliteBook 840 G7,HP,22/02/2025,6,3,"29000000 VND",Intel Core i5-10310U,Intel,Intel UHD,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+2001030411119,Lenovo Legion 5,Lenovo,03/05/2025,18,8,"32000000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Crucial P5 1TB,Crucial,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+2002020511120,Lenovo ThinkPad X13,Lenovo,01/12/2025,11,5,"35000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 512GB,Kingston,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+2001030911121,Lenovo Legion 5 15ACH6,Lenovo,04/12/2025,10,5,"34000000 VND",AMD Ryzen 7 5800H,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN750 1TB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+2002020911122,Lenovo ThinkPad T14,Lenovo,22/02/2025,13,6,"32000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Corsair Vengeance 16GB DDR4 3200MHz,Corsair
+2001030911123,Lenovo Legion 5 Pro,Lenovo,02/05/2025,9,5,"38000000 VND",AMD Ryzen 7 6800H,AMD,NVIDIA Geforce RTX 3070,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 16GB DDR5 5200MHz,Corsair
+2001030911124,Lenovo Legion Slim 7,Lenovo,15/03/2025,7,4,"42000000 VND",AMD Ryzen 9 5900HX,AMD,NVIDIA Geforce RTX 3060,NVIDIA,Western Digital Black SN850 1TB,Western Digital,Corsair Vengeance 32GB DDR4 5200MHz,Corsair
+2002030911125,Lenovo Legion 7,Lenovo,25/02/2025,5,3,"45000000 VND",Intel Core i9-12900H,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
+2002030911126,Lenovo Legion 7i,Lenovo,01/05/2025,18,9,"46000000 VND",Intel Core i9-12900HK,Intel,NVIDIA Geforce RTX 3080,NVIDIA,Western Digital Black SN850 2TB,Western Digital,Corsair Vengeance 32GB DDR5 5200MHz,Corsair
+2001010405127,Lenovo IdeaPad Flex 5,Lenovo,15/01/2025,10,5,"22000000 VND",AMD Ryzen 7 5700U,AMD,Integrated AMD Radeon,AMD,Crucial P2 512GB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+2002020405128,Lenovo Yoga C940,Lenovo,04/10/2025,15,7,"35000000 VND",Intel Core i7-1065G7,Intel,Intel Iris Plus,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+2002020405129,Lenovo Yoga 7i,Lenovo,28/03/2025,15,6,"27000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+2002020405130,Lenovo Yoga 9i,Lenovo,04/10/2025,20,10,"40000000 VND",Intel Core i7-1185G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 3200MHz,Kingston
+2002020505131,Lenovo Yoga Slim 7,Lenovo,01/12/2025,20,10,"28000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 16GB DDR4 3200MHz,Kingston
+2002020405132,Lenovo Yoga Slim 7 Carbon,Lenovo,18/04/2025,19,9,"30000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Crucial P5 Plus 1TB,Crucial,Kingston 16GB DDR4 4266MHz,Kingston
+2002020505133,Lenovo ThinkPad X1 Yoga,Lenovo,28/01/2025,8,4,"42000000 VND",Intel Core i7-1165G7,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR4 4266MHz,Kingston
+2002020505134,Lenovo ThinkPad X1 Carbon,Lenovo,18/01/2025,14,5,"40000000 VND",Intel Core i7-1260P,Intel,Intel Iris Xe,Intel,Kingston KC3000 1TB,Kingston,Kingston 16GB DDR5 5200MHz,Kingston
+2001010505135,Lenovo IdeaPad 3 15ADA,Lenovo,03/05/2025,16,8,"14000000 VND",AMD Ryzen 3 3250U,AMD,Integrated AMD Radeon,AMD,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+2002020505136,Lenovo Chromebook Flex 5,Lenovo,04/10/2025,30,20,"12000000 VND",Intel Core i3-10110U,Intel,Intel UHD,Intel,Kingston A2000 256GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+2002020505137,Lenovo ThinkPad E15,Lenovo,18/03/2025,14,7,"20000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+2002030505138,Lenovo IdeaPad Gaming 3 15IMH05,Lenovo,18/03/2025,12,6,"22000000 VND",Intel Core i5-10300H,Intel,NVIDIA Geforce GTX 1650,NVIDIA,Kingston A2000 512GB,Kingston,Kingston 8GB DDR4 3200MHz,Kingston
+2002020905139,Lenovo ThinkBook 14,Lenovo,20/02/2025,7,4,"18000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+2002020905140,Lenovo IdeaPad Flex 3,Lenovo,20/03/2025,14,7,"16000000 VND",Intel Core i3-1115G4,Intel,Intel UHD,Intel,Western Digital Blue 256GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+2001010905141,Lenovo IdeaPad 3,Lenovo,02/10/2025,12,6,"15000000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+2001010905142,Lenovo IdeaPad 5,Lenovo,22/01/2025,16,8,"18000000 VND",AMD Ryzen 5 5500U,AMD,Integrated AMD Radeon,AMD,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+2002020905143,Lenovo ThinkPad L14,Lenovo,22/02/2025,6,3,"21000000 VND",Intel Core i5-1135G7,Intel,Intel Iris Xe,Intel,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston
+2001030905144,Lenovo IdeaPad Gaming 3,Lenovo,20/02/2025,22,12,"21000000 VND",AMD Ryzen 5 5600H,AMD,NVIDIA Geforce GTX 1650,NVIDIA,Western Digital Blue 512GB,Western Digital,Kingston 8GB DDR4 3200MHz,Kingston

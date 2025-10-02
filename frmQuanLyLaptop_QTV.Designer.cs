@@ -30,6 +30,9 @@
         {
             tableLayoutPanel1 = new TableLayoutPanel();
             dgvDanhSachLaptop = new DataGridView();
+            dataGridView2 = new DataGridView();
+            panel1 = new Panel();
+            panel2 = new Panel();
             MaLaptop = new DataGridViewTextBoxColumn();
             TenLaptop = new DataGridViewTextBoxColumn();
             HangLaptop = new DataGridViewTextBoxColumn();
@@ -37,9 +40,6 @@
             SoTon = new DataGridViewTextBoxColumn();
             SoLuong = new DataGridViewTextBoxColumn();
             GiaLaptop = new DataGridViewTextBoxColumn();
-            dataGridView2 = new DataGridView();
-            panel1 = new Panel();
-            panel2 = new Panel();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
@@ -74,6 +74,32 @@
             dgvDanhSachLaptop.Size = new Size(743, 354);
             dgvDanhSachLaptop.TabIndex = 0;
             // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Dock = DockStyle.Fill;
+            dataGridView2.Location = new Point(752, 93);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(315, 354);
+            dataGridView2.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(3, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(743, 84);
+            panel1.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(752, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(315, 84);
+            panel2.TabIndex = 3;
+            // 
             // MaLaptop
             // 
             MaLaptop.DataPropertyName = "MaLaptop";
@@ -92,7 +118,7 @@
             // 
             // HangLaptop
             // 
-            HangLaptop.DataPropertyName = "HangLaptop";
+            HangLaptop.DataPropertyName = "HangSanXuat";
             HangLaptop.HeaderText = "Hãng Laptop";
             HangLaptop.MinimumWidth = 6;
             HangLaptop.Name = "HangLaptop";
@@ -129,32 +155,6 @@
             GiaLaptop.MinimumWidth = 6;
             GiaLaptop.Name = "GiaLaptop";
             GiaLaptop.Width = 125;
-            // 
-            // dataGridView2
-            // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Dock = DockStyle.Fill;
-            dataGridView2.Location = new Point(752, 93);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(315, 354);
-            dataGridView2.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(743, 84);
-            panel1.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(752, 3);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(315, 84);
-            panel2.TabIndex = 3;
             // 
             // frmQuanLyLaptop_QTV
             // 
