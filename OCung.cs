@@ -8,5 +8,6 @@ namespace QuanLyLaptop
 {
     internal class OCung
     {
+        
     }
 }
