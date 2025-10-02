@@ -37,7 +37,7 @@ namespace QuanLyLaptop
             GiaTien   = values[6];
         }
 
-        public List<Ram> GetList(string fileName)
+        public List<Ram> TaoList(string fileName)
         {
             List<Ram> list = new List<Ram>();
 
