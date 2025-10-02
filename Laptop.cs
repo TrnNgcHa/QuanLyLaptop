@@ -8,6 +8,18 @@ namespace QuanLyLaptop
 {
     internal class Laptop
     {
-        
+        public int MaLaptop { get; set; }
+        public string TenLaptop { get; set; }
+        public string HangSanXuat { get; set; }
+        public string NgayNhap { get; set; }
+        public int SoTon { get; set; }
+        public int SoLuong { get; set; }
+        public string GiaLaptop { get; set; }
+
+        public Laptop()
+        {
+            MaLaptop = SoTon = SoLuong = 0;
+            TenLaptop = HangSanXuat = NgayNhap = GiaLaptop = string.Empty;
+        }
     }
 }
