@@ -74,7 +74,5 @@ namespace QuanLyLaptop
 
             return list;
         }
-
-        asvsdvsdb
     }
 }
