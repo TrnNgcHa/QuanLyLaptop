@@ -9,27 +9,27 @@ namespace QuanLyLaptop
 {
     public class RAM
     {
-        public string MaRam { get; set; }
-        public string TenRam { get; set; }
+        public string MaRAM { get; set; }
+        public string TenRAM { get; set; }
         public string Hang { get; set; }
-        public string DungLuong { get; set; }
+        public string DungLuongRAM { get; set; }
         public string TheHe { get; set; }
         public string Bus { get; set; }
         public string GiaTien { get; set; }
 
         public RAM()
         {
-            MaRam = TenRam = Hang = DungLuong = TheHe = Bus = GiaTien = "";
+            MaRAM = TenRAM = Hang = DungLuongRAM = TheHe = Bus = GiaTien = "";
         }
 
         public RAM(string csvLine)
         {
             string[] values = csvLine.Split(',');
 
-            MaRam = values[0];
-            TenRam = values[1];
+            MaRAM = values[0];
+            TenRAM = values[1];
             Hang = values[2];
-            DungLuong = values[3];
+            DungLuongRAM = values[3];
             TheHe = values[4];
             Bus = values[5];
             GiaTien = values[6];

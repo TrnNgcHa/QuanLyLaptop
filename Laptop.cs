@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QuanLyLaptop
 {
-    internal class Laptop:LinhKienLaptop
+    internal class Laptop
     {
-        public string MaLaptop { get; set; }
+        public long MaLaptop { get; set; }
         public string TenLaptop { get; set; }
         public string HangSanXuat { get; set; }
         public string NgayNhap { get; set; }
@@ -16,22 +16,32 @@ namespace QuanLyLaptop
         public string SoLuong { get; set; }
         public string GiaLaptop { get; set; }
 
+        public string TenCPU { get; set; }
+        public string TenGPU { get; set; }
+        public string TenRAM { get; set; }
+        public string TenOCung { get; set; }
+
         public Laptop()
         {
-            MaLaptop = "";
+            MaLaptop = 0;
             SoTon = SoLuong = TenLaptop = HangSanXuat = NgayNhap = GiaLaptop = "";
+            TenCPU = TenGPU = TenRAM = TenOCung = "";
         }
 
         public Laptop(string csvFile)
         {
             string[] values = csvFile.Split(',');
-            this.MaLaptop = values[0];
+            this.MaLaptop = Convert.ToInt64(values[0]);
             this.TenLaptop = values[1];
             this.HangSanXuat = values[2];
             this.NgayNhap = values[3];
             this.SoTon = values[4];
             this.SoLuong = values[5];
             this.GiaLaptop = values[6];
+            this.TenCPU = values[7];
+            this.TenGPU = values[8];
+            this.TenOCung = values[9];
+            this.TenRAM = values[10];
         }
 
         public List<Laptop> GetList(string maLT="")
