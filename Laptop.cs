@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyLaptop
 {
-    internal class Laptop
+    internal class Laptop:LinhKienLaptop
     {
         public string MaLaptop { get; set; }
         public string TenLaptop { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyLaptop
 {
-    internal class RAM
+    public class RAM
     {
         public string MaRam { get; set; }
         public string TenRam { get; set; }
