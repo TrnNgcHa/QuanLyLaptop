@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace QuanLyLaptop
 {
     internal class RAM
-    {
-    }
-    public class Ram
     {
         public string MaRam { get; set; }
         public string TenRam { get; set; }
@@ -19,46 +17,47 @@ namespace QuanLyLaptop
         public string Bus { get; set; }
         public string GiaTien { get; set; }
 
-        public Ram()
+        public RAM()
         {
             MaRam = TenRam = Hang = DungLuong = TheHe = Bus = GiaTien = "";
         }
 
-        public Ram(string csvLine)
+        public RAM(string csvLine)
         {
             string[] values = csvLine.Split(',');
 
-            MaRam     = values[0];
-            TenRam    = values[1];
-            Hang      = values[2];
+            MaRam = values[0];
+            TenRam = values[1];
+            Hang = values[2];
             DungLuong = values[3];
-            TheHe     = values[4];
-            Bus       = values[5];
-            GiaTien   = values[6];
+            TheHe = values[4];
+            Bus = values[5];
+            GiaTien = values[6];
         }
 
-        public List<Ram> TaoList(string fileName)
+        public List<RAM> GetList()
         {
-            List<Ram> list = new List<Ram>();
+            List<RAM> list = new List<RAM>();
+            string fileName = GlobalSettings.RAMFile;
 
             using (StreamReader reader = new StreamReader(fileName))
             {
+
                 if (!reader.EndOfStream) reader.ReadLine();
 
                 while (!reader.EndOfStream)
                 {
                     string line = reader.ReadLine();
-                    if (string.IsNullOrWhiteSpace(line)) continue;
-
-                    Ram ram = new Ram(line);
+                    RAM ram = new RAM(line);
                     list.Add(ram);
                 }
             }
             return list;
         }
-
-        public Ram GetById(string fileName, string maRam)
+        public List<RAM> GetList(string fileName)
         {
+            List<RAM> list = new List<RAM>();
+
             using (StreamReader reader = new StreamReader(fileName))
             {
                 if (!reader.EndOfStream) reader.ReadLine();
@@ -68,12 +67,11 @@ namespace QuanLyLaptop
                     string line = reader.ReadLine();
                     if (string.IsNullOrWhiteSpace(line)) continue;
 
-                    Ram ram = new Ram(line);
-                    if (ram.MaRam == maRam)
-                        return ram;
+                    RAM ram = new RAM(line);
+                    list.Add(ram);
                 }
             }
-            return null;
+            return list;
         }
     }
 }

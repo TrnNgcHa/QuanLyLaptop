@@ -16,13 +16,13 @@ namespace QuanLyLaptop
         public string SoNhan { get; set; }
         public string SoLuong { get; set; }
         public string XungNhip { get; set; }
-        public string CaCheCPU { get; set; }
+        public string CacheCPU { get; set; }
         public string GiaCPU { get; set; }
 
        
         public CPU()
         {
-            MaCPU = TenCPU = TenHangCPU = TichHopDoHoa = SoNhan = SoLuong = XungNhip = CaCheCPU = GiaCPU = "";
+            MaCPU = TenCPU = TenHangCPU = TichHopDoHoa = SoNhan = SoLuong = XungNhip = CacheCPU = GiaCPU = "";
         }
 
         
@@ -36,7 +36,7 @@ namespace QuanLyLaptop
             this.SoNhan = values[4];
             this.SoLuong = values[5];
             this.XungNhip = values[6];
-            this.CaCheCPU = values[7];
+            this.CacheCPU = values[7];
             this.GiaCPU = values[8];
         }
 

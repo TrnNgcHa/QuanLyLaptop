@@ -34,7 +34,7 @@ namespace QuanLyLaptop
             this.GiaLaptop = values[6];
         }
 
-        public List<Laptop> TaoList()
+        public List<Laptop> GetList(string maLT="")
         {
             List<Laptop> list = new List<Laptop>();
             string file = GlobalSettings.LaptopFile;
@@ -43,29 +43,10 @@ namespace QuanLyLaptop
 
                 if (!reader.EndOfStream) reader.ReadLine();
 
+                string line = "";
                 while (!reader.EndOfStream)
                 {
-                    string line = reader.ReadLine();
-                    Laptop lt = new Laptop(line);
-                    list.Add(lt);
-                }
-            }
-
-            return list;
-        }
-
-        public List<Laptop> TaoList(int maLT)
-        {
-            List<Laptop> list = new List<Laptop>();
-            string file = GlobalSettings.LaptopFile;
-            using (StreamReader reader = new StreamReader(file))
-            {
-
-                if (!reader.EndOfStream) reader.ReadLine();
-
-                while (!reader.EndOfStream)
-                {
-                    string line = reader.ReadLine();
+                    line = reader.ReadLine();
                     Laptop lt = new Laptop(line);
                     list.Add(lt);
                 }
