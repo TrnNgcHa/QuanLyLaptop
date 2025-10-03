@@ -21,7 +21,7 @@ namespace QuanLyLaptop
         private void frmQuanLyLaptop_QTV_Load(object sender, EventArgs e)
         {
             Laptop lt = new Laptop();
-            laptops = lt.TaoList();
+            laptops = lt.GetList();
             dgvDanhSachLaptop.DataSource = laptops;
         }
     }
