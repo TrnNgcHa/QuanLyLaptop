@@ -18,7 +18,6 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
             dgvDanhSachLaptop.AutoGenerateColumns = false;
-            dgvDanhSachLinhKien.AutoGenerateColumns = false;
         }
 
         private void frmQuanLyLaptop_QTV_Load(object sender, EventArgs e)
@@ -27,14 +26,7 @@ namespace QuanLyLaptop
             laptops = lt.GetList();
             dgvDanhSachLaptop.DataSource = laptops;
 
-            foreach (Laptop item in laptops)
-            {
-                if (item.MaLaptop == 1502030411009)
-                {
-                    List<Laptop> listLK = new List<Laptop> { item };
-                    dgvDanhSachLinhKien.DataSource = listLK;
-                }
-            }
+            
 
             dgvDanhSachLaptop.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
@@ -54,10 +46,5 @@ namespace QuanLyLaptop
             }
         }
 
-        private void dgvDanhSachLinhKien_CellEnter(object sender, DataGridViewCellEventArgs e)
-        {
-            
-                
-        }
     }
 }

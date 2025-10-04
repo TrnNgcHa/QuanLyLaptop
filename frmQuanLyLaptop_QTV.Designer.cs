@@ -40,22 +40,8 @@
             GiaLaptop = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             panel2 = new Panel();
-            splitContainer1 = new SplitContainer();
-            dgvDanhSachLinhKien = new DataGridView();
-            dataGridView2 = new DataGridView();
-            subMaLaptop = new DataGridViewTextBoxColumn();
-            subTenCPU = new DataGridViewTextBoxColumn();
-            subTenGPU = new DataGridViewTextBoxColumn();
-            subTenOCung = new DataGridViewTextBoxColumn();
-            subTenRAM = new DataGridViewTextBoxColumn();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
-            splitContainer1.Panel1.SuspendLayout();
-            splitContainer1.Panel2.SuspendLayout();
-            splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvDanhSachLinhKien).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -66,7 +52,6 @@
             tableLayoutPanel1.Controls.Add(dgvDanhSachLaptop, 0, 1);
             tableLayoutPanel1.Controls.Add(panel1, 0, 0);
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
-            tableLayoutPanel1.Controls.Add(splitContainer1, 1, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -172,90 +157,6 @@
             panel2.Size = new Size(424, 68);
             panel2.TabIndex = 3;
             // 
-            // splitContainer1
-            // 
-            splitContainer1.Dock = DockStyle.Fill;
-            splitContainer1.Location = new Point(643, 77);
-            splitContainer1.Name = "splitContainer1";
-            splitContainer1.Orientation = Orientation.Horizontal;
-            // 
-            // splitContainer1.Panel1
-            // 
-            splitContainer1.Panel1.Controls.Add(dgvDanhSachLinhKien);
-            // 
-            // splitContainer1.Panel2
-            // 
-            splitContainer1.Panel2.Controls.Add(dataGridView2);
-            splitContainer1.Size = new Size(424, 370);
-            splitContainer1.SplitterDistance = 162;
-            splitContainer1.TabIndex = 4;
-            // 
-            // dgvDanhSachLinhKien
-            // 
-            dgvDanhSachLinhKien.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDanhSachLinhKien.Columns.AddRange(new DataGridViewColumn[] { subMaLaptop, subTenCPU, subTenGPU, subTenOCung, subTenRAM });
-            dgvDanhSachLinhKien.Dock = DockStyle.Fill;
-            dgvDanhSachLinhKien.Location = new Point(0, 0);
-            dgvDanhSachLinhKien.Name = "dgvDanhSachLinhKien";
-            dgvDanhSachLinhKien.RowHeadersWidth = 51;
-            dgvDanhSachLinhKien.Size = new Size(424, 162);
-            dgvDanhSachLinhKien.TabIndex = 0;
-            dgvDanhSachLinhKien.CellEnter += dgvDanhSachLinhKien_CellEnter;
-            // 
-            // dataGridView2
-            // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Dock = DockStyle.Fill;
-            dataGridView2.Location = new Point(0, 0);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(424, 204);
-            dataGridView2.TabIndex = 0;
-            // 
-            // subMaLaptop
-            // 
-            subMaLaptop.DataPropertyName = "MaLaptop";
-            subMaLaptop.HeaderText = "Mã Laptop";
-            subMaLaptop.MinimumWidth = 6;
-            subMaLaptop.Name = "subMaLaptop";
-            subMaLaptop.Width = 125;
-            // 
-            // subTenCPU
-            // 
-            subTenCPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            subTenCPU.DataPropertyName = "TenCPU";
-            subTenCPU.HeaderText = "Tên CPU";
-            subTenCPU.MinimumWidth = 6;
-            subTenCPU.Name = "subTenCPU";
-            subTenCPU.Width = 24;
-            // 
-            // subTenGPU
-            // 
-            subTenGPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            subTenGPU.DataPropertyName = "TenGPU";
-            subTenGPU.HeaderText = "Tên GPU";
-            subTenGPU.MinimumWidth = 6;
-            subTenGPU.Name = "subTenGPU";
-            subTenGPU.Width = 24;
-            // 
-            // subTenOCung
-            // 
-            subTenOCung.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            subTenOCung.DataPropertyName = "TenOCung";
-            subTenOCung.HeaderText = "Tên Ổ Cứng";
-            subTenOCung.MinimumWidth = 6;
-            subTenOCung.Name = "subTenOCung";
-            subTenOCung.Width = 24;
-            // 
-            // subTenRAM
-            // 
-            subTenRAM.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            subTenRAM.DataPropertyName = "TenRAM";
-            subTenRAM.HeaderText = "Tên RAM";
-            subTenRAM.MinimumWidth = 6;
-            subTenRAM.Name = "subTenRAM";
-            subTenRAM.Width = 24;
-            // 
             // frmQuanLyLaptop_QTV
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -268,12 +169,6 @@
             Load += frmQuanLyLaptop_QTV_Load;
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).EndInit();
-            splitContainer1.Panel1.ResumeLayout(false);
-            splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
-            splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvDanhSachLinhKien).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
         }
 
@@ -283,9 +178,6 @@
         private DataGridView dgvDanhSachLaptop;
         private Panel panel1;
         private Panel panel2;
-        private SplitContainer splitContainer1;
-        private DataGridView dgvDanhSachLinhKien;
-        private DataGridView dataGridView2;
         private DataGridViewTextBoxColumn STT1;
         private DataGridViewTextBoxColumn MaLaptop;
         private DataGridViewTextBoxColumn TenLaptop;
@@ -294,10 +186,5 @@
         private DataGridViewTextBoxColumn SoTon;
         private DataGridViewTextBoxColumn SoLuong;
         private DataGridViewTextBoxColumn GiaLaptop;
-        private DataGridViewTextBoxColumn subMaLaptop;
-        private DataGridViewTextBoxColumn subTenCPU;
-        private DataGridViewTextBoxColumn subTenGPU;
-        private DataGridViewTextBoxColumn subTenOCung;
-        private DataGridViewTextBoxColumn subTenRAM;
     }
 }
