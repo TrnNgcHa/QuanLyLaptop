@@ -34,11 +34,11 @@ namespace QuanLyLaptop
             this.AgencyName = values[2];
             this.StockInDate = DateOnly.Parse(values[3]);
             this.RemainAmount = values[4];
-            this.CPU = values[5];
-            this.GPU = values[6];
-            this.Hardware = values[7];
-            this.RAM = values[8];
-            this.Price = Convert.ToInt32(values[9]);
+            this.Price = Convert.ToInt32(values[5]);
+            this.CPU = values[6];
+            this.GPU = values[7];
+            this.Hardware = values[8];
+            this.RAM = values[9];
         }
 
         public List<Laptop> GetList(string fileName = "")
