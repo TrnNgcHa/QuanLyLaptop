@@ -60,7 +60,7 @@
             lblTaiKhoan = new Label();
             label6 = new Label();
             label5 = new Label();
-            button2 = new Button();
+            btnSign_up = new Button();
             btnSign_in = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
@@ -365,7 +365,7 @@
             panel2.Controls.Add(lblTaiKhoan);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(label5);
-            panel2.Controls.Add(button2);
+            panel2.Controls.Add(btnSign_up);
             panel2.Controls.Add(btnSign_in);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(1283, 3);
@@ -405,14 +405,14 @@
             label5.TabIndex = 1;
             label5.Text = "Tài Khoản";
             // 
-            // button2
+            // btnSign_up
             // 
-            button2.Location = new Point(413, 9);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 0;
-            button2.Text = "Đăng Ký";
-            button2.UseVisualStyleBackColor = true;
+            btnSign_up.Location = new Point(413, 9);
+            btnSign_up.Name = "btnSign_up";
+            btnSign_up.Size = new Size(94, 29);
+            btnSign_up.TabIndex = 0;
+            btnSign_up.Text = "Đăng Ký";
+            btnSign_up.UseVisualStyleBackColor = true;
             // 
             // btnSign_in
             // 
@@ -476,7 +476,7 @@
         private DataGridViewTextBoxColumn GiaTien;
         private Label lblTenLaptop;
         private Panel panel2;
-        private Button button2;
+        private Button btnSign_up;
         private Button btnSign_in;
         private Label lblTaiKhoan;
         private Label label6;

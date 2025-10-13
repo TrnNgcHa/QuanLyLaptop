@@ -8,7 +8,7 @@ namespace QuanLyLaptop.Models
 {
     internal class Laptop
     {
-        //MaLaptop;TenLaptop;TenHang;NgayNhap;SoTon;CPU;GPU;OCung;RAM;GiaTien
+        
         public int LaptopID { get; set; }
         public string LaptopName { get; set; }
         public string AgencyName { get; set; }
@@ -61,7 +61,6 @@ namespace QuanLyLaptop.Models
             }
             return laptopList;
         }
-        // mimnh nguuuu
     }
 
 }

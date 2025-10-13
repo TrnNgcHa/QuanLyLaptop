@@ -63,7 +63,17 @@ namespace QuanLyLaptop
         private void btnSign_in_Click(object sender, EventArgs e)
         {
             var form = new Sign_in();
+            
+
             form.ShowDialog();
+            if (Sign_in.daDangNhap)
+            {
+                btnSign_in.Visible = false;
+                btnSign_up.Visible = false;
+                lblTaiKhoan.Text = Sign_in.tenDN;
+                lblMatKhau.Text = Sign_in.mkDN;
+            }
+            panel2.Refresh();
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)

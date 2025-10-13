@@ -41,7 +41,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(btnMainMenu);
-            groupBox2.Location = new Point(403, 145);
+            groupBox2.Location = new Point(403, 118);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(181, 214);
             groupBox2.TabIndex = 1;
@@ -64,7 +64,7 @@
             groupBox1.Controls.Add(btnProduct);
             groupBox1.Controls.Add(btnReceipt);
             groupBox1.Controls.Add(btnAccount);
-            groupBox1.Location = new Point(216, 145);
+            groupBox1.Location = new Point(216, 118);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(181, 214);
             groupBox1.TabIndex = 2;
