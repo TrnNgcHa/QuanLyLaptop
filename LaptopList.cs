@@ -36,7 +36,6 @@ namespace QuanLyLaptop
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
             lblTaiKhoan.Text = TaiKhoanDN;
-            lblMatKhau.Text = MatKhauDN;
         }
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
@@ -71,7 +70,6 @@ namespace QuanLyLaptop
                 btnSign_in.Visible = false;
                 btnSign_up.Visible = false;
                 lblTaiKhoan.Text = Sign_in.tenDN;
-                lblMatKhau.Text = Sign_in.mkDN;
             }
             panel2.Refresh();
         }

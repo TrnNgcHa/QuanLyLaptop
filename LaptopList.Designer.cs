@@ -56,9 +56,7 @@
             btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
-            lblMatKhau = new Label();
             lblTaiKhoan = new Label();
-            label6 = new Label();
             label5 = new Label();
             btnSign_up = new Button();
             btnSign_in = new Button();
@@ -361,9 +359,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FloralWhite;
-            panel2.Controls.Add(lblMatKhau);
             panel2.Controls.Add(lblTaiKhoan);
-            panel2.Controls.Add(label6);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(btnSign_up);
             panel2.Controls.Add(btnSign_in);
@@ -373,28 +369,12 @@
             panel2.Size = new Size(634, 54);
             panel2.TabIndex = 2;
             // 
-            // lblMatKhau
-            // 
-            lblMatKhau.Location = new Point(270, 18);
-            lblMatKhau.Name = "lblMatKhau";
-            lblMatKhau.Size = new Size(98, 25);
-            lblMatKhau.TabIndex = 2;
-            // 
             // lblTaiKhoan
             // 
             lblTaiKhoan.Location = new Point(88, 18);
             lblTaiKhoan.Name = "lblTaiKhoan";
             lblTaiKhoan.Size = new Size(98, 25);
             lblTaiKhoan.TabIndex = 2;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(192, 18);
-            label6.Name = "label6";
-            label6.Size = new Size(72, 20);
-            label6.TabIndex = 1;
-            label6.Text = "Mật Khẩu";
             // 
             // label5
             // 
@@ -479,8 +459,6 @@
         private Button btnSign_up;
         private Button btnSign_in;
         private Label lblTaiKhoan;
-        private Label label6;
         private Label label5;
-        private Label lblMatKhau;
     }
 }
