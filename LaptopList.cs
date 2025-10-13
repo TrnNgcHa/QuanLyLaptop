@@ -1,4 +1,6 @@
-﻿using QuanLyLaptop.Models;
+﻿using DanhGiaLaptopApp;
+using MuaLaptopApp;
+using QuanLyLaptop.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,6 +64,23 @@ namespace QuanLyLaptop
         {
             var form = new Sign_in();
             form.ShowDialog();
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReview_Click(object sender, EventArgs e)
+        {
+            var form = new FrmDanhGiaLaptop();
+            form.Show();
+        }
+
+        private void btnPurchase_Click(object sender, EventArgs e)
+        {
+            var form = new FrmMuaLaptop();
+            form.Show();
         }
     }
 }

@@ -112,6 +112,7 @@
             Controls.Add(groupBox1);
             Name = "Administration";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = "Code Cool";
             groupBox2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);

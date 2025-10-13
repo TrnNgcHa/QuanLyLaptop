@@ -202,6 +202,7 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.PapayaWhip;
             panel1.Controls.Add(lblTenLaptop);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
@@ -224,6 +225,7 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            groupBox2.BackColor = Color.Cornsilk;
             groupBox2.Controls.Add(lblRAMInfo);
             groupBox2.Controls.Add(lblHardwareInfo);
             groupBox2.Controls.Add(lblGPUInfo);
@@ -238,13 +240,14 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chi Tiết Sản Phẩm";
+            groupBox2.Enter += groupBox2_Enter;
             // 
             // lblRAMInfo
             // 
             lblRAMInfo.Anchor = AnchorStyles.None;
             lblRAMInfo.BorderStyle = BorderStyle.Fixed3D;
             lblRAMInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblRAMInfo.Location = new Point(49, 192);
+            lblRAMInfo.Location = new Point(74, 192);
             lblRAMInfo.Name = "lblRAMInfo";
             lblRAMInfo.Size = new Size(257, 25);
             lblRAMInfo.TabIndex = 1;
@@ -255,7 +258,7 @@
             lblHardwareInfo.Anchor = AnchorStyles.None;
             lblHardwareInfo.BorderStyle = BorderStyle.Fixed3D;
             lblHardwareInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblHardwareInfo.Location = new Point(49, 148);
+            lblHardwareInfo.Location = new Point(74, 145);
             lblHardwareInfo.Name = "lblHardwareInfo";
             lblHardwareInfo.Size = new Size(257, 25);
             lblHardwareInfo.TabIndex = 1;
@@ -266,7 +269,7 @@
             lblGPUInfo.Anchor = AnchorStyles.None;
             lblGPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblGPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblGPUInfo.Location = new Point(49, 104);
+            lblGPUInfo.Location = new Point(74, 106);
             lblGPUInfo.Name = "lblGPUInfo";
             lblGPUInfo.Size = new Size(257, 25);
             lblGPUInfo.TabIndex = 1;
@@ -277,7 +280,7 @@
             lblCPUInfo.Anchor = AnchorStyles.None;
             lblCPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblCPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblCPUInfo.Location = new Point(49, 61);
+            lblCPUInfo.Location = new Point(74, 60);
             lblCPUInfo.Name = "lblCPUInfo";
             lblCPUInfo.Size = new Size(257, 25);
             lblCPUInfo.TabIndex = 1;
@@ -341,6 +344,7 @@
             btnReview.TabIndex = 0;
             btnReview.Text = "Đánh Giá";
             btnReview.UseVisualStyleBackColor = true;
+            btnReview.Click += btnReview_Click;
             // 
             // btnPurchase
             // 
@@ -352,9 +356,11 @@
             btnPurchase.TabIndex = 0;
             btnPurchase.Text = "Mua";
             btnPurchase.UseVisualStyleBackColor = true;
+            btnPurchase.Click += btnPurchase_Click;
             // 
             // panel2
             // 
+            panel2.BackColor = Color.FloralWhite;
             panel2.Controls.Add(lblMatKhau);
             panel2.Controls.Add(lblTaiKhoan);
             panel2.Controls.Add(label6);

@@ -50,24 +50,26 @@
             // 
             // btnAdmin
             // 
+            btnAdmin.BackColor = Color.LavenderBlush;
             btnAdmin.Dock = DockStyle.Top;
             btnAdmin.Location = new Point(3, 83);
             btnAdmin.Name = "btnAdmin";
             btnAdmin.Size = new Size(175, 60);
             btnAdmin.TabIndex = 0;
             btnAdmin.Text = "Quản Trị Viên";
-            btnAdmin.UseVisualStyleBackColor = true;
+            btnAdmin.UseVisualStyleBackColor = false;
             btnAdmin.Click += btnAdmin_Click;
             // 
             // btnCustomer
             // 
+            btnCustomer.BackColor = Color.LavenderBlush;
             btnCustomer.Dock = DockStyle.Top;
             btnCustomer.Location = new Point(3, 23);
             btnCustomer.Name = "btnCustomer";
             btnCustomer.Size = new Size(175, 60);
             btnCustomer.TabIndex = 0;
             btnCustomer.Text = "Khách";
-            btnCustomer.UseVisualStyleBackColor = true;
+            btnCustomer.UseVisualStyleBackColor = false;
             btnCustomer.Click += btnCustomer_Click;
             // 
             // groupBox2
@@ -82,25 +84,27 @@
             // 
             // btnClose
             // 
+            btnClose.BackColor = Color.Linen;
             btnClose.Dock = DockStyle.Top;
             btnClose.Location = new Point(3, 23);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(175, 60);
             btnClose.TabIndex = 0;
             btnClose.Text = "Đóng";
-            btnClose.UseVisualStyleBackColor = true;
+            btnClose.UseVisualStyleBackColor = false;
             btnClose.Click += btnClose_Click;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Azure;
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Main";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Admin";
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             ResumeLayout(false);
