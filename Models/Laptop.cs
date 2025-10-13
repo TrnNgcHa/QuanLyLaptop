@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLyLaptop
+namespace QuanLyLaptop.Models
 {
     internal class Laptop
     {
@@ -29,22 +29,22 @@ namespace QuanLyLaptop
         public Laptop(string csvLine)
         {
             string[] values = csvLine.Split(';');
-            this.LaptopID = Convert.ToInt32(values[0]);
-            this.LaptopName = values[1];
-            this.AgencyName = values[2];
-            this.StockInDate = DateOnly.Parse(values[3]);
-            this.RemainAmount = values[4];
-            this.Price = Convert.ToInt32(values[5]);
-            this.CPU = values[6];
-            this.GPU = values[7];
-            this.Hardware = values[8];
-            this.RAM = values[9];
+            LaptopID = Convert.ToInt32(values[0]);
+            LaptopName = values[1];
+            AgencyName = values[2];
+            StockInDate = DateOnly.Parse(values[3]);
+            RemainAmount = values[4];
+            Price = Convert.ToInt32(values[5]);
+            CPU = values[6];
+            GPU = values[7];
+            Hardware = values[8];
+            RAM = values[9];
         }
 
         public List<Laptop> GetList(string fileName = "")
         {
             List<Laptop> laptopList = new List<Laptop>();
-            fileName = (fileName == "") ? GlobalSetting.LaptopFile : fileName;
+            fileName = fileName == "" ? GlobalSetting.LaptopFile : fileName;
 
             using (StreamReader reader = new StreamReader(fileName))
             {

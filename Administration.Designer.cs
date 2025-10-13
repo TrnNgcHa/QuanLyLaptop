@@ -1,6 +1,6 @@
 ﻿namespace QuanLyLaptop
 {
-    partial class AdminManagement
+    partial class Administration
     {
         /// <summary>
         /// Required designer variable.
@@ -101,17 +101,17 @@
             btnAccount.TabIndex = 0;
             btnAccount.Text = "Tài Khoản";
             btnAccount.UseVisualStyleBackColor = true;
+            btnAccount.Click += btnAccount_Click;
             // 
-            // AdminManagement
+            // Administration
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Name = "AdminManagement";
+            Name = "Administration";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "AdminManagement";
             groupBox2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);

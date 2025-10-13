@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyLaptop
 {
-    public partial class AdminManagement : Form
+    public partial class Administration : Form
     {
-        public AdminManagement()
+        public Administration()
         {
             InitializeComponent();
         }
@@ -29,13 +29,19 @@ namespace QuanLyLaptop
 
         private void btnMainMenu_Click(object sender, EventArgs e)
         {
-            AdminManagement.ActiveForm.Close();
+            Administration.ActiveForm.Close();
         }
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
             var form = new QuanLyLaptop();
             form.ShowDialog();
+        }
+
+        private void btnAccount_Click(object sender, EventArgs e)
+        {
+            var form = new AccountManagement();
+            form.Show();
         }
     }
 }
