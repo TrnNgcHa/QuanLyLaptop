@@ -13,6 +13,9 @@ namespace QuanLyLaptop
 {
     public partial class Sign_in : Form
     {
+        public static bool daDangNhap = false;
+        public static string tenDN = "";
+        public static string mkDN = "";
         public Sign_in()
         {
             InitializeComponent();
@@ -28,10 +31,11 @@ namespace QuanLyLaptop
                 {
                     if (txtAccountName.Text == accounts[i].AccountName && txtPassword.Text == accounts[i].Password.ToString())
                     {
-                        LaptopList.TaiKhoanDN = txtAccountName.Text;
-                        LaptopList.MatKhauDN = txtPassword.Text;
-                        MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         
+                        MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        daDangNhap = true;
+                        tenDN = txtAccountName.Text;
+                        mkDN = txtPassword.Text;
                         this.Close();
                         break;
                     }
