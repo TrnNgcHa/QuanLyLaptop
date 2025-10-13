@@ -61,6 +61,7 @@ namespace QuanLyLaptop.Models
             }
             return laptopList;
         }
+        //badsfkjcewhjfchkew
     }
 
 }
