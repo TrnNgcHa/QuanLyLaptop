@@ -60,6 +60,8 @@
             label5 = new Label();
             btnSign_up = new Button();
             btnSign_in = new Button();
+            label6 = new Label();
+            label7 = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -238,7 +240,6 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chi Tiết Sản Phẩm";
-            groupBox2.Enter += groupBox2_Enter;
             // 
             // lblRAMInfo
             // 
@@ -359,6 +360,8 @@
             // panel2
             // 
             panel2.BackColor = Color.FloralWhite;
+            panel2.Controls.Add(label6);
+            panel2.Controls.Add(label7);
             panel2.Controls.Add(lblTaiKhoan);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(btnSign_up);
@@ -381,9 +384,9 @@
             label5.AutoSize = true;
             label5.Location = new Point(9, 18);
             label5.Name = "label5";
-            label5.Size = new Size(73, 20);
+            label5.Size = new Size(76, 20);
             label5.TabIndex = 1;
-            label5.Text = "Tài Khoản";
+            label5.Text = "Tài Khoản:";
             // 
             // btnSign_up
             // 
@@ -403,6 +406,22 @@
             btnSign_in.Text = "Đăng Nhập";
             btnSign_in.UseVisualStyleBackColor = true;
             btnSign_in.Click += btnSign_in_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(192, 18);
+            label6.Name = "label6";
+            label6.Size = new Size(51, 20);
+            label6.TabIndex = 3;
+            label6.Text = "Số dư:";
+            // 
+            // label7
+            // 
+            label7.Location = new Point(249, 18);
+            label7.Name = "label7";
+            label7.Size = new Size(134, 25);
+            label7.TabIndex = 2;
             // 
             // LaptopList
             // 
@@ -460,5 +479,7 @@
         private Button btnSign_in;
         private Label lblTaiKhoan;
         private Label label5;
+        private Label label6;
+        private Label label7;
     }
 }
