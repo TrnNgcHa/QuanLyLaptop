@@ -16,8 +16,6 @@ namespace QuanLyLaptop
 {
     public partial class LaptopList : Form
     {
-        public static string TaiKhoanDN = "";
-        public static string MatKhauDN = "";
         public LaptopList()
         {
             InitializeComponent();
@@ -35,7 +33,7 @@ namespace QuanLyLaptop
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
-            lblTaiKhoan.Text = TaiKhoanDN;
+            
         }
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
@@ -59,20 +57,7 @@ namespace QuanLyLaptop
             }
         }
 
-        private void btnSign_in_Click(object sender, EventArgs e)
-        {
-            var form = new Sign_in();
-            
-
-            form.ShowDialog();
-            if (Sign_in.daDangNhap)
-            {
-                btnSign_in.Visible = false;
-                btnSign_up.Visible = false;
-                lblTaiKhoan.Text = Sign_in.tenDN;
-            }
-            panel2.Refresh();
-        }
+        
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {

@@ -56,18 +56,11 @@
             btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
-            lblTaiKhoan = new Label();
-            label5 = new Label();
-            btnSign_up = new Button();
-            btnSign_in = new Button();
-            label6 = new Label();
-            lblSoDu = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
-            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -360,68 +353,11 @@
             // panel2
             // 
             panel2.BackColor = Color.FloralWhite;
-            panel2.Controls.Add(label6);
-            panel2.Controls.Add(lblSoDu);
-            panel2.Controls.Add(lblTaiKhoan);
-            panel2.Controls.Add(label5);
-            panel2.Controls.Add(btnSign_up);
-            panel2.Controls.Add(btnSign_in);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(1283, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(634, 54);
             panel2.TabIndex = 2;
-            // 
-            // lblTaiKhoan
-            // 
-            lblTaiKhoan.Location = new Point(88, 18);
-            lblTaiKhoan.Name = "lblTaiKhoan";
-            lblTaiKhoan.Size = new Size(98, 25);
-            lblTaiKhoan.TabIndex = 2;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(9, 18);
-            label5.Name = "label5";
-            label5.Size = new Size(76, 20);
-            label5.TabIndex = 1;
-            label5.Text = "Tài Khoản:";
-            // 
-            // btnSign_up
-            // 
-            btnSign_up.Location = new Point(413, 9);
-            btnSign_up.Name = "btnSign_up";
-            btnSign_up.Size = new Size(94, 29);
-            btnSign_up.TabIndex = 0;
-            btnSign_up.Text = "Đăng Ký";
-            btnSign_up.UseVisualStyleBackColor = true;
-            // 
-            // btnSign_in
-            // 
-            btnSign_in.Location = new Point(513, 9);
-            btnSign_in.Name = "btnSign_in";
-            btnSign_in.Size = new Size(94, 29);
-            btnSign_in.TabIndex = 0;
-            btnSign_in.Text = "Đăng Nhập";
-            btnSign_in.UseVisualStyleBackColor = true;
-            btnSign_in.Click += btnSign_in_Click;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(192, 18);
-            label6.Name = "label6";
-            label6.Size = new Size(51, 20);
-            label6.TabIndex = 3;
-            label6.Text = "Số dư:";
-            // 
-            // lblSoDu
-            // 
-            lblSoDu.Location = new Point(249, 18);
-            lblSoDu.Name = "lblSoDu";
-            lblSoDu.Size = new Size(134, 25);
-            lblSoDu.TabIndex = 2;
             // 
             // LaptopList
             // 
@@ -440,8 +376,6 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -475,11 +409,5 @@
         private DataGridViewTextBoxColumn GiaTien;
         private Label lblTenLaptop;
         private Panel panel2;
-        private Button btnSign_up;
-        private Button btnSign_in;
-        private Label lblTaiKhoan;
-        private Label label5;
-        private Label label6;
-        private Label lblSoDu;
     }
 }
