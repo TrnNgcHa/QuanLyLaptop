@@ -1,6 +1,6 @@
 ﻿namespace QuanLyLaptop
 {
-    partial class Main
+    partial class MainMenu
     {
         /// <summary>
         ///  Required designer variable.
@@ -41,7 +41,7 @@
             // 
             groupBox1.Controls.Add(btnAdmin);
             groupBox1.Controls.Add(btnCustomer);
-            groupBox1.Location = new Point(216, 145);
+            groupBox1.Location = new Point(42, 90);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(181, 161);
             groupBox1.TabIndex = 0;
@@ -75,7 +75,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(btnClose);
-            groupBox2.Location = new Point(403, 145);
+            groupBox2.Location = new Point(229, 90);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(181, 161);
             groupBox2.TabIndex = 0;
@@ -99,7 +99,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Azure;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(452, 340);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Main";

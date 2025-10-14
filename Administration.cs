@@ -23,7 +23,7 @@ namespace QuanLyLaptop
             if (result == DialogResult.Yes)
             {
                 this.Close();
-                Main.ActiveForm.Close();
+                MainMenu.ActiveForm.Close();
             }
         }
 

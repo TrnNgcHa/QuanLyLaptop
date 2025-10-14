@@ -57,12 +57,6 @@ namespace QuanLyLaptop
             }
         }
 
-        
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnReview_Click(object sender, EventArgs e)
         {

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
+            grbDangKy = new GroupBox();
             groupBox3 = new GroupBox();
-            linkLabel1 = new LinkLabel();
+            llbDangNhap = new LinkLabel();
             btnDangKy = new Button();
             label10 = new Label();
             label9 = new Label();
@@ -53,36 +53,37 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            groupBox4 = new GroupBox();
-            label11 = new Label();
+            grbDangNhap = new GroupBox();
             groupBox5 = new GroupBox();
-            linkLabel2 = new LinkLabel();
+            llbDangKy = new LinkLabel();
             btnDangNhap = new Button();
             label12 = new Label();
             label13 = new Label();
             txtMatKhauDN = new TextBox();
             txtTenDN = new TextBox();
-            groupBox1.SuspendLayout();
+            label11 = new Label();
+            grbDangKy.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
-            groupBox4.SuspendLayout();
+            grbDangNhap.SuspendLayout();
             groupBox5.SuspendLayout();
             SuspendLayout();
             // 
-            // groupBox1
+            // grbDangKy
             // 
-            groupBox1.Controls.Add(groupBox3);
-            groupBox1.Controls.Add(groupBox2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(12, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(335, 559);
-            groupBox1.TabIndex = 2;
-            groupBox1.TabStop = false;
+            grbDangKy.Controls.Add(groupBox3);
+            grbDangKy.Controls.Add(groupBox2);
+            grbDangKy.Controls.Add(label1);
+            grbDangKy.Location = new Point(39, 12);
+            grbDangKy.Name = "grbDangKy";
+            grbDangKy.Size = new Size(335, 559);
+            grbDangKy.TabIndex = 2;
+            grbDangKy.TabStop = false;
+            grbDangKy.Visible = false;
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(linkLabel1);
+            groupBox3.Controls.Add(llbDangNhap);
             groupBox3.Controls.Add(btnDangKy);
             groupBox3.Controls.Add(label10);
             groupBox3.Controls.Add(label9);
@@ -96,16 +97,17 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Thông tin đăng ký";
             // 
-            // linkLabel1
+            // llbDangNhap
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel1.Location = new Point(177, 162);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(120, 20);
-            linkLabel1.TabIndex = 3;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Đã có tài khoản?";
+            llbDangNhap.AutoSize = true;
+            llbDangNhap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            llbDangNhap.Location = new Point(177, 162);
+            llbDangNhap.Name = "llbDangNhap";
+            llbDangNhap.Size = new Size(120, 20);
+            llbDangNhap.TabIndex = 3;
+            llbDangNhap.TabStop = true;
+            llbDangNhap.Text = "Đã có tài khoản?";
+            llbDangNhap.LinkClicked += llbDangNhap_LinkClicked;
             // 
             // btnDangKy
             // 
@@ -145,7 +147,6 @@
             txtMatKhauDK.Name = "txtMatKhauDK";
             txtMatKhauDK.Size = new Size(174, 27);
             txtMatKhauDK.TabIndex = 1;
-            txtMatKhauDK.TextAlign = HorizontalAlignment.Right;
             // 
             // txtTenDK
             // 
@@ -154,7 +155,6 @@
             txtTenDK.Name = "txtTenDK";
             txtTenDK.Size = new Size(174, 27);
             txtTenDK.TabIndex = 1;
-            txtTenDK.TextAlign = HorizontalAlignment.Right;
             // 
             // groupBox2
             // 
@@ -221,11 +221,11 @@
             dtpNgaySinh.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dtpNgaySinh.Format = DateTimePickerFormat.Short;
             dtpNgaySinh.Location = new Point(130, 110);
-            dtpNgaySinh.MaxDate = new DateTime(2024, 12, 31, 0, 0, 0, 0);
+            dtpNgaySinh.MaxDate = new DateTime(2007, 12, 31, 0, 0, 0, 0);
             dtpNgaySinh.Name = "dtpNgaySinh";
             dtpNgaySinh.Size = new Size(167, 27);
             dtpNgaySinh.TabIndex = 2;
-            dtpNgaySinh.Value = new DateTime(2024, 12, 31, 0, 0, 0, 0);
+            dtpNgaySinh.Value = new DateTime(2007, 12, 31, 0, 0, 0, 0);
             // 
             // txtCCCD
             // 
@@ -234,7 +234,6 @@
             txtCCCD.Name = "txtCCCD";
             txtCCCD.Size = new Size(167, 27);
             txtCCCD.TabIndex = 1;
-            txtCCCD.TextAlign = HorizontalAlignment.Right;
             // 
             // txtEmail
             // 
@@ -243,7 +242,6 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(167, 27);
             txtEmail.TabIndex = 1;
-            txtEmail.TextAlign = HorizontalAlignment.Right;
             // 
             // txtSDT
             // 
@@ -252,7 +250,6 @@
             txtSDT.Name = "txtSDT";
             txtSDT.Size = new Size(167, 27);
             txtSDT.TabIndex = 1;
-            txtSDT.TextAlign = HorizontalAlignment.Right;
             // 
             // txtHoTen
             // 
@@ -261,7 +258,6 @@
             txtHoTen.Name = "txtHoTen";
             txtHoTen.Size = new Size(167, 27);
             txtHoTen.TabIndex = 1;
-            txtHoTen.TextAlign = HorizontalAlignment.Right;
             // 
             // label8
             // 
@@ -343,29 +339,19 @@
             label1.TabIndex = 1;
             label1.Text = "ĐĂNG KÝ";
             // 
-            // groupBox4
+            // grbDangNhap
             // 
-            groupBox4.Controls.Add(groupBox5);
-            groupBox4.Controls.Add(label11);
-            groupBox4.Location = new Point(385, 12);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(335, 264);
-            groupBox4.TabIndex = 3;
-            groupBox4.TabStop = false;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(91, 18);
-            label11.Name = "label11";
-            label11.Size = new Size(153, 31);
-            label11.TabIndex = 1;
-            label11.Text = "ĐĂNG NHẬP";
+            grbDangNhap.Controls.Add(groupBox5);
+            grbDangNhap.Controls.Add(label11);
+            grbDangNhap.Location = new Point(423, 12);
+            grbDangNhap.Name = "grbDangNhap";
+            grbDangNhap.Size = new Size(335, 264);
+            grbDangNhap.TabIndex = 3;
+            grbDangNhap.TabStop = false;
             // 
             // groupBox5
             // 
-            groupBox5.Controls.Add(linkLabel2);
+            groupBox5.Controls.Add(llbDangKy);
             groupBox5.Controls.Add(btnDangNhap);
             groupBox5.Controls.Add(label12);
             groupBox5.Controls.Add(label13);
@@ -379,16 +365,17 @@
             groupBox5.TabStop = false;
             groupBox5.Text = "Thông tin đăng nhập";
             // 
-            // linkLabel2
+            // llbDangKy
             // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel2.Location = new Point(164, 162);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(135, 20);
-            linkLabel2.TabIndex = 3;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Chưa có tài khoản?";
+            llbDangKy.AutoSize = true;
+            llbDangKy.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            llbDangKy.Location = new Point(164, 162);
+            llbDangKy.Name = "llbDangKy";
+            llbDangKy.Size = new Size(135, 20);
+            llbDangKy.TabIndex = 3;
+            llbDangKy.TabStop = true;
+            llbDangKy.Text = "Chưa có tài khoản?";
+            llbDangKy.LinkClicked += llbDangKy_LinkClicked;
             // 
             // btnDangNhap
             // 
@@ -428,7 +415,6 @@
             txtMatKhauDN.Name = "txtMatKhauDN";
             txtMatKhauDN.Size = new Size(174, 27);
             txtMatKhauDN.TabIndex = 1;
-            txtMatKhauDN.TextAlign = HorizontalAlignment.Right;
             // 
             // txtTenDN
             // 
@@ -437,26 +423,36 @@
             txtTenDN.Name = "txtTenDN";
             txtTenDN.Size = new Size(174, 27);
             txtTenDN.TabIndex = 1;
-            txtTenDN.TextAlign = HorizontalAlignment.Right;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(91, 18);
+            label11.Name = "label11";
+            label11.Size = new Size(153, 31);
+            label11.TabIndex = 1;
+            label11.Text = "ĐĂNG NHẬP";
             // 
             // Authentication
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 621);
-            Controls.Add(groupBox4);
-            Controls.Add(groupBox1);
+            ClientSize = new Size(780, 621);
+            Controls.Add(grbDangNhap);
+            Controls.Add(grbDangKy);
             Name = "Authentication";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Authentication";
             Load += Authentication_Load;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            grbDangKy.ResumeLayout(false);
+            grbDangKy.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
+            grbDangNhap.ResumeLayout(false);
+            grbDangNhap.PerformLayout();
             groupBox5.ResumeLayout(false);
             groupBox5.PerformLayout();
             ResumeLayout(false);
@@ -464,9 +460,9 @@
 
         #endregion
 
-        private GroupBox groupBox1;
+        private GroupBox grbDangKy;
         private GroupBox groupBox3;
-        private LinkLabel linkLabel1;
+        private LinkLabel llbDangNhap;
         private Button btnDangKy;
         private Label label10;
         private Label label9;
@@ -489,9 +485,9 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private GroupBox groupBox4;
+        private GroupBox grbDangNhap;
         private GroupBox groupBox5;
-        private LinkLabel linkLabel2;
+        private LinkLabel llbDangKy;
         private Button btnDangNhap;
         private Label label12;
         private Label label13;

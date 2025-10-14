@@ -23,6 +23,12 @@ namespace QuanLyLaptop
         {
             Account acc = new Account();
             accounts = acc.GetList();
+
+            grbDangNhap.Left = (this.ClientSize.Width - grbDangNhap.Width) / 2;
+            grbDangNhap.Top = (this.ClientSize.Height - grbDangNhap.Height) / 2;
+
+            grbDangKy.Left = (this.ClientSize.Width - grbDangKy.Width) / 2;
+            grbDangKy.Top = (this.ClientSize.Height - grbDangKy.Height) / 2;
         }
         private void ckbNam_CheckedChanged(object sender, EventArgs e)
         {
@@ -65,13 +71,25 @@ namespace QuanLyLaptop
             {
                 if (a.AccountName == txtTenDN.Text && a.Password.ToString() == txtMatKhauDN.Text)
                 {
-                    
+
                     var form = new LaptopList();
                     form.ShowDialog();
                     this.Close();
                     return;
                 }
             }
+        }
+
+        private void llbDangNhap_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            grbDangNhap.Visible = true;
+            grbDangKy.Visible = false;
+        }
+
+        private void llbDangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            grbDangKy.Visible = true;
+            grbDangNhap.Visible = false;
         }
     }
 }
