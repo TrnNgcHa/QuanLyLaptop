@@ -31,7 +31,7 @@ namespace QuanLyLaptop
                 {
                     if (txtAccountName.Text == accounts[i].AccountName && txtPassword.Text == accounts[i].Password.ToString())
                     {
-                        
+
                         MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         daDangNhap = true;
                         tenDN = txtAccountName.Text;
@@ -53,7 +53,7 @@ namespace QuanLyLaptop
 
         private void Sign_in_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
+
         }
     }
 }

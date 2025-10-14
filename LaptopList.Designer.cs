@@ -61,7 +61,7 @@
             btnSign_up = new Button();
             btnSign_in = new Button();
             label6 = new Label();
-            label7 = new Label();
+            lblSoDu = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -361,7 +361,7 @@
             // 
             panel2.BackColor = Color.FloralWhite;
             panel2.Controls.Add(label6);
-            panel2.Controls.Add(label7);
+            panel2.Controls.Add(lblSoDu);
             panel2.Controls.Add(lblTaiKhoan);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(btnSign_up);
@@ -416,12 +416,12 @@
             label6.TabIndex = 3;
             label6.Text = "Số dư:";
             // 
-            // label7
+            // lblSoDu
             // 
-            label7.Location = new Point(249, 18);
-            label7.Name = "label7";
-            label7.Size = new Size(134, 25);
-            label7.TabIndex = 2;
+            lblSoDu.Location = new Point(249, 18);
+            lblSoDu.Name = "lblSoDu";
+            lblSoDu.Size = new Size(134, 25);
+            lblSoDu.TabIndex = 2;
             // 
             // LaptopList
             // 
@@ -480,6 +480,6 @@
         private Label lblTaiKhoan;
         private Label label5;
         private Label label6;
-        private Label label7;
+        private Label lblSoDu;
     }
 }
