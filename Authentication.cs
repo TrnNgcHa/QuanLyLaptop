@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyLaptop.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyLaptop.Models;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace QuanLyLaptop
 {
@@ -55,17 +56,17 @@ namespace QuanLyLaptop
                 return;
                 
             }
+            if (!Functions.IsValidPhone(txtSDT.Text))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSDT.Focus();
+                return;
+
+            }
             if (!Functions.IsValidEmail(txtEmail.Text))
             {
                 MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtEmail.Focus();
-                return;
-                
-            }
-            if(!Functions.IsValidPhone(txtSDT.Text))
-            {
-                MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtSDT.Focus();
                 return;
                 
             }
@@ -85,8 +86,26 @@ namespace QuanLyLaptop
                     return;
                 }
             }
+            string gender = ckbNam.Checked ? "Nam" : "Nữ";
+
+            var newAccount = new Account(Functions.GetFirstName(txtHoTen.Text), Functions.GetLastName(txtHoTen.Text), gender, DateOnly.FromDateTime(dtpNgaySinh.Value), txtSDT.Text, cmbTinhThanh.Text, txtEmail.Text, txtCCCD.Text);
+            do
+            {
+                newAccount.AccountID = Random.Shared.Next(15001, 20000);
+            }
+            while (MainMenu.Accounts.Any(a => a.AccountID == newAccount.AccountID));
+            do
+            {
+                newAccount.PersonID = Random.Shared.Next(10001, 15000);
+            }
+            while (MainMenu.Accounts.Any(a => a.PersonID == newAccount.PersonID));
+            newAccount.SetAccount(txtTenDK.Text, Convert.ToInt32(txtMatKhauDK.Text));
 
             MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            MainMenu.Accounts.Add(newAccount);
+            
+
             var form = new LaptopList();
             form.ShowDialog();
             this.Close();

@@ -49,11 +49,11 @@
             // 
             dgvQuanLyTaiKhoan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvQuanLyTaiKhoan.Columns.AddRange(new DataGridViewColumn[] { MaNguoi, MaTaiKhoan, TenTaiKhoan, MatKhau, SoDu, HoNguoi, TenNguoi, GioiTinh, NgaySinh, ThanhPho, SoDienThoai, Email, CCCD });
-            dgvQuanLyTaiKhoan.Dock = DockStyle.Bottom;
-            dgvQuanLyTaiKhoan.Location = new Point(0, 88);
+            dgvQuanLyTaiKhoan.Dock = DockStyle.Fill;
+            dgvQuanLyTaiKhoan.Location = new Point(0, 0);
             dgvQuanLyTaiKhoan.Name = "dgvQuanLyTaiKhoan";
             dgvQuanLyTaiKhoan.RowHeadersWidth = 51;
-            dgvQuanLyTaiKhoan.Size = new Size(800, 362);
+            dgvQuanLyTaiKhoan.Size = new Size(800, 450);
             dgvQuanLyTaiKhoan.TabIndex = 0;
             // 
             // MaNguoi
@@ -180,7 +180,9 @@
             ClientSize = new Size(800, 450);
             Controls.Add(dgvQuanLyTaiKhoan);
             Name = "AccountManagement";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AccountManagement";
+            WindowState = FormWindowState.Maximized;
             Load += AccountManagement_Load;
             ((System.ComponentModel.ISupportInitialize)dgvQuanLyTaiKhoan).EndInit();
             ResumeLayout(false);
