@@ -29,12 +29,12 @@ namespace QuanLyLaptop
 
         private void btnMainMenu_Click(object sender, EventArgs e)
         {
-            Administration.ActiveForm.Close();
+            this.Close();
         }
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
-            var form = new QuanLyLaptop();
+            var form = new LaptopManagement();
             form.ShowDialog();
         }
 

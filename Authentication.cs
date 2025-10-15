@@ -55,14 +55,30 @@ namespace QuanLyLaptop
                     MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                else
-                {
-                    MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    var form = new LaptopList();
-                    form.ShowDialog();
-                    this.Close();
-                }
             }
+            if(!Functions.IsValidUsername(txtTenDK.Text))
+            {
+                MessageBox.Show("Tên đăng nhập không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtTenDK.Focus();
+                return;
+            }
+            if (!Functions.IsValidEmail(txtEmail.Text))
+            {
+                MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtEmail.Focus();
+                return;
+            }
+            if(!Functions.IsValidPhone(txtSDT.Text))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSDT.Focus();
+                return;
+            }
+
+            MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            var form = new LaptopList();
+            form.ShowDialog();
+            this.Close();
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
@@ -71,13 +87,15 @@ namespace QuanLyLaptop
             {
                 if (a.AccountName == txtTenDN.Text && a.Password.ToString() == txtMatKhauDN.Text)
                 {
-
+                    MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     var form = new LaptopList();
                     form.ShowDialog();
                     this.Close();
                     return;
                 }
             }
+            MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            return;
         }
 
         private void llbDangNhap_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

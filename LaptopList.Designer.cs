@@ -52,6 +52,7 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            label5 = new Label();
             groupBox1 = new GroupBox();
             btnReview = new Button();
             btnPurchase = new Button();
@@ -198,6 +199,7 @@
             panel1.BackColor = Color.PapayaWhip;
             panel1.Controls.Add(lblTenLaptop);
             panel1.Controls.Add(groupBox2);
+            panel1.Controls.Add(label5);
             panel1.Controls.Add(groupBox1);
             panel1.Location = new Point(1283, 63);
             panel1.Name = "panel1";
@@ -207,13 +209,14 @@
             // lblTenLaptop
             // 
             lblTenLaptop.Anchor = AnchorStyles.Left;
+            lblTenLaptop.AutoSize = true;
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
-            lblTenLaptop.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTenLaptop.Location = new Point(329, 150);
+            lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTenLaptop.Location = new Point(103, 28);
             lblTenLaptop.Name = "lblTenLaptop";
-            lblTenLaptop.Size = new Size(209, 31);
+            lblTenLaptop.Size = new Size(2, 30);
             lblTenLaptop.TabIndex = 2;
-            lblTenLaptop.TextAlign = ContentAlignment.MiddleRight;
+            lblTenLaptop.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // groupBox2
             // 
@@ -227,7 +230,7 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(label1);
-            groupBox2.Location = new Point(3, 158);
+            groupBox2.Location = new Point(3, 148);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(541, 234);
             groupBox2.TabIndex = 1;
@@ -314,12 +317,22 @@
             label1.TabIndex = 0;
             label1.Text = "CPU:";
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(9, 29);
+            label5.Name = "label5";
+            label5.Size = new Size(78, 28);
+            label5.TabIndex = 0;
+            label5.Text = "Laptop:";
+            // 
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
-            groupBox1.Location = new Point(3, 28);
+            groupBox1.Location = new Point(3, 398);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(372, 120);
             groupBox1.TabIndex = 0;
@@ -373,6 +386,7 @@
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
@@ -409,5 +423,6 @@
         private DataGridViewTextBoxColumn GiaTien;
         private Label lblTenLaptop;
         private Panel panel2;
+        private Label label5;
     }
 }
