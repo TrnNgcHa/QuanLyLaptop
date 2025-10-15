@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyLaptop
 {
-    public partial class Verification : Form
+    public partial class AdminVerification : Form
     {
-        public Verification()
+        public AdminVerification()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace QuanLyLaptop
 {
-    partial class Verification
+    partial class AdminVerification
     {
         /// <summary>
         /// Required designer variable.
