@@ -19,7 +19,7 @@ namespace QuanLyLaptop
             InitializeComponent();
         }
 
-        
+        public static Account CurrentAccount = new Account();
         private void Authentication_Load(object sender, EventArgs e)
         {
             
@@ -104,7 +104,7 @@ namespace QuanLyLaptop
             MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
             MainMenu.Accounts.Add(newAccount);
-            
+            CurrentAccount.CopyFrom(newAccount);
 
             var form = new LaptopList();
             form.ShowDialog();
@@ -113,11 +113,13 @@ namespace QuanLyLaptop
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            foreach (Account a in MainMenu.Accounts)
+            foreach (Account acc in MainMenu.Accounts)
             {
-                if (a.AccountName == txtTenDN.Text && a.Password.ToString() == txtMatKhauDN.Text)
+                if (acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text))
                 {
                     MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    CurrentAccount.CopyFrom(acc);
+
                     var form = new LaptopList();
                     form.ShowDialog();
                     this.Close();

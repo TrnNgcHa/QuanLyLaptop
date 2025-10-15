@@ -25,7 +25,9 @@ namespace QuanLyLaptop
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
-
+            lblTenNguoiDung.Text = Authentication.CurrentAccount.FirstName + " " + Authentication.CurrentAccount.LastName;
+            lblTenTaiKhoan.Text = Authentication.CurrentAccount.AccountName;
+            lblSoDu.Text = string.Format("{0:#,##0 VND}", Authentication.CurrentAccount.Balance);
 
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";

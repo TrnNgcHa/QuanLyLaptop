@@ -57,11 +57,18 @@
             btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
+            lblTenTaiKhoan = new Label();
+            lblTenNguoiDung = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label8 = new Label();
+            lblSoDu = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -366,11 +373,68 @@
             // panel2
             // 
             panel2.BackColor = Color.FloralWhite;
+            panel2.Controls.Add(lblSoDu);
+            panel2.Controls.Add(lblTenTaiKhoan);
+            panel2.Controls.Add(lblTenNguoiDung);
+            panel2.Controls.Add(label8);
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(label6);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(1283, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(634, 54);
             panel2.TabIndex = 2;
+            // 
+            // lblTenTaiKhoan
+            // 
+            lblTenTaiKhoan.AutoSize = true;
+            lblTenTaiKhoan.Location = new Point(312, 17);
+            lblTenTaiKhoan.Name = "lblTenTaiKhoan";
+            lblTenTaiKhoan.Size = new Size(0, 20);
+            lblTenTaiKhoan.TabIndex = 2;
+            // 
+            // lblTenNguoiDung
+            // 
+            lblTenNguoiDung.AutoSize = true;
+            lblTenNguoiDung.Location = new Point(107, 17);
+            lblTenNguoiDung.Name = "lblTenNguoiDung";
+            lblTenNguoiDung.Size = new Size(0, 20);
+            lblTenNguoiDung.TabIndex = 1;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(232, 17);
+            label7.Name = "label7";
+            label7.Size = new Size(74, 20);
+            label7.TabIndex = 0;
+            label7.Text = "Tài khoản:";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(9, 17);
+            label6.Name = "label6";
+            label6.Size = new Size(92, 20);
+            label6.TabIndex = 0;
+            label6.Text = "Người dùng:";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(411, 17);
+            label8.Name = "label8";
+            label8.Size = new Size(51, 20);
+            label8.TabIndex = 0;
+            label8.Text = "Số dư:";
+            // 
+            // lblSoDu
+            // 
+            lblSoDu.AutoSize = true;
+            lblSoDu.Location = new Point(468, 17);
+            lblSoDu.Name = "lblSoDu";
+            lblSoDu.Size = new Size(0, 20);
+            lblSoDu.TabIndex = 3;
             // 
             // LaptopList
             // 
@@ -390,6 +454,8 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -424,5 +490,11 @@
         private Label lblTenLaptop;
         private Panel panel2;
         private Label label5;
+        private Label label7;
+        private Label label6;
+        private Label lblTenNguoiDung;
+        private Label lblTenTaiKhoan;
+        private Label label8;
+        private Label lblSoDu;
     }
 }
