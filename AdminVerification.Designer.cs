@@ -35,11 +35,13 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            btnThoat = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnConfirm);
             groupBox1.Controls.Add(txtPassword);
             groupBox1.Controls.Add(txtName);
@@ -54,7 +56,7 @@
             // 
             // btnConfirm
             // 
-            btnConfirm.Location = new Point(78, 198);
+            btnConfirm.Location = new Point(130, 198);
             btnConfirm.Name = "btnConfirm";
             btnConfirm.Size = new Size(167, 42);
             btnConfirm.TabIndex = 3;
@@ -105,13 +107,23 @@
             label1.Text = "XÁC NHẬN\r\nQUYỀN QUẢN TRỊ VIÊN";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // Verification
+            // btnThoat
+            // 
+            btnThoat.Location = new Point(19, 198);
+            btnThoat.Name = "btnThoat";
+            btnThoat.Size = new Size(94, 42);
+            btnThoat.TabIndex = 4;
+            btnThoat.Text = "Thoát";
+            btnThoat.UseVisualStyleBackColor = true;
+            btnThoat.Click += btnThoat_Click;
+            // 
+            // AdminVerification
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(348, 279);
             Controls.Add(groupBox1);
-            Name = "Verification";
+            Name = "AdminVerification";
             StartPosition = FormStartPosition.CenterScreen;
             FormClosing += Verification_FormClosing;
             groupBox1.ResumeLayout(false);
@@ -128,5 +140,6 @@
         private Label label2;
         private Label label1;
         private Button btnConfirm;
+        private Button btnThoat;
     }
 }

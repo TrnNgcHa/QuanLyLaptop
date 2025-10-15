@@ -19,6 +19,25 @@ namespace QuanLyLaptop.Models
             AccountName = "";
         }
 
+        public Account(string lastname, string firstname, string gender, DateOnly dob, string phone, string city, string email, string idcard)
+        {
+            AccountID = Balance = Password = 0;
+            AccountName = "";
+            this.LastName = lastname;
+            this.FirstName = firstname;
+            this.Gender = gender;
+            this.DOB = dob;
+            this.PhoneNumber = phone;
+            this.City = city;
+            this.Email = email;
+            this.IdCard = idcard;
+        }
+        public void SetAccount(string name, int password)
+        {
+            this.AccountName = name;
+            this.Password = password;
+        }
+
         public Account(string csvLine)
         {
             string[] values = csvLine.Split(';');

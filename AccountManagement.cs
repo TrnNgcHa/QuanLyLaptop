@@ -14,7 +14,6 @@ namespace QuanLyLaptop
     public partial class AccountManagement : Form
     {
         
-        List<Account> accounts = new List<Account>();
         public AccountManagement()
         {
             InitializeComponent();
@@ -24,10 +23,7 @@ namespace QuanLyLaptop
 
         private void AccountManagement_Load(object sender, EventArgs e)
         {
-            Account acc = new Account();
-            accounts = acc.GetList();
-            
-            dgvQuanLyTaiKhoan.DataSource = accounts;
+            dgvQuanLyTaiKhoan.DataSource = MainMenu.Accounts;
         }
     }
 }

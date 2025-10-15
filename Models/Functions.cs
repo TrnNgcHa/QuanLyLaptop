@@ -33,7 +33,7 @@ namespace QuanLyLaptop.Models
                 }
             }
 
-            return true;
+            return true && words.Count() > 1;
         }
 
         public static bool IsValidEmail(string email)
@@ -57,6 +57,31 @@ namespace QuanLyLaptop.Models
         public static bool IsValidIdCard(string idCard)
         {
             return idCard.All(char.IsDigit) && idCard != "";
+        }
+
+        public static string GetFirstName(string fullName)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+                return "";
+
+            fullName = System.Text.RegularExpressions.Regex.Replace(fullName.Trim(), @"\s+", " ");
+            var parts = fullName.Split(' ');
+
+            return parts.Last();
+        }
+
+        public static string GetLastName(string fullName)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+                return "";
+
+            fullName = System.Text.RegularExpressions.Regex.Replace(fullName.Trim(), @"\s+", " ");
+            var parts = fullName.Split(' ');
+
+            if (parts.Length <= 1)
+                return "";
+
+            return string.Join(" ", parts.Take(parts.Length - 1));
         }
     }
 }

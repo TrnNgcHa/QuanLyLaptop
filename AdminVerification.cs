@@ -40,5 +40,14 @@ namespace QuanLyLaptop
                 form.ShowDialog();
             }
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Bạn có chắc muốn đóng cửa sổ không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }
