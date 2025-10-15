@@ -52,10 +52,9 @@ namespace QuanLyLaptop
                 lblCPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["CPU"].Value.ToString();
                 lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
-                lblHardwareInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
+                lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
             }
         }
-
 
         private void btnReview_Click(object sender, EventArgs e)
         {
@@ -65,8 +64,16 @@ namespace QuanLyLaptop
 
         private void btnPurchase_Click(object sender, EventArgs e)
         {
-            var form = new FrmMuaLaptop();
+            Laptop SelectedItem = dgvDanhSachLaptop.CurrentRow?.DataBoundItem as Laptop;
+            var form = new Receipt(SelectedItem);
+            form.TopMost = true;
             form.Show();
+        }
+
+        private void lblTenLaptop_TextChanged(object sender, EventArgs e)
+        {
+            Laptop SelectedItem = dgvDanhSachLaptop.CurrentRow?.DataBoundItem as Laptop;
+
         }
     }
 }

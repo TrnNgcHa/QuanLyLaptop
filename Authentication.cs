@@ -117,7 +117,6 @@ namespace QuanLyLaptop
             {
                 if (acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text))
                 {
-                    MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     CurrentAccount.CopyFrom(acc);
 
                     var form = new LaptopList();

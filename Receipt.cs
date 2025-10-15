@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyLaptop.Models;
 
 namespace QuanLyLaptop
 {
@@ -16,41 +17,26 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
         }
+        Laptop SelectedLaptop = new Laptop();
 
-
-
-        private void UpdateThanhTien()
+        public Receipt(Laptop SelectedItem) : this()
         {
-            if (decimal.TryParse(txtGiaTien.Text, out decimal gia))
-            {
-                decimal sl = nudSoLuong.Value;
-                txtThanhTien.Text = (gia * sl).ToString("N0") + " VND";
-            }
-            else
-            {
-                txtThanhTien.Text = "0 VND";
-            }
+            SelectedLaptop = SelectedItem;
         }
 
-        private void btnLuu_Click(object sender, EventArgs e)
+        private void Purchase_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Hóa đơn đã được lưu!", "Thông báo");
-            this.Close();
+            lblTenLaptop.Text = SelectedLaptop.LaptopName;
+            lblGiaLaptop.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
+            lblTenKhachHang.Text = Authentication.CurrentAccount.FirstName + " " + Authentication.CurrentAccount.LastName;
+            lblTenTaiKhoan.Text = Authentication.CurrentAccount.AccountName;
+
+            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
         }
 
-        private void btnIn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Chức năng in (demo).", "In hóa đơn");
-        }
-
-        private void btnThoat_Click(object sender, EventArgs e)
+        private void btnHuy_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void nudSoLuong_ValueChanged(object sender, EventArgs e)
-        {
-            UpdateThanhTien();
         }
     }
 }

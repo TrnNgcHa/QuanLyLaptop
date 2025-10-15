@@ -45,7 +45,7 @@
             lblTenLaptop = new Label();
             groupBox2 = new GroupBox();
             lblRAMInfo = new Label();
-            lblHardwareInfo = new Label();
+            lblStorageInfo = new Label();
             lblGPUInfo = new Label();
             lblCPUInfo = new Label();
             label4 = new Label();
@@ -57,12 +57,12 @@
             btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
+            lblSoDu = new Label();
             lblTenTaiKhoan = new Label();
             lblTenNguoiDung = new Label();
+            label8 = new Label();
             label7 = new Label();
             label6 = new Label();
-            label8 = new Label();
-            lblSoDu = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -74,17 +74,18 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 1280F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 640F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             tableLayoutPanel1.Controls.Add(dgvDanhSachLaptop, 0, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 60F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1899, 1033);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
+            tableLayoutPanel1.Size = new Size(1103, 1055);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // dgvDanhSachLaptop
@@ -92,10 +93,10 @@
             dgvDanhSachLaptop.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDanhSachLaptop.Columns.AddRange(new DataGridViewColumn[] { STT1, MaLaptop, TenLaptop, TenHang, NgayNhap, SoTon, CPU, GPU, OCung, RAM, GiaTien });
             dgvDanhSachLaptop.Dock = DockStyle.Fill;
-            dgvDanhSachLaptop.Location = new Point(3, 63);
+            dgvDanhSachLaptop.Location = new Point(3, 108);
             dgvDanhSachLaptop.Name = "dgvDanhSachLaptop";
             dgvDanhSachLaptop.RowHeadersWidth = 51;
-            dgvDanhSachLaptop.Size = new Size(1274, 967);
+            dgvDanhSachLaptop.Size = new Size(655, 944);
             dgvDanhSachLaptop.TabIndex = 0;
             dgvDanhSachLaptop.CellEnter += dgvDanhSachLaptop_CellEnter;
             dgvDanhSachLaptop.DataBindingComplete += dgvDanhSachLaptop_DataBindingComplete;
@@ -115,7 +116,7 @@
             MaLaptop.HeaderText = "Mã Laptop";
             MaLaptop.MinimumWidth = 6;
             MaLaptop.Name = "MaLaptop";
-            MaLaptop.Width = 110;
+            MaLaptop.Width = 101;
             // 
             // TenLaptop
             // 
@@ -132,7 +133,7 @@
             TenHang.HeaderText = "Tên Hãng";
             TenHang.MinimumWidth = 6;
             TenHang.Name = "TenHang";
-            TenHang.Width = 101;
+            TenHang.Width = 93;
             // 
             // NgayNhap
             // 
@@ -141,7 +142,7 @@
             NgayNhap.HeaderText = "Ngày Nhập";
             NgayNhap.MinimumWidth = 6;
             NgayNhap.Name = "NgayNhap";
-            NgayNhap.Width = 113;
+            NgayNhap.Width = 104;
             // 
             // SoTon
             // 
@@ -150,7 +151,7 @@
             SoTon.HeaderText = "Số Tồn";
             SoTon.MinimumWidth = 6;
             SoTon.Name = "SoTon";
-            SoTon.Width = 84;
+            SoTon.Width = 78;
             // 
             // CPU
             // 
@@ -175,7 +176,7 @@
             // OCung
             // 
             OCung.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            OCung.DataPropertyName = "Hardware";
+            OCung.DataPropertyName = "Storage";
             OCung.HeaderText = "Ổ Cứng";
             OCung.MinimumWidth = 6;
             OCung.Name = "OCung";
@@ -202,76 +203,72 @@
             // 
             // panel1
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = Color.PapayaWhip;
             panel1.Controls.Add(lblTenLaptop);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(groupBox1);
-            panel1.Location = new Point(1283, 63);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(664, 108);
             panel1.Name = "panel1";
-            panel1.Size = new Size(634, 967);
+            panel1.Size = new Size(436, 944);
             panel1.TabIndex = 1;
             // 
             // lblTenLaptop
             // 
-            lblTenLaptop.Anchor = AnchorStyles.Left;
             lblTenLaptop.AutoSize = true;
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
             lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTenLaptop.Location = new Point(103, 28);
+            lblTenLaptop.Location = new Point(103, 7);
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(2, 30);
             lblTenLaptop.TabIndex = 2;
             lblTenLaptop.TextAlign = ContentAlignment.MiddleLeft;
+            lblTenLaptop.TextChanged += lblTenLaptop_TextChanged;
             // 
             // groupBox2
             // 
-            groupBox2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             groupBox2.BackColor = Color.Cornsilk;
             groupBox2.Controls.Add(lblRAMInfo);
-            groupBox2.Controls.Add(lblHardwareInfo);
+            groupBox2.Controls.Add(lblStorageInfo);
             groupBox2.Controls.Add(lblGPUInfo);
             groupBox2.Controls.Add(lblCPUInfo);
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(label1);
-            groupBox2.Location = new Point(3, 148);
+            groupBox2.Location = new Point(9, 49);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(541, 234);
+            groupBox2.Size = new Size(397, 234);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chi Tiết Sản Phẩm";
             // 
             // lblRAMInfo
             // 
-            lblRAMInfo.Anchor = AnchorStyles.None;
             lblRAMInfo.BorderStyle = BorderStyle.Fixed3D;
             lblRAMInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblRAMInfo.Location = new Point(74, 192);
+            lblRAMInfo.Location = new Point(106, 192);
             lblRAMInfo.Name = "lblRAMInfo";
             lblRAMInfo.Size = new Size(257, 25);
             lblRAMInfo.TabIndex = 1;
             lblRAMInfo.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // lblHardwareInfo
+            // lblStorageInfo
             // 
-            lblHardwareInfo.Anchor = AnchorStyles.None;
-            lblHardwareInfo.BorderStyle = BorderStyle.Fixed3D;
-            lblHardwareInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblHardwareInfo.Location = new Point(74, 145);
-            lblHardwareInfo.Name = "lblHardwareInfo";
-            lblHardwareInfo.Size = new Size(257, 25);
-            lblHardwareInfo.TabIndex = 1;
-            lblHardwareInfo.TextAlign = ContentAlignment.MiddleRight;
+            lblStorageInfo.BorderStyle = BorderStyle.Fixed3D;
+            lblStorageInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblStorageInfo.Location = new Point(106, 145);
+            lblStorageInfo.Name = "lblStorageInfo";
+            lblStorageInfo.Size = new Size(257, 25);
+            lblStorageInfo.TabIndex = 1;
+            lblStorageInfo.TextAlign = ContentAlignment.MiddleRight;
             // 
             // lblGPUInfo
             // 
-            lblGPUInfo.Anchor = AnchorStyles.None;
             lblGPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblGPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblGPUInfo.Location = new Point(74, 106);
+            lblGPUInfo.Location = new Point(106, 106);
             lblGPUInfo.Name = "lblGPUInfo";
             lblGPUInfo.Size = new Size(257, 25);
             lblGPUInfo.TabIndex = 1;
@@ -279,10 +276,9 @@
             // 
             // lblCPUInfo
             // 
-            lblCPUInfo.Anchor = AnchorStyles.None;
             lblCPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblCPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblCPUInfo.Location = new Point(74, 60);
+            lblCPUInfo.Location = new Point(106, 60);
             lblCPUInfo.Name = "lblCPUInfo";
             lblCPUInfo.Size = new Size(257, 25);
             lblCPUInfo.TabIndex = 1;
@@ -328,7 +324,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(9, 29);
+            label5.Location = new Point(9, 8);
             label5.Name = "label5";
             label5.Size = new Size(78, 28);
             label5.TabIndex = 0;
@@ -336,21 +332,19 @@
             // 
             // groupBox1
             // 
-            groupBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
-            groupBox1.Location = new Point(3, 398);
+            groupBox1.Location = new Point(9, 301);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(372, 120);
+            groupBox1.Size = new Size(397, 120);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Chức Năng";
             // 
             // btnReview
             // 
-            btnReview.Anchor = AnchorStyles.None;
             btnReview.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnReview.Location = new Point(189, 40);
+            btnReview.Location = new Point(201, 40);
             btnReview.Name = "btnReview";
             btnReview.Size = new Size(120, 40);
             btnReview.TabIndex = 0;
@@ -360,9 +354,8 @@
             // 
             // btnPurchase
             // 
-            btnPurchase.Anchor = AnchorStyles.None;
             btnPurchase.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPurchase.Location = new Point(63, 40);
+            btnPurchase.Location = new Point(75, 40);
             btnPurchase.Name = "btnPurchase";
             btnPurchase.Size = new Size(120, 40);
             btnPurchase.TabIndex = 0;
@@ -380,10 +373,18 @@
             panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(1283, 3);
+            panel2.Location = new Point(664, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(634, 54);
+            panel2.Size = new Size(436, 99);
             panel2.TabIndex = 2;
+            // 
+            // lblSoDu
+            // 
+            lblSoDu.AutoSize = true;
+            lblSoDu.Location = new Point(312, 53);
+            lblSoDu.Name = "lblSoDu";
+            lblSoDu.Size = new Size(0, 20);
+            lblSoDu.TabIndex = 3;
             // 
             // lblTenTaiKhoan
             // 
@@ -400,6 +401,15 @@
             lblTenNguoiDung.Name = "lblTenNguoiDung";
             lblTenNguoiDung.Size = new Size(0, 20);
             lblTenNguoiDung.TabIndex = 1;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(232, 53);
+            label8.Name = "label8";
+            label8.Size = new Size(51, 20);
+            label8.TabIndex = 0;
+            label8.Text = "Số dư:";
             // 
             // label7
             // 
@@ -419,28 +429,10 @@
             label6.TabIndex = 0;
             label6.Text = "Người dùng:";
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(411, 17);
-            label8.Name = "label8";
-            label8.Size = new Size(51, 20);
-            label8.TabIndex = 0;
-            label8.Text = "Số dư:";
-            // 
-            // lblSoDu
-            // 
-            lblSoDu.AutoSize = true;
-            lblSoDu.Location = new Point(468, 17);
-            lblSoDu.Name = "lblSoDu";
-            lblSoDu.Size = new Size(0, 20);
-            lblSoDu.TabIndex = 3;
-            // 
             // LaptopList
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1902, 1033);
+            AutoScaleMode = AutoScaleMode.Inherit;
+            ClientSize = new Size(1103, 1055);
             Controls.Add(tableLayoutPanel1);
             Name = "LaptopList";
             StartPosition = FormStartPosition.CenterScreen;
@@ -474,7 +466,7 @@
         private Label label2;
         private Label label1;
         private Label lblRAMInfo;
-        private Label lblHardwareInfo;
+        private Label lblStorageInfo;
         private Label lblGPUInfo;
         private DataGridViewTextBoxColumn STT1;
         private DataGridViewTextBoxColumn MaLaptop;

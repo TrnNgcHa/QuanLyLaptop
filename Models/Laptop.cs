@@ -16,14 +16,14 @@ namespace QuanLyLaptop.Models
         public string RemainAmount { get; set; }
         public string CPU { get; set; }
         public string GPU { get; set; }
-        public string Hardware { get; set; }
+        public string Storage { get; set; }
         public string RAM { get; set; }
         public int Price { get; set; }
 
         public Laptop()
         {
             LaptopID = Price = 0;
-            LaptopName = AgencyName = RemainAmount = CPU = GPU = Hardware = RAM = "";
+            LaptopName = AgencyName = RemainAmount = CPU = GPU = Storage = RAM = "";
         }
 
         public Laptop(string csvLine)
@@ -37,7 +37,7 @@ namespace QuanLyLaptop.Models
             Price = Convert.ToInt32(values[5]);
             CPU = values[6];
             GPU = values[7];
-            Hardware = values[8];
+            Storage = values[8];
             RAM = values[9];
         }
 
