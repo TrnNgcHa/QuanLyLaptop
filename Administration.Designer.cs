@@ -91,6 +91,7 @@
             btnReceipt.TabIndex = 0;
             btnReceipt.Text = "Hóa Đơn";
             btnReceipt.UseVisualStyleBackColor = true;
+            btnReceipt.Click += btnReceipt_Click;
             // 
             // btnAccount
             // 

@@ -42,6 +42,12 @@ namespace QuanLyLaptop
         {
             var form = new AccountManagement();
             form.Show();
+        }   
+
+        private void btnReceipt_Click(object sender, EventArgs e)
+        {
+            var form = new Receipt();
+            form.Show();
         }
     }
 }
