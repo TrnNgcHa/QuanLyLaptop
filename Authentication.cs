@@ -18,11 +18,10 @@ namespace QuanLyLaptop
             InitializeComponent();
         }
 
-        List<Account> accounts = new List<Account>();
+        
         private void Authentication_Load(object sender, EventArgs e)
         {
-            Account acc = new Account();
-            accounts = acc.GetList();
+            
 
             grbDangNhap.Left = (this.ClientSize.Width - grbDangNhap.Width) / 2;
             grbDangNhap.Top = (this.ClientSize.Height - grbDangNhap.Height) / 2;
@@ -48,31 +47,43 @@ namespace QuanLyLaptop
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
-            foreach (Account a in accounts)
-            {
-                if (a.AccountName == txtTenDK.Text)
-                {
-                    MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-            }
-            if(!Functions.IsValidUsername(txtTenDK.Text))
+            
+            if(!Functions.IsValidUserName(txtHoTen.Text))
             {
                 MessageBox.Show("Tên đăng nhập không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtTenDK.Focus();
                 return;
+                
             }
             if (!Functions.IsValidEmail(txtEmail.Text))
             {
                 MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtEmail.Focus();
                 return;
+                
             }
             if(!Functions.IsValidPhone(txtSDT.Text))
             {
                 MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtSDT.Focus();
                 return;
+                
+            }
+            if(!Functions.IsValidIdCard(txtCCCD.Text))
+            {
+                MessageBox.Show("Căn cước công dân không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCCCD.Focus();
+                return;
+
+            }
+
+            foreach (Account a in MainMenu.Accounts)
+            {
+                if (a.AccountName == txtTenDK.Text)
+                {
+                    MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             }
 
             MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -83,7 +94,7 @@ namespace QuanLyLaptop
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            foreach (Account a in accounts)
+            foreach (Account a in MainMenu.Accounts)
             {
                 if (a.AccountName == txtTenDN.Text && a.Password.ToString() == txtMatKhauDN.Text)
                 {

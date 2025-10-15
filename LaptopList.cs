@@ -21,13 +21,10 @@ namespace QuanLyLaptop
             InitializeComponent();
         }
 
-        List<Laptop> laptopList = new List<Laptop>();
 
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
-            Laptop lt = new Laptop();
-            laptopList = lt.GetList();
-            dgvDanhSachLaptop.DataSource = laptopList;
+            dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
 
 
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;

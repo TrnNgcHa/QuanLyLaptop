@@ -207,6 +207,8 @@
             // ckbNam
             // 
             ckbNam.AutoSize = true;
+            ckbNam.Checked = true;
+            ckbNam.CheckState = CheckState.Checked;
             ckbNam.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ckbNam.Location = new Point(130, 75);
             ckbNam.Name = "ckbNam";

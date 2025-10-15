@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyLaptop.Models
 {
-    internal class Laptop
+    public class Laptop
     {
         
         public int LaptopID { get; set; }

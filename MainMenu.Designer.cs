@@ -94,7 +94,7 @@
             btnClose.UseVisualStyleBackColor = false;
             btnClose.Click += btnClose_Click;
             // 
-            // Main
+            // MainMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -102,9 +102,10 @@
             ClientSize = new Size(452, 340);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Name = "Main";
+            Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Admin";
+            Load += MainMenu_Load;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             ResumeLayout(false);
