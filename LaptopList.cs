@@ -1,5 +1,4 @@
 ﻿using DanhGiaLaptopApp;
-using MuaLaptopApp;
 using QuanLyLaptop.Models;
 using System;
 using System.Collections.Generic;
@@ -72,7 +71,7 @@ namespace QuanLyLaptop
 
         private void lblTenLaptop_TextChanged(object sender, EventArgs e)
         {
-            Laptop SelectedItem = dgvDanhSachLaptop.CurrentRow?.DataBoundItem as Laptop;
+            
 
         }
     }

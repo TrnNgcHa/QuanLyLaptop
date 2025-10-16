@@ -19,13 +19,17 @@ namespace QuanLyLaptop
         }
         Laptop SelectedLaptop = new Laptop();
 
-        public Receipt(Laptop SelectedItem) : this()
+        public Receipt(Laptop SelectedItem)
         {
+            InitializeComponent();
             SelectedLaptop = SelectedItem;
         }
 
         private void Purchase_Load(object sender, EventArgs e)
         {
+            this.Left = 1280;
+            this.Top = 320;
+
             lblTenLaptop.Text = SelectedLaptop.LaptopName;
             lblGiaLaptop.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
             lblTenKhachHang.Text = Authentication.CurrentAccount.FirstName + " " + Authentication.CurrentAccount.LastName;

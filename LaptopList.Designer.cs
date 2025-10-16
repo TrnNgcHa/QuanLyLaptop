@@ -344,7 +344,7 @@
             // btnReview
             // 
             btnReview.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnReview.Location = new Point(201, 40);
+            btnReview.Location = new Point(132, 26);
             btnReview.Name = "btnReview";
             btnReview.Size = new Size(120, 40);
             btnReview.TabIndex = 0;
@@ -355,7 +355,7 @@
             // btnPurchase
             // 
             btnPurchase.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPurchase.Location = new Point(75, 40);
+            btnPurchase.Location = new Point(6, 26);
             btnPurchase.Name = "btnPurchase";
             btnPurchase.Size = new Size(120, 40);
             btnPurchase.TabIndex = 0;
