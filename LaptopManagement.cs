@@ -16,6 +16,7 @@ namespace QuanLyLaptop
         public LaptopManagement()
         {
             InitializeComponent();
+            LoadData();
         }
 
         Laptop CurrentItem = new Laptop();
@@ -24,6 +25,13 @@ namespace QuanLyLaptop
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
 
+        }
+
+        private void LoadData()
+        {
+            dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
+            dgvDanhSachLaptop.Refresh();
+            grbCTSP.Refresh();
         }
 
         private void dgvDanhSachLaptop_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -35,6 +43,7 @@ namespace QuanLyLaptop
                 lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
+                CurrentItem = dgvDanhSachLaptop.CurrentRow.DataBoundItem as Laptop;
             }
         }
 
@@ -48,21 +57,21 @@ namespace QuanLyLaptop
         private void btnSua_Click(object sender, EventArgs e)
         {
             var form = new CustomItem(CurrentItem);
+            CustomItem.DataChanged += () =>
+            {
+                LoadData(); // Refresh lại DataGridView khi FormA báo có thay đổi
+            };
             form.ShowDialog();
         }
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
-            if(dgvDanhSachLaptop.CurrentRow != null)
+            foreach (DataGridViewRow row in dgvDanhSachLaptop.Rows)
             {
-                lblTenLaptop.Text = dgvDanhSachLaptop.CurrentRow.Cells["TenLaptop"].Value.ToString();
-                lblCPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["CPU"].Value.ToString();
-                lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
-                lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
-                lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
-
-                CurrentItem = dgvDanhSachLaptop.CurrentRow.DataBoundItem as Laptop;
+                if (!row.IsNewRow)
+                    row.Cells["STT1"].Value = row.Index + 1;
             }
+
         }
     }
 }

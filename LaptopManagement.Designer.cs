@@ -47,7 +47,7 @@
             btnXoa = new Button();
             btnThem = new Button();
             lblTenLaptop = new Label();
-            grb = new GroupBox();
+            grbCTSP = new GroupBox();
             lblRAMInfo = new Label();
             lblStorageInfo = new Label();
             lblGPUInfo = new Label();
@@ -61,7 +61,7 @@
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
-            grb.SuspendLayout();
+            grbCTSP.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -197,7 +197,7 @@
             // 
             panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(lblTenLaptop);
-            panel1.Controls.Add(grb);
+            panel1.Controls.Add(grbCTSP);
             panel1.Controls.Add(label5);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(962, 64);
@@ -257,23 +257,23 @@
             lblTenLaptop.TabIndex = 5;
             lblTenLaptop.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // grb
+            // grbCTSP
             // 
-            grb.BackColor = Color.Cornsilk;
-            grb.Controls.Add(lblRAMInfo);
-            grb.Controls.Add(lblStorageInfo);
-            grb.Controls.Add(lblGPUInfo);
-            grb.Controls.Add(lblCPUInfo);
-            grb.Controls.Add(label4);
-            grb.Controls.Add(label3);
-            grb.Controls.Add(label2);
-            grb.Controls.Add(label1);
-            grb.Location = new Point(3, 52);
-            grb.Name = "grb";
-            grb.Size = new Size(397, 234);
-            grb.TabIndex = 4;
-            grb.TabStop = false;
-            grb.Text = "Chi Tiết Sản Phẩm";
+            grbCTSP.BackColor = Color.Cornsilk;
+            grbCTSP.Controls.Add(lblRAMInfo);
+            grbCTSP.Controls.Add(lblStorageInfo);
+            grbCTSP.Controls.Add(lblGPUInfo);
+            grbCTSP.Controls.Add(lblCPUInfo);
+            grbCTSP.Controls.Add(label4);
+            grbCTSP.Controls.Add(label3);
+            grbCTSP.Controls.Add(label2);
+            grbCTSP.Controls.Add(label1);
+            grbCTSP.Location = new Point(3, 52);
+            grbCTSP.Name = "grbCTSP";
+            grbCTSP.Size = new Size(397, 234);
+            grbCTSP.TabIndex = 4;
+            grbCTSP.TabStop = false;
+            grbCTSP.Text = "Chi Tiết Sản Phẩm";
             // 
             // lblRAMInfo
             // 
@@ -375,8 +375,8 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             groupBox1.ResumeLayout(false);
-            grb.ResumeLayout(false);
-            grb.PerformLayout();
+            grbCTSP.ResumeLayout(false);
+            grbCTSP.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -397,7 +397,7 @@
         private DataGridViewTextBoxColumn GiaTien;
         private Panel panel1;
         private Label lblTenLaptop;
-        private GroupBox grb;
+        private GroupBox grbCTSP;
         private Label lblRAMInfo;
         private Label lblStorageInfo;
         private Label lblGPUInfo;
