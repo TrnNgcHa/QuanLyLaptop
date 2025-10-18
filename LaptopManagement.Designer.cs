@@ -58,6 +58,7 @@
             label1 = new Label();
             label5 = new Label();
             panel2 = new Panel();
+            btnTimKiem = new Button();
             txtFilter = new TextBox();
             cmbLoaiTimKiem = new ComboBox();
             label6 = new Label();
@@ -370,6 +371,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(btnTimKiem);
             panel2.Controls.Add(txtFilter);
             panel2.Controls.Add(cmbLoaiTimKiem);
             panel2.Controls.Add(label6);
@@ -379,6 +381,16 @@
             panel2.Size = new Size(953, 55);
             panel2.TabIndex = 3;
             // 
+            // btnTimKiem
+            // 
+            btnTimKiem.Location = new Point(475, 13);
+            btnTimKiem.Name = "btnTimKiem";
+            btnTimKiem.Size = new Size(30, 29);
+            btnTimKiem.TabIndex = 3;
+            btnTimKiem.Text = "⌕";
+            btnTimKiem.UseVisualStyleBackColor = true;
+            btnTimKiem.Click += btnTimKiem_Click;
+            // 
             // txtFilter
             // 
             txtFilter.Location = new Point(211, 14);
@@ -386,7 +398,6 @@
             txtFilter.Size = new Size(258, 27);
             txtFilter.TabIndex = 2;
             txtFilter.TextAlign = HorizontalAlignment.Right;
-            txtFilter.TextChanged += txtFilter_TextChanged;
             // 
             // cmbLoaiTimKiem
             // 
@@ -463,5 +474,6 @@
         private Label label6;
         private ComboBox cmbLoaiTimKiem;
         private TextBox txtFilter;
+        private Button btnTimKiem;
     }
 }

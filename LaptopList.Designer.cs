@@ -63,12 +63,18 @@
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
+            panel3 = new Panel();
+            btnTimKiem = new Button();
+            txtFilter = new TextBox();
+            cmbLoaiTimKiem = new ComboBox();
+            label9 = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -79,6 +85,7 @@
             tableLayoutPanel1.Controls.Add(dgvDanhSachLaptop, 0, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
+            tableLayoutPanel1.Controls.Add(panel3, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -224,7 +231,6 @@
             lblTenLaptop.Size = new Size(2, 30);
             lblTenLaptop.TabIndex = 2;
             lblTenLaptop.TextAlign = ContentAlignment.MiddleLeft;
-            lblTenLaptop.TextChanged += lblTenLaptop_TextChanged;
             // 
             // groupBox2
             // 
@@ -429,6 +435,55 @@
             label6.TabIndex = 0;
             label6.Text = "Người dùng:";
             // 
+            // panel3
+            // 
+            panel3.Controls.Add(btnTimKiem);
+            panel3.Controls.Add(txtFilter);
+            panel3.Controls.Add(cmbLoaiTimKiem);
+            panel3.Controls.Add(label9);
+            panel3.Dock = DockStyle.Fill;
+            panel3.Location = new Point(3, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(655, 99);
+            panel3.TabIndex = 3;
+            // 
+            // btnTimKiem
+            // 
+            btnTimKiem.Location = new Point(482, 45);
+            btnTimKiem.Name = "btnTimKiem";
+            btnTimKiem.Size = new Size(30, 29);
+            btnTimKiem.TabIndex = 7;
+            btnTimKiem.Text = "⌕";
+            btnTimKiem.UseVisualStyleBackColor = true;
+            btnTimKiem.Click += btnTimKiem_Click;
+            // 
+            // txtFilter
+            // 
+            txtFilter.Location = new Point(218, 46);
+            txtFilter.Name = "txtFilter";
+            txtFilter.Size = new Size(258, 27);
+            txtFilter.TabIndex = 6;
+            txtFilter.TextAlign = HorizontalAlignment.Right;
+            // 
+            // cmbLoaiTimKiem
+            // 
+            cmbLoaiTimKiem.FormattingEnabled = true;
+            cmbLoaiTimKiem.Items.AddRange(new object[] { "Mã Laptop", "Tên Laptop", "Hãng Laptop", "CPU", "GPU", "RAM", "Ổ cứng" });
+            cmbLoaiTimKiem.Location = new Point(95, 45);
+            cmbLoaiTimKiem.Name = "cmbLoaiTimKiem";
+            cmbLoaiTimKiem.Size = new Size(117, 28);
+            cmbLoaiTimKiem.TabIndex = 5;
+            cmbLoaiTimKiem.Text = "Tên Laptop";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(16, 48);
+            label9.Name = "label9";
+            label9.Size = new Size(73, 20);
+            label9.TabIndex = 4;
+            label9.Text = "Tìm kiếm:";
+            // 
             // LaptopList
             // 
             AutoScaleMode = AutoScaleMode.Inherit;
@@ -448,6 +503,8 @@
             groupBox1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -488,5 +545,10 @@
         private Label lblTenTaiKhoan;
         private Label label8;
         private Label lblSoDu;
+        private Panel panel3;
+        private Button btnTimKiem;
+        private TextBox txtFilter;
+        private ComboBox cmbLoaiTimKiem;
+        private Label label9;
     }
 }
