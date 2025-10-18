@@ -79,7 +79,7 @@
             btnHuy.TabIndex = 6;
             btnHuy.Text = "Hủy";
             btnHuy.UseVisualStyleBackColor = true;
-            btnHuy.Click += this.btnHuy_Click;
+            btnHuy.Click += btnHuy_Click;
             // 
             // btnThanhToan
             // 
@@ -89,6 +89,7 @@
             btnThanhToan.TabIndex = 6;
             btnThanhToan.Text = "Thanh toán";
             btnThanhToan.UseVisualStyleBackColor = true;
+            btnThanhToan.Click += btnThanhToan_Click;
             // 
             // groupBox3
             // 

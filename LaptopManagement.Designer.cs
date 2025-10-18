@@ -62,6 +62,7 @@
             txtFilter = new TextBox();
             cmbLoaiTimKiem = new ComboBox();
             label6 = new Label();
+            btnThoat = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -214,12 +215,13 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnSua);
             groupBox1.Controls.Add(btnXoa);
             groupBox1.Controls.Add(btnThem);
             groupBox1.Location = new Point(3, 292);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(397, 76);
+            groupBox1.Size = new Size(397, 128);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Chức năng";
@@ -418,6 +420,16 @@
             label6.TabIndex = 0;
             label6.Text = "Tìm kiếm:";
             // 
+            // btnThoat
+            // 
+            btnThoat.Location = new Point(269, 77);
+            btnThoat.Name = "btnThoat";
+            btnThoat.Size = new Size(94, 29);
+            btnThoat.TabIndex = 0;
+            btnThoat.Text = "Thoát";
+            btnThoat.UseVisualStyleBackColor = true;
+            btnThoat.Click += btnThoat_Click;
+            // 
             // LaptopManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -475,5 +487,6 @@
         private ComboBox cmbLoaiTimKiem;
         private TextBox txtFilter;
         private Button btnTimKiem;
+        private Button btnThoat;
     }
 }

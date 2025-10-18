@@ -19,7 +19,7 @@ namespace QuanLyLaptop
             LoadData();
         }
 
-        Laptop CurrentItem = new Laptop();
+        Laptop SelectedItem = new Laptop();
 
         private void LaptopManagement_Load(object sender, EventArgs e)
         {
@@ -43,7 +43,7 @@ namespace QuanLyLaptop
                 lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
-                CurrentItem = dgvDanhSachLaptop.CurrentRow.DataBoundItem as Laptop;
+                SelectedItem = dgvDanhSachLaptop.CurrentRow.DataBoundItem as Laptop;
             }
         }
 
@@ -56,7 +56,7 @@ namespace QuanLyLaptop
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            var form = new CustomItem(CurrentItem);
+            var form = new CustomItem(SelectedItem);
             CustomItem.DataChanged += () =>
             {
                 LoadData();
@@ -79,7 +79,7 @@ namespace QuanLyLaptop
             var result = MessageBox.Show("Bạn có chắc chắn muốn xóa laptop này không?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
-                MainMenu.Laptops.Remove(CurrentItem);
+                MainMenu.Laptops.Remove(SelectedItem);
                 dgvDanhSachLaptop.CurrentCell = null;
                 lblTenLaptop.Text = lblCPUInfo.Text = lblGPUInfo.Text = lblRAMInfo.Text = lblStorageInfo.Text = "";
                 LoadData();
@@ -111,6 +111,15 @@ namespace QuanLyLaptop
 
                 }
                 dgvDanhSachLaptop.DataSource = filtered;
+            }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes) 
+            {
+                this.Close();
             }
         }
     }
