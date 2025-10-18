@@ -59,7 +59,7 @@ namespace QuanLyLaptop
             var form = new CustomItem(CurrentItem);
             CustomItem.DataChanged += () =>
             {
-                LoadData(); // Refresh lại DataGridView khi FormA báo có thay đổi
+                LoadData();
             };
             form.ShowDialog();
         }
@@ -72,6 +72,65 @@ namespace QuanLyLaptop
                     row.Cells["STT1"].Value = row.Index + 1;
             }
 
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Bạn có chắc chắn muốn xóa laptop này không?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                MainMenu.Laptops.Remove(CurrentItem);
+                dgvDanhSachLaptop.CurrentCell = null;
+                lblTenLaptop.Text = lblCPUInfo.Text = lblGPUInfo.Text = lblRAMInfo.Text = lblStorageInfo.Text = "";
+                LoadData();
+            }
+        }
+
+        private void txtFilter_TextChanged(object sender, EventArgs e)
+        {
+            string filterText = txtFilter.Text.ToLower();
+            if (string.IsNullOrEmpty(filterText))
+            {
+                dgvDanhSachLaptop.DataSource = MainMenu.Laptops; // danh sách thời điểm frmStudentView_Load
+            }
+            else
+            {
+                List<Laptop> filtered = new List<Laptop>();
+                switch (cmbLoaiTimKiem.Text)
+                {
+                    case "Mã Laptop":
+                            filtered = MainMenu.Laptops.Where(s => s.LaptopID.ToString().ToLower().Contains(filterText)).ToList();
+                            break;
+                        
+                    case "Tên Laptop":
+                            filtered = MainMenu.Laptops.Where(s => s.LaptopName.ToLower().Contains(filterText)).ToList();
+                            break;
+                    case "Hãng Laptop":
+                            filtered = MainMenu.Laptops.Where(s => s.AgencyName.ToLower().Contains(filterText)).ToList();
+                            break;
+                        
+                }
+                dgvDanhSachLaptop.DataSource = filtered;
+            }
+                
+            //if (string.IsNullOrEmpty(filterText))
+            //{
+            //    dgvDanhSachLaptop.DataSource = MainMenu.Laptops; // danh sách thời điểm frmStudentView_Load
+            //}
+            //else
+            //{
+            //    var filtered = MainMenu.Laptops.Where(s =>
+            //        s.LaptopID.ToString().ToLower().Contains(filterText) ||
+            //        s.LaptopName.ToLower().Contains(filterText) ||
+            //        s.CPU.ToLower().Contains(filterText) ||
+            //        s.GPU.ToLower().Contains(filterText) ||
+            //        s.RAM.ToLower().Contains(filterText) ||
+            //        s.Storage.ToLower().Contains(filterText)
+            //    ).ToList();
+
+            //    dgvDanhSachLaptop.DataSource = filtered;
+            //}
+            //dgvDanhSachLaptop.Refresh();
         }
     }
 }

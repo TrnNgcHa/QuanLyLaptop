@@ -57,11 +57,16 @@
             label2 = new Label();
             label1 = new Label();
             label5 = new Label();
+            panel2 = new Panel();
+            txtFilter = new TextBox();
+            cmbLoaiTimKiem = new ComboBox();
+            label6 = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
             grbCTSP.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -71,6 +76,7 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
             tableLayoutPanel1.Controls.Add(dgvDanhSachLaptop, 0, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 1);
+            tableLayoutPanel1.Controls.Add(panel2, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -235,6 +241,7 @@
             btnXoa.TabIndex = 0;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnThem
             // 
@@ -361,6 +368,45 @@
             label5.TabIndex = 3;
             label5.Text = "Laptop:";
             // 
+            // panel2
+            // 
+            panel2.Controls.Add(txtFilter);
+            panel2.Controls.Add(cmbLoaiTimKiem);
+            panel2.Controls.Add(label6);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(953, 55);
+            panel2.TabIndex = 3;
+            // 
+            // txtFilter
+            // 
+            txtFilter.Location = new Point(211, 14);
+            txtFilter.Name = "txtFilter";
+            txtFilter.Size = new Size(258, 27);
+            txtFilter.TabIndex = 2;
+            txtFilter.TextAlign = HorizontalAlignment.Right;
+            txtFilter.TextChanged += txtFilter_TextChanged;
+            // 
+            // cmbLoaiTimKiem
+            // 
+            cmbLoaiTimKiem.FormattingEnabled = true;
+            cmbLoaiTimKiem.Items.AddRange(new object[] { "Mã Laptop", "Tên Laptop", "Hãng Laptop", "CPU", "GPU", "RAM", "Ổ cứng" });
+            cmbLoaiTimKiem.Location = new Point(88, 13);
+            cmbLoaiTimKiem.Name = "cmbLoaiTimKiem";
+            cmbLoaiTimKiem.Size = new Size(117, 28);
+            cmbLoaiTimKiem.TabIndex = 1;
+            cmbLoaiTimKiem.Text = "Tên Laptop";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(9, 16);
+            label6.Name = "label6";
+            label6.Size = new Size(73, 20);
+            label6.TabIndex = 0;
+            label6.Text = "Tìm kiếm:";
+            // 
             // LaptopManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -377,6 +423,8 @@
             groupBox1.ResumeLayout(false);
             grbCTSP.ResumeLayout(false);
             grbCTSP.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -411,5 +459,9 @@
         private Button btnSua;
         private Button btnXoa;
         private Button btnThem;
+        private Panel panel2;
+        private Label label6;
+        private ComboBox cmbLoaiTimKiem;
+        private TextBox txtFilter;
     }
 }
