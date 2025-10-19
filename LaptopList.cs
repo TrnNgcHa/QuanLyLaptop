@@ -23,9 +23,9 @@ namespace QuanLyLaptop
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
-            lblTenNguoiDung.Text = Authentication.CurrentAccount.FirstName + " " + Authentication.CurrentAccount.LastName;
-            lblTenTaiKhoan.Text = Authentication.CurrentAccount.AccountName;
-            lblSoDu.Text = string.Format("{0:#,##0 VND}", Authentication.CurrentAccount.Balance);
+            lblTenNguoiDung.Text = AccountAuthentication.CurrentAccount.FirstName + " " + AccountAuthentication.CurrentAccount.LastName;
+            lblTenTaiKhoan.Text = AccountAuthentication.CurrentAccount.AccountName;
+            lblSoDu.Text = string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
 
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
@@ -40,6 +40,7 @@ namespace QuanLyLaptop
                 if (!row.IsNewRow)
                     row.Cells["STT1"].Value = row.Index + 1;
             }
+            
         }
 
         private void dgvDanhSachLaptop_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -63,15 +64,9 @@ namespace QuanLyLaptop
         private void btnPurchase_Click(object sender, EventArgs e)
         {
             Laptop SelectedItem = dgvDanhSachLaptop.CurrentRow?.DataBoundItem as Laptop;
-            var form = new Receipt(SelectedItem);
+            var form = new Purchase(SelectedItem);
             form.TopMost = true;
             form.Show();
-        }
-
-        private void lblTenLaptop_TextChanged(object sender, EventArgs e)
-        {
-
-
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)

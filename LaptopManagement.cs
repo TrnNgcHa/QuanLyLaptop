@@ -25,6 +25,9 @@ namespace QuanLyLaptop
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
 
+            dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
+
         }
 
         private void LoadData()

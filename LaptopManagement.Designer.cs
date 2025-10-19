@@ -43,6 +43,7 @@
             GiaTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             groupBox1 = new GroupBox();
+            btnThoat = new Button();
             btnSua = new Button();
             btnXoa = new Button();
             btnThem = new Button();
@@ -62,7 +63,6 @@
             txtFilter = new TextBox();
             cmbLoaiTimKiem = new ComboBox();
             label6 = new Label();
-            btnThoat = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -226,34 +226,56 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Chức năng";
             // 
+            // btnThoat
+            // 
+            btnThoat.BackColor = Color.Red;
+            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnThoat.ForeColor = Color.White;
+            btnThoat.Location = new Point(279, 77);
+            btnThoat.Name = "btnThoat";
+            btnThoat.Size = new Size(112, 45);
+            btnThoat.TabIndex = 0;
+            btnThoat.Text = "Thoát";
+            btnThoat.UseVisualStyleBackColor = false;
+            btnThoat.Click += btnThoat_Click;
+            // 
             // btnSua
             // 
-            btnSua.Location = new Point(267, 30);
+            btnSua.BackColor = SystemColors.ActiveCaption;
+            btnSua.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnSua.ForeColor = Color.White;
+            btnSua.Location = new Point(6, 73);
             btnSua.Name = "btnSua";
-            btnSua.Size = new Size(94, 29);
+            btnSua.Size = new Size(112, 45);
             btnSua.TabIndex = 0;
             btnSua.Text = "Sửa";
-            btnSua.UseVisualStyleBackColor = true;
+            btnSua.UseVisualStyleBackColor = false;
             btnSua.Click += btnSua_Click;
             // 
             // btnXoa
             // 
-            btnXoa.Location = new Point(151, 30);
+            btnXoa.BackColor = SystemColors.ActiveCaption;
+            btnXoa.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnXoa.ForeColor = Color.White;
+            btnXoa.Location = new Point(124, 26);
             btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(94, 29);
+            btnXoa.Size = new Size(112, 45);
             btnXoa.TabIndex = 0;
             btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.UseVisualStyleBackColor = false;
             btnXoa.Click += btnXoa_Click;
             // 
             // btnThem
             // 
-            btnThem.Location = new Point(35, 30);
+            btnThem.BackColor = SystemColors.ActiveCaption;
+            btnThem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnThem.ForeColor = Color.White;
+            btnThem.Location = new Point(6, 26);
             btnThem.Name = "btnThem";
-            btnThem.Size = new Size(94, 29);
+            btnThem.Size = new Size(112, 45);
             btnThem.TabIndex = 0;
             btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
+            btnThem.UseVisualStyleBackColor = false;
             btnThem.Click += btnThem_Click;
             // 
             // lblTenLaptop
@@ -419,16 +441,6 @@
             label6.Size = new Size(73, 20);
             label6.TabIndex = 0;
             label6.Text = "Tìm kiếm:";
-            // 
-            // btnThoat
-            // 
-            btnThoat.Location = new Point(269, 77);
-            btnThoat.Name = "btnThoat";
-            btnThoat.Size = new Size(94, 29);
-            btnThoat.TabIndex = 0;
-            btnThoat.Text = "Thoát";
-            btnThoat.UseVisualStyleBackColor = true;
-            btnThoat.Click += btnThoat_Click;
             // 
             // LaptopManagement
             // 

@@ -12,9 +12,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace QuanLyLaptop
 {
-    public partial class Authentication : Form
+    public partial class AccountAuthentication : Form
     {
-        public Authentication()
+        public AccountAuthentication()
         {
             InitializeComponent();
         }
@@ -22,7 +22,6 @@ namespace QuanLyLaptop
         public static Account CurrentAccount = new Account();
         private void Authentication_Load(object sender, EventArgs e)
         {
-            
 
             grbDangNhap.Left = (this.ClientSize.Width - grbDangNhap.Width) / 2;
             grbDangNhap.Top = (this.ClientSize.Height - grbDangNhap.Height) / 2;

@@ -39,9 +39,11 @@
             // 
             // groupBox1
             // 
+            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             groupBox1.Controls.Add(btnAdmin);
             groupBox1.Controls.Add(btnCustomer);
-            groupBox1.Location = new Point(42, 90);
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox1.Location = new Point(63, 90);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(181, 161);
             groupBox1.TabIndex = 0;
@@ -50,8 +52,10 @@
             // 
             // btnAdmin
             // 
-            btnAdmin.BackColor = Color.LavenderBlush;
+            btnAdmin.BackColor = Color.Blue;
             btnAdmin.Dock = DockStyle.Top;
+            btnAdmin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAdmin.ForeColor = Color.White;
             btnAdmin.Location = new Point(3, 83);
             btnAdmin.Name = "btnAdmin";
             btnAdmin.Size = new Size(175, 60);
@@ -62,8 +66,10 @@
             // 
             // btnCustomer
             // 
-            btnCustomer.BackColor = Color.LavenderBlush;
+            btnCustomer.BackColor = Color.FromArgb(0, 0, 192);
             btnCustomer.Dock = DockStyle.Top;
+            btnCustomer.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCustomer.ForeColor = Color.White;
             btnCustomer.Location = new Point(3, 23);
             btnCustomer.Name = "btnCustomer";
             btnCustomer.Size = new Size(175, 60);
@@ -74,8 +80,10 @@
             // 
             // groupBox2
             // 
+            groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             groupBox2.Controls.Add(btnClose);
-            groupBox2.Location = new Point(229, 90);
+            groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox2.Location = new Point(252, 90);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(181, 161);
             groupBox2.TabIndex = 0;
@@ -84,8 +92,10 @@
             // 
             // btnClose
             // 
-            btnClose.BackColor = Color.Linen;
+            btnClose.BackColor = Color.Red;
             btnClose.Dock = DockStyle.Top;
+            btnClose.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClose.ForeColor = Color.White;
             btnClose.Location = new Point(3, 23);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(175, 60);
@@ -98,8 +108,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Azure;
-            ClientSize = new Size(452, 340);
+            BackColor = Color.AliceBlue;
+            ClientSize = new Size(497, 358);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "MainMenu";

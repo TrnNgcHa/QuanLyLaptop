@@ -46,7 +46,7 @@ namespace QuanLyLaptop
 
         private void btnReceipt_Click(object sender, EventArgs e)
         {
-            var form = new Receipt();
+            var form = new Purchase();
             form.Show();
         }
     }

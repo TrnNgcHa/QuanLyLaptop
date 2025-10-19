@@ -11,15 +11,15 @@ using QuanLyLaptop.Models;
 
 namespace QuanLyLaptop
 {
-    public partial class Receipt : Form
+    public partial class Purchase : Form
     {
-        public Receipt()
+        public Purchase()
         {
             InitializeComponent();
         }
         Laptop SelectedLaptop = new Laptop();
 
-        public Receipt(Laptop SelectedItem)
+        public Purchase(Laptop SelectedItem)
         {
             InitializeComponent();
             SelectedLaptop = SelectedItem;
@@ -32,8 +32,8 @@ namespace QuanLyLaptop
 
             lblTenLaptop.Text = SelectedLaptop.LaptopName;
             lblGiaLaptop.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
-            lblTenKhachHang.Text = Authentication.CurrentAccount.FirstName + " " + Authentication.CurrentAccount.LastName;
-            lblTenTaiKhoan.Text = Authentication.CurrentAccount.AccountName;
+            lblTenKhachHang.Text = AccountAuthentication.CurrentAccount.FirstName + " " + AccountAuthentication.CurrentAccount.LastName;
+            lblTenTaiKhoan.Text = AccountAuthentication.CurrentAccount.AccountName;
 
             lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
         }
