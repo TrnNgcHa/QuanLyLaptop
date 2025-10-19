@@ -16,5 +16,10 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
         }
+
+        private void ReceiptManagement_Load(object sender, EventArgs e)
+        {
+            dgvQuanLyHoaDon.DataSource = MainMenu.Receipts;
+        }
     }
 }

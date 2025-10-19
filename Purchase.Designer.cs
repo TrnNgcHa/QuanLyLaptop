@@ -32,10 +32,10 @@
             btnHuy = new Button();
             btnThanhToan = new Button();
             groupBox3 = new GroupBox();
-            checkBox3 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox1 = new CheckBox();
+            ckbNuocRua = new CheckBox();
+            ckbTuiDung = new CheckBox();
+            ckbLotChuot = new CheckBox();
+            ckbUSB = new CheckBox();
             lblGiaThem = new Label();
             lblGiaLaptop = new Label();
             lblTenLaptop = new Label();
@@ -51,6 +51,7 @@
             label6 = new Label();
             label1 = new Label();
             lblThanhTien = new Label();
+            lblSoDu = new Label();
             groupBox1.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -93,10 +94,10 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(checkBox3);
-            groupBox3.Controls.Add(checkBox4);
-            groupBox3.Controls.Add(checkBox2);
-            groupBox3.Controls.Add(checkBox1);
+            groupBox3.Controls.Add(ckbNuocRua);
+            groupBox3.Controls.Add(ckbTuiDung);
+            groupBox3.Controls.Add(ckbLotChuot);
+            groupBox3.Controls.Add(ckbUSB);
             groupBox3.Controls.Add(lblGiaThem);
             groupBox3.Controls.Add(lblGiaLaptop);
             groupBox3.Controls.Add(lblTenLaptop);
@@ -108,45 +109,49 @@
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
             // 
-            // checkBox3
+            // ckbNuocRua
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(94, 123);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(126, 24);
-            checkBox3.TabIndex = 5;
-            checkBox3.Text = "Nước rửa màn";
-            checkBox3.UseVisualStyleBackColor = true;
+            ckbNuocRua.AutoSize = true;
+            ckbNuocRua.Location = new Point(94, 123);
+            ckbNuocRua.Name = "ckbNuocRua";
+            ckbNuocRua.Size = new Size(126, 24);
+            ckbNuocRua.TabIndex = 5;
+            ckbNuocRua.Text = "Nước rửa màn";
+            ckbNuocRua.UseVisualStyleBackColor = true;
+            ckbNuocRua.CheckedChanged += ckbNuocRua_CheckedChanged;
             // 
-            // checkBox4
+            // ckbTuiDung
             // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(226, 93);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(138, 24);
-            checkBox4.TabIndex = 5;
-            checkBox4.Text = "Túi đựng laptop";
-            checkBox4.UseVisualStyleBackColor = true;
+            ckbTuiDung.AutoSize = true;
+            ckbTuiDung.Location = new Point(226, 93);
+            ckbTuiDung.Name = "ckbTuiDung";
+            ckbTuiDung.Size = new Size(138, 24);
+            ckbTuiDung.TabIndex = 5;
+            ckbTuiDung.Text = "Túi đựng laptop";
+            ckbTuiDung.UseVisualStyleBackColor = true;
+            ckbTuiDung.CheckedChanged += ckbTuiDung_CheckedChanged;
             // 
-            // checkBox2
+            // ckbLotChuot
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(226, 123);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(93, 24);
-            checkBox2.TabIndex = 5;
-            checkBox2.Text = "Lót chuột";
-            checkBox2.UseVisualStyleBackColor = true;
+            ckbLotChuot.AutoSize = true;
+            ckbLotChuot.Location = new Point(226, 123);
+            ckbLotChuot.Name = "ckbLotChuot";
+            ckbLotChuot.Size = new Size(93, 24);
+            ckbLotChuot.TabIndex = 5;
+            ckbLotChuot.Text = "Lót chuột";
+            ckbLotChuot.UseVisualStyleBackColor = true;
+            ckbLotChuot.CheckedChanged += ckbLotChuot_CheckedChanged;
             // 
-            // checkBox1
+            // ckbUSB
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(94, 93);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(107, 24);
-            checkBox1.TabIndex = 5;
-            checkBox1.Text = "USB (16GB)";
-            checkBox1.UseVisualStyleBackColor = true;
+            ckbUSB.AutoSize = true;
+            ckbUSB.Location = new Point(94, 93);
+            ckbUSB.Name = "ckbUSB";
+            ckbUSB.Size = new Size(107, 24);
+            ckbUSB.TabIndex = 5;
+            ckbUSB.Text = "USB (16GB)";
+            ckbUSB.UseVisualStyleBackColor = true;
+            ckbUSB.CheckedChanged += ckbUSB_CheckedChanged;
             // 
             // lblGiaThem
             // 
@@ -282,13 +287,23 @@
             lblThanhTien.Size = new Size(223, 25);
             lblThanhTien.TabIndex = 3;
             // 
-            // Receipt
+            // lblSoDu
+            // 
+            lblSoDu.AutoSize = true;
+            lblSoDu.Location = new Point(147, 8);
+            lblSoDu.Name = "lblSoDu";
+            lblSoDu.Size = new Size(183, 20);
+            lblSoDu.TabIndex = 1;
+            lblSoDu.Text = "*Số dư của quý khách còn ";
+            // 
+            // Purchase
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(465, 572);
+            Controls.Add(lblSoDu);
             Controls.Add(groupBox1);
-            Name = "Receipt";
+            Name = "Purchase";
             Text = "Purchase";
             Load += Purchase_Load;
             groupBox1.ResumeLayout(false);
@@ -298,6 +313,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -315,15 +331,16 @@
         private Label lblNgayLapHoaDon;
         private Label lblTenKhachHang;
         private Label lblTenTaiKhoan;
-        private CheckBox checkBox3;
-        private CheckBox checkBox4;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
+        private CheckBox ckbNuocRua;
+        private CheckBox ckbTuiDung;
+        private CheckBox ckbLotChuot;
+        private CheckBox ckbUSB;
         private Label lblGiaLaptop;
         private Label label6;
         private Label lblGiaThem;
         private Label lblThanhTien;
         private Button btnHuy;
         private Button btnThanhToan;
+        private Label lblSoDu;
     }
 }

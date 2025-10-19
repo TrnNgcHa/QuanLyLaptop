@@ -17,16 +17,6 @@ namespace QuanLyLaptop
             InitializeComponent();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            var result = MessageBox.Show("Bạn có chắc muốn đóng cửa sổ không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
-            {
-                this.Close();
-                MainMenu.ActiveForm.Close();
-            }
-        }
-
         private void btnMainMenu_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -41,13 +31,13 @@ namespace QuanLyLaptop
         private void btnAccount_Click(object sender, EventArgs e)
         {
             var form = new AccountManagement();
-            form.Show();
+            form.ShowDialog();
         }   
 
         private void btnReceipt_Click(object sender, EventArgs e)
         {
-            var form = new Purchase();
-            form.Show();
+            var form = new ReceiptManagement();
+            form.ShowDialog();
         }
     }
 }

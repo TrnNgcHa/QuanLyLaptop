@@ -1,41 +1,41 @@
 ﻿Mã Laptop;Tên Laptop;Tên Hãng;Ngày Nhập;Số Tồn;Giá Tiền;CPU;GPU;Ổ Cứng;RAM
-160054;Acer Nitro 5 AN515-45;Acer;01/12/2025;11;28000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-101445;Acer Nitro 5 AN515-45-R92M;Acer;20/03/2025;14;29000000;AMD Ryzen 5 5600H;NVIDIA Geforce RTX 3050;Crucial P5 512GB;Corsair Vengeance 16GB DDR4 3200MHz
-161310;Acer Predator Helios 300 PH315-54;Acer;20/04/2025;9;34000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-171062;Acer Predator Triton 500 PT515-52;Acer;22/02/2025;6;42000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2070;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-197849;Acer Predator Triton 300 SE;Acer;15/03/2025;7;40000000;Intel Core i7-11375H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-106047;Acer Predator Helios 300 PH315-55;Acer;02/05/2025;9;34000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-190366;Acer Predator Helios 300 PH317-55;Acer;28/01/2025;8;36000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3070;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-135972;Acer Predator Helios 300;Acer;02/10/2025;10;35000000;Intel Core i7-12700H;NVIDIA Geforce RTX 3060;Western Digital Black SN850 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-108151;Acer Nitro 5 AN515-58;Acer;15/01/2025;12;32000000;Intel Core i7-12700H;NVIDIA Geforce RTX 3070;Crucial P5 Plus 1TB;Corsair Vengeance 16GB DDR5 4800MHz
-184002;Acer Nitro 5 AN515-58-50RS;Acer;25/01/2025;13;31000000;Intel Core i5-12500H;NVIDIA Geforce RTX 3050;Crucial P5 Plus 512GB;Corsair Vengeance 16GB DDR5 4800MHz
-167671;Acer Nitro 5 AN515-58-50RS;Acer;22/02/2025;13;31000000;Intel Core i5-12500H;NVIDIA Geforce RTX 3050;Crucial P5 Plus 512GB;Corsair Vengeance 16GB DDR5 4800MHz
-106627;Acer Predator Triton 500 SE;Acer;25/02/2025;5;45000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080 Ti;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
-191430;Acer Swift 3 SF314-59;Acer;15/03/2025;17;20000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P2 1TB;Kingston 16GB DDR4 3200MHz
-144693;Acer Swift X;Acer;18/03/2025;18;21000000;AMD Ryzen 7 5800U;NVIDIA Geforce RTX 3050 Ti;Crucial P2 1TB;Kingston 16GB DDR4 3200MHz
-133677;Acer Spin 5;Acer;20/02/2025;8;22000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 3200MHz
-176524;Acer Swift 5 SF514-55T;Acer;04/12/2025;10;24000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
-148168;Acer Swift 5;Acer;28/03/2025;15;25000000;Intel Core i7-1260P;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
-108494;Acer Swift 5 SF514-55T-50QX;Acer;18/03/2025;12;23000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 4266MHz
-130011;Acer Chromebook 315;Acer;02/05/2025;28;10000000;Intel Celeron N4000;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 2400MHz
-179111;Acer Chromebook Spin 311;Acer;15/02/2025;30;9000000;Intel Celeron N4020;Integrated Intel UHD;Kingston A2000 64GB;Kingston 4GB DDR4 2400MHz
-131896;Acer Chromebook 514;Acer;01/10/2025;25;11000000;Intel Celeron N4500;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 3200MHz
-122098;Acer Aspire 5;Acer;01/12/2025;25;15000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 256GB;Kingston 8GB DDR4 2666MHz
-115893;Acer Aspire 7 A715-75G;Acer;04/10/2025;15;21000000;Intel Core i5-9300H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 2666MHz
-161293;Acer Swift 3 SF314-43;Acer;18/04/2025;19;17000000;AMD Ryzen 5 4500U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
-168592;Acer Swift 3;Acer;03/05/2025;20;18000000;AMD Ryzen 7 5700U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
-135689;Acer Swift 3 SF314-512;Acer;01/05/2025;18;19000000;Intel Core i5-1135G7;Intel Iris Xe;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
-191816;Acer Chromebook Spin 713;Acer;04/10/2025;30;12000000;Intel Core i5-1135G7;Integrated Intel Iris Xe;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-131890;Acer Aspire 5 A515-45-R92M;Acer;04/10/2025;20;15000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
-142570;Acer Aspire 5 A515-56;Acer;20/02/2025;22;16000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-102710;Acer Aspire 7 A715-42G;Acer;03/05/2025;16;22000000;AMD Ryzen 5 4600H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-131841;Acer Aspire 7;Acer;22/01/2025;14;23000000;AMD Ryzen 5 5500U;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-104114;Acer Nitro 5;Acer;18/01/2025;14;30000000;Intel Core i5-13450HX;NVIDIA Geforce RTX 4050;Kingston KC3000 512 GB;Kingston Fury Beast 16GB DDR5 5200MHz
+160054;Acer Nitro 5 AN515-45;Acer;01/12/2023;11;28000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+101445;Acer Nitro 5 AN515-45-R92M;Acer;20/03/2023;14;29000000;AMD Ryzen 5 5600H;NVIDIA Geforce RTX 3050;Crucial P5 512GB;Corsair Vengeance 16GB DDR4 3200MHz
+161310;Acer Predator Helios 300 PH315-54;Acer;20/04/2023;9;34000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+171062;Acer Predator Triton 500 PT515-52;Acer;22/02/2023;6;42000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2070;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+197849;Acer Predator Triton 300 SE;Acer;15/03/2023;7;40000000;Intel Core i7-11375H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+106047;Acer Predator Helios 300 PH315-55;Acer;02/05/2023;9;34000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+190366;Acer Predator Helios 300 PH317-55;Acer;28/01/2023;8;36000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3070;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+135972;Acer Predator Helios 300;Acer;02/10/2023;10;35000000;Intel Core i7-12700H;NVIDIA Geforce RTX 3060;Western Digital Black SN850 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+108151;Acer Nitro 5 AN515-58;Acer;15/01/2023;12;32000000;Intel Core i7-12700H;NVIDIA Geforce RTX 3070;Crucial P5 Plus 1TB;Corsair Vengeance 16GB DDR5 4800MHz
+184002;Acer Nitro 5 AN515-58-50RS;Acer;25/01/2023;13;31000000;Intel Core i5-12500H;NVIDIA Geforce RTX 3050;Crucial P5 Plus 512GB;Corsair Vengeance 16GB DDR5 4800MHz
+167671;Acer Nitro 5 AN515-58-50RS;Acer;22/02/2023;13;31000000;Intel Core i5-12500H;NVIDIA Geforce RTX 3050;Crucial P5 Plus 512GB;Corsair Vengeance 16GB DDR5 4800MHz
+106627;Acer Predator Triton 500 SE;Acer;25/02/2023;5;45000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080 Ti;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
+191430;Acer Swift 3 SF314-59;Acer;15/03/2023;17;20000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P2 1TB;Kingston 16GB DDR4 3200MHz
+144693;Acer Swift X;Acer;18/03/2023;18;21000000;AMD Ryzen 7 5800U;NVIDIA Geforce RTX 3050 Ti;Crucial P2 1TB;Kingston 16GB DDR4 3200MHz
+133677;Acer Spin 5;Acer;20/02/2023;8;22000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 3200MHz
+176524;Acer Swift 5 SF514-55T;Acer;04/12/2023;10;24000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
+148168;Acer Swift 5;Acer;28/03/2023;15;25000000;Intel Core i7-1260P;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
+108494;Acer Swift 5 SF514-55T-50QX;Acer;18/03/2023;12;23000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 4266MHz
+130011;Acer Chromebook 315;Acer;02/05/2023;28;10000000;Intel Celeron N4000;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 2400MHz
+179111;Acer Chromebook Spin 311;Acer;15/02/2023;30;9000000;Intel Celeron N4020;Integrated Intel UHD;Kingston A2000 64GB;Kingston 4GB DDR4 2400MHz
+131896;Acer Chromebook 514;Acer;01/10/2023;25;11000000;Intel Celeron N4500;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 3200MHz
+122098;Acer Aspire 5;Acer;01/12/2023;25;15000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 256GB;Kingston 8GB DDR4 2666MHz
+115893;Acer Aspire 7 A715-75G;Acer;04/10/2023;15;21000000;Intel Core i5-9300H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 2666MHz
+161293;Acer Swift 3 SF314-43;Acer;18/04/2023;19;17000000;AMD Ryzen 5 4500U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
+168592;Acer Swift 3;Acer;03/05/2023;20;18000000;AMD Ryzen 7 5700U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
+135689;Acer Swift 3 SF314-512;Acer;01/05/2023;18;19000000;Intel Core i5-1135G7;Intel Iris Xe;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
+191816;Acer Chromebook Spin 713;Acer;04/10/2023;30;12000000;Intel Core i5-1135G7;Integrated Intel Iris Xe;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+131890;Acer Aspire 5 A515-45-R92M;Acer;04/10/2023;20;15000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
+142570;Acer Aspire 5 A515-56;Acer;20/02/2023;22;16000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+102710;Acer Aspire 7 A715-42G;Acer;03/05/2023;16;22000000;AMD Ryzen 5 4600H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+131841;Acer Aspire 7;Acer;22/01/2023;14;23000000;AMD Ryzen 5 5500U;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+104114;Acer Nitro 5;Acer;18/01/2023;14;30000000;Intel Core i5-13450HX;NVIDIA Geforce RTX 4050;Kingston KC3000 512 GB;Kingston Fury Beast 16GB DDR5 5200MHz
 172682;MacBook Pro 15-inch (2019) 256GB;Apple;21/05/2019;9;45000000;Intel Core i7-9750H;AMD Radeon Pro 555X;Apple SSD  PCIe Gen3 x4 256 GB;16GB DDR4 2400MHz
 144625;MacBook Pro 15-inch (2019) 512GB;Apple;21/05/2019;8;52000000;Intel Core i9-9880H;AMD Radeon Pro 560X;Apple SSD  PCIe Gen3 x4 512 GB;16GB DDR4 2400MHz
 197597;MacBook Pro 16-inch (2019) 512GB;Apple;15/11/2019;10;60000000;Intel Core i7-9750H;AMD Radeon Pro 5300M;Apple SSD  PCIe Gen3 x4 512 GB;16GB DDR4 2666MHz
 150959;MacBook Pro 14-inch M2 Pro (2023);Apple;25/01/2023;12;55000000;Apple M2 Pro 10-core;Apple 16-core GPU;Apple SSD   512 GB;16GB Unified LPDDR5 6400MHz
-159835;MacBook Pro Custom 21;Apple;01/01/2025;5;50000000;Apple M3 Pro 12-core;Apple 18-core GPU;Apple SSD   512 GB;16GB Unified LPDDR5 6400MHz
+159835;MacBook Pro Custom 21;Apple;01/01/2023;5;50000000;Apple M3 Pro 12-core;Apple 18-core GPU;Apple SSD   512 GB;16GB Unified LPDDR5 6400MHz
 113617;MacBook Pro 16-inch (2021;Apple;18/10/2021;10;65000000;Apple M1 Pro 10-core;Apple 16-core GPU;Apple SSD  PCIe Gen3 x4 1 TB;16GB Unified LPDDR5 6400MHz
 108558;MacBook Pro 14-inch (2021;Apple;18/10/2021;12;52000000;Apple M1 Pro 8-core;Apple 14-core GPU;Apple SSD  PCIe Gen3 x4 512 GB;16GB Unified LPDDR5 6400MHz
 198505;MacBook Pro 14-inch M3 Pro (2024);Apple;05/10/2024;12;60000000;Apple M3 Pro 12-core;Apple 18-core GPU;Apple SSD   512 GB;18GB Unified LPDDR5 6400MHz
@@ -52,94 +52,94 @@
 137629;MacBook Air M2 (2022);Apple;15/07/2022;15;29000000;Apple M2 8-core;Apple 10-core GPU;Apple SSD   256 GB;8GB Unified LPDDR5 6400MHz
 179567;MacBook Air M3 (2024);Apple;10/03/2024;18;30000000;Apple M3 8-core;Apple 10-core GPU;Apple SSD   256 GB;8GB Unified LPDDR5 6400MHz
 116597;MacBook Pro 13-inch M2 (2022);Apple;15/07/2022;14;36000000;Apple M2 8-core;Apple 10-core GPU;Apple SSD   512 GB;8GB Unified LPDDR5 6400MHz
-129705;ASUS TUF Gaming F17;Asus;20/03/2025;14;24000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3050 Ti;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-135743;ASUS TUF Gaming A15;Asus;22/02/2025;13;28000000;AMD Ryzen 7 4800H;NVIDIA Geforce RTX 3050;Crucial P5 512GB;Corsair Vengeance 16GB DDR4 3200MHz
-178081;ASUS ROG Strix G15 Advantage Edition;Asus;25/01/2025;13;38000000;AMD Ryzen 9 5900HX;AMD Radeon RX 6800M;Crucial P5 Plus 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-110762;ASUS ROG Strix G17;Asus;02/05/2025;9;35000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-102863;ASUS ROG Zephyrus G14;Asus;20/02/2025;7;40000000;AMD Ryzen 9 6900HS;AMD Radeon RX 6800S;Crucial P5 Plus 1TB;Corsair Vengeance 16GB DDR5 5200MHz
-188272;ASUS ROG Flow X13;Asus;01/12/2025;11;42000000;AMD Ryzen 9 5980HS;NVIDIA Geforce GTX 1650;Kingston KC3000 1TB;Corsair Vengeance 32GB DDR4 4266MHz
-160991;ASUS ROG Zephyrus G15 GA503;Asus;22/02/2025;6;42000000;AMD Ryzen 9 5900HS;NVIDIA Geforce RTX 3080;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR4 5200MHz
-191640;ASUS ROG Strix Scar 15 G533;Asus;20/04/2025;9;44000000;AMD Ryzen 9 5900HX;NVIDIA Geforce RTX 3080;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR4 5200MHz
-114580;ASUS ROG Zephyrus M16;Asus;15/03/2025;7;43000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR5 5200MHz
-120242;ASUS ROG Strix Scar 15;Asus;25/02/2025;5;45000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
-166395;ASUS ROG Strix Scar 17;Asus;28/01/2025;8;48000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
-137293;ASUS ZenBook 14;Asus;02/10/2025;12;25000000;Intel Core i5-1135G7;Intel Iris Xe;Crucial P2 512GB;Kingston 16GB DDR4 3200MHz
-143614;ASUS ZenBook 13;Asus;18/04/2025;19;26000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
-165991;ASUS TUF Dash F15;Asus;22/01/2025;16;23000000;Intel Core i7-11370H;NVIDIA Geforce RTX 3050 Ti;Crucial P5 512GB;Kingston 16GB DDR4 3200MHz
-192476;ASUS ZenBook 13 OLED;Asus;15/03/2025;17;27000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
-103771;ASUS ZenBook 14 OLED;Asus;01/05/2025;18;28000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
-111062;ASUS ZenBook Duo 14;Asus;04/12/2025;10;35000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
-177670;ASUS ZenBook Flip 13;Asus;18/03/2025;14;27000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
-141388;ASUS Chromebook Flip C214;Asus;15/02/2025;30;11000000;Intel Celeron N4020;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 3200MHz
-189612;ASUS VivoBook S14;Asus;28/03/2025;15;18000000;Intel Core i5-1135G7;Intel Iris Xe;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
-114844;ASUS VivoBook 15;Asus;01/12/2025;20;15000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-116586;ASUS Chromebook Flip C434;Asus;04/10/2025;30;12000000;Intel Core m3-8100Y;Integrated Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-196701;ASUS Chromebook Flip C436;Asus;02/05/2025;28;14000000;Intel Core i5-10210U;Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-154152;ASUS VivoBook 15 K513;Asus;18/03/2025;12;19000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
-178164;ASUS VivoBook 14;Asus;20/02/2025;22;14000000;Intel Core i3-1115G4;Intel UHD;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
-105461;ASUS ExpertBook B1;Asus;15/01/2025;10;18000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-144229;ASUS VivoBook 15 X515;Asus;03/05/2025;16;16000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-174542;ASUS VivoBook Flip 14;Asus;04/10/2025;20;17000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-115290;ASUS TUF Gaming FX506;Asus;04/10/2025;15;21000000;AMD Ryzen 5 4600H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-133228;ASUS TUF Gaming F15;Asus;03/05/2025;18;22000000;Intel Core i5-11400H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-130536;ASUS ROG Strix G15;Asus;18/01/2025;14;32000000;Intel Core i7-12700H;NVIDIA Geforce RTX 3060;Kingston KC3000 1TB;Kingston Fury Beast 16GB DDR5 4800MHz
-192611;Dell G15 Gaming;Dell;03/05/2025;18;30000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3060;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-110629;Dell XPS 15;Dell;25/02/2025;5;42000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3050 Ti;Kingston KC3000 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-178775;Dell Alienware m15;Dell;15/01/2025;10;45000000;Intel Core i9-11900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR4 3200MHz
-156541;Dell Latitude 7420;Dell;01/12/2025;20;32000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 3200MHz
-137708;Dell XPS 13;Dell;18/01/2025;14;35000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR4 3200MHz
-126543;Dell Vostro 15 3500;Dell;20/02/2025;7;16000000;Intel Core i5-1035G1;Intel UHD;Western Digital Blue 256GB;Kingston 8GB DDR4 2666MHz
-186732;Dell Inspiron 15 5000;Dell;02/10/2025;12;18000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-171247;HP Omen 15-ek0013dx;HP;01/12/2025;11;34000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-182800;HP Omen 15;HP;03/05/2025;18;35000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-149167;HP Omen 15-ek0020nr;HP;20/03/2025;14;33000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2060;Western Digital Black SN750 512GB;Corsair Vengeance 16GB DDR4 3200MHz
-151149;HP Omen 16;HP;22/02/2025;13;37000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-141419;HP Elite Dragonfly;HP;02/05/2025;9;45000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Corsair Vengeance 16GB DDR4 4266MHz
-198508;HP EliteBook 850;HP;28/01/2025;8;30000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Corsair Vengeance 16GB DDR4 4266MHz
-167734;HP Omen 17;HP;25/02/2025;5;42000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR4 3200MHz
-164081;HP Omen 17-cb1000;HP;18/03/2025;12;44000000;Intel Core i9-11900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR4 3200MHz
-182192;HP Envy x360;HP;04/10/2025;30;23000000;AMD Ryzen 7 5700U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 16GB DDR4 3200MHz
-129514;HP Envy 13;HP;02/10/2025;12;25000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
-148754;HP Pavilion 15-eg0073cl;HP;04/12/2025;10;21000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
-140095;HP Spectre x360 13;HP;01/05/2025;18;27000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
-191954;HP EliteBook x360;HP;01/10/2025;25;28000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 512GB;Kingston 16GB DDR4 3200MHz
-180565;HP Spectre x360 14;HP;15/03/2025;7;36000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 4266MHz
-117836;HP Spectre x360;HP;01/12/2025;20;32000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR4 4266MHz
-139581;HP Chromebook 14;HP;18/04/2025;19;11000000;Intel Celeron N4000;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 2400MHz
-128854;HP Chromebook x360;HP;22/01/2025;16;12000000;Intel Celeron N4020;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 2400MHz
-178914;HP ProBook 450;HP;15/01/2025;10;16000000;Intel Core i5-10210U;Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 2666MHz
-129491;HP Pavilion Gaming 15;HP;18/03/2025;14;22000000;AMD Ryzen 5 4600H;NVIDIA Geforce GTX 1650;Crucial P5 512GB;Kingston 8GB DDR4 3200MHz
-188051;HP Chromebook x360 14c;HP;04/10/2025;15;13000000;Intel Pentium Silver N5030;Integrated Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-176078;HP Pavilion 14;HP;20/02/2025;22;17000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
-129025;HP Pavilion 14-ce3600;HP;04/10/2025;20;16000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
-148368;HP Pavilion 15;HP;18/01/2025;14;18000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
-101959;HP ProBook 455;HP;03/05/2025;16;18000000;AMD Ryzen 5 4500U;Integrated AMD Radeon;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-110012;HP EliteBook 840;HP;20/02/2025;7;28000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-184013;HP ProBook 640;HP;28/03/2025;15;19000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-168693;HP EliteBook 840 G7;HP;22/02/2025;6;29000000;Intel Core i5-10310U;Intel UHD;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-125005;Lenovo Legion 5;Lenovo;03/05/2025;18;32000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-109174;Lenovo ThinkPad X13;Lenovo;01/12/2025;11;35000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 512GB;Corsair Vengeance 16GB DDR4 3200MHz
-156910;Lenovo Legion 5 15ACH6;Lenovo;04/12/2025;10;34000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
-102130;Lenovo ThinkPad T14;Lenovo;22/02/2025;13;32000000;Intel Core i7-1165G7;Intel Iris Xe;Western Digital Blue 512GB;Corsair Vengeance 16GB DDR4 3200MHz
-148829;Lenovo Legion 5 Pro;Lenovo;02/05/2025;9;38000000;AMD Ryzen 7 6800H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 1TB;Corsair Vengeance 16GB DDR5 5200MHz
-166868;Lenovo Legion Slim 7;Lenovo;15/03/2025;7;42000000;AMD Ryzen 9 5900HX;NVIDIA Geforce RTX 3060;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR4 5200MHz
-125288;Lenovo Legion 7;Lenovo;25/02/2025;5;45000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
-104906;Lenovo Legion 7i;Lenovo;01/05/2025;18;46000000;Intel Core i9-12900HK;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
-177250;Lenovo IdeaPad Flex 5;Lenovo;15/01/2025;10;22000000;AMD Ryzen 7 5700U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 16GB DDR4 3200MHz
-139761;Lenovo Yoga C940;Lenovo;04/10/2025;15;35000000;Intel Core i7-1065G7;Intel Iris Plus;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
-142717;Lenovo Yoga 7i;Lenovo;28/03/2025;15;27000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
-135215;Lenovo Yoga 9i;Lenovo;04/10/2025;20;40000000;Intel Core i7-1185G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
-165204;Lenovo Yoga Slim 7;Lenovo;01/12/2025;20;28000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 3200MHz
-183177;Lenovo Yoga Slim 7 Carbon;Lenovo;18/04/2025;19;30000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 4266MHz
-125909;Lenovo ThinkPad X1 Yoga;Lenovo;28/01/2025;8;42000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR4 4266MHz
-131693;Lenovo ThinkPad X1 Carbon;Lenovo;18/01/2025;14;40000000;Intel Core i7-1260P;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR5 5200MHz
-138917;Lenovo IdeaPad 3 15ADA;Lenovo;03/05/2025;16;14000000;AMD Ryzen 3 3250U;Integrated AMD Radeon;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-155884;Lenovo Chromebook Flex 5;Lenovo;04/10/2025;30;12000000;Intel Core i3-10110U;Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
-124375;Lenovo ThinkPad E15;Lenovo;18/03/2025;14;20000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
-111305;Lenovo IdeaPad Gaming 3 15IMH05;Lenovo;18/03/2025;12;22000000;Intel Core i5-10300H;NVIDIA Geforce GTX 1650;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
-196353;Lenovo ThinkBook 14;Lenovo;20/02/2025;7;18000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
-156836;Lenovo IdeaPad Flex 3;Lenovo;20/03/2025;14;16000000;Intel Core i3-1115G4;Intel UHD;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
-103938;Lenovo IdeaPad 3;Lenovo;02/10/2025;12;15000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-148846;Lenovo IdeaPad 5;Lenovo;22/01/2025;16;18000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-175086;Lenovo ThinkPad L14;Lenovo;22/02/2025;6;21000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
-174168;Lenovo IdeaPad Gaming 3;Lenovo;20/02/2025;22;21000000;AMD Ryzen 5 5600H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+129705;ASUS TUF Gaming F17;Asus;20/03/2023;14;24000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3050 Ti;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+135743;ASUS TUF Gaming A15;Asus;22/02/2023;13;28000000;AMD Ryzen 7 4800H;NVIDIA Geforce RTX 3050;Crucial P5 512GB;Corsair Vengeance 16GB DDR4 3200MHz
+178081;ASUS ROG Strix G15 Advantage Edition;Asus;25/01/2023;13;38000000;AMD Ryzen 9 5900HX;AMD Radeon RX 6800M;Crucial P5 Plus 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+110762;ASUS ROG Strix G17;Asus;02/05/2023;9;35000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+102863;ASUS ROG Zephyrus G14;Asus;20/02/2023;7;40000000;AMD Ryzen 9 6900HS;AMD Radeon RX 6800S;Crucial P5 Plus 1TB;Corsair Vengeance 16GB DDR5 5200MHz
+188272;ASUS ROG Flow X13;Asus;01/12/2023;11;42000000;AMD Ryzen 9 5980HS;NVIDIA Geforce GTX 1650;Kingston KC3000 1TB;Corsair Vengeance 32GB DDR4 4266MHz
+160991;ASUS ROG Zephyrus G15 GA503;Asus;22/02/2023;6;42000000;AMD Ryzen 9 5900HS;NVIDIA Geforce RTX 3080;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR4 5200MHz
+191640;ASUS ROG Strix Scar 15 G533;Asus;20/04/2023;9;44000000;AMD Ryzen 9 5900HX;NVIDIA Geforce RTX 3080;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR4 5200MHz
+114580;ASUS ROG Zephyrus M16;Asus;15/03/2023;7;43000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR5 5200MHz
+120242;ASUS ROG Strix Scar 15;Asus;25/02/2023;5;45000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
+166395;ASUS ROG Strix Scar 17;Asus;28/01/2023;8;48000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
+137293;ASUS ZenBook 14;Asus;02/10/2023;12;25000000;Intel Core i5-1135G7;Intel Iris Xe;Crucial P2 512GB;Kingston 16GB DDR4 3200MHz
+143614;ASUS ZenBook 13;Asus;18/04/2023;19;26000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
+165991;ASUS TUF Dash F15;Asus;22/01/2023;16;23000000;Intel Core i7-11370H;NVIDIA Geforce RTX 3050 Ti;Crucial P5 512GB;Kingston 16GB DDR4 3200MHz
+192476;ASUS ZenBook 13 OLED;Asus;15/03/2023;17;27000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
+103771;ASUS ZenBook 14 OLED;Asus;01/05/2023;18;28000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
+111062;ASUS ZenBook Duo 14;Asus;04/12/2023;10;35000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
+177670;ASUS ZenBook Flip 13;Asus;18/03/2023;14;27000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 1TB;Kingston 16GB DDR4 4266MHz
+141388;ASUS Chromebook Flip C214;Asus;15/02/2023;30;11000000;Intel Celeron N4020;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 3200MHz
+189612;ASUS VivoBook S14;Asus;28/03/2023;15;18000000;Intel Core i5-1135G7;Intel Iris Xe;Crucial P2 512GB;Kingston 8GB DDR4 3200MHz
+114844;ASUS VivoBook 15;Asus;01/12/2023;20;15000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+116586;ASUS Chromebook Flip C434;Asus;04/10/2023;30;12000000;Intel Core m3-8100Y;Integrated Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+196701;ASUS Chromebook Flip C436;Asus;02/05/2023;28;14000000;Intel Core i5-10210U;Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+154152;ASUS VivoBook 15 K513;Asus;18/03/2023;12;19000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
+178164;ASUS VivoBook 14;Asus;20/02/2023;22;14000000;Intel Core i3-1115G4;Intel UHD;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
+105461;ASUS ExpertBook B1;Asus;15/01/2023;10;18000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+144229;ASUS VivoBook 15 X515;Asus;03/05/2023;16;16000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+174542;ASUS VivoBook Flip 14;Asus;04/10/2023;20;17000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+115290;ASUS TUF Gaming FX506;Asus;04/10/2023;15;21000000;AMD Ryzen 5 4600H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+133228;ASUS TUF Gaming F15;Asus;03/05/2023;18;22000000;Intel Core i5-11400H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+130536;ASUS ROG Strix G15;Asus;18/01/2023;14;32000000;Intel Core i7-12700H;NVIDIA Geforce RTX 3060;Kingston KC3000 1TB;Kingston Fury Beast 16GB DDR5 4800MHz
+192611;Dell G15 Gaming;Dell;03/05/2023;18;30000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3060;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+110629;Dell XPS 15;Dell;25/02/2023;5;42000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3050 Ti;Kingston KC3000 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+178775;Dell Alienware m15;Dell;15/01/2023;10;45000000;Intel Core i9-11900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR4 3200MHz
+156541;Dell Latitude 7420;Dell;01/12/2023;20;32000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 3200MHz
+137708;Dell XPS 13;Dell;18/01/2023;14;35000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR4 3200MHz
+126543;Dell Vostro 15 3500;Dell;20/02/2023;7;16000000;Intel Core i5-1035G1;Intel UHD;Western Digital Blue 256GB;Kingston 8GB DDR4 2666MHz
+186732;Dell Inspiron 15 5000;Dell;02/10/2023;12;18000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+171247;HP Omen 15-ek0013dx;HP;01/12/2023;11;34000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+182800;HP Omen 15;HP;03/05/2023;18;35000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+149167;HP Omen 15-ek0020nr;HP;20/03/2023;14;33000000;Intel Core i7-10750H;NVIDIA Geforce RTX 2060;Western Digital Black SN750 512GB;Corsair Vengeance 16GB DDR4 3200MHz
+151149;HP Omen 16;HP;22/02/2023;13;37000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+141419;HP Elite Dragonfly;HP;02/05/2023;9;45000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Corsair Vengeance 16GB DDR4 4266MHz
+198508;HP EliteBook 850;HP;28/01/2023;8;30000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Corsair Vengeance 16GB DDR4 4266MHz
+167734;HP Omen 17;HP;25/02/2023;5;42000000;Intel Core i7-11800H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR4 3200MHz
+164081;HP Omen 17-cb1000;HP;18/03/2023;12;44000000;Intel Core i9-11900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR4 3200MHz
+182192;HP Envy x360;HP;04/10/2023;30;23000000;AMD Ryzen 7 5700U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 16GB DDR4 3200MHz
+129514;HP Envy 13;HP;02/10/2023;12;25000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
+148754;HP Pavilion 15-eg0073cl;HP;04/12/2023;10;21000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
+140095;HP Spectre x360 13;HP;01/05/2023;18;27000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
+191954;HP EliteBook x360;HP;01/10/2023;25;28000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 512GB;Kingston 16GB DDR4 3200MHz
+180565;HP Spectre x360 14;HP;15/03/2023;7;36000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 4266MHz
+117836;HP Spectre x360;HP;01/12/2023;20;32000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR4 4266MHz
+139581;HP Chromebook 14;HP;18/04/2023;19;11000000;Intel Celeron N4000;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 2400MHz
+128854;HP Chromebook x360;HP;22/01/2023;16;12000000;Intel Celeron N4020;Integrated Intel UHD;Kingston A2000 128GB;Kingston 4GB DDR4 2400MHz
+178914;HP ProBook 450;HP;15/01/2023;10;16000000;Intel Core i5-10210U;Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 2666MHz
+129491;HP Pavilion Gaming 15;HP;18/03/2023;14;22000000;AMD Ryzen 5 4600H;NVIDIA Geforce GTX 1650;Crucial P5 512GB;Kingston 8GB DDR4 3200MHz
+188051;HP Chromebook x360 14c;HP;04/10/2023;15;13000000;Intel Pentium Silver N5030;Integrated Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+176078;HP Pavilion 14;HP;20/02/2023;22;17000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
+129025;HP Pavilion 14-ce3600;HP;04/10/2023;20;16000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
+148368;HP Pavilion 15;HP;18/01/2023;14;18000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
+101959;HP ProBook 455;HP;03/05/2023;16;18000000;AMD Ryzen 5 4500U;Integrated AMD Radeon;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+110012;HP EliteBook 840;HP;20/02/2023;7;28000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+184013;HP ProBook 640;HP;28/03/2023;15;19000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+168693;HP EliteBook 840 G7;HP;22/02/2023;6;29000000;Intel Core i5-10310U;Intel UHD;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+125005;Lenovo Legion 5;Lenovo;03/05/2023;18;32000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Crucial P5 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+109174;Lenovo ThinkPad X13;Lenovo;01/12/2023;11;35000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 512GB;Corsair Vengeance 16GB DDR4 3200MHz
+156910;Lenovo Legion 5 15ACH6;Lenovo;04/12/2023;10;34000000;AMD Ryzen 7 5800H;NVIDIA Geforce RTX 3060;Western Digital Black SN750 1TB;Corsair Vengeance 16GB DDR4 3200MHz
+102130;Lenovo ThinkPad T14;Lenovo;22/02/2023;13;32000000;Intel Core i7-1165G7;Intel Iris Xe;Western Digital Blue 512GB;Corsair Vengeance 16GB DDR4 3200MHz
+148829;Lenovo Legion 5 Pro;Lenovo;02/05/2023;9;38000000;AMD Ryzen 7 6800H;NVIDIA Geforce RTX 3070;Western Digital Black SN850 1TB;Corsair Vengeance 16GB DDR5 5200MHz
+166868;Lenovo Legion Slim 7;Lenovo;15/03/2023;7;42000000;AMD Ryzen 9 5900HX;NVIDIA Geforce RTX 3060;Western Digital Black SN850 1TB;Corsair Vengeance 32GB DDR4 5200MHz
+125288;Lenovo Legion 7;Lenovo;25/02/2023;5;45000000;Intel Core i9-12900H;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
+104906;Lenovo Legion 7i;Lenovo;01/05/2023;18;46000000;Intel Core i9-12900HK;NVIDIA Geforce RTX 3080;Western Digital Black SN850 2TB;Corsair Vengeance 32GB DDR5 5200MHz
+177250;Lenovo IdeaPad Flex 5;Lenovo;15/01/2023;10;22000000;AMD Ryzen 7 5700U;Integrated AMD Radeon;Crucial P2 512GB;Kingston 16GB DDR4 3200MHz
+139761;Lenovo Yoga C940;Lenovo;04/10/2023;15;35000000;Intel Core i7-1065G7;Intel Iris Plus;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
+142717;Lenovo Yoga 7i;Lenovo;28/03/2023;15;27000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 1TB;Kingston 16GB DDR4 3200MHz
+135215;Lenovo Yoga 9i;Lenovo;04/10/2023;20;40000000;Intel Core i7-1185G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 3200MHz
+165204;Lenovo Yoga Slim 7;Lenovo;01/12/2023;20;28000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 16GB DDR4 3200MHz
+183177;Lenovo Yoga Slim 7 Carbon;Lenovo;18/04/2023;19;30000000;Intel Core i7-1165G7;Intel Iris Xe;Crucial P5 Plus 1TB;Kingston 16GB DDR4 4266MHz
+125909;Lenovo ThinkPad X1 Yoga;Lenovo;28/01/2023;8;42000000;Intel Core i7-1165G7;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR4 4266MHz
+131693;Lenovo ThinkPad X1 Carbon;Lenovo;18/01/2023;14;40000000;Intel Core i7-1260P;Intel Iris Xe;Kingston KC3000 1TB;Kingston 16GB DDR5 5200MHz
+138917;Lenovo IdeaPad 3 15ADA;Lenovo;03/05/2023;16;14000000;AMD Ryzen 3 3250U;Integrated AMD Radeon;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+155884;Lenovo Chromebook Flex 5;Lenovo;04/10/2023;30;12000000;Intel Core i3-10110U;Intel UHD;Kingston A2000 256GB;Kingston 8GB DDR4 3200MHz
+124375;Lenovo ThinkPad E15;Lenovo;18/03/2023;14;20000000;Intel Core i5-1135G7;Intel Iris Xe;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
+111305;Lenovo IdeaPad Gaming 3 15IMH05;Lenovo;18/03/2023;12;22000000;Intel Core i5-10300H;NVIDIA Geforce GTX 1650;Kingston A2000 512GB;Kingston 8GB DDR4 3200MHz
+196353;Lenovo ThinkBook 14;Lenovo;20/02/2023;7;18000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
+156836;Lenovo IdeaPad Flex 3;Lenovo;20/03/2023;14;16000000;Intel Core i3-1115G4;Intel UHD;Western Digital Blue 256GB;Kingston 8GB DDR4 3200MHz
+103938;Lenovo IdeaPad 3;Lenovo;02/10/2023;12;15000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+148846;Lenovo IdeaPad 5;Lenovo;22/01/2023;16;18000000;AMD Ryzen 5 5500U;Integrated AMD Radeon;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+175086;Lenovo ThinkPad L14;Lenovo;22/02/2023;6;21000000;Intel Core i5-1135G7;Intel Iris Xe;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
+174168;Lenovo IdeaPad Gaming 3;Lenovo;20/02/2023;22;21000000;AMD Ryzen 5 5600H;NVIDIA Geforce GTX 1650;Western Digital Blue 512GB;Kingston 8GB DDR4 3200MHz
