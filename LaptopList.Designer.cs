@@ -54,6 +54,7 @@
             label1 = new Label();
             label5 = new Label();
             groupBox1 = new GroupBox();
+            btnThoat = new Button();
             btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
@@ -68,7 +69,7 @@
             txtFilter = new TextBox();
             cmbLoaiTimKiem = new ComboBox();
             label9 = new Label();
-            button1 = new Button();
+            btnNapTien = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -93,7 +94,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
-            tableLayoutPanel1.Size = new Size(1103, 1055);
+            tableLayoutPanel1.Size = new Size(1381, 1055);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // dgvDanhSachLaptop
@@ -104,7 +105,7 @@
             dgvDanhSachLaptop.Location = new Point(3, 108);
             dgvDanhSachLaptop.Name = "dgvDanhSachLaptop";
             dgvDanhSachLaptop.RowHeadersWidth = 51;
-            dgvDanhSachLaptop.Size = new Size(655, 944);
+            dgvDanhSachLaptop.Size = new Size(822, 944);
             dgvDanhSachLaptop.TabIndex = 0;
             dgvDanhSachLaptop.CellEnter += dgvDanhSachLaptop_CellEnter;
             dgvDanhSachLaptop.DataBindingComplete += dgvDanhSachLaptop_DataBindingComplete;
@@ -217,9 +218,9 @@
             panel1.Controls.Add(label5);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(664, 108);
+            panel1.Location = new Point(831, 108);
             panel1.Name = "panel1";
-            panel1.Size = new Size(436, 944);
+            panel1.Size = new Size(547, 944);
             panel1.TabIndex = 1;
             // 
             // lblTenLaptop
@@ -339,7 +340,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
             groupBox1.Location = new Point(9, 301);
@@ -348,6 +349,19 @@
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Chức Năng";
+            // 
+            // btnThoat
+            // 
+            btnThoat.BackColor = Color.Red;
+            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnThoat.ForeColor = Color.White;
+            btnThoat.Location = new Point(297, 26);
+            btnThoat.Name = "btnThoat";
+            btnThoat.Size = new Size(94, 40);
+            btnThoat.TabIndex = 1;
+            btnThoat.Text = "Thoát";
+            btnThoat.UseVisualStyleBackColor = false;
+            btnThoat.Click += btnThoat_Click;
             // 
             // btnReview
             // 
@@ -374,6 +388,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FloralWhite;
+            panel2.Controls.Add(btnNapTien);
             panel2.Controls.Add(lblSoDu);
             panel2.Controls.Add(lblTenTaiKhoan);
             panel2.Controls.Add(lblTenNguoiDung);
@@ -381,9 +396,9 @@
             panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(664, 3);
+            panel2.Location = new Point(831, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(436, 99);
+            panel2.Size = new Size(547, 99);
             panel2.TabIndex = 2;
             // 
             // lblSoDu
@@ -446,7 +461,7 @@
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(655, 99);
+            panel3.Size = new Size(822, 99);
             panel3.TabIndex = 3;
             // 
             // btnTimKiem
@@ -486,19 +501,20 @@
             label9.TabIndex = 4;
             label9.Text = "Tìm kiếm:";
             // 
-            // button1
+            // btnNapTien
             // 
-            button1.Location = new Point(297, 26);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 40);
-            button1.TabIndex = 1;
-            button1.Text = "Thoát";
-            button1.UseVisualStyleBackColor = true;
+            btnNapTien.Location = new Point(419, 44);
+            btnNapTien.Name = "btnNapTien";
+            btnNapTien.Size = new Size(94, 29);
+            btnNapTien.TabIndex = 4;
+            btnNapTien.Text = "Nạp tiền";
+            btnNapTien.UseVisualStyleBackColor = true;
+            btnNapTien.Click += btnNapTien_Click;
             // 
             // LaptopList
             // 
             AutoScaleMode = AutoScaleMode.Inherit;
-            ClientSize = new Size(1103, 1055);
+            ClientSize = new Size(1381, 1055);
             Controls.Add(tableLayoutPanel1);
             Name = "LaptopList";
             StartPosition = FormStartPosition.CenterScreen;
@@ -561,6 +577,7 @@
         private TextBox txtFilter;
         private ComboBox cmbLoaiTimKiem;
         private Label label9;
-        private Button button1;
+        private Button btnThoat;
+        private Button btnNapTien;
     }
 }

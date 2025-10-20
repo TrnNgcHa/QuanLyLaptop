@@ -43,6 +43,7 @@
             GiaPhuKien = new DataGridViewTextBoxColumn();
             TongTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
+            groupBox2 = new GroupBox();
             groupBox1 = new GroupBox();
             label8 = new Label();
             label6 = new Label();
@@ -52,9 +53,15 @@
             label2 = new Label();
             label3 = new Label();
             label1 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
             TableSplit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvQuanLyHoaDon).BeginInit();
             panel1.SuspendLayout();
+            groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -201,12 +208,27 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(979, 82);
             panel1.Name = "panel1";
             panel1.Size = new Size(505, 642);
             panel1.TabIndex = 1;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(label13);
+            groupBox2.Controls.Add(label11);
+            groupBox2.Controls.Add(label10);
+            groupBox2.Controls.Add(label12);
+            groupBox2.Controls.Add(label9);
+            groupBox2.Location = new Point(0, 153);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(502, 180);
+            groupBox2.TabIndex = 3;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Thông tin sản phẩm";
             // 
             // groupBox1
             // 
@@ -293,6 +315,51 @@
             label1.TabIndex = 0;
             label1.Text = "Mã tài khoản:";
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(9, 34);
+            label9.Name = "label9";
+            label9.Size = new Size(84, 20);
+            label9.TabIndex = 0;
+            label9.Text = "Mã Laptop:";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(220, 34);
+            label10.Name = "label10";
+            label10.Size = new Size(86, 20);
+            label10.TabIndex = 0;
+            label10.Text = "Tên Laptop:";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(220, 67);
+            label11.Name = "label11";
+            label11.Size = new Size(82, 20);
+            label11.TabIndex = 0;
+            label11.Text = "Giá Laptop";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(9, 105);
+            label12.Name = "label12";
+            label12.Size = new Size(67, 20);
+            label12.TabIndex = 0;
+            label12.Text = "Phụ kiện:";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(220, 105);
+            label13.Name = "label13";
+            label13.Size = new Size(94, 20);
+            label13.TabIndex = 0;
+            label13.Text = "Giá phụ kiện:";
+            // 
             // ReceiptManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -305,6 +372,8 @@
             TableSplit.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvQuanLyHoaDon).EndInit();
             panel1.ResumeLayout(false);
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
@@ -336,5 +405,11 @@
         private Label label2;
         private Label label3;
         private Label label1;
+        private GroupBox groupBox2;
+        private Label label10;
+        private Label label9;
+        private Label label11;
+        private Label label12;
+        private Label label13;
     }
 }

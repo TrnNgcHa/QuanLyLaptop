@@ -19,6 +19,10 @@ namespace QuanLyLaptop
             InitializeComponent();
         }
 
+        private void LoadData()
+        {
+
+        }
 
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
@@ -40,7 +44,7 @@ namespace QuanLyLaptop
                 if (!row.IsNewRow)
                     row.Cells["STT1"].Value = row.Index + 1;
             }
-            
+
         }
 
         private void dgvDanhSachLaptop_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -95,6 +99,18 @@ namespace QuanLyLaptop
                 }
                 dgvDanhSachLaptop.DataSource = filtered;
             }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Bạn có chắc muốn đóng cửa số này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+                this.Close();
+        }
+
+        private void btnNapTien_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
