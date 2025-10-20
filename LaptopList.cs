@@ -40,7 +40,7 @@ namespace QuanLyLaptop
                 if (!row.IsNewRow)
                     row.Cells["STT1"].Value = row.Index + 1;
             }
-            
+
         }
 
         private void dgvDanhSachLaptop_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -95,6 +95,11 @@ namespace QuanLyLaptop
                 }
                 dgvDanhSachLaptop.DataSource = filtered;
             }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -60,6 +60,7 @@
             // 
             // TableSplit
             // 
+            TableSplit.BackColor = Color.Wheat;
             TableSplit.ColumnCount = 2;
             TableSplit.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65.63927F));
             TableSplit.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 34.36073F));

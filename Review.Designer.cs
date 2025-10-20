@@ -30,6 +30,10 @@
         {
             splitContainer1 = new SplitContainer();
             groupBox1 = new GroupBox();
+            btnThoat = new Button();
+            comboBox1 = new ComboBox();
+            textBox1 = new TextBox();
+            label4 = new Label();
             label2 = new Label();
             label1 = new Label();
             groupBox2 = new GroupBox();
@@ -41,9 +45,6 @@
             ckbMotSao = new CheckBox();
             label3 = new Label();
             listView1 = new ListView();
-            label4 = new Label();
-            textBox1 = new TextBox();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -67,11 +68,13 @@
             splitContainer1.Panel2.Controls.Add(groupBox2);
             splitContainer1.Panel2.Controls.Add(listView1);
             splitContainer1.Size = new Size(803, 450);
-            splitContainer1.SplitterDistance = 291;
+            splitContainer1.SplitterDistance = 289;
             splitContainer1.TabIndex = 0;
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.DarkOrange;
+            groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(label4);
@@ -80,9 +83,46 @@
             groupBox1.Dock = DockStyle.Fill;
             groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(291, 450);
+            groupBox1.Size = new Size(289, 450);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
+            // 
+            // btnThoat
+            // 
+            btnThoat.Location = new Point(206, 413);
+            btnThoat.Name = "btnThoat";
+            btnThoat.Size = new Size(82, 34);
+            btnThoat.TabIndex = 4;
+            btnThoat.Text = "Thoát";
+            btnThoat.UseVisualStyleBackColor = true;
+            btnThoat.Click += btnThoat_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "1 ★", "2 ★", "3 ★", "4 ★", "5 ★" });
+            comboBox1.Location = new Point(84, 97);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(52, 28);
+            comboBox1.TabIndex = 3;
+            comboBox1.Text = "5 ★";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(6, 131);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(285, 237);
+            textBox1.TabIndex = 2;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 100);
+            label4.Name = "label4";
+            label4.Size = new Size(72, 20);
+            label4.TabIndex = 1;
+            label4.Text = "Đánh giá:";
             // 
             // label2
             // 
@@ -104,6 +144,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = Color.DarkOrange;
             groupBox2.Controls.Add(ckbNamSao);
             groupBox2.Controls.Add(ckbBonSao);
             groupBox2.Controls.Add(ckbBaSao);
@@ -114,7 +155,7 @@
             groupBox2.Dock = DockStyle.Top;
             groupBox2.Location = new Point(0, 0);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(508, 43);
+            groupBox2.Size = new Size(510, 43);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             // 
@@ -206,36 +247,9 @@
             listView1.Dock = DockStyle.Bottom;
             listView1.Location = new Point(0, 37);
             listView1.Name = "listView1";
-            listView1.Size = new Size(508, 413);
+            listView1.Size = new Size(510, 413);
             listView1.TabIndex = 0;
             listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 100);
-            label4.Name = "label4";
-            label4.Size = new Size(72, 20);
-            label4.TabIndex = 1;
-            label4.Text = "Đánh giá:";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(6, 131);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(285, 237);
-            textBox1.TabIndex = 2;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "1 ★", "2 ★", "3 ★", "4 ★", "5 ★" });
-            comboBox1.Location = new Point(84, 97);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(52, 28);
-            comboBox1.TabIndex = 3;
-            comboBox1.Text = "5 ★";
             // 
             // Review
             // 
@@ -274,5 +288,6 @@
         private ComboBox comboBox1;
         private TextBox textBox1;
         private Label label4;
+        private Button btnThoat;
     }
 }

@@ -40,6 +40,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = SystemColors.Control;
             groupBox2.Controls.Add(btnMainMenu);
             groupBox2.Location = new Point(403, 118);
             groupBox2.Name = "groupBox2";
@@ -50,13 +51,14 @@
             // 
             // btnMainMenu
             // 
+            btnMainMenu.BackColor = Color.Salmon;
             btnMainMenu.Dock = DockStyle.Top;
             btnMainMenu.Location = new Point(3, 23);
             btnMainMenu.Name = "btnMainMenu";
             btnMainMenu.Size = new Size(175, 60);
             btnMainMenu.TabIndex = 0;
             btnMainMenu.Text = "Màn Hình Chính";
-            btnMainMenu.UseVisualStyleBackColor = true;
+            btnMainMenu.UseVisualStyleBackColor = false;
             btnMainMenu.Click += btnMainMenu_Click;
             // 
             // groupBox1
@@ -73,35 +75,38 @@
             // 
             // btnProduct
             // 
+            btnProduct.BackColor = Color.SkyBlue;
             btnProduct.Dock = DockStyle.Top;
             btnProduct.Location = new Point(3, 143);
             btnProduct.Name = "btnProduct";
             btnProduct.Size = new Size(175, 60);
             btnProduct.TabIndex = 1;
             btnProduct.Text = "Sản Phẩm";
-            btnProduct.UseVisualStyleBackColor = true;
+            btnProduct.UseVisualStyleBackColor = false;
             btnProduct.Click += btnProduct_Click;
             // 
             // btnReceipt
             // 
+            btnReceipt.BackColor = Color.SkyBlue;
             btnReceipt.Dock = DockStyle.Top;
             btnReceipt.Location = new Point(3, 83);
             btnReceipt.Name = "btnReceipt";
             btnReceipt.Size = new Size(175, 60);
             btnReceipt.TabIndex = 0;
             btnReceipt.Text = "Hóa Đơn";
-            btnReceipt.UseVisualStyleBackColor = true;
+            btnReceipt.UseVisualStyleBackColor = false;
             btnReceipt.Click += btnReceipt_Click;
             // 
             // btnAccount
             // 
+            btnAccount.BackColor = Color.SkyBlue;
             btnAccount.Dock = DockStyle.Top;
             btnAccount.Location = new Point(3, 23);
             btnAccount.Name = "btnAccount";
             btnAccount.Size = new Size(175, 60);
             btnAccount.TabIndex = 0;
             btnAccount.Text = "Tài Khoản";
-            btnAccount.UseVisualStyleBackColor = true;
+            btnAccount.UseVisualStyleBackColor = false;
             btnAccount.Click += btnAccount_Click;
             // 
             // Administration
