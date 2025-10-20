@@ -64,7 +64,7 @@ namespace QuanLyLaptop
         private void btnPurchase_Click(object sender, EventArgs e)
         {
             Laptop SelectedItem = dgvDanhSachLaptop.CurrentRow?.DataBoundItem as Laptop;
-            var form = new Purchase(SelectedItem);
+            var form = new Buying(SelectedItem);
             form.TopMost = true;
             form.Show();
         }

@@ -11,16 +11,16 @@ using QuanLyLaptop.Models;
 
 namespace QuanLyLaptop
 {
-    public partial class Purchase : Form
+    public partial class Buying : Form
     {
-        public Purchase()
+        public Buying()
         {
             InitializeComponent();
         }
         Laptop SelectedLaptop = new Laptop();
         int GiaPhuKien = 0;
 
-        public Purchase(Laptop SelectedItem)
+        public Buying(Laptop SelectedItem)
         {
             InitializeComponent();
             SelectedLaptop = SelectedItem;

@@ -1,6 +1,6 @@
 ﻿namespace QuanLyLaptop
 {
-    partial class Purchase
+    partial class Buying
     {
         /// <summary>
         /// Required designer variable.
