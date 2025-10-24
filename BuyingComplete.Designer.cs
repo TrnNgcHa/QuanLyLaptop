@@ -147,13 +147,14 @@
             label1.TabIndex = 0;
             label1.Text = "HÓA ĐƠN";
             // 
-            // PayingCompleted
+            // BuyingComplete
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.PapayaWhip;
             ClientSize = new Size(485, 708);
             Controls.Add(groupBox1);
-            Name = "PayingCompleted";
+            Name = "BuyingComplete";
             Text = "PayingCompleted";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

@@ -296,14 +296,15 @@
             lblSoDu.TabIndex = 1;
             lblSoDu.Text = "*Số dư của quý khách còn ";
             // 
-            // Purchase
+            // Buying
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Bisque;
             ClientSize = new Size(465, 572);
             Controls.Add(lblSoDu);
             Controls.Add(groupBox1);
-            Name = "Purchase";
+            Name = "Buying";
             Text = "Purchase";
             Load += Purchase_Load;
             groupBox1.ResumeLayout(false);

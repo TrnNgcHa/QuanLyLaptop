@@ -209,6 +209,7 @@
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.BackColor = SystemColors.ControlDarkDark;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
@@ -262,6 +263,7 @@
             groupBox1.Controls.Add(lblGioiTinh);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(lblHoTen);
+            groupBox1.ForeColor = SystemColors.Window;
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(296, 321);
@@ -404,6 +406,7 @@
             // 
             // panel2
             // 
+            panel2.BackColor = SystemColors.ControlText;
             panel2.Controls.Add(btnTimKiem);
             panel2.Controls.Add(txtFilter);
             panel2.Controls.Add(cmbLoaiTimKiem);
@@ -445,6 +448,7 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.ForeColor = SystemColors.Window;
             label8.Location = new Point(9, 19);
             label8.Name = "label8";
             label8.Size = new Size(73, 20);

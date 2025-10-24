@@ -203,6 +203,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.MistyRose;
             ClientSize = new Size(367, 450);
             Controls.Add(groupBox1);
             Name = "CustomItem";

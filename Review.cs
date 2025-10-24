@@ -88,5 +88,10 @@ namespace QuanLyLaptop
                 ckbTatCa.Checked = false;
             }
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -73,6 +73,7 @@
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.BackColor = Color.PaleTurquoise;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
@@ -291,7 +292,7 @@
             // 
             // grbCTSP
             // 
-            grbCTSP.BackColor = Color.Cornsilk;
+            grbCTSP.BackColor = Color.FromArgb(255, 224, 192);
             grbCTSP.Controls.Add(lblRAMInfo);
             grbCTSP.Controls.Add(lblStorageInfo);
             grbCTSP.Controls.Add(lblGPUInfo);
@@ -395,6 +396,7 @@
             // 
             // panel2
             // 
+            panel2.BackColor = Color.LightCyan;
             panel2.Controls.Add(btnTimKiem);
             panel2.Controls.Add(txtFilter);
             panel2.Controls.Add(cmbLoaiTimKiem);
