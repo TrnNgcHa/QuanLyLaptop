@@ -1,6 +1,6 @@
 ﻿namespace QuanLyLaptop
 {
-    partial class AccountAuthentication
+    partial class UsersAuthentication
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,7 @@
             // 
             // grbDangKy
             // 
-            grbDangKy.BackColor = Color.RoyalBlue;
+            grbDangKy.BackColor = Color.Azure;
             grbDangKy.Controls.Add(groupBox3);
             grbDangKy.Controls.Add(groupBox2);
             grbDangKy.Controls.Add(label1);
@@ -119,7 +119,6 @@
             // btnDangKy
             // 
             btnDangKy.BackColor = Color.Red;
-            btnDangKy.Cursor = Cursors.Hand;
             btnDangKy.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDangKy.Location = new Point(67, 111);
             btnDangKy.Name = "btnDangKy";
@@ -184,7 +183,7 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = Color.White;
+            groupBox2.ForeColor = Color.RoyalBlue;
             groupBox2.Location = new Point(15, 57);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(304, 295);
@@ -276,6 +275,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label8.ForeColor = Color.RoyalBlue;
             label8.Location = new Point(72, 259);
             label8.Name = "label8";
             label8.Size = new Size(51, 20);
@@ -286,6 +286,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label7.ForeColor = Color.RoyalBlue;
             label7.Location = new Point(73, 223);
             label7.Name = "label7";
             label7.Size = new Size(51, 20);
@@ -296,6 +297,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label6.ForeColor = Color.RoyalBlue;
             label6.Location = new Point(83, 187);
             label6.Name = "label6";
             label6.Size = new Size(41, 20);
@@ -306,6 +308,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label5.ForeColor = Color.RoyalBlue;
             label5.Location = new Point(6, 151);
             label5.Name = "label5";
             label5.Size = new Size(126, 20);
@@ -316,6 +319,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label4.ForeColor = Color.RoyalBlue;
             label4.Location = new Point(45, 115);
             label4.Name = "label4";
             label4.Size = new Size(83, 20);
@@ -326,6 +330,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label3.ForeColor = Color.RoyalBlue;
             label3.Location = new Point(54, 79);
             label3.Name = "label3";
             label3.Size = new Size(73, 20);
@@ -336,6 +341,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label2.ForeColor = Color.RoyalBlue;
             label2.Location = new Point(65, 43);
             label2.Name = "label2";
             label2.Size = new Size(60, 20);
@@ -347,7 +353,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Transparent;
+            label1.ForeColor = Color.RoyalBlue;
             label1.Location = new Point(109, 18);
             label1.Name = "label1";
             label1.Size = new Size(116, 31);
@@ -398,7 +404,6 @@
             // btnDangNhap
             // 
             btnDangNhap.BackColor = Color.Red;
-            btnDangNhap.Cursor = Cursors.Hand;
             btnDangNhap.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDangNhap.ForeColor = Color.White;
             btnDangNhap.Location = new Point(67, 105);
@@ -456,15 +461,15 @@
             label11.TabIndex = 1;
             label11.Text = "ĐĂNG NHẬP";
             // 
-            // AccountAuthentication
+            // UsersAuthentication
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(224, 224, 224);
+            BackColor = Color.White;
             ClientSize = new Size(771, 621);
             Controls.Add(grbDangNhap);
             Controls.Add(grbDangKy);
-            Name = "AccountAuthentication";
+            Name = "UsersAuthentication";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Authentication";
             Load += Authentication_Load;
