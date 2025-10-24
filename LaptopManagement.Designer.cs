@@ -75,8 +75,8 @@
             // 
             tableLayoutPanel1.BackColor = Color.PaleTurquoise;
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             tableLayoutPanel1.Controls.Add(dgvDanhSachLaptop, 0, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel2, 0, 0);
@@ -86,7 +86,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
-            tableLayoutPanel1.Size = new Size(1371, 614);
+            tableLayoutPanel1.Size = new Size(1924, 797);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // dgvDanhSachLaptop
@@ -94,10 +94,10 @@
             dgvDanhSachLaptop.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDanhSachLaptop.Columns.AddRange(new DataGridViewColumn[] { STT1, MaLaptop, TenLaptop, TenHang, NgayNhap, SoTon, CPU, GPU, OCung, RAM, GiaTien });
             dgvDanhSachLaptop.Dock = DockStyle.Fill;
-            dgvDanhSachLaptop.Location = new Point(3, 64);
+            dgvDanhSachLaptop.Location = new Point(3, 82);
             dgvDanhSachLaptop.Name = "dgvDanhSachLaptop";
             dgvDanhSachLaptop.RowHeadersWidth = 51;
-            dgvDanhSachLaptop.Size = new Size(953, 547);
+            dgvDanhSachLaptop.Size = new Size(1148, 712);
             dgvDanhSachLaptop.TabIndex = 1;
             dgvDanhSachLaptop.CellEnter += dgvDanhSachLaptop_CellEnter;
             dgvDanhSachLaptop.DataBindingComplete += dgvDanhSachLaptop_DataBindingComplete;
@@ -209,18 +209,19 @@
             panel1.Controls.Add(grbCTSP);
             panel1.Controls.Add(label5);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(962, 64);
+            panel1.Location = new Point(1157, 82);
             panel1.Name = "panel1";
-            panel1.Size = new Size(406, 547);
+            panel1.Size = new Size(764, 712);
             panel1.TabIndex = 2;
             // 
             // groupBox1
             // 
+            groupBox1.Anchor = AnchorStyles.Top;
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnSua);
             groupBox1.Controls.Add(btnXoa);
             groupBox1.Controls.Add(btnThem);
-            groupBox1.Location = new Point(3, 292);
+            groupBox1.Location = new Point(184, 292);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(397, 128);
             groupBox1.TabIndex = 6;
@@ -281,10 +282,11 @@
             // 
             // lblTenLaptop
             // 
+            lblTenLaptop.Anchor = AnchorStyles.Top;
             lblTenLaptop.AutoSize = true;
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
             lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTenLaptop.Location = new Point(97, 10);
+            lblTenLaptop.Location = new Point(278, 10);
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(2, 30);
             lblTenLaptop.TabIndex = 5;
@@ -292,6 +294,7 @@
             // 
             // grbCTSP
             // 
+            grbCTSP.Anchor = AnchorStyles.Top;
             grbCTSP.BackColor = Color.FromArgb(255, 224, 192);
             grbCTSP.Controls.Add(lblRAMInfo);
             grbCTSP.Controls.Add(lblStorageInfo);
@@ -301,7 +304,7 @@
             grbCTSP.Controls.Add(label3);
             grbCTSP.Controls.Add(label2);
             grbCTSP.Controls.Add(label1);
-            grbCTSP.Location = new Point(3, 52);
+            grbCTSP.Location = new Point(184, 52);
             grbCTSP.Name = "grbCTSP";
             grbCTSP.Size = new Size(397, 234);
             grbCTSP.TabIndex = 4;
@@ -386,9 +389,10 @@
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Top;
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(3, 11);
+            label5.Location = new Point(184, 11);
             label5.Name = "label5";
             label5.Size = new Size(78, 28);
             label5.TabIndex = 3;
@@ -404,7 +408,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(3, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(953, 55);
+            panel2.Size = new Size(1148, 73);
             panel2.TabIndex = 3;
             // 
             // btnTimKiem
@@ -448,7 +452,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1371, 614);
+            ClientSize = new Size(1924, 797);
             Controls.Add(tableLayoutPanel1);
             Name = "LaptopManagement";
             Text = "LaptopManagement";

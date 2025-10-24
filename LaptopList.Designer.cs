@@ -407,7 +407,7 @@
             // 
             // btnNapTien
             // 
-            btnNapTien.Location = new Point(649, 13);
+            btnNapTien.Location = new Point(625, 13);
             btnNapTien.Name = "btnNapTien";
             btnNapTien.Size = new Size(94, 29);
             btnNapTien.TabIndex = 4;
@@ -418,7 +418,7 @@
             // lblSoDu
             // 
             lblSoDu.AutoSize = true;
-            lblSoDu.Location = new Point(470, 21);
+            lblSoDu.Location = new Point(470, 17);
             lblSoDu.Name = "lblSoDu";
             lblSoDu.Size = new Size(0, 20);
             lblSoDu.TabIndex = 3;
@@ -442,7 +442,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(419, 21);
+            label8.Location = new Point(419, 17);
             label8.Name = "label8";
             label8.Size = new Size(51, 20);
             label8.TabIndex = 0;
