@@ -15,6 +15,7 @@ namespace QuanLyLaptop
         public ReceiptManagement()
         {
             InitializeComponent();
+            dgvQuanLyHoaDon.AutoGenerateColumns = false;
         }
 
         private void ReceiptManagement_Load(object sender, EventArgs e)

@@ -18,13 +18,15 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
             dgvQuanLyTaiKhoan.AutoGenerateColumns = false;
+            dgvLichSuGiaoDich.AutoGenerateColumns = false;
         }
 
-
+        int id = 0;
         private void AccountManagement_Load(object sender, EventArgs e)
         {
             dgvQuanLyTaiKhoan.DataSource = MainMenu.Accounts;
-
+            dgvLichSuGiaoDich.DataSource = MainMenu.Receipts;
+            dgvLichSuGiaoDich.ForeColor = Color.Black;
 
         }
 
@@ -39,6 +41,9 @@ namespace QuanLyLaptop
                 lblSDT.Text = dgvQuanLyTaiKhoan.CurrentRow.Cells["SoDienThoai"].Value.ToString();
                 lblEmail.Text = dgvQuanLyTaiKhoan.CurrentRow.Cells["Email"].Value.ToString();
                 lblCCCD.Text = dgvQuanLyTaiKhoan.CurrentRow.Cells["CCCD"].Value.ToString();
+                id = (int)dgvQuanLyTaiKhoan.CurrentRow.Cells["MaTaiKhoan"].Value;
+                List<Receipt> receipts = MainMenu.Receipts.Where(r => r.AccountID == id).ToList();
+                dgvLichSuGiaoDich.DataSource = receipts;
             }
         }
 
@@ -79,11 +84,6 @@ namespace QuanLyLaptop
                 }
                 dgvQuanLyTaiKhoan.DataSource = filtered;
             }
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

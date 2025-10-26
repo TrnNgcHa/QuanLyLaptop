@@ -7,7 +7,7 @@ using System.Net.Mail;
 
 namespace QuanLyLaptop.Models
 {
-    public class Functions
+    public static class Functions
     {
         public static bool IsValidUserName(string fullName)
         {
@@ -83,5 +83,6 @@ namespace QuanLyLaptop.Models
 
             return string.Join(" ", parts.Take(parts.Length - 1));
         }
+
     }
 }

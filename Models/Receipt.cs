@@ -27,7 +27,18 @@ namespace QuanLyLaptop.Models
             InvoiceDate = new DateOnly(1,1,1);
             AccountName = PersonName = LaptopName = ExtraItems = ExtraPrices = "";
         }
-
+        public string CleanCommaList(string str)
+        {
+            List<string> items = str.Split(',').ToList();
+            foreach(string item in items.ToList())
+            {
+                if (item.Trim() == "")
+                {
+                    items.Remove(item);
+                }
+            }
+            return string.Join(",", items);
+        }
         public Receipt(string csvLine)
         {
             string[] values = csvLine.Split(';');
@@ -40,11 +51,12 @@ namespace QuanLyLaptop.Models
             LaptopID = Convert.ToInt32(values[6]);
             LaptopName = values[7];
             LaptopPrice = Convert.ToInt32(values[8]);
-            ExtraItems = values[9];
-            ExtraPrices = values[10];
+            ExtraItems = CleanCommaList(values[9]);
+            ExtraPrices = CleanCommaList(values[10]);
             TotalAmount = Convert.ToInt32(values[11]);
         }
 
+        
         public List<Receipt> GetList(string fileName = "")
         {
             List<Receipt> receiptList = new List<Receipt>();

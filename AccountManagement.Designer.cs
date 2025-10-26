@@ -29,10 +29,33 @@
         private void InitializeComponent()
         {
             dgvQuanLyTaiKhoan = new DataGridView();
+            MaNguoi = new DataGridViewTextBoxColumn();
+            MaTaiKhoan = new DataGridViewTextBoxColumn();
+            TenTaiKhoan = new DataGridViewTextBoxColumn();
+            MatKhau = new DataGridViewTextBoxColumn();
+            SoDu = new DataGridViewTextBoxColumn();
+            HoNguoi = new DataGridViewTextBoxColumn();
+            TenNguoi = new DataGridViewTextBoxColumn();
+            GioiTinh = new DataGridViewTextBoxColumn();
+            NgaySinh = new DataGridViewTextBoxColumn();
+            ThanhPho = new DataGridViewTextBoxColumn();
+            SoDienThoai = new DataGridViewTextBoxColumn();
+            Email = new DataGridViewTextBoxColumn();
+            CCCD = new DataGridViewTextBoxColumn();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel1 = new Panel();
             groupBox2 = new GroupBox();
             dgvLichSuGiaoDich = new DataGridView();
+            MaHoaDon = new DataGridViewTextBoxColumn();
+            NgayLapHoaDon = new DataGridViewTextBoxColumn();
+            MaNguoiDung = new DataGridViewTextBoxColumn();
+            TenNguoiDung = new DataGridViewTextBoxColumn();
+            MaTaiKhoan_ = new DataGridViewTextBoxColumn();
+            TenTaiKhoan_ = new DataGridViewTextBoxColumn();
+            MaLaptop = new DataGridViewTextBoxColumn();
+            TenLaptop = new DataGridViewTextBoxColumn();
+            PhuKien = new DataGridViewTextBoxColumn();
+            ThanhTien = new DataGridViewTextBoxColumn();
             groupBox1 = new GroupBox();
             label1 = new Label();
             lblCCCD = new Label();
@@ -55,19 +78,6 @@
             label8 = new Label();
             panel3 = new Panel();
             btnThoat = new Button();
-            MaNguoi = new DataGridViewTextBoxColumn();
-            MaTaiKhoan = new DataGridViewTextBoxColumn();
-            TenTaiKhoan = new DataGridViewTextBoxColumn();
-            MatKhau = new DataGridViewTextBoxColumn();
-            SoDu = new DataGridViewTextBoxColumn();
-            HoNguoi = new DataGridViewTextBoxColumn();
-            TenNguoi = new DataGridViewTextBoxColumn();
-            GioiTinh = new DataGridViewTextBoxColumn();
-            NgaySinh = new DataGridViewTextBoxColumn();
-            ThanhPho = new DataGridViewTextBoxColumn();
-            SoDienThoai = new DataGridViewTextBoxColumn();
-            Email = new DataGridViewTextBoxColumn();
-            CCCD = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvQuanLyTaiKhoan).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
@@ -89,6 +99,131 @@
             dgvQuanLyTaiKhoan.Size = new Size(956, 830);
             dgvQuanLyTaiKhoan.TabIndex = 0;
             dgvQuanLyTaiKhoan.CellEnter += dgvQuanLyTaiKhoan_CellEnter;
+            // 
+            // MaNguoi
+            // 
+            MaNguoi.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            MaNguoi.DataPropertyName = "PersonID";
+            MaNguoi.HeaderText = "Mã Người Dùng";
+            MaNguoi.MinimumWidth = 6;
+            MaNguoi.Name = "MaNguoi";
+            MaNguoi.Width = 145;
+            // 
+            // MaTaiKhoan
+            // 
+            MaTaiKhoan.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            MaTaiKhoan.DataPropertyName = "AccountID";
+            MaTaiKhoan.HeaderText = "Mã Tài Khoản";
+            MaTaiKhoan.MinimumWidth = 6;
+            MaTaiKhoan.Name = "MaTaiKhoan";
+            MaTaiKhoan.Width = 127;
+            // 
+            // TenTaiKhoan
+            // 
+            TenTaiKhoan.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            TenTaiKhoan.DataPropertyName = "AccountName";
+            TenTaiKhoan.HeaderText = "Tên Tài Khoản";
+            TenTaiKhoan.MinimumWidth = 6;
+            TenTaiKhoan.Name = "TenTaiKhoan";
+            TenTaiKhoan.Width = 129;
+            // 
+            // MatKhau
+            // 
+            MatKhau.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            MatKhau.DataPropertyName = "Password";
+            MatKhau.HeaderText = "Mật Khẩu";
+            MatKhau.MinimumWidth = 6;
+            MatKhau.Name = "MatKhau";
+            MatKhau.Width = 101;
+            // 
+            // SoDu
+            // 
+            SoDu.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            SoDu.DataPropertyName = "Balance";
+            SoDu.HeaderText = "Số Dư";
+            SoDu.MinimumWidth = 6;
+            SoDu.Name = "SoDu";
+            SoDu.Width = 79;
+            // 
+            // HoNguoi
+            // 
+            HoNguoi.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            HoNguoi.DataPropertyName = "FirstName";
+            HoNguoi.HeaderText = "Họ";
+            HoNguoi.MinimumWidth = 6;
+            HoNguoi.Name = "HoNguoi";
+            HoNguoi.Visible = false;
+            HoNguoi.Width = 125;
+            // 
+            // TenNguoi
+            // 
+            TenNguoi.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            TenNguoi.DataPropertyName = "LastName";
+            TenNguoi.HeaderText = "Tên";
+            TenNguoi.MinimumWidth = 6;
+            TenNguoi.Name = "TenNguoi";
+            TenNguoi.Visible = false;
+            TenNguoi.Width = 125;
+            // 
+            // GioiTinh
+            // 
+            GioiTinh.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            GioiTinh.DataPropertyName = "Gender";
+            GioiTinh.HeaderText = "Giới Tính";
+            GioiTinh.MinimumWidth = 6;
+            GioiTinh.Name = "GioiTinh";
+            GioiTinh.Visible = false;
+            GioiTinh.Width = 125;
+            // 
+            // NgaySinh
+            // 
+            NgaySinh.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            NgaySinh.DataPropertyName = "DOB";
+            NgaySinh.HeaderText = "Ngày Sinh";
+            NgaySinh.MinimumWidth = 6;
+            NgaySinh.Name = "NgaySinh";
+            NgaySinh.Visible = false;
+            NgaySinh.Width = 125;
+            // 
+            // ThanhPho
+            // 
+            ThanhPho.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            ThanhPho.DataPropertyName = "City";
+            ThanhPho.HeaderText = "Thành Phố";
+            ThanhPho.MinimumWidth = 6;
+            ThanhPho.Name = "ThanhPho";
+            ThanhPho.Visible = false;
+            ThanhPho.Width = 125;
+            // 
+            // SoDienThoai
+            // 
+            SoDienThoai.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            SoDienThoai.DataPropertyName = "PhoneNumber";
+            SoDienThoai.HeaderText = "SDT";
+            SoDienThoai.MinimumWidth = 6;
+            SoDienThoai.Name = "SoDienThoai";
+            SoDienThoai.Visible = false;
+            SoDienThoai.Width = 125;
+            // 
+            // Email
+            // 
+            Email.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Email.DataPropertyName = "Email";
+            Email.HeaderText = "Email";
+            Email.MinimumWidth = 6;
+            Email.Name = "Email";
+            Email.Visible = false;
+            Email.Width = 125;
+            // 
+            // CCCD
+            // 
+            CCCD.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            CCCD.DataPropertyName = "IdCard";
+            CCCD.HeaderText = "CCCD";
+            CCCD.MinimumWidth = 6;
+            CCCD.Name = "CCCD";
+            CCCD.Visible = false;
+            CCCD.Width = 125;
             // 
             // tableLayoutPanel1
             // 
@@ -125,20 +260,114 @@
             groupBox2.ForeColor = Color.White;
             groupBox2.Location = new Point(3, 330);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(560, 300);
+            groupBox2.Size = new Size(950, 287);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             groupBox2.Text = "Lịch sử giao dịch";
             // 
             // dgvLichSuGiaoDich
             // 
+            dgvLichSuGiaoDich.BackgroundColor = SystemColors.ActiveBorder;
             dgvLichSuGiaoDich.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvLichSuGiaoDich.Columns.AddRange(new DataGridViewColumn[] { MaHoaDon, NgayLapHoaDon, MaNguoiDung, TenNguoiDung, MaTaiKhoan_, TenTaiKhoan_, MaLaptop, TenLaptop, PhuKien, ThanhTien });
             dgvLichSuGiaoDich.Dock = DockStyle.Fill;
+            dgvLichSuGiaoDich.GridColor = Color.Silver;
             dgvLichSuGiaoDich.Location = new Point(3, 23);
             dgvLichSuGiaoDich.Name = "dgvLichSuGiaoDich";
             dgvLichSuGiaoDich.RowHeadersWidth = 51;
-            dgvLichSuGiaoDich.Size = new Size(554, 274);
+            dgvLichSuGiaoDich.RowTemplate.ReadOnly = true;
+            dgvLichSuGiaoDich.Size = new Size(944, 261);
             dgvLichSuGiaoDich.TabIndex = 0;
+            // 
+            // MaHoaDon
+            // 
+            MaHoaDon.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            MaHoaDon.DataPropertyName = "ReceiptID";
+            MaHoaDon.HeaderText = "Mã Hóa Đơn";
+            MaHoaDon.MinimumWidth = 6;
+            MaHoaDon.Name = "MaHoaDon";
+            MaHoaDon.Width = 113;
+            // 
+            // NgayLapHoaDon
+            // 
+            NgayLapHoaDon.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            NgayLapHoaDon.DataPropertyName = "InvoiceDate";
+            NgayLapHoaDon.HeaderText = "Ngày Lập Hóa Đơn";
+            NgayLapHoaDon.MinimumWidth = 6;
+            NgayLapHoaDon.Name = "NgayLapHoaDon";
+            NgayLapHoaDon.Width = 126;
+            // 
+            // MaNguoiDung
+            // 
+            MaNguoiDung.DataPropertyName = "PersonID";
+            MaNguoiDung.HeaderText = "Mã Người Dùng";
+            MaNguoiDung.MinimumWidth = 6;
+            MaNguoiDung.Name = "MaNguoiDung";
+            MaNguoiDung.Visible = false;
+            MaNguoiDung.Width = 125;
+            // 
+            // TenNguoiDung
+            // 
+            TenNguoiDung.DataPropertyName = "PersonName";
+            TenNguoiDung.HeaderText = "Tên Người Dùng";
+            TenNguoiDung.MinimumWidth = 6;
+            TenNguoiDung.Name = "TenNguoiDung";
+            TenNguoiDung.Visible = false;
+            TenNguoiDung.Width = 125;
+            // 
+            // MaTaiKhoan_
+            // 
+            MaTaiKhoan_.DataPropertyName = "AccountID";
+            MaTaiKhoan_.HeaderText = "Mã Tài Khoản";
+            MaTaiKhoan_.MinimumWidth = 6;
+            MaTaiKhoan_.Name = "MaTaiKhoan_";
+            MaTaiKhoan_.Visible = false;
+            MaTaiKhoan_.Width = 125;
+            // 
+            // TenTaiKhoan_
+            // 
+            TenTaiKhoan_.DataPropertyName = "AccountName";
+            TenTaiKhoan_.HeaderText = "Tên Tài Khoản";
+            TenTaiKhoan_.MinimumWidth = 6;
+            TenTaiKhoan_.Name = "TenTaiKhoan_";
+            TenTaiKhoan_.Visible = false;
+            TenTaiKhoan_.Width = 125;
+            // 
+            // MaLaptop
+            // 
+            MaLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            MaLaptop.DataPropertyName = "LaptopID";
+            MaLaptop.HeaderText = "Mã Laptop";
+            MaLaptop.MinimumWidth = 6;
+            MaLaptop.Name = "MaLaptop";
+            MaLaptop.Width = 101;
+            // 
+            // TenLaptop
+            // 
+            TenLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            TenLaptop.DataPropertyName = "LaptopName";
+            TenLaptop.HeaderText = "Tên Laptop";
+            TenLaptop.MinimumWidth = 6;
+            TenLaptop.Name = "TenLaptop";
+            TenLaptop.Width = 103;
+            // 
+            // PhuKien
+            // 
+            PhuKien.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            PhuKien.DataPropertyName = "ExtraItems";
+            PhuKien.HeaderText = "Phụ Kiện";
+            PhuKien.MinimumWidth = 6;
+            PhuKien.Name = "PhuKien";
+            PhuKien.Width = 88;
+            // 
+            // ThanhTien
+            // 
+            ThanhTien.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            ThanhTien.DataPropertyName = "TotalAmount";
+            ThanhTien.HeaderText = "Thành Tiền";
+            ThanhTien.MinimumWidth = 6;
+            ThanhTien.Name = "ThanhTien";
+            ThanhTien.Width = 101;
             // 
             // groupBox1
             // 
@@ -357,7 +586,6 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(956, 86);
             panel3.TabIndex = 3;
-            panel3.Paint += panel3_Paint;
             // 
             // btnThoat
             // 
@@ -369,131 +597,6 @@
             btnThoat.Text = "Thoát";
             btnThoat.UseVisualStyleBackColor = true;
             btnThoat.Click += btnThoat_Click;
-            // 
-            // MaNguoi
-            // 
-            MaNguoi.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            MaNguoi.DataPropertyName = "PersonID";
-            MaNguoi.HeaderText = "Mã Người Dùng";
-            MaNguoi.MinimumWidth = 6;
-            MaNguoi.Name = "MaNguoi";
-            MaNguoi.Width = 145;
-            // 
-            // MaTaiKhoan
-            // 
-            MaTaiKhoan.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            MaTaiKhoan.DataPropertyName = "AccountID";
-            MaTaiKhoan.HeaderText = "Mã Tài Khoản";
-            MaTaiKhoan.MinimumWidth = 6;
-            MaTaiKhoan.Name = "MaTaiKhoan";
-            MaTaiKhoan.Width = 127;
-            // 
-            // TenTaiKhoan
-            // 
-            TenTaiKhoan.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            TenTaiKhoan.DataPropertyName = "AccountName";
-            TenTaiKhoan.HeaderText = "Tên Tài Khoản";
-            TenTaiKhoan.MinimumWidth = 6;
-            TenTaiKhoan.Name = "TenTaiKhoan";
-            TenTaiKhoan.Width = 129;
-            // 
-            // MatKhau
-            // 
-            MatKhau.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            MatKhau.DataPropertyName = "Password";
-            MatKhau.HeaderText = "Mật Khẩu";
-            MatKhau.MinimumWidth = 6;
-            MatKhau.Name = "MatKhau";
-            MatKhau.Width = 101;
-            // 
-            // SoDu
-            // 
-            SoDu.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            SoDu.DataPropertyName = "Balance";
-            SoDu.HeaderText = "Số Dư";
-            SoDu.MinimumWidth = 6;
-            SoDu.Name = "SoDu";
-            SoDu.Width = 79;
-            // 
-            // HoNguoi
-            // 
-            HoNguoi.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            HoNguoi.DataPropertyName = "FirstName";
-            HoNguoi.HeaderText = "Họ";
-            HoNguoi.MinimumWidth = 6;
-            HoNguoi.Name = "HoNguoi";
-            HoNguoi.Visible = false;
-            HoNguoi.Width = 58;
-            // 
-            // TenNguoi
-            // 
-            TenNguoi.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            TenNguoi.DataPropertyName = "LastName";
-            TenNguoi.HeaderText = "Tên";
-            TenNguoi.MinimumWidth = 6;
-            TenNguoi.Name = "TenNguoi";
-            TenNguoi.Visible = false;
-            TenNguoi.Width = 61;
-            // 
-            // GioiTinh
-            // 
-            GioiTinh.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            GioiTinh.DataPropertyName = "Gender";
-            GioiTinh.HeaderText = "Giới Tính";
-            GioiTinh.MinimumWidth = 6;
-            GioiTinh.Name = "GioiTinh";
-            GioiTinh.Visible = false;
-            GioiTinh.Width = 97;
-            // 
-            // NgaySinh
-            // 
-            NgaySinh.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            NgaySinh.DataPropertyName = "DOB";
-            NgaySinh.HeaderText = "Ngày Sinh";
-            NgaySinh.MinimumWidth = 6;
-            NgaySinh.Name = "NgaySinh";
-            NgaySinh.Visible = false;
-            NgaySinh.Width = 105;
-            // 
-            // ThanhPho
-            // 
-            ThanhPho.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            ThanhPho.DataPropertyName = "City";
-            ThanhPho.HeaderText = "Thành Phố";
-            ThanhPho.MinimumWidth = 6;
-            ThanhPho.Name = "ThanhPho";
-            ThanhPho.Visible = false;
-            ThanhPho.Width = 107;
-            // 
-            // SoDienThoai
-            // 
-            SoDienThoai.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            SoDienThoai.DataPropertyName = "PhoneNumber";
-            SoDienThoai.HeaderText = "SDT";
-            SoDienThoai.MinimumWidth = 6;
-            SoDienThoai.Name = "SoDienThoai";
-            SoDienThoai.Visible = false;
-            SoDienThoai.Width = 64;
-            // 
-            // Email
-            // 
-            Email.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            Email.DataPropertyName = "Email";
-            Email.HeaderText = "Email";
-            Email.MinimumWidth = 6;
-            Email.Name = "Email";
-            Email.Visible = false;
-            Email.Width = 75;
-            // 
-            // CCCD
-            // 
-            CCCD.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            CCCD.DataPropertyName = "IdCard";
-            CCCD.HeaderText = "CCCD";
-            CCCD.MinimumWidth = 6;
-            CCCD.Name = "CCCD";
-            CCCD.Visible = false;
-            CCCD.Width = 76;
             // 
             // AccountManagement
             // 
@@ -546,7 +649,6 @@
         private ComboBox cmbLoaiTimKiem;
         private Label label8;
         private GroupBox groupBox2;
-        private DataGridView dgvLichSuGiaoDich;
         private Panel panel3;
         private DataGridViewTextBoxColumn MaNguoi;
         private DataGridViewTextBoxColumn MaTaiKhoan;
@@ -561,5 +663,16 @@
         private DataGridViewTextBoxColumn SoDienThoai;
         private DataGridViewTextBoxColumn Email;
         private DataGridViewTextBoxColumn CCCD;
+        private DataGridView dgvLichSuGiaoDich;
+        private DataGridViewTextBoxColumn MaHoaDon;
+        private DataGridViewTextBoxColumn NgayLapHoaDon;
+        private DataGridViewTextBoxColumn MaNguoiDung;
+        private DataGridViewTextBoxColumn TenNguoiDung;
+        private DataGridViewTextBoxColumn MaTaiKhoan_;
+        private DataGridViewTextBoxColumn TenTaiKhoan_;
+        private DataGridViewTextBoxColumn MaLaptop;
+        private DataGridViewTextBoxColumn TenLaptop;
+        private DataGridViewTextBoxColumn PhuKien;
+        private DataGridViewTextBoxColumn ThanhTien;
     }
 }

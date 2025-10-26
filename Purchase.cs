@@ -50,14 +50,14 @@ namespace QuanLyLaptop
         {
             if(AccountAuthentication.CurrentAccount.Balance >= SelectedLaptop.Price + GiaPhuKien)
             {
-                AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
-                
-                lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
-                MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                if(!(AccountAuthentication.CurrentAccount.AccountID == 10000))
+                if (!(AccountAuthentication.CurrentAccount.AccountID == 10000))
                 {
+                    AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
                     LaptopList.SelectedItem.RemainAmount--;
                 }
+                lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
+                MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
                 LaptopList.ActiveForm.Refresh();
                 this.Close();
             }
