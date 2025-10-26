@@ -71,7 +71,7 @@
             // 
             // grbDangKy
             // 
-            grbDangKy.BackColor = Color.RoyalBlue;
+            grbDangKy.BackColor = Color.FromArgb(28, 28, 28);
             grbDangKy.Controls.Add(groupBox3);
             grbDangKy.Controls.Add(groupBox2);
             grbDangKy.Controls.Add(label1);
@@ -92,7 +92,7 @@
             groupBox3.Controls.Add(txtMatKhauDK);
             groupBox3.Controls.Add(txtTenDK);
             groupBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox3.ForeColor = Color.White;
+            groupBox3.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox3.Location = new Point(15, 358);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(304, 192);
@@ -107,7 +107,7 @@
             llbDangNhap.DisabledLinkColor = Color.Transparent;
             llbDangNhap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             llbDangNhap.ForeColor = Color.White;
-            llbDangNhap.LinkColor = Color.White;
+            llbDangNhap.LinkColor = Color.FromArgb(0, 180, 216);
             llbDangNhap.Location = new Point(177, 162);
             llbDangNhap.Name = "llbDangNhap";
             llbDangNhap.Size = new Size(120, 20);
@@ -121,6 +121,7 @@
             btnDangKy.BackColor = Color.Red;
             btnDangKy.Cursor = Cursors.Hand;
             btnDangKy.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDangKy.ForeColor = Color.White;
             btnDangKy.Location = new Point(67, 111);
             btnDangKy.Name = "btnDangKy";
             btnDangKy.Size = new Size(171, 44);
@@ -133,6 +134,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label10.ForeColor = Color.White;
             label10.Location = new Point(6, 73);
             label10.Name = "label10";
             label10.Size = new Size(79, 20);
@@ -143,6 +145,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label9.ForeColor = Color.White;
             label9.Location = new Point(5, 39);
             label9.Name = "label9";
             label9.Size = new Size(80, 20);
@@ -152,6 +155,7 @@
             // txtMatKhauDK
             // 
             txtMatKhauDK.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtMatKhauDK.ForeColor = Color.FromArgb(28, 28, 28);
             txtMatKhauDK.Location = new Point(86, 70);
             txtMatKhauDK.Name = "txtMatKhauDK";
             txtMatKhauDK.Size = new Size(174, 27);
@@ -160,6 +164,7 @@
             // txtTenDK
             // 
             txtTenDK.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtTenDK.ForeColor = Color.FromArgb(28, 28, 28);
             txtTenDK.Location = new Point(86, 36);
             txtTenDK.Name = "txtTenDK";
             txtTenDK.Size = new Size(174, 27);
@@ -184,7 +189,7 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = Color.White;
+            groupBox2.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox2.Location = new Point(15, 57);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(304, 295);
@@ -195,6 +200,7 @@
             // cmbTinhThanh
             // 
             cmbTinhThanh.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbTinhThanh.ForeColor = Color.FromArgb(28, 28, 28);
             cmbTinhThanh.FormattingEnabled = true;
             cmbTinhThanh.Items.AddRange(new object[] { "An Giang", "", "Bà Rịa – Vũng Tàu", "", "Bắc Giang", "", "Bắc Kạn", "", "Bạc Liêu", "", "Bắc Ninh", "", "Bến Tre", "", "Bình Định", "", "Bình Dương", "", "Bình Phước", "", "Bình Thuận", "", "Cà Mau", "", "Cao Bằng", "", "Cần Thơ", "", "Đà Nẵng", "", "Đắk Lắk", "", "Đắk Nông", "", "Điện Biên", "", "Đồng Nai", "", "Đồng Tháp", "", "Gia Lai", "", "Hà Giang", "", "Hà Nam", "", "Hà Nội", "", "Hà Tĩnh", "", "Hải Dương", "", "Hải Phòng", "", "Hậu Giang", "", "Hòa Bình", "", "Hưng Yên", "", "Khánh Hòa", "", "Kiên Giang", "", "Kon Tum", "", "Lai Châu", "", "Lâm Đồng", "", "Lạng Sơn", "", "Lào Cai", "", "Long An", "", "Nam Định", "", "Nghệ An", "", "Ninh Bình", "", "Ninh Thuận", "", "Phú Thọ", "", "Phú Yên", "", "Quảng Bình", "", "Quảng Nam", "", "Quảng Ngãi", "", "Quảng Ninh", "", "Quảng Trị", "", "Sóc Trăng", "", "Sơn La", "", "Tây Ninh", "", "Thái Bình", "", "Thái Nguyên", "", "Thanh Hóa", "", "Thừa Thiên Huế", "", "Tiền Giang", "", "TP. Hồ Chí Minh", "", "Trà Vinh", "", "Tuyên Quang", "", "Vĩnh Long", "", "Vĩnh Phúc", "", "Yên Bái" });
             cmbTinhThanh.Location = new Point(130, 148);
@@ -207,6 +213,7 @@
             // 
             ckbNu.AutoSize = true;
             ckbNu.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ckbNu.ForeColor = Color.White;
             ckbNu.Location = new Point(209, 75);
             ckbNu.Name = "ckbNu";
             ckbNu.Size = new Size(51, 24);
@@ -221,6 +228,7 @@
             ckbNam.Checked = true;
             ckbNam.CheckState = CheckState.Checked;
             ckbNam.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ckbNam.ForeColor = Color.White;
             ckbNam.Location = new Point(130, 75);
             ckbNam.Name = "ckbNam";
             ckbNam.Size = new Size(63, 24);
@@ -231,6 +239,7 @@
             // 
             // dtpNgaySinh
             // 
+            dtpNgaySinh.CalendarForeColor = Color.FromArgb(28, 28, 28);
             dtpNgaySinh.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dtpNgaySinh.Format = DateTimePickerFormat.Short;
             dtpNgaySinh.Location = new Point(130, 110);
@@ -243,6 +252,7 @@
             // txtCCCD
             // 
             txtCCCD.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtCCCD.ForeColor = Color.FromArgb(28, 28, 28);
             txtCCCD.Location = new Point(130, 256);
             txtCCCD.Name = "txtCCCD";
             txtCCCD.Size = new Size(167, 27);
@@ -251,6 +261,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtEmail.ForeColor = Color.FromArgb(28, 28, 28);
             txtEmail.Location = new Point(130, 220);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(167, 27);
@@ -259,6 +270,7 @@
             // txtSDT
             // 
             txtSDT.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSDT.ForeColor = Color.FromArgb(28, 28, 28);
             txtSDT.Location = new Point(130, 184);
             txtSDT.Name = "txtSDT";
             txtSDT.Size = new Size(167, 27);
@@ -267,6 +279,7 @@
             // txtHoTen
             // 
             txtHoTen.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtHoTen.ForeColor = Color.FromArgb(28, 28, 28);
             txtHoTen.Location = new Point(130, 40);
             txtHoTen.Name = "txtHoTen";
             txtHoTen.Size = new Size(167, 27);
@@ -276,6 +289,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label8.ForeColor = Color.White;
             label8.Location = new Point(72, 259);
             label8.Name = "label8";
             label8.Size = new Size(51, 20);
@@ -286,6 +300,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label7.ForeColor = Color.White;
             label7.Location = new Point(73, 223);
             label7.Name = "label7";
             label7.Size = new Size(51, 20);
@@ -296,6 +311,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label6.ForeColor = Color.White;
             label6.Location = new Point(83, 187);
             label6.Name = "label6";
             label6.Size = new Size(41, 20);
@@ -306,6 +322,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label5.ForeColor = Color.White;
             label5.Location = new Point(6, 151);
             label5.Name = "label5";
             label5.Size = new Size(126, 20);
@@ -316,6 +333,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label4.ForeColor = Color.White;
             label4.Location = new Point(45, 115);
             label4.Name = "label4";
             label4.Size = new Size(83, 20);
@@ -326,6 +344,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label3.ForeColor = Color.White;
             label3.Location = new Point(54, 79);
             label3.Name = "label3";
             label3.Size = new Size(73, 20);
@@ -336,6 +355,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label2.ForeColor = Color.White;
             label2.Location = new Point(65, 43);
             label2.Name = "label2";
             label2.Size = new Size(60, 20);
@@ -347,7 +367,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Transparent;
+            label1.ForeColor = Color.Red;
             label1.Location = new Point(109, 18);
             label1.Name = "label1";
             label1.Size = new Size(116, 31);
@@ -356,7 +376,7 @@
             // 
             // grbDangNhap
             // 
-            grbDangNhap.BackColor = Color.LightSeaGreen;
+            grbDangNhap.BackColor = Color.FromArgb(28, 28, 28);
             grbDangNhap.Controls.Add(groupBox5);
             grbDangNhap.Controls.Add(label11);
             grbDangNhap.Location = new Point(423, 12);
@@ -374,7 +394,7 @@
             groupBox5.Controls.Add(txtMatKhauDN);
             groupBox5.Controls.Add(txtTenDN);
             groupBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox5.ForeColor = Color.White;
+            groupBox5.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox5.Location = new Point(15, 57);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(304, 192);
@@ -386,7 +406,7 @@
             // 
             llbDangKy.AutoSize = true;
             llbDangKy.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            llbDangKy.LinkColor = Color.White;
+            llbDangKy.LinkColor = Color.FromArgb(0, 180, 216);
             llbDangKy.Location = new Point(164, 162);
             llbDangKy.Name = "llbDangKy";
             llbDangKy.Size = new Size(135, 20);
@@ -413,6 +433,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label12.ForeColor = Color.White;
             label12.Location = new Point(6, 73);
             label12.Name = "label12";
             label12.Size = new Size(79, 20);
@@ -423,6 +444,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label13.ForeColor = Color.White;
             label13.Location = new Point(5, 39);
             label13.Name = "label13";
             label13.Size = new Size(80, 20);
@@ -432,6 +454,7 @@
             // txtMatKhauDN
             // 
             txtMatKhauDN.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtMatKhauDN.ForeColor = Color.FromArgb(28, 28, 28);
             txtMatKhauDN.Location = new Point(86, 70);
             txtMatKhauDN.Name = "txtMatKhauDN";
             txtMatKhauDN.Size = new Size(174, 27);
@@ -440,6 +463,7 @@
             // txtTenDN
             // 
             txtTenDN.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtTenDN.ForeColor = Color.FromArgb(28, 28, 28);
             txtTenDN.Location = new Point(86, 36);
             txtTenDN.Name = "txtTenDN";
             txtTenDN.Size = new Size(174, 27);
@@ -449,7 +473,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.White;
+            label11.ForeColor = Color.Red;
             label11.Location = new Point(91, 18);
             label11.Name = "label11";
             label11.Size = new Size(153, 31);
@@ -460,7 +484,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(224, 224, 224);
+            BackColor = Color.FromArgb(13, 13, 13);
             ClientSize = new Size(771, 621);
             Controls.Add(grbDangNhap);
             Controls.Add(grbDangKy);

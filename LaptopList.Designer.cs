@@ -70,6 +70,7 @@
             txtFilter = new TextBox();
             cmbLoaiTimKiem = new ComboBox();
             label9 = new Label();
+            groupBox3 = new GroupBox();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -212,7 +213,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.PapayaWhip;
+            panel1.BackColor = Color.FromArgb(13, 13, 13);
             panel1.Controls.Add(lblTenLaptop);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(label5);
@@ -229,6 +230,7 @@
             lblTenLaptop.AutoSize = true;
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
             lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTenLaptop.ForeColor = Color.White;
             lblTenLaptop.Location = new Point(284, 7);
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(2, 30);
@@ -238,7 +240,7 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Top;
-            groupBox2.BackColor = Color.Cornsilk;
+            groupBox2.BackColor = Color.FromArgb(28, 28, 28);
             groupBox2.Controls.Add(lblRAMInfo);
             groupBox2.Controls.Add(lblStorageInfo);
             groupBox2.Controls.Add(lblGPUInfo);
@@ -247,6 +249,7 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(label1);
+            groupBox2.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox2.Location = new Point(178, 49);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(397, 234);
@@ -258,6 +261,7 @@
             // 
             lblRAMInfo.BorderStyle = BorderStyle.Fixed3D;
             lblRAMInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblRAMInfo.ForeColor = Color.White;
             lblRAMInfo.Location = new Point(106, 192);
             lblRAMInfo.Name = "lblRAMInfo";
             lblRAMInfo.Size = new Size(257, 25);
@@ -268,6 +272,7 @@
             // 
             lblStorageInfo.BorderStyle = BorderStyle.Fixed3D;
             lblStorageInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblStorageInfo.ForeColor = Color.White;
             lblStorageInfo.Location = new Point(106, 145);
             lblStorageInfo.Name = "lblStorageInfo";
             lblStorageInfo.Size = new Size(257, 25);
@@ -278,6 +283,7 @@
             // 
             lblGPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblGPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblGPUInfo.ForeColor = Color.White;
             lblGPUInfo.Location = new Point(106, 106);
             lblGPUInfo.Name = "lblGPUInfo";
             lblGPUInfo.Size = new Size(257, 25);
@@ -288,6 +294,7 @@
             // 
             lblCPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblCPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblCPUInfo.ForeColor = Color.White;
             lblCPUInfo.Location = new Point(106, 60);
             lblCPUInfo.Name = "lblCPUInfo";
             lblCPUInfo.Size = new Size(257, 25);
@@ -335,6 +342,7 @@
             label5.Anchor = AnchorStyles.Top;
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.FromArgb(179, 179, 179);
             label5.Location = new Point(190, 8);
             label5.Name = "label5";
             label5.Size = new Size(78, 28);
@@ -344,9 +352,11 @@
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top;
+            groupBox1.BackColor = Color.FromArgb(28, 28, 28);
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
+            groupBox1.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox1.Location = new Point(178, 301);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(397, 120);
@@ -356,7 +366,7 @@
             // 
             // btnThoat
             // 
-            btnThoat.BackColor = Color.Red;
+            btnThoat.BackColor = Color.DarkGray;
             btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThoat.ForeColor = Color.White;
             btnThoat.Location = new Point(297, 40);
@@ -369,29 +379,33 @@
             // 
             // btnReview
             // 
+            btnReview.BackColor = Color.Red;
             btnReview.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnReview.ForeColor = Color.White;
             btnReview.Location = new Point(132, 40);
             btnReview.Name = "btnReview";
             btnReview.Size = new Size(120, 40);
             btnReview.TabIndex = 0;
             btnReview.Text = "Đánh Giá";
-            btnReview.UseVisualStyleBackColor = true;
+            btnReview.UseVisualStyleBackColor = false;
             btnReview.Click += btnReview_Click;
             // 
             // btnPurchase
             // 
+            btnPurchase.BackColor = Color.Red;
             btnPurchase.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPurchase.ForeColor = Color.White;
             btnPurchase.Location = new Point(6, 40);
             btnPurchase.Name = "btnPurchase";
             btnPurchase.Size = new Size(120, 40);
             btnPurchase.TabIndex = 0;
             btnPurchase.Text = "Mua";
-            btnPurchase.UseVisualStyleBackColor = true;
+            btnPurchase.UseVisualStyleBackColor = false;
             btnPurchase.Click += btnPurchase_Click;
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FloralWhite;
+            panel2.BackColor = Color.FromArgb(13, 13, 13);
             panel2.Controls.Add(btnNapTien);
             panel2.Controls.Add(lblSoDu);
             panel2.Controls.Add(lblTenTaiKhoan);
@@ -407,17 +421,20 @@
             // 
             // btnNapTien
             // 
+            btnNapTien.BackColor = Color.Gold;
+            btnNapTien.ForeColor = Color.FromArgb(28, 28, 28);
             btnNapTien.Location = new Point(625, 13);
             btnNapTien.Name = "btnNapTien";
             btnNapTien.Size = new Size(94, 29);
             btnNapTien.TabIndex = 4;
             btnNapTien.Text = "Nạp tiền";
-            btnNapTien.UseVisualStyleBackColor = true;
+            btnNapTien.UseVisualStyleBackColor = false;
             btnNapTien.Click += btnNapTien_Click;
             // 
             // lblSoDu
             // 
             lblSoDu.AutoSize = true;
+            lblSoDu.ForeColor = Color.White;
             lblSoDu.Location = new Point(470, 17);
             lblSoDu.Name = "lblSoDu";
             lblSoDu.Size = new Size(0, 20);
@@ -426,6 +443,7 @@
             // lblTenTaiKhoan
             // 
             lblTenTaiKhoan.AutoSize = true;
+            lblTenTaiKhoan.ForeColor = Color.White;
             lblTenTaiKhoan.Location = new Point(312, 17);
             lblTenTaiKhoan.Name = "lblTenTaiKhoan";
             lblTenTaiKhoan.Size = new Size(0, 20);
@@ -434,6 +452,7 @@
             // lblTenNguoiDung
             // 
             lblTenNguoiDung.AutoSize = true;
+            lblTenNguoiDung.ForeColor = Color.White;
             lblTenNguoiDung.Location = new Point(107, 17);
             lblTenNguoiDung.Name = "lblTenNguoiDung";
             lblTenNguoiDung.Size = new Size(0, 20);
@@ -442,6 +461,7 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.ForeColor = Color.FromArgb(179, 179, 179);
             label8.Location = new Point(419, 17);
             label8.Name = "label8";
             label8.Size = new Size(51, 20);
@@ -451,6 +471,7 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.ForeColor = Color.FromArgb(179, 179, 179);
             label7.Location = new Point(232, 17);
             label7.Name = "label7";
             label7.Size = new Size(74, 20);
@@ -460,6 +481,7 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.ForeColor = Color.FromArgb(179, 179, 179);
             label6.Location = new Point(9, 17);
             label6.Name = "label6";
             label6.Size = new Size(92, 20);
@@ -468,10 +490,12 @@
             // 
             // panel3
             // 
+            panel3.BackColor = Color.FromArgb(13, 13, 13);
             panel3.Controls.Add(btnTimKiem);
             panel3.Controls.Add(txtFilter);
             panel3.Controls.Add(cmbLoaiTimKiem);
             panel3.Controls.Add(label9);
+            panel3.Controls.Add(groupBox3);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
@@ -480,16 +504,20 @@
             // 
             // btnTimKiem
             // 
+            btnTimKiem.BackColor = Color.Gold;
+            btnTimKiem.ForeColor = Color.FromArgb(28, 28, 28);
             btnTimKiem.Location = new Point(482, 45);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(30, 29);
             btnTimKiem.TabIndex = 7;
             btnTimKiem.Text = "⌕";
-            btnTimKiem.UseVisualStyleBackColor = true;
+            btnTimKiem.UseVisualStyleBackColor = false;
             btnTimKiem.Click += btnTimKiem_Click;
             // 
             // txtFilter
             // 
+            txtFilter.BackColor = Color.FromArgb(28, 28, 28);
+            txtFilter.ForeColor = Color.FromArgb(179, 179, 179);
             txtFilter.Location = new Point(218, 46);
             txtFilter.Name = "txtFilter";
             txtFilter.Size = new Size(258, 27);
@@ -498,6 +526,8 @@
             // 
             // cmbLoaiTimKiem
             // 
+            cmbLoaiTimKiem.BackColor = Color.FromArgb(28, 28, 28);
+            cmbLoaiTimKiem.ForeColor = Color.FromArgb(179, 179, 179);
             cmbLoaiTimKiem.FormattingEnabled = true;
             cmbLoaiTimKiem.Items.AddRange(new object[] { "Mã Laptop", "Tên Laptop", "Hãng Laptop", "CPU", "GPU", "RAM", "Ổ cứng" });
             cmbLoaiTimKiem.Location = new Point(95, 45);
@@ -509,11 +539,23 @@
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.ForeColor = Color.FromArgb(179, 179, 179);
             label9.Location = new Point(16, 48);
             label9.Name = "label9";
             label9.Size = new Size(73, 20);
             label9.TabIndex = 4;
             label9.Text = "Tìm kiếm:";
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox3.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox3.Location = new Point(9, 3);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(513, 93);
+            groupBox3.TabIndex = 8;
+            groupBox3.TabStop = false;
             // 
             // LaptopList
             // 
@@ -583,5 +625,6 @@
         private Label label9;
         private Button btnThoat;
         private Button btnNapTien;
+        private GroupBox groupBox3;
     }
 }

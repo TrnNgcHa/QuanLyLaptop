@@ -40,8 +40,10 @@
             // 
             // groupBox2
             // 
-            groupBox2.BackColor = SystemColors.Control;
+            groupBox2.BackColor = Color.FromArgb(28, 28, 28);
             groupBox2.Controls.Add(btnMainMenu);
+            groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            groupBox2.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox2.Location = new Point(403, 118);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(181, 214);
@@ -51,8 +53,10 @@
             // 
             // btnMainMenu
             // 
-            btnMainMenu.BackColor = Color.Salmon;
+            btnMainMenu.BackColor = Color.DarkGray;
             btnMainMenu.Dock = DockStyle.Top;
+            btnMainMenu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnMainMenu.ForeColor = Color.White;
             btnMainMenu.Location = new Point(3, 23);
             btnMainMenu.Name = "btnMainMenu";
             btnMainMenu.Size = new Size(175, 60);
@@ -63,9 +67,12 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.FromArgb(28, 28, 28);
             groupBox1.Controls.Add(btnProduct);
             groupBox1.Controls.Add(btnReceipt);
             groupBox1.Controls.Add(btnAccount);
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            groupBox1.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox1.Location = new Point(216, 118);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(181, 214);
@@ -75,8 +82,10 @@
             // 
             // btnProduct
             // 
-            btnProduct.BackColor = Color.SkyBlue;
+            btnProduct.BackColor = Color.Red;
             btnProduct.Dock = DockStyle.Top;
+            btnProduct.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnProduct.ForeColor = Color.White;
             btnProduct.Location = new Point(3, 143);
             btnProduct.Name = "btnProduct";
             btnProduct.Size = new Size(175, 60);
@@ -87,8 +96,10 @@
             // 
             // btnReceipt
             // 
-            btnReceipt.BackColor = Color.SkyBlue;
+            btnReceipt.BackColor = Color.Red;
             btnReceipt.Dock = DockStyle.Top;
+            btnReceipt.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnReceipt.ForeColor = Color.White;
             btnReceipt.Location = new Point(3, 83);
             btnReceipt.Name = "btnReceipt";
             btnReceipt.Size = new Size(175, 60);
@@ -99,8 +110,10 @@
             // 
             // btnAccount
             // 
-            btnAccount.BackColor = Color.SkyBlue;
+            btnAccount.BackColor = Color.Red;
             btnAccount.Dock = DockStyle.Top;
+            btnAccount.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnAccount.ForeColor = Color.White;
             btnAccount.Location = new Point(3, 23);
             btnAccount.Name = "btnAccount";
             btnAccount.Size = new Size(175, 60);
@@ -113,6 +126,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);

@@ -41,7 +41,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.BackColor = Color.FromArgb(64, 64, 64);
+            groupBox1.BackColor = Color.FromArgb(28, 28, 28);
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnConfirm);
             groupBox1.Controls.Add(txtPassword);
@@ -49,7 +49,7 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(67, 12);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(322, 255);
             groupBox1.TabIndex = 0;
@@ -57,7 +57,8 @@
             // 
             // btnThoat
             // 
-            btnThoat.BackColor = Color.Red;
+            btnThoat.BackColor = Color.DarkGray;
+            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnThoat.ForeColor = Color.White;
             btnThoat.Location = new Point(19, 198);
             btnThoat.Name = "btnThoat";
@@ -70,6 +71,7 @@
             // btnConfirm
             // 
             btnConfirm.BackColor = Color.Red;
+            btnConfirm.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnConfirm.ForeColor = Color.White;
             btnConfirm.Location = new Point(130, 198);
             btnConfirm.Name = "btnConfirm";
@@ -81,6 +83,8 @@
             // 
             // txtPassword
             // 
+            txtPassword.BackColor = Color.FromArgb(28, 28, 28);
+            txtPassword.ForeColor = Color.White;
             txtPassword.Location = new Point(95, 149);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(200, 27);
@@ -88,6 +92,8 @@
             // 
             // txtName
             // 
+            txtName.BackColor = Color.FromArgb(28, 28, 28);
+            txtName.ForeColor = Color.White;
             txtName.Location = new Point(97, 103);
             txtName.Name = "txtName";
             txtName.Size = new Size(200, 27);
@@ -97,7 +103,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label3.ForeColor = Color.White;
+            label3.ForeColor = Color.FromArgb(179, 179, 179);
             label3.Location = new Point(19, 152);
             label3.Name = "label3";
             label3.Size = new Size(75, 20);
@@ -108,7 +114,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.FromArgb(179, 179, 179);
             label2.Location = new Point(19, 106);
             label2.Name = "label2";
             label2.Size = new Size(76, 20);
@@ -119,7 +125,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
+            label1.ForeColor = Color.Red;
             label1.Location = new Point(33, 23);
             label1.Name = "label1";
             label1.Size = new Size(234, 56);
@@ -131,7 +137,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(348, 279);
+            BackColor = Color.Black;
+            ClientSize = new Size(457, 304);
             Controls.Add(groupBox1);
             Name = "AdminAuthentication";
             StartPosition = FormStartPosition.CenterScreen;
