@@ -359,7 +359,7 @@
             btnThoat.BackColor = Color.Red;
             btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThoat.ForeColor = Color.White;
-            btnThoat.Location = new Point(297, 26);
+            btnThoat.Location = new Point(297, 40);
             btnThoat.Name = "btnThoat";
             btnThoat.Size = new Size(94, 40);
             btnThoat.TabIndex = 1;
@@ -370,7 +370,7 @@
             // btnReview
             // 
             btnReview.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnReview.Location = new Point(132, 26);
+            btnReview.Location = new Point(132, 40);
             btnReview.Name = "btnReview";
             btnReview.Size = new Size(120, 40);
             btnReview.TabIndex = 0;
@@ -381,7 +381,7 @@
             // btnPurchase
             // 
             btnPurchase.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPurchase.Location = new Point(6, 26);
+            btnPurchase.Location = new Point(6, 40);
             btnPurchase.Name = "btnPurchase";
             btnPurchase.Size = new Size(120, 40);
             btnPurchase.TabIndex = 0;

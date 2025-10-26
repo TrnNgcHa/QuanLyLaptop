@@ -13,7 +13,7 @@ namespace QuanLyLaptop.Models
         public string LaptopName { get; set; }
         public string AgencyName { get; set; }
         public DateOnly StockInDate { get; set; }
-        public string RemainAmount { get; set; }
+        public int RemainAmount { get; set; }
         public string CPU { get; set; }
         public string GPU { get; set; }
         public string Storage { get; set; }
@@ -22,8 +22,8 @@ namespace QuanLyLaptop.Models
 
         public Laptop()
         {
-            LaptopID = Price = 0;
-            LaptopName = AgencyName = RemainAmount = CPU = GPU = Storage = RAM = "";
+            LaptopID = Price = RemainAmount = 0;
+            LaptopName = AgencyName = CPU = GPU = Storage = RAM = "";
         }
 
         public Laptop(string csvLine)
@@ -33,7 +33,7 @@ namespace QuanLyLaptop.Models
             LaptopName = values[1];
             AgencyName = values[2];
             StockInDate = DateOnly.Parse(values[3]);
-            RemainAmount = values[4];
+            RemainAmount = Convert.ToInt32(values[4]);
             Price = Convert.ToInt32(values[5]);
             CPU = values[6];
             GPU = values[7];

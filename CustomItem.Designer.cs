@@ -44,14 +44,18 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            label7 = new Label();
+            txtGiaTien = new TextBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(btnXacNhan);
             groupBox1.Controls.Add(btnHuy);
             groupBox1.Controls.Add(btnRandom);
+            groupBox1.Controls.Add(txtGiaTien);
             groupBox1.Controls.Add(txtOCung);
             groupBox1.Controls.Add(txtRAM);
             groupBox1.Controls.Add(txtGPU);
@@ -66,14 +70,14 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(336, 396);
+            groupBox1.Size = new Size(479, 446);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin Laptop";
             // 
             // btnXacNhan
             // 
-            btnXacNhan.Location = new Point(192, 341);
+            btnXacNhan.Location = new Point(263, 411);
             btnXacNhan.Name = "btnXacNhan";
             btnXacNhan.Size = new Size(94, 29);
             btnXacNhan.TabIndex = 4;
@@ -83,7 +87,7 @@
             // 
             // btnHuy
             // 
-            btnHuy.Location = new Point(50, 341);
+            btnHuy.Location = new Point(121, 411);
             btnHuy.Name = "btnHuy";
             btnHuy.Size = new Size(94, 29);
             btnHuy.TabIndex = 4;
@@ -106,35 +110,35 @@
             // 
             txtOCung.Location = new Point(98, 289);
             txtOCung.Name = "txtOCung";
-            txtOCung.Size = new Size(213, 27);
+            txtOCung.Size = new Size(363, 27);
             txtOCung.TabIndex = 2;
             // 
             // txtRAM
             // 
             txtRAM.Location = new Point(98, 242);
             txtRAM.Name = "txtRAM";
-            txtRAM.Size = new Size(213, 27);
+            txtRAM.Size = new Size(363, 27);
             txtRAM.TabIndex = 2;
             // 
             // txtGPU
             // 
             txtGPU.Location = new Point(98, 195);
             txtGPU.Name = "txtGPU";
-            txtGPU.Size = new Size(213, 27);
+            txtGPU.Size = new Size(363, 27);
             txtGPU.TabIndex = 2;
             // 
             // txtCPU
             // 
             txtCPU.Location = new Point(98, 148);
             txtCPU.Name = "txtCPU";
-            txtCPU.Size = new Size(213, 27);
+            txtCPU.Size = new Size(363, 27);
             txtCPU.TabIndex = 2;
             // 
             // txtTenLaptop
             // 
             txtTenLaptop.Location = new Point(98, 101);
             txtTenLaptop.Name = "txtTenLaptop";
-            txtTenLaptop.Size = new Size(215, 27);
+            txtTenLaptop.Size = new Size(365, 27);
             txtTenLaptop.TabIndex = 2;
             // 
             // txtMaLaptop
@@ -199,12 +203,28 @@
             label1.TabIndex = 0;
             label1.Text = "Mã Laptop:";
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 340);
+            label7.Name = "label7";
+            label7.Size = new Size(63, 20);
+            label7.TabIndex = 5;
+            label7.Text = "Giá tiền:";
+            // 
+            // txtGiaTien
+            // 
+            txtGiaTien.Location = new Point(98, 337);
+            txtGiaTien.Name = "txtGiaTien";
+            txtGiaTien.Size = new Size(363, 27);
+            txtGiaTien.TabIndex = 2;
+            // 
             // CustomItem
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MistyRose;
-            ClientSize = new Size(367, 450);
+            ClientSize = new Size(512, 500);
             Controls.Add(groupBox1);
             Name = "CustomItem";
             Text = "CustomItem";
@@ -232,5 +252,7 @@
         private Button btnRandom;
         private Button btnXacNhan;
         private Button btnHuy;
+        private Label label7;
+        private TextBox txtGiaTien;
     }
 }

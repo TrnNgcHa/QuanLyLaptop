@@ -16,10 +16,10 @@ namespace QuanLyLaptop
         public LaptopManagement()
         {
             InitializeComponent();
-            LoadData();
         }
 
-        Laptop SelectedItem = new Laptop();
+        public static Laptop SelectedItem = new Laptop();
+        int id = 0;
 
         private void LaptopManagement_Load(object sender, EventArgs e)
         {
@@ -28,13 +28,6 @@ namespace QuanLyLaptop
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
-        }
-
-        private void LoadData()
-        {
-            dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
-            dgvDanhSachLaptop.Refresh();
-            grbCTSP.Refresh();
         }
 
         private void dgvDanhSachLaptop_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -46,7 +39,7 @@ namespace QuanLyLaptop
                 lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
-                SelectedItem = dgvDanhSachLaptop.CurrentRow.DataBoundItem as Laptop;
+                id = Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value);
             }
         }
 
@@ -59,11 +52,15 @@ namespace QuanLyLaptop
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            var form = new CustomItem(SelectedItem);
-            CustomItem.DataChanged += () =>
+            foreach (var laptop in MainMenu.Laptops)
             {
-                LoadData();
-            };
+                if (laptop.LaptopID == id)
+                {
+                    SelectedItem = laptop;
+                    break;
+                }
+            }
+            var form = new CustomItem(SelectedItem);
             form.ShowDialog();
         }
 
@@ -85,7 +82,6 @@ namespace QuanLyLaptop
                 MainMenu.Laptops.Remove(SelectedItem);
                 dgvDanhSachLaptop.CurrentCell = null;
                 lblTenLaptop.Text = lblCPUInfo.Text = lblGPUInfo.Text = lblRAMInfo.Text = lblStorageInfo.Text = "";
-                LoadData();
             }
         }
 

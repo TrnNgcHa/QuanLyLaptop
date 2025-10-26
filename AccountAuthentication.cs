@@ -103,7 +103,7 @@ namespace QuanLyLaptop
             MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
             MainMenu.Accounts.Add(newAccount);
-            CurrentAccount.CopyFrom(newAccount);
+            CurrentAccount = newAccount;
 
             var form = new LaptopList();
             form.ShowDialog();
@@ -116,7 +116,7 @@ namespace QuanLyLaptop
             {
                 if (acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text))
                 {
-                    CurrentAccount.CopyFrom(acc);
+                    CurrentAccount = acc;
 
                     var form = new LaptopList();
                     form.ShowDialog();

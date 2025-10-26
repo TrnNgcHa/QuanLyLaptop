@@ -14,9 +14,8 @@ namespace QuanLyLaptop
 {
     public partial class CustomItem : Form
     {
-        public static event Action DataChanged;
-
         bool isEdit = false;
+        Laptop SelectedItem = new Laptop();
         public CustomItem()
         {
             InitializeComponent();
@@ -25,26 +24,24 @@ namespace QuanLyLaptop
         public CustomItem(Laptop lt)
         {
             InitializeComponent();
-            txtMaLaptop.Text = lt.LaptopID.ToString();
-            txtTenLaptop.Text = lt.LaptopName;
-            txtCPU.Text = lt.CPU;
-            txtGPU.Text = lt.GPU;
-            txtRAM.Text = lt.RAM;
-            txtOCung.Text = lt.Storage;
+            SelectedItem = lt;
+
             isEdit = true;
         }
 
         private void CustomItem_Load(object sender, EventArgs e)
         {
+            txtMaLaptop.Text = SelectedItem.LaptopID.ToString();
+            txtTenLaptop.Text = SelectedItem.LaptopName;
+            txtCPU.Text = SelectedItem.CPU;
+            txtGPU.Text = SelectedItem.GPU;
+            txtRAM.Text = SelectedItem.RAM;
+            txtOCung.Text = SelectedItem.Storage;
+            txtGiaTien.Text = SelectedItem.Price.ToString();
             if (!isEdit)
             {
                 btnRandom.Visible = true;
-                int newID = 0;
-                do
-                {
-                    newID = new Random().Next(100000, 200000);
-                } while (MainMenu.Laptops.Any(a => a.LaptopID == newID));
-                txtMaLaptop.Text = newID.ToString();
+                btnRandom_Click(sender, e);
             }
         }
 
@@ -70,15 +67,12 @@ namespace QuanLyLaptop
             {
                 if (isEdit)
                 {
-                    var laptop = MainMenu.Laptops.FirstOrDefault(a => a.LaptopID.ToString() == txtMaLaptop.Text);
-                    if (laptop != null)
-                    {
-                        laptop.LaptopName = txtTenLaptop.Text;
-                        laptop.CPU = txtCPU.Text;
-                        laptop.GPU = txtGPU.Text;
-                        laptop.RAM = txtRAM.Text;
-                        laptop.Storage = txtOCung.Text;
-                    }
+                    LaptopManagement.SelectedItem.LaptopID = int.Parse(txtMaLaptop.Text);
+                    LaptopManagement.SelectedItem.LaptopName = txtTenLaptop.Text;
+                    LaptopManagement.SelectedItem.CPU = txtCPU.Text;
+                    LaptopManagement.SelectedItem.GPU = txtGPU.Text;
+                    LaptopManagement.SelectedItem.RAM = txtRAM.Text;
+                    LaptopManagement.SelectedItem.Storage = txtOCung.Text;
                 }
                 else
                 {
@@ -93,7 +87,7 @@ namespace QuanLyLaptop
                     };
                     MainMenu.Laptops.Add(newLaptop);
                 }
-                DataChanged?.Invoke();
+                LaptopManagement.ActiveForm.Refresh();
                 this.Close();
 
             }

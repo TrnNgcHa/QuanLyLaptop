@@ -11,16 +11,16 @@ using QuanLyLaptop.Models;
 
 namespace QuanLyLaptop
 {
-    public partial class Buying : Form
+    public partial class Purchase : Form
     {
-        public Buying()
+        public Purchase()
         {
             InitializeComponent();
         }
         Laptop SelectedLaptop = new Laptop();
         int GiaPhuKien = 0;
 
-        public Buying(Laptop SelectedItem)
+        public Purchase(Laptop SelectedItem)
         {
             InitializeComponent();
             SelectedLaptop = SelectedItem;
@@ -50,20 +50,15 @@ namespace QuanLyLaptop
         {
             if(AccountAuthentication.CurrentAccount.Balance >= SelectedLaptop.Price + GiaPhuKien)
             {
-                foreach (Account acc in MainMenu.Accounts)
-                {
-                    if (AccountAuthentication.CurrentAccount == acc)
-                    {
-                        AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
-                        acc.Balance = AccountAuthentication.CurrentAccount.Balance;
-                    }
-
-                }
-                
+                AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
                 
                 lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
                 MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
+                if(!(AccountAuthentication.CurrentAccount.AccountID == 10000))
+                {
+                    LaptopList.SelectedItem.RemainAmount--;
+                }
+                LaptopList.ActiveForm.Refresh();
                 this.Close();
             }
             else

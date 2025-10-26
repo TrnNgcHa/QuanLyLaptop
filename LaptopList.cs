@@ -18,12 +18,8 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
         }
-
-        private void LoadData()
-        {
-
-        }
-
+        public static Laptop SelectedItem = new Laptop();
+        int id = 0;
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
@@ -56,6 +52,7 @@ namespace QuanLyLaptop
                 lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
+                id = Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value);
             }
         }
 
@@ -67,8 +64,16 @@ namespace QuanLyLaptop
 
         private void btnPurchase_Click(object sender, EventArgs e)
         {
-            Laptop SelectedItem = dgvDanhSachLaptop.CurrentRow?.DataBoundItem as Laptop;
-            var form = new Buying(SelectedItem);
+            
+            foreach (var laptop in MainMenu.Laptops)
+            {
+                if (laptop.LaptopID == id)
+                {
+                    SelectedItem = laptop;
+                    break;
+                }
+            }
+            var form = new Purchase(SelectedItem);
             form.TopMost = true;
             form.Show();
         }
