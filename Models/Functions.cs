@@ -89,7 +89,7 @@ namespace QuanLyLaptop.Models
         {
             var comments = reviews
                 .Where(r => r.LaptopID == id)
-                .Select(r => $"[{r.ReviewDate.ToString("dd/MM/yyyy")}] {r.AccountName}: {r.Comments}");
+                .Select(r => $"[{r.Rating} ★][{r.ReviewDate.ToString("dd/MM/yyyy")}] {r.AccountName}: {r.Comments}");
             return string.Join(Environment.NewLine, comments);
         }
     }

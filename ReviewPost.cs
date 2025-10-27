@@ -44,12 +44,21 @@ namespace QuanLyLaptop
             filteredReviews = MainMenu.Reviews
                 .Where(r => r.LaptopID == SelectedLaptop.LaptopID && selectedRatings.Contains(r.Rating))
                 .ToList();
-            txtDanhSachDanhGia.Text = string.Join(Environment.NewLine, filteredReviews
-                .Select(r => $"[{r.Rating}][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}"));
+            txtDanhSachDanhGia.Text = Functions.CommentList(filteredReviews, SelectedLaptop.LaptopID);
         }
         private void btnDanhGia_Click(object sender, EventArgs e)
         {
-
+            Review review = new Review();
+            review.ReviewID = MainMenu.Reviews.Count > 0 ? MainMenu.Reviews.Max(r => r.ReviewID) + 1 : 1;
+            review.AccountID = AccountAuthentication.CurrentAccount.AccountID;
+            review.AccountName = AccountAuthentication.CurrentAccount.AccountName;
+            review.LaptopID = SelectedLaptop.LaptopID;
+            review.LaptopName = SelectedLaptop.LaptopName;
+            review.ReviewDate = DateOnly.FromDateTime(DateTime.Now);
+            review.Rating = cmbSoSao.SelectedIndex + 1;
+            review.Comments = txtDanhGia.Text.Trim();
+            MainMenu.Reviews.Add(review);
+            txtDanhSachDanhGia.Text += $"\r\n[{review.Rating} ★][{review.ReviewDate.ToString("dd/MM/yyyy")}] {review.AccountName}: {review.Comments}";
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

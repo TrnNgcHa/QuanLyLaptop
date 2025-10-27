@@ -169,7 +169,6 @@
             // txtHang
             // 
             txtHang.BackColor = Color.FromArgb(224, 224, 224);
-            txtHang.Enabled = false;
             txtHang.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
             txtHang.ForeColor = Color.FromArgb(64, 64, 64);
             txtHang.Location = new Point(108, 205);
@@ -180,7 +179,6 @@
             // txtSoTon
             // 
             txtSoTon.BackColor = Color.FromArgb(224, 224, 224);
-            txtSoTon.Enabled = false;
             txtSoTon.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
             txtSoTon.ForeColor = Color.FromArgb(64, 64, 64);
             txtSoTon.Location = new Point(108, 153);
