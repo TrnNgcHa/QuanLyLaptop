@@ -40,11 +40,11 @@
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            groupBox1.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox1.BackColor = Color.FromArgb(224, 224, 224);
             groupBox1.Controls.Add(btnAdmin);
             groupBox1.Controls.Add(btnCustomer);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox1.ForeColor = Color.FromArgb(64, 64, 64);
             groupBox1.Location = new Point(63, 90);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(181, 161);
@@ -55,6 +55,7 @@
             // btnAdmin
             // 
             btnAdmin.BackColor = Color.FromArgb(192, 0, 0);
+            btnAdmin.Cursor = Cursors.Hand;
             btnAdmin.Dock = DockStyle.Top;
             btnAdmin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdmin.ForeColor = Color.White;
@@ -69,6 +70,7 @@
             // btnCustomer
             // 
             btnCustomer.BackColor = Color.Red;
+            btnCustomer.Cursor = Cursors.Hand;
             btnCustomer.Dock = DockStyle.Top;
             btnCustomer.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCustomer.ForeColor = Color.White;
@@ -83,10 +85,10 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            groupBox2.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox2.BackColor = Color.FromArgb(224, 224, 224);
             groupBox2.Controls.Add(btnClose);
             groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox2.ForeColor = Color.FromArgb(64, 64, 64);
             groupBox2.Location = new Point(252, 90);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(181, 161);
@@ -96,7 +98,8 @@
             // 
             // btnClose
             // 
-            btnClose.BackColor = Color.DarkGray;
+            btnClose.BackColor = Color.Gray;
+            btnClose.Cursor = Cursors.Hand;
             btnClose.Dock = DockStyle.Top;
             btnClose.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnClose.ForeColor = Color.White;
@@ -112,7 +115,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(13, 13, 13);
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(497, 358);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);

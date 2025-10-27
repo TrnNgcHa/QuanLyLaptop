@@ -246,6 +246,7 @@
             // 
             // panel1
             // 
+            panel1.BackColor = Color.FromArgb(28, 28, 28);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = DockStyle.Fill;
@@ -386,7 +387,8 @@
             groupBox1.Controls.Add(lblGioiTinh);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(lblHoTen);
-            groupBox1.ForeColor = SystemColors.Window;
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox1.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(494, 321);
@@ -399,7 +401,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(27, 36);
             label1.Name = "label1";
-            label1.Size = new Size(57, 20);
+            label1.Size = new Size(60, 20);
             label1.TabIndex = 0;
             label1.Text = "Họ tên:";
             // 
@@ -407,6 +409,7 @@
             // 
             lblCCCD.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblCCCD.BorderStyle = BorderStyle.Fixed3D;
+            lblCCCD.ForeColor = Color.White;
             lblCCCD.Location = new Point(130, 265);
             lblCCCD.Name = "lblCCCD";
             lblCCCD.Size = new Size(338, 30);
@@ -418,7 +421,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(27, 75);
             label2.Name = "label2";
-            label2.Size = new Size(68, 20);
+            label2.Size = new Size(73, 20);
             label2.TabIndex = 1;
             label2.Text = "Giới tính:";
             // 
@@ -426,6 +429,7 @@
             // 
             lblEmail.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblEmail.BorderStyle = BorderStyle.Fixed3D;
+            lblEmail.ForeColor = Color.White;
             lblEmail.Location = new Point(130, 226);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(338, 30);
@@ -437,7 +441,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(27, 114);
             label3.Name = "label3";
-            label3.Size = new Size(77, 20);
+            label3.Size = new Size(83, 20);
             label3.TabIndex = 1;
             label3.Text = "Ngày sinh:";
             // 
@@ -445,6 +449,7 @@
             // 
             lblSDT.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblSDT.BorderStyle = BorderStyle.Fixed3D;
+            lblSDT.ForeColor = Color.White;
             lblSDT.Location = new Point(130, 187);
             lblSDT.Name = "lblSDT";
             lblSDT.Size = new Size(338, 30);
@@ -456,7 +461,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(27, 153);
             label4.Name = "label4";
-            label4.Size = new Size(82, 20);
+            label4.Size = new Size(88, 20);
             label4.TabIndex = 1;
             label4.Text = "Thành phố:";
             // 
@@ -464,6 +469,7 @@
             // 
             lblThanhPho.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblThanhPho.BorderStyle = BorderStyle.Fixed3D;
+            lblThanhPho.ForeColor = Color.White;
             lblThanhPho.Location = new Point(130, 148);
             lblThanhPho.Name = "lblThanhPho";
             lblThanhPho.Size = new Size(338, 30);
@@ -475,7 +481,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(27, 192);
             label5.Name = "label5";
-            label5.Size = new Size(38, 20);
+            label5.Size = new Size(40, 20);
             label5.TabIndex = 1;
             label5.Text = "SDT:";
             // 
@@ -483,6 +489,7 @@
             // 
             lblNgaySinh.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblNgaySinh.BorderStyle = BorderStyle.Fixed3D;
+            lblNgaySinh.ForeColor = Color.White;
             lblNgaySinh.Location = new Point(130, 109);
             lblNgaySinh.Name = "lblNgaySinh";
             lblNgaySinh.Size = new Size(338, 30);
@@ -494,7 +501,7 @@
             label6.AutoSize = true;
             label6.Location = new Point(27, 231);
             label6.Name = "label6";
-            label6.Size = new Size(49, 20);
+            label6.Size = new Size(51, 20);
             label6.TabIndex = 1;
             label6.Text = "Email:";
             // 
@@ -502,6 +509,7 @@
             // 
             lblGioiTinh.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblGioiTinh.BorderStyle = BorderStyle.Fixed3D;
+            lblGioiTinh.ForeColor = Color.White;
             lblGioiTinh.Location = new Point(130, 70);
             lblGioiTinh.Name = "lblGioiTinh";
             lblGioiTinh.Size = new Size(338, 30);
@@ -513,7 +521,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(27, 270);
             label7.Name = "label7";
-            label7.Size = new Size(50, 20);
+            label7.Size = new Size(51, 20);
             label7.TabIndex = 1;
             label7.Text = "CCCD:";
             // 
@@ -521,6 +529,7 @@
             // 
             lblHoTen.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblHoTen.BorderStyle = BorderStyle.Fixed3D;
+            lblHoTen.ForeColor = Color.White;
             lblHoTen.Location = new Point(130, 31);
             lblHoTen.Name = "lblHoTen";
             lblHoTen.Size = new Size(338, 30);
@@ -542,6 +551,7 @@
             // 
             // btnTimKiem
             // 
+            btnTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnTimKiem.Location = new Point(493, 16);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(30, 29);
@@ -552,6 +562,7 @@
             // 
             // txtFilter
             // 
+            txtFilter.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             txtFilter.Location = new Point(229, 16);
             txtFilter.Name = "txtFilter";
             txtFilter.Size = new Size(258, 27);
@@ -560,6 +571,7 @@
             // 
             // cmbLoaiTimKiem
             // 
+            cmbLoaiTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             cmbLoaiTimKiem.FormattingEnabled = true;
             cmbLoaiTimKiem.Items.AddRange(new object[] { "Tên người dùng", "Mã người dùng", "Tên tài khoản", "Mã tài khoản" });
             cmbLoaiTimKiem.Location = new Point(88, 16);
@@ -571,15 +583,17 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label8.ForeColor = SystemColors.Window;
             label8.Location = new Point(9, 19);
             label8.Name = "label8";
-            label8.Size = new Size(73, 20);
+            label8.Size = new Size(78, 20);
             label8.TabIndex = 4;
             label8.Text = "Tìm kiếm:";
             // 
             // panel3
             // 
+            panel3.BackColor = Color.FromArgb(28, 28, 28);
             panel3.Controls.Add(btnThoat);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(965, 3);
@@ -590,12 +604,15 @@
             // btnThoat
             // 
             btnThoat.Anchor = AnchorStyles.Top;
+            btnThoat.BackColor = Color.DarkGray;
+            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnThoat.ForeColor = Color.White;
             btnThoat.Location = new Point(660, 3);
             btnThoat.Name = "btnThoat";
             btnThoat.Size = new Size(101, 44);
             btnThoat.TabIndex = 4;
             btnThoat.Text = "Thoát";
-            btnThoat.UseVisualStyleBackColor = true;
+            btnThoat.UseVisualStyleBackColor = false;
             btnThoat.Click += btnThoat_Click;
             // 
             // AccountManagement

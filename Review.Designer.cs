@@ -55,6 +55,7 @@
             // 
             // splitContainer1
             // 
+            splitContainer1.BackColor = Color.White;
             splitContainer1.Dock = DockStyle.Fill;
             splitContainer1.Location = new Point(0, 0);
             splitContainer1.Name = "splitContainer1";
@@ -73,7 +74,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.BackColor = Color.DarkOrange;
+            groupBox1.BackColor = Color.WhiteSmoke;
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(textBox1);
@@ -81,6 +82,7 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
             groupBox1.Dock = DockStyle.Fill;
+            groupBox1.ForeColor = Color.FromArgb(26, 26, 26);
             groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(289, 450);
@@ -89,12 +91,15 @@
             // 
             // btnThoat
             // 
+            btnThoat.BackColor = Color.DarkGray;
+            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnThoat.ForeColor = Color.White;
             btnThoat.Location = new Point(206, 413);
             btnThoat.Name = "btnThoat";
             btnThoat.Size = new Size(82, 34);
             btnThoat.TabIndex = 4;
             btnThoat.Text = "Thoát";
-            btnThoat.UseVisualStyleBackColor = true;
+            btnThoat.UseVisualStyleBackColor = false;
             btnThoat.Click += btnThoat_Click;
             // 
             // comboBox1
@@ -118,6 +123,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.ForeColor = Color.FromArgb(26, 26, 26);
             label4.Location = new Point(6, 100);
             label4.Name = "label4";
             label4.Size = new Size(72, 20);
@@ -127,6 +133,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.ForeColor = Color.FromArgb(26, 26, 26);
             label2.Location = new Point(6, 59);
             label2.Name = "label2";
             label2.Size = new Size(86, 20);
@@ -136,6 +143,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = Color.FromArgb(26, 26, 26);
             label1.Location = new Point(6, 23);
             label1.Name = "label1";
             label1.Size = new Size(100, 20);
@@ -144,7 +152,7 @@
             // 
             // groupBox2
             // 
-            groupBox2.BackColor = Color.DarkOrange;
+            groupBox2.BackColor = Color.WhiteSmoke;
             groupBox2.Controls.Add(ckbNamSao);
             groupBox2.Controls.Add(ckbBonSao);
             groupBox2.Controls.Add(ckbBaSao);
@@ -153,6 +161,7 @@
             groupBox2.Controls.Add(ckbMotSao);
             groupBox2.Controls.Add(label3);
             groupBox2.Dock = DockStyle.Top;
+            groupBox2.ForeColor = Color.FromArgb(26, 26, 26);
             groupBox2.Location = new Point(0, 0);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(510, 43);
@@ -163,6 +172,7 @@
             // 
             ckbNamSao.AutoSize = true;
             ckbNamSao.Cursor = Cursors.Hand;
+            ckbNamSao.ForeColor = Color.FromArgb(26, 26, 26);
             ckbNamSao.Location = new Point(440, 15);
             ckbNamSao.Name = "ckbNamSao";
             ckbNamSao.Size = new Size(56, 24);
@@ -175,6 +185,7 @@
             // 
             ckbBonSao.AutoSize = true;
             ckbBonSao.Cursor = Cursors.Hand;
+            ckbBonSao.ForeColor = Color.FromArgb(26, 26, 26);
             ckbBonSao.Location = new Point(379, 15);
             ckbBonSao.Name = "ckbBonSao";
             ckbBonSao.Size = new Size(56, 24);
@@ -187,6 +198,7 @@
             // 
             ckbBaSao.AutoSize = true;
             ckbBaSao.Cursor = Cursors.Hand;
+            ckbBaSao.ForeColor = Color.FromArgb(26, 26, 26);
             ckbBaSao.Location = new Point(318, 15);
             ckbBaSao.Name = "ckbBaSao";
             ckbBaSao.Size = new Size(56, 24);
@@ -199,6 +211,7 @@
             // 
             ckbHaiSao.AutoSize = true;
             ckbHaiSao.Cursor = Cursors.Hand;
+            ckbHaiSao.ForeColor = Color.FromArgb(26, 26, 26);
             ckbHaiSao.Location = new Point(257, 15);
             ckbHaiSao.Name = "ckbHaiSao";
             ckbHaiSao.Size = new Size(56, 24);
@@ -213,6 +226,7 @@
             ckbTatCa.Checked = true;
             ckbTatCa.CheckState = CheckState.Checked;
             ckbTatCa.Cursor = Cursors.Hand;
+            ckbTatCa.ForeColor = Color.FromArgb(26, 26, 26);
             ckbTatCa.Location = new Point(119, 15);
             ckbTatCa.Name = "ckbTatCa";
             ckbTatCa.Size = new Size(71, 24);
@@ -225,6 +239,7 @@
             // 
             ckbMotSao.AutoSize = true;
             ckbMotSao.Cursor = Cursors.Hand;
+            ckbMotSao.ForeColor = Color.FromArgb(26, 26, 26);
             ckbMotSao.Location = new Point(196, 15);
             ckbMotSao.Name = "ckbMotSao";
             ckbMotSao.Size = new Size(56, 24);
@@ -236,6 +251,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.ForeColor = Color.FromArgb(26, 26, 26);
             label3.Location = new Point(6, 17);
             label3.Name = "label3";
             label3.Size = new Size(102, 20);

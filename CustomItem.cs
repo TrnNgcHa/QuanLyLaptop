@@ -33,6 +33,9 @@ namespace QuanLyLaptop
         {
             txtMaLaptop.Text = SelectedItem.LaptopID.ToString();
             txtTenLaptop.Text = SelectedItem.LaptopName;
+            txtHang.Text = SelectedItem.AgencyName;
+            txtNgayNhap.Text = SelectedItem.StockInDate.ToString();
+            txtSoTon.Text = SelectedItem.RemainAmount.ToString();
             txtCPU.Text = SelectedItem.CPU;
             txtGPU.Text = SelectedItem.GPU;
             txtRAM.Text = SelectedItem.RAM;
@@ -41,6 +44,7 @@ namespace QuanLyLaptop
             if (!isEdit)
             {
                 btnRandom.Visible = true;
+                txtGiaTien.Enabled = true;
                 btnRandom_Click(sender, e);
             }
         }
@@ -67,8 +71,10 @@ namespace QuanLyLaptop
             {
                 if (isEdit)
                 {
-                    LaptopManagement.SelectedItem.LaptopID = int.Parse(txtMaLaptop.Text);
                     LaptopManagement.SelectedItem.LaptopName = txtTenLaptop.Text;
+                    LaptopManagement.SelectedItem.AgencyName = txtHang.Text;
+                    LaptopManagement.SelectedItem.StockInDate = DateOnly.Parse(txtNgayNhap.Text);
+                    LaptopManagement.SelectedItem.RemainAmount = int.Parse(txtSoTon.Text);
                     LaptopManagement.SelectedItem.CPU = txtCPU.Text;
                     LaptopManagement.SelectedItem.GPU = txtGPU.Text;
                     LaptopManagement.SelectedItem.RAM = txtRAM.Text;
@@ -80,10 +86,14 @@ namespace QuanLyLaptop
                     {
                         LaptopID = int.Parse(txtMaLaptop.Text),
                         LaptopName = txtTenLaptop.Text,
+                        AgencyName = txtHang.Text,
+                        StockInDate = DateOnly.Parse(txtNgayNhap.Text),
+                        RemainAmount = int.Parse(txtSoTon.Text),
                         CPU = txtCPU.Text,
                         GPU = txtGPU.Text,
                         RAM = txtRAM.Text,
-                        Storage = txtOCung.Text
+                        Storage = txtOCung.Text,
+                        Price = int.Parse(txtGiaTien.Text)
                     };
                     MainMenu.Laptops.Add(newLaptop);
                 }

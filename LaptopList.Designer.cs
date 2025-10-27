@@ -82,6 +82,7 @@
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.BackColor = Color.Black;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
@@ -213,7 +214,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(13, 13, 13);
+            panel1.BackColor = Color.WhiteSmoke;
             panel1.Controls.Add(lblTenLaptop);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(label5);
@@ -230,7 +231,7 @@
             lblTenLaptop.AutoSize = true;
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
             lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTenLaptop.ForeColor = Color.White;
+            lblTenLaptop.ForeColor = Color.Maroon;
             lblTenLaptop.Location = new Point(284, 7);
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(2, 30);
@@ -240,7 +241,7 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Top;
-            groupBox2.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox2.BackColor = Color.FromArgb(224, 224, 224);
             groupBox2.Controls.Add(lblRAMInfo);
             groupBox2.Controls.Add(lblStorageInfo);
             groupBox2.Controls.Add(lblGPUInfo);
@@ -249,7 +250,8 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(label1);
-            groupBox2.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            groupBox2.ForeColor = Color.FromArgb(64, 64, 64);
             groupBox2.Location = new Point(178, 49);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(397, 234);
@@ -261,7 +263,7 @@
             // 
             lblRAMInfo.BorderStyle = BorderStyle.Fixed3D;
             lblRAMInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblRAMInfo.ForeColor = Color.White;
+            lblRAMInfo.ForeColor = Color.FromArgb(64, 64, 64);
             lblRAMInfo.Location = new Point(106, 192);
             lblRAMInfo.Name = "lblRAMInfo";
             lblRAMInfo.Size = new Size(257, 25);
@@ -272,7 +274,7 @@
             // 
             lblStorageInfo.BorderStyle = BorderStyle.Fixed3D;
             lblStorageInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblStorageInfo.ForeColor = Color.White;
+            lblStorageInfo.ForeColor = Color.FromArgb(64, 64, 64);
             lblStorageInfo.Location = new Point(106, 145);
             lblStorageInfo.Name = "lblStorageInfo";
             lblStorageInfo.Size = new Size(257, 25);
@@ -283,7 +285,7 @@
             // 
             lblGPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblGPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblGPUInfo.ForeColor = Color.White;
+            lblGPUInfo.ForeColor = Color.FromArgb(64, 64, 64);
             lblGPUInfo.Location = new Point(106, 106);
             lblGPUInfo.Name = "lblGPUInfo";
             lblGPUInfo.Size = new Size(257, 25);
@@ -294,7 +296,7 @@
             // 
             lblCPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblCPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblCPUInfo.ForeColor = Color.White;
+            lblCPUInfo.ForeColor = Color.FromArgb(64, 64, 64);
             lblCPUInfo.Location = new Point(106, 60);
             lblCPUInfo.Name = "lblCPUInfo";
             lblCPUInfo.Size = new Size(257, 25);
@@ -306,7 +308,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(6, 194);
             label4.Name = "label4";
-            label4.Size = new Size(44, 20);
+            label4.Size = new Size(48, 20);
             label4.TabIndex = 0;
             label4.Text = "RAM:";
             // 
@@ -315,7 +317,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(6, 150);
             label3.Name = "label3";
-            label3.Size = new Size(62, 20);
+            label3.Size = new Size(65, 20);
             label3.TabIndex = 0;
             label3.Text = "Ổ Cứng:";
             // 
@@ -324,7 +326,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(6, 106);
             label2.Name = "label2";
-            label2.Size = new Size(40, 20);
+            label2.Size = new Size(44, 20);
             label2.TabIndex = 0;
             label2.Text = "GPU:";
             // 
@@ -333,7 +335,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(6, 62);
             label1.Name = "label1";
-            label1.Size = new Size(39, 20);
+            label1.Size = new Size(42, 20);
             label1.TabIndex = 0;
             label1.Text = "CPU:";
             // 
@@ -341,22 +343,23 @@
             // 
             label5.Anchor = AnchorStyles.Top;
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.FromArgb(179, 179, 179);
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Maroon;
             label5.Location = new Point(190, 8);
             label5.Name = "label5";
-            label5.Size = new Size(78, 28);
+            label5.Size = new Size(82, 28);
             label5.TabIndex = 0;
             label5.Text = "Laptop:";
             // 
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top;
-            groupBox1.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox1.BackColor = Color.FromArgb(224, 224, 224);
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
-            groupBox1.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            groupBox1.ForeColor = Color.FromArgb(64, 64, 64);
             groupBox1.Location = new Point(178, 301);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(397, 120);
@@ -405,7 +408,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(13, 13, 13);
+            panel2.BackColor = Color.WhiteSmoke;
             panel2.Controls.Add(btnNapTien);
             panel2.Controls.Add(lblSoDu);
             panel2.Controls.Add(lblTenTaiKhoan);
@@ -421,11 +424,12 @@
             // 
             // btnNapTien
             // 
-            btnNapTien.BackColor = Color.Gold;
-            btnNapTien.ForeColor = Color.FromArgb(28, 28, 28);
+            btnNapTien.BackColor = Color.Goldenrod;
+            btnNapTien.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnNapTien.ForeColor = Color.White;
             btnNapTien.Location = new Point(625, 13);
             btnNapTien.Name = "btnNapTien";
-            btnNapTien.Size = new Size(94, 29);
+            btnNapTien.Size = new Size(94, 34);
             btnNapTien.TabIndex = 4;
             btnNapTien.Text = "Nạp tiền";
             btnNapTien.UseVisualStyleBackColor = false;
@@ -434,7 +438,8 @@
             // lblSoDu
             // 
             lblSoDu.AutoSize = true;
-            lblSoDu.ForeColor = Color.White;
+            lblSoDu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblSoDu.ForeColor = Color.FromArgb(64, 64, 64);
             lblSoDu.Location = new Point(470, 17);
             lblSoDu.Name = "lblSoDu";
             lblSoDu.Size = new Size(0, 20);
@@ -443,7 +448,8 @@
             // lblTenTaiKhoan
             // 
             lblTenTaiKhoan.AutoSize = true;
-            lblTenTaiKhoan.ForeColor = Color.White;
+            lblTenTaiKhoan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblTenTaiKhoan.ForeColor = Color.FromArgb(64, 64, 64);
             lblTenTaiKhoan.Location = new Point(312, 17);
             lblTenTaiKhoan.Name = "lblTenTaiKhoan";
             lblTenTaiKhoan.Size = new Size(0, 20);
@@ -452,7 +458,8 @@
             // lblTenNguoiDung
             // 
             lblTenNguoiDung.AutoSize = true;
-            lblTenNguoiDung.ForeColor = Color.White;
+            lblTenNguoiDung.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblTenNguoiDung.ForeColor = Color.FromArgb(64, 64, 64);
             lblTenNguoiDung.Location = new Point(107, 17);
             lblTenNguoiDung.Name = "lblTenNguoiDung";
             lblTenNguoiDung.Size = new Size(0, 20);
@@ -461,36 +468,39 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.ForeColor = Color.FromArgb(179, 179, 179);
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label8.ForeColor = Color.FromArgb(64, 64, 64);
             label8.Location = new Point(419, 17);
             label8.Name = "label8";
-            label8.Size = new Size(51, 20);
+            label8.Size = new Size(53, 20);
             label8.TabIndex = 0;
             label8.Text = "Số dư:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.ForeColor = Color.FromArgb(179, 179, 179);
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label7.ForeColor = Color.FromArgb(64, 64, 64);
             label7.Location = new Point(232, 17);
             label7.Name = "label7";
-            label7.Size = new Size(74, 20);
+            label7.Size = new Size(80, 20);
             label7.TabIndex = 0;
             label7.Text = "Tài khoản:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.ForeColor = Color.FromArgb(179, 179, 179);
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label6.ForeColor = Color.FromArgb(64, 64, 64);
             label6.Location = new Point(9, 17);
             label6.Name = "label6";
-            label6.Size = new Size(92, 20);
+            label6.Size = new Size(97, 20);
             label6.TabIndex = 0;
             label6.Text = "Người dùng:";
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(13, 13, 13);
+            panel3.BackColor = Color.WhiteSmoke;
             panel3.Controls.Add(btnTimKiem);
             panel3.Controls.Add(txtFilter);
             panel3.Controls.Add(cmbLoaiTimKiem);
@@ -504,8 +514,9 @@
             // 
             // btnTimKiem
             // 
-            btnTimKiem.BackColor = Color.Gold;
-            btnTimKiem.ForeColor = Color.FromArgb(28, 28, 28);
+            btnTimKiem.BackColor = Color.Maroon;
+            btnTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnTimKiem.ForeColor = Color.White;
             btnTimKiem.Location = new Point(482, 45);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(30, 29);
@@ -516,8 +527,9 @@
             // 
             // txtFilter
             // 
-            txtFilter.BackColor = Color.FromArgb(28, 28, 28);
-            txtFilter.ForeColor = Color.FromArgb(179, 179, 179);
+            txtFilter.BackColor = Color.White;
+            txtFilter.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            txtFilter.ForeColor = Color.FromArgb(64, 64, 64);
             txtFilter.Location = new Point(218, 46);
             txtFilter.Name = "txtFilter";
             txtFilter.Size = new Size(258, 27);
@@ -526,8 +538,9 @@
             // 
             // cmbLoaiTimKiem
             // 
-            cmbLoaiTimKiem.BackColor = Color.FromArgb(28, 28, 28);
-            cmbLoaiTimKiem.ForeColor = Color.FromArgb(179, 179, 179);
+            cmbLoaiTimKiem.BackColor = Color.White;
+            cmbLoaiTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            cmbLoaiTimKiem.ForeColor = Color.FromArgb(64, 64, 64);
             cmbLoaiTimKiem.FormattingEnabled = true;
             cmbLoaiTimKiem.Items.AddRange(new object[] { "Mã Laptop", "Tên Laptop", "Hãng Laptop", "CPU", "GPU", "RAM", "Ổ cứng" });
             cmbLoaiTimKiem.Location = new Point(95, 45);
@@ -539,17 +552,19 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.ForeColor = Color.FromArgb(179, 179, 179);
+            label9.BackColor = Color.FromArgb(224, 224, 224);
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label9.ForeColor = Color.FromArgb(64, 64, 64);
             label9.Location = new Point(16, 48);
             label9.Name = "label9";
-            label9.Size = new Size(73, 20);
+            label9.Size = new Size(78, 20);
             label9.TabIndex = 4;
             label9.Text = "Tìm kiếm:";
             // 
             // groupBox3
             // 
-            groupBox3.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox3.BackColor = Color.FromArgb(224, 224, 224);
+            groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox3.ForeColor = Color.FromArgb(179, 179, 179);
             groupBox3.Location = new Point(9, 3);
             groupBox3.Name = "groupBox3";

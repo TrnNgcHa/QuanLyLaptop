@@ -52,20 +52,29 @@
             label2 = new Label();
             label3 = new Label();
             label1 = new Label();
+            panel2 = new Panel();
+            btnTimKiem = new Button();
+            txtFilter = new TextBox();
+            cmbLoaiTimKiem = new ComboBox();
+            label9 = new Label();
+            panel3 = new Panel();
             TableSplit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvQuanLyHoaDon).BeginInit();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // TableSplit
             // 
-            TableSplit.BackColor = Color.Black;
+            TableSplit.BackColor = Color.WhiteSmoke;
             TableSplit.ColumnCount = 2;
             TableSplit.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65.63927F));
             TableSplit.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 34.36073F));
             TableSplit.Controls.Add(dgvQuanLyHoaDon, 0, 1);
             TableSplit.Controls.Add(panel1, 1, 1);
+            TableSplit.Controls.Add(panel2, 0, 0);
+            TableSplit.Controls.Add(panel3, 1, 0);
             TableSplit.Dock = DockStyle.Fill;
             TableSplit.Location = new Point(0, 0);
             TableSplit.Name = "TableSplit";
@@ -202,6 +211,7 @@
             // 
             // panel1
             // 
+            panel1.BackColor = Color.FromArgb(224, 224, 224);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(979, 82);
@@ -211,7 +221,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.BackColor = Color.FromArgb(28, 28, 28);
+            groupBox1.BackColor = Color.FromArgb(224, 224, 224);
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label7);
@@ -220,7 +230,8 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label1);
-            groupBox1.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox1.ForeColor = Color.FromArgb(108, 117, 125);
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(499, 132);
@@ -269,7 +280,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(217, 74);
             label4.Name = "label4";
-            label4.Size = new Size(116, 20);
+            label4.Size = new Size(123, 20);
             label4.TabIndex = 0;
             label4.Text = "Tên người dùng:";
             // 
@@ -278,7 +289,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(217, 34);
             label2.Name = "label2";
-            label2.Size = new Size(100, 20);
+            label2.Size = new Size(107, 20);
             label2.TabIndex = 0;
             label2.Text = "Tên tài khoản:";
             // 
@@ -287,7 +298,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(6, 74);
             label3.Name = "label3";
-            label3.Size = new Size(114, 20);
+            label3.Size = new Size(120, 20);
             label3.TabIndex = 0;
             label3.Text = "Mã người dùng:";
             // 
@@ -296,9 +307,79 @@
             label1.AutoSize = true;
             label1.Location = new Point(6, 34);
             label1.Name = "label1";
-            label1.Size = new Size(98, 20);
+            label1.Size = new Size(104, 20);
             label1.TabIndex = 0;
             label1.Text = "Mã tài khoản:";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(224, 224, 224);
+            panel2.Controls.Add(btnTimKiem);
+            panel2.Controls.Add(txtFilter);
+            panel2.Controls.Add(cmbLoaiTimKiem);
+            panel2.Controls.Add(label9);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(970, 73);
+            panel2.TabIndex = 2;
+            // 
+            // btnTimKiem
+            // 
+            btnTimKiem.BackColor = Color.Maroon;
+            btnTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnTimKiem.ForeColor = Color.White;
+            btnTimKiem.Location = new Point(482, 21);
+            btnTimKiem.Name = "btnTimKiem";
+            btnTimKiem.Size = new Size(30, 29);
+            btnTimKiem.TabIndex = 11;
+            btnTimKiem.Text = "⌕";
+            btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
+            // 
+            // txtFilter
+            // 
+            txtFilter.BackColor = Color.White;
+            txtFilter.Font = new Font("Segoe UI", 9F);
+            txtFilter.ForeColor = Color.Black;
+            txtFilter.Location = new Point(218, 22);
+            txtFilter.Name = "txtFilter";
+            txtFilter.Size = new Size(258, 27);
+            txtFilter.TabIndex = 10;
+            txtFilter.TextAlign = HorizontalAlignment.Right;
+            // 
+            // cmbLoaiTimKiem
+            // 
+            cmbLoaiTimKiem.BackColor = Color.White;
+            cmbLoaiTimKiem.Font = new Font("Segoe UI", 9F);
+            cmbLoaiTimKiem.ForeColor = Color.Black;
+            cmbLoaiTimKiem.FormattingEnabled = true;
+            cmbLoaiTimKiem.Location = new Point(95, 21);
+            cmbLoaiTimKiem.Name = "cmbLoaiTimKiem";
+            cmbLoaiTimKiem.Size = new Size(117, 28);
+            cmbLoaiTimKiem.TabIndex = 9;
+            cmbLoaiTimKiem.Text = "Mã hóa đơn";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label9.ForeColor = Color.DimGray;
+            label9.Location = new Point(16, 24);
+            label9.Name = "label9";
+            label9.Size = new Size(78, 20);
+            label9.TabIndex = 8;
+            label9.Text = "Tìm kiếm:";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.FromArgb(224, 224, 224);
+            panel3.Dock = DockStyle.Fill;
+            panel3.Location = new Point(979, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(505, 73);
+            panel3.TabIndex = 3;
             // 
             // ReceiptManagement
             // 
@@ -314,6 +395,8 @@
             panel1.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -343,5 +426,11 @@
         private Label label2;
         private Label label3;
         private Label label1;
+        private Panel panel2;
+        private Button btnTimKiem;
+        private TextBox txtFilter;
+        private ComboBox cmbLoaiTimKiem;
+        private Label label9;
+        private Panel panel3;
     }
 }

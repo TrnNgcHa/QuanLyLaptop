@@ -116,7 +116,7 @@ namespace QuanLyLaptop
         private void btnThoat_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (result == DialogResult.Yes) 
+            if (result == DialogResult.Yes)
             {
                 this.Close();
             }

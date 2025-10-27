@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyLaptop.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +22,28 @@ namespace QuanLyLaptop
         private void ReceiptManagement_Load(object sender, EventArgs e)
         {
             dgvQuanLyHoaDon.DataSource = MainMenu.Receipts;
-            
+
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            string filterText = txtFilter.Text.ToLower();
+            if (string.IsNullOrEmpty(filterText))
+            {
+                dgvQuanLyHoaDon.DataSource = MainMenu.Receipts;
+            }
+            else
+            {
+                List<Receipt> filtered = new List<Receipt>();
+                switch (cmbLoaiTimKiem.Text)
+                {
+                    case "Mã hóa đơn":
+                        filtered = MainMenu.Receipts.Where(p => p.ReceiptID.ToString().Contains(filterText)).ToList();
+                        break;
+
+                }
+                dgvQuanLyHoaDon.DataSource = filtered;
+            }
         }
     }
 }

@@ -158,6 +158,7 @@
             txtMatKhauDK.ForeColor = Color.FromArgb(28, 28, 28);
             txtMatKhauDK.Location = new Point(86, 70);
             txtMatKhauDK.Name = "txtMatKhauDK";
+            txtMatKhauDK.PasswordChar = '*';
             txtMatKhauDK.Size = new Size(174, 27);
             txtMatKhauDK.TabIndex = 9;
             // 
@@ -457,6 +458,7 @@
             txtMatKhauDN.ForeColor = Color.FromArgb(28, 28, 28);
             txtMatKhauDN.Location = new Point(86, 70);
             txtMatKhauDN.Name = "txtMatKhauDN";
+            txtMatKhauDN.PasswordChar = '*';
             txtMatKhauDN.Size = new Size(174, 27);
             txtMatKhauDN.TabIndex = 2;
             // 
