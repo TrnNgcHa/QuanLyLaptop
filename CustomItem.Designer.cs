@@ -157,7 +157,7 @@
             btnRandom.BackColor = Color.Maroon;
             btnRandom.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRandom.ForeColor = Color.White;
-            btnRandom.Location = new Point(227, 35);
+            btnRandom.Location = new Point(235, 35);
             btnRandom.Name = "btnRandom";
             btnRandom.Size = new Size(36, 29);
             btnRandom.TabIndex = 3;
@@ -265,7 +265,7 @@
             txtMaLaptop.Enabled = false;
             txtMaLaptop.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
             txtMaLaptop.ForeColor = Color.FromArgb(64, 64, 64);
-            txtMaLaptop.Location = new Point(96, 36);
+            txtMaLaptop.Location = new Point(108, 36);
             txtMaLaptop.Name = "txtMaLaptop";
             txtMaLaptop.Size = new Size(125, 28);
             txtMaLaptop.TabIndex = 2;

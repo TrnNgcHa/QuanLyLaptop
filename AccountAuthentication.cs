@@ -47,13 +47,13 @@ namespace QuanLyLaptop
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
-            
-            if(!Functions.IsValidUserName(txtHoTen.Text))
+
+            if (!Functions.IsValidUserName(txtHoTen.Text))
             {
                 MessageBox.Show("Tên đăng nhập không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtTenDK.Focus();
                 return;
-                
+
             }
             if (!Functions.IsValidPhone(txtSDT.Text))
             {
@@ -67,9 +67,9 @@ namespace QuanLyLaptop
                 MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtEmail.Focus();
                 return;
-                
+
             }
-            if(!Functions.IsValidIdCard(txtCCCD.Text))
+            if (!Functions.IsValidIdCard(txtCCCD.Text))
             {
                 MessageBox.Show("Căn cước công dân không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtCCCD.Focus();
@@ -101,7 +101,7 @@ namespace QuanLyLaptop
             newAccount.SetAccount(txtTenDK.Text, Convert.ToInt32(txtMatKhauDK.Text));
 
             MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+
             MainMenu.Accounts.Add(newAccount);
             CurrentAccount = newAccount;
 

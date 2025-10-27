@@ -57,7 +57,15 @@ namespace QuanLyLaptop
 
         private void btnReview_Click(object sender, EventArgs e)
         {
-            var form = new Review();
+            foreach (var laptop in MainMenu.Laptops)
+            {
+                if (laptop.LaptopID == id)
+                {
+                    SelectedItem = laptop;
+                    break;
+                }
+            }
+            var form = new ReviewPost(SelectedItem);
             form.Show();
         }
 

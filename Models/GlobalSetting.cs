@@ -12,6 +12,7 @@ namespace QuanLyLaptop.Models
         public static string PersonFile = @"..\..\..\Data\Person.csv";
         public static string AccountFile = @"..\..\..\Data\Account.csv";
         public static string ReceiptFile = @"..\..\..\Data\Receipt.csv";
+        public static string ReviewFile = @"..\..\..\Data\Review.csv";
 
     }
 }

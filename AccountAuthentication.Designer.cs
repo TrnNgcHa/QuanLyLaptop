@@ -71,7 +71,7 @@
             // 
             // grbDangKy
             // 
-            grbDangKy.BackColor = Color.FromArgb(28, 28, 28);
+            grbDangKy.BackColor = Color.LightGray;
             grbDangKy.Controls.Add(groupBox3);
             grbDangKy.Controls.Add(groupBox2);
             grbDangKy.Controls.Add(label1);
@@ -85,6 +85,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.BackColor = Color.Transparent;
             groupBox3.Controls.Add(llbDangNhap);
             groupBox3.Controls.Add(btnDangKy);
             groupBox3.Controls.Add(label10);
@@ -92,7 +93,7 @@
             groupBox3.Controls.Add(txtMatKhauDK);
             groupBox3.Controls.Add(txtTenDK);
             groupBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox3.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox3.ForeColor = Color.DimGray;
             groupBox3.Location = new Point(15, 358);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(304, 192);
@@ -107,7 +108,7 @@
             llbDangNhap.DisabledLinkColor = Color.Transparent;
             llbDangNhap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             llbDangNhap.ForeColor = Color.White;
-            llbDangNhap.LinkColor = Color.FromArgb(0, 180, 216);
+            llbDangNhap.LinkColor = Color.Blue;
             llbDangNhap.Location = new Point(177, 162);
             llbDangNhap.Name = "llbDangNhap";
             llbDangNhap.Size = new Size(120, 20);
@@ -118,7 +119,7 @@
             // 
             // btnDangKy
             // 
-            btnDangKy.BackColor = Color.Red;
+            btnDangKy.BackColor = Color.Maroon;
             btnDangKy.Cursor = Cursors.Hand;
             btnDangKy.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDangKy.ForeColor = Color.White;
@@ -134,7 +135,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label10.ForeColor = Color.White;
+            label10.ForeColor = Color.DimGray;
             label10.Location = new Point(6, 73);
             label10.Name = "label10";
             label10.Size = new Size(79, 20);
@@ -145,7 +146,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label9.ForeColor = Color.White;
+            label9.ForeColor = Color.DimGray;
             label9.Location = new Point(5, 39);
             label9.Name = "label9";
             label9.Size = new Size(80, 20);
@@ -190,7 +191,7 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox2.ForeColor = Color.DimGray;
             groupBox2.Location = new Point(15, 57);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(304, 295);
@@ -214,7 +215,7 @@
             // 
             ckbNu.AutoSize = true;
             ckbNu.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ckbNu.ForeColor = Color.White;
+            ckbNu.ForeColor = Color.Black;
             ckbNu.Location = new Point(209, 75);
             ckbNu.Name = "ckbNu";
             ckbNu.Size = new Size(51, 24);
@@ -229,7 +230,7 @@
             ckbNam.Checked = true;
             ckbNam.CheckState = CheckState.Checked;
             ckbNam.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ckbNam.ForeColor = Color.White;
+            ckbNam.ForeColor = Color.Black;
             ckbNam.Location = new Point(130, 75);
             ckbNam.Name = "ckbNam";
             ckbNam.Size = new Size(63, 24);
@@ -290,7 +291,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label8.ForeColor = Color.White;
+            label8.ForeColor = Color.DimGray;
             label8.Location = new Point(72, 259);
             label8.Name = "label8";
             label8.Size = new Size(51, 20);
@@ -301,7 +302,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label7.ForeColor = Color.White;
+            label7.ForeColor = Color.DimGray;
             label7.Location = new Point(73, 223);
             label7.Name = "label7";
             label7.Size = new Size(51, 20);
@@ -312,7 +313,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label6.ForeColor = Color.White;
+            label6.ForeColor = Color.DimGray;
             label6.Location = new Point(83, 187);
             label6.Name = "label6";
             label6.Size = new Size(41, 20);
@@ -323,7 +324,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label5.ForeColor = Color.White;
+            label5.ForeColor = Color.DimGray;
             label5.Location = new Point(6, 151);
             label5.Name = "label5";
             label5.Size = new Size(126, 20);
@@ -334,7 +335,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label4.ForeColor = Color.White;
+            label4.ForeColor = Color.DimGray;
             label4.Location = new Point(45, 115);
             label4.Name = "label4";
             label4.Size = new Size(83, 20);
@@ -345,7 +346,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label3.ForeColor = Color.White;
+            label3.ForeColor = Color.DimGray;
             label3.Location = new Point(54, 79);
             label3.Name = "label3";
             label3.Size = new Size(73, 20);
@@ -356,7 +357,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.DimGray;
             label2.Location = new Point(65, 43);
             label2.Name = "label2";
             label2.Size = new Size(60, 20);
@@ -368,7 +369,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Red;
+            label1.ForeColor = Color.Maroon;
             label1.Location = new Point(109, 18);
             label1.Name = "label1";
             label1.Size = new Size(116, 31);
@@ -377,7 +378,7 @@
             // 
             // grbDangNhap
             // 
-            grbDangNhap.BackColor = Color.FromArgb(28, 28, 28);
+            grbDangNhap.BackColor = Color.LightGray;
             grbDangNhap.Controls.Add(groupBox5);
             grbDangNhap.Controls.Add(label11);
             grbDangNhap.Location = new Point(423, 12);
@@ -388,6 +389,7 @@
             // 
             // groupBox5
             // 
+            groupBox5.BackColor = Color.Transparent;
             groupBox5.Controls.Add(llbDangKy);
             groupBox5.Controls.Add(btnDangNhap);
             groupBox5.Controls.Add(label12);
@@ -395,7 +397,7 @@
             groupBox5.Controls.Add(txtMatKhauDN);
             groupBox5.Controls.Add(txtTenDN);
             groupBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox5.ForeColor = Color.FromArgb(179, 179, 179);
+            groupBox5.ForeColor = Color.DimGray;
             groupBox5.Location = new Point(15, 57);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(304, 192);
@@ -407,7 +409,7 @@
             // 
             llbDangKy.AutoSize = true;
             llbDangKy.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            llbDangKy.LinkColor = Color.FromArgb(0, 180, 216);
+            llbDangKy.LinkColor = Color.Blue;
             llbDangKy.Location = new Point(164, 162);
             llbDangKy.Name = "llbDangKy";
             llbDangKy.Size = new Size(135, 20);
@@ -418,7 +420,7 @@
             // 
             // btnDangNhap
             // 
-            btnDangNhap.BackColor = Color.Red;
+            btnDangNhap.BackColor = Color.Maroon;
             btnDangNhap.Cursor = Cursors.Hand;
             btnDangNhap.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDangNhap.ForeColor = Color.White;
@@ -434,7 +436,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label12.ForeColor = Color.White;
+            label12.ForeColor = Color.DimGray;
             label12.Location = new Point(6, 73);
             label12.Name = "label12";
             label12.Size = new Size(79, 20);
@@ -445,7 +447,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label13.ForeColor = Color.White;
+            label13.ForeColor = Color.DimGray;
             label13.Location = new Point(5, 39);
             label13.Name = "label13";
             label13.Size = new Size(80, 20);
@@ -475,7 +477,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.Red;
+            label11.ForeColor = Color.Maroon;
             label11.Location = new Point(91, 18);
             label11.Name = "label11";
             label11.Size = new Size(153, 31);
@@ -486,7 +488,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(13, 13, 13);
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(771, 621);
             Controls.Add(grbDangNhap);
             Controls.Add(grbDangKy);

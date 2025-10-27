@@ -84,5 +84,13 @@ namespace QuanLyLaptop.Models
             return string.Join(" ", parts.Take(parts.Length - 1));
         }
 
+
+        public static string CommentList(this List<Review> reviews, int id) 
+        {
+            var comments = reviews
+                .Where(r => r.LaptopID == id)
+                .Select(r => $"[{r.ReviewDate.ToString("dd/MM/yyyy")}] {r.AccountName}: {r.Comments}");
+            return string.Join(Environment.NewLine, comments);
+        }
     }
 }

@@ -1,0 +1,401 @@
+﻿ReviewID;AccountID;AccountName;LaptopID;LaptopName;ReviewDate;Rating;Comments
+1000000;19407;User27;130011;Acer Chromebook 315;26/11/2023;1;Máy nhẹ, tiện mang đi học
+1000001;17447;User07;168693;HP EliteBook 840 G7;06/08/2023;3;Cấu hình mạnh, chơi game tốt
+1000002;20000;User02;108494;Acer Swift 5 SF514-55T-50QX;31/12/2023;5;Giá hơi cao so với cấu hình
+1000003;19719;User04;191640;ASUS ROG Strix Scar 15 G533;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000004;20000;User02;128854;HP Chromebook x360;31/01/2023;4;Chất lượng hoàn thiện tốt
+1000005;19968;User05;174542;ASUS VivoBook Flip 14;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
+1000006;17447;User07;104114;Acer Nitro 5;08/04/2024;1;Sạc nhanh, không bị nóng
+1000007;16231;User14;116597;MacBook Pro 13-inch M2 (2022);10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
+1000008;15941;User03;101959;HP ProBook 455;02/08/2024;2;Máy hơi nóng khi chơi game lâu
+1000009;16740;User01;148846;Lenovo IdeaPad 5;11/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000010;18357;User11;188051;HP Chromebook x360 14c;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
+1000011;17874;User30;156836;Lenovo IdeaPad Flex 3;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
+1000012;18357;User11;148846;Lenovo IdeaPad 5;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000013;19749;User10;124375;Lenovo ThinkPad E15;06/01/2024;4;Màn hình bị ám nhẹ ở góc
+1000014;16119;User23;196701;ASUS Chromebook Flip C436;22/01/2023;2;Pin yếu, dùng nhanh hết
+1000015;16526;User13;178914;HP ProBook 450;31/01/2023;5;Cấu hình mạnh, chơi game tốt
+1000016;16526;User13;129514;HP Envy 13;09/08/2024;3;Chưa được như kỳ vọng
+1000017;16119;User23;191816;Acer Chromebook Spin 713;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
+1000018;16934;User17;160369;MacBook Pro 16-inch (2021;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000019;16526;User13;191816;Acer Chromebook Spin 713;05/04/2024;5;Màn hình bị ám nhẹ ở góc
+1000020;16639;User15;103938;Lenovo IdeaPad 3;24/02/2023;4;Máy nhẹ, tiện mang đi học
+1000021;10000;Admin;133228;ASUS TUF Gaming F15;11/04/2023;1;Máy nhẹ, tiện mang đi học
+1000022;15752;User19;175086;Lenovo ThinkPad L14;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000023;19060;User26;192476;ASUS ZenBook 13 OLED;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
+1000024;16553;User20;129025;HP Pavilion 14-ce3600;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000025;16526;User13;108494;Acer Swift 5 SF514-55T-50QX;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000026;16740;User01;137708;Dell XPS 13;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
+1000027;20000;User02;172682;MacBook Pro 15-inch (2019) 256GB;22/07/2023;4;Chưa được như kỳ vọng
+1000028;17101;User21;168693;HP EliteBook 840 G7;23/04/2023;5;Máy nhẹ, tiện mang đi học
+1000029;16119;User23;192476;ASUS ZenBook 13 OLED;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000030;16553;User20;114580;ASUS ROG Zephyrus M16;07/01/2024;4;Sạc nhanh, không bị nóng
+1000031;15941;User03;139581;HP Chromebook 14;15/05/2023;4;Hài lòng với sản phẩm này
+1000032;19407;User27;198508;HP EliteBook 850;07/09/2023;3;Màn hình bị ám nhẹ ở góc
+1000033;16740;User01;102863;ASUS ROG Zephyrus G14;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
+1000034;18048;User29;109174;Lenovo ThinkPad X13;30/07/2023;5;Pin yếu, dùng nhanh hết
+1000035;16639;User15;135215;Lenovo Yoga 9i;12/04/2024;1;Cấu hình mạnh, chơi game tốt
+1000036;19968;User05;184013;HP ProBook 640;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000037;19369;User09;191640;ASUS ROG Strix Scar 15 G533;10/05/2024;1;Màn hình bị ám nhẹ ở góc
+1000038;16934;User17;156910;Lenovo Legion 5 15ACH6;10/06/2023;3;Pin yếu, dùng nhanh hết
+1000039;18831;User12;189612;ASUS VivoBook S14;05/03/2023;1;Pin yếu, dùng nhanh hết
+1000040;16553;User20;135743;ASUS TUF Gaming A15;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
+1000041;18544;User08;131841;Acer Aspire 7;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000042;18544;User08;106627;Acer Predator Triton 500 SE;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000043;16769;User28;168592;Acer Swift 3;13/09/2023;5;Cảm thấy rất đáng tiền
+1000044;18544;User08;168592;Acer Swift 3;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000045;18383;User18;154152;ASUS VivoBook 15 K513;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
+1000046;17695;User16;196353;Lenovo ThinkBook 14;15/02/2023;3;Chất lượng hoàn thiện tốt
+1000047;17695;User16;191382;MacBook Pro 16-inch M2 Max (2023);21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000048;16526;User13;125005;Lenovo Legion 5;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
+1000049;15752;User19;142838;MacBook Pro 16-inch (2019) 1TB;07/07/2023;1;Màn hình bị ám nhẹ ở góc
+1000050;17447;User07;167734;HP Omen 17;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
+1000051;15825;User22;188082;MacBook Air M1 (2020) 256GB;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
+1000052;18541;User24;103938;Lenovo IdeaPad 3;29/05/2023;5;Cấu hình mạnh, chơi game tốt
+1000053;18383;User18;131890;Acer Aspire 5 A515-45-R92M;08/02/2023;3;Màn hình bị ám nhẹ ở góc
+1000054;16639;User15;156910;Lenovo Legion 5 15ACH6;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
+1000055;19407;User27;191430;Acer Swift 3 SF314-59;23/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000056;17695;User16;191640;ASUS ROG Strix Scar 15 G533;03/07/2024;1;Cấu hình mạnh, chơi game tốt
+1000057;19407;User27;110762;ASUS ROG Strix G17;31/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000058;18544;User08;137708;Dell XPS 13;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000059;20000;User02;179111;Acer Chromebook Spin 311;15/08/2023;5;Hài lòng với sản phẩm này
+1000060;18357;User11;174168;Lenovo IdeaPad Gaming 3;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
+1000061;16934;User17;131890;Acer Aspire 5 A515-45-R92M;24/04/2024;1;Cảm thấy rất đáng tiền
+1000062;19369;User09;160991;ASUS ROG Zephyrus G15 GA503;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000063;17101;User21;182800;HP Omen 15;18/01/2023;3;Chất lượng hoàn thiện tốt
+1000064;17447;User07;106627;Acer Predator Triton 500 SE;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
+1000065;19060;User26;105461;ASUS ExpertBook B1;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000066;16639;User15;111305;Lenovo IdeaPad Gaming 3 15IMH05;21/07/2024;2;Pin yếu, dùng nhanh hết
+1000067;18048;User29;179567;MacBook Air M3 (2024);27/04/2024;4;Sạc nhanh, không bị nóng
+1000068;18831;User12;129025;HP Pavilion 14-ce3600;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
+1000069;16639;User15;198508;HP EliteBook 850;08/05/2024;2;Giá hơi cao so với cấu hình
+1000070;16526;User13;197597;MacBook Pro 16-inch (2019) 512GB;14/01/2024;4;Cảm thấy rất đáng tiền
+1000071;19060;User26;100984;MacBook Pro 13-inch (2019;10/12/2023;3;Cảm thấy rất đáng tiền
+1000072;17874;User30;129491;HP Pavilion Gaming 15;18/05/2024;3;Máy nhẹ, tiện mang đi học
+1000073;15547;User06;137708;Dell XPS 13;24/03/2024;4;Pin yếu, dùng nhanh hết
+1000074;16639;User15;148829;Lenovo Legion 5 Pro;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000075;18048;User29;156910;Lenovo Legion 5 15ACH6;26/01/2023;2;Pin yếu, dùng nhanh hết
+1000076;16119;User23;126543;Dell Vostro 15 3500;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
+1000077;18357;User11;166868;Lenovo Legion Slim 7;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
+1000078;17101;User21;191382;MacBook Pro 16-inch M2 Max (2023);07/01/2024;2;Quạt kêu hơi to khi chạy nặng
+1000079;17695;User16;191430;Acer Swift 3 SF314-59;09/07/2023;5;Hài lòng với sản phẩm này
+1000080;15547;User06;148168;Acer Swift 5;28/09/2023;4;Cấu hình mạnh, chơi game tốt
+1000081;19060;User26;131841;Acer Aspire 7;02/07/2024;2;Màn hình bị ám nhẹ ở góc
+1000082;19968;User05;198505;MacBook Pro 14-inch M3 Pro (2024);01/02/2023;4;Cảm thấy rất đáng tiền
+1000083;17967;User25;129025;HP Pavilion 14-ce3600;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000084;18357;User11;196353;Lenovo ThinkBook 14;25/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000085;18544;User08;133677;Acer Spin 5;21/09/2023;4;Chưa được như kỳ vọng
+1000086;16553;User20;191382;MacBook Pro 16-inch M2 Max (2023);10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
+1000087;17967;User25;108151;Acer Nitro 5 AN515-58;05/06/2023;2;Máy hơi nóng khi chơi game lâu
+1000088;16119;User23;198508;HP EliteBook 850;08/11/2023;4;Sạc nhanh, không bị nóng
+1000089;16934;User17;188082;MacBook Air M1 (2020) 256GB;20/08/2023;1;Chưa được như kỳ vọng
+1000090;18831;User12;168592;Acer Swift 3;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
+1000091;17967;User25;184002;Acer Nitro 5 AN515-58-50RS;20/01/2024;2;Cảm thấy rất đáng tiền
+1000092;15825;User22;161310;Acer Predator Helios 300 PH315-54;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000093;18831;User12;144625;MacBook Pro 15-inch (2019) 512GB;27/12/2023;2;Cấu hình mạnh, chơi game tốt
+1000094;16740;User01;175086;Lenovo ThinkPad L14;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000095;17874;User30;131890;Acer Aspire 5 A515-45-R92M;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000096;16119;User23;124375;Lenovo ThinkPad E15;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
+1000097;18831;User12;108558;MacBook Pro 14-inch (2021;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000098;10000;Admin;135589;MacBook Pro 13-inch (2020;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
+1000099;18541;User24;148754;HP Pavilion 15-eg0073cl;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
+1000100;18544;User08;156541;Dell Latitude 7420;26/11/2023;1;Máy nhẹ, tiện mang đi học
+1000101;19369;User09;124375;Lenovo ThinkPad E15;06/08/2023;3;Cấu hình mạnh, chơi game tốt
+1000102;20000;User02;154152;ASUS VivoBook 15 K513;31/12/2023;5;Giá hơi cao so với cấu hình
+1000103;17101;User21;151149;HP Omen 16;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000104;19749;User10;104114;Acer Nitro 5;31/01/2023;4;Chất lượng hoàn thiện tốt
+1000105;15825;User22;137629;MacBook Air M2 (2022);09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
+1000106;16553;User20;196701;ASUS Chromebook Flip C436;08/04/2024;1;Sạc nhanh, không bị nóng
+1000107;19749;User10;150959;MacBook Pro 14-inch M2 Pro (2023);10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
+1000108;15825;User22;102710;Acer Aspire 7 A715-42G;02/08/2024;2;Máy hơi nóng khi chơi game lâu
+1000109;18544;User08;110762;ASUS ROG Strix G17;11/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000110;16553;User20;124375;Lenovo ThinkPad E15;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
+1000111;17695;User16;110762;ASUS ROG Strix G17;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
+1000112;15752;User19;148829;Lenovo Legion 5 Pro;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000113;16119;User23;156541;Dell Latitude 7420;06/01/2024;4;Màn hình bị ám nhẹ ở góc
+1000114;19719;User04;156836;Lenovo IdeaPad Flex 3;22/01/2023;2;Pin yếu, dùng nhanh hết
+1000115;15941;User03;151149;HP Omen 16;31/01/2023;5;Cấu hình mạnh, chơi game tốt
+1000116;19060;User26;166395;ASUS ROG Strix Scar 17;09/08/2024;3;Chưa được như kỳ vọng
+1000117;18383;User18;103938;Lenovo IdeaPad 3;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
+1000118;15825;User22;160054;Acer Nitro 5 AN515-45;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000119;19719;User04;197849;Acer Predator Triton 300 SE;05/04/2024;5;Màn hình bị ám nhẹ ở góc
+1000120;17967;User25;113617;MacBook Pro 16-inch (2021;24/02/2023;4;Máy nhẹ, tiện mang đi học
+1000121;16740;User01;120242;ASUS ROG Strix Scar 15;11/04/2023;1;Máy nhẹ, tiện mang đi học
+1000122;19749;User10;141349;MacBook Pro 16-inch M3 Max (2024);10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000123;10000;Admin;197597;MacBook Pro 16-inch (2019) 512GB;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
+1000124;10000;Admin;191640;ASUS ROG Strix Scar 15 G533;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000125;15752;User19;171247;HP Omen 15-ek0013dx;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000126;19749;User10;135743;ASUS TUF Gaming A15;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
+1000127;19749;User10;151149;HP Omen 16;22/07/2023;4;Chưa được như kỳ vọng
+1000128;18544;User08;150959;MacBook Pro 14-inch M2 Pro (2023);23/04/2023;5;Máy nhẹ, tiện mang đi học
+1000129;15752;User19;176078;HP Pavilion 14;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000130;17101;User21;186732;Dell Inspiron 15 5000;07/01/2024;4;Sạc nhanh, không bị nóng
+1000131;16231;User14;142838;MacBook Pro 16-inch (2019) 1TB;15/05/2023;4;Hài lòng với sản phẩm này
+1000132;15752;User19;111305;Lenovo IdeaPad Gaming 3 15IMH05;07/09/2023;3;Màn hình bị ám nhẹ ở góc
+1000133;15752;User19;135215;Lenovo Yoga 9i;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
+1000134;19060;User26;103771;ASUS ZenBook 14 OLED;30/07/2023;5;Pin yếu, dùng nhanh hết
+1000135;15547;User06;110762;ASUS ROG Strix G17;12/04/2024;1;Cấu hình mạnh, chơi game tốt
+1000136;15547;User06;116597;MacBook Pro 13-inch M2 (2022);10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000137;16934;User17;115893;Acer Aspire 7 A715-75G;10/05/2024;1;Màn hình bị ám nhẹ ở góc
+1000138;20000;User02;130011;Acer Chromebook 315;10/06/2023;3;Pin yếu, dùng nhanh hết
+1000139;16119;User23;142838;MacBook Pro 16-inch (2019) 1TB;05/03/2023;1;Pin yếu, dùng nhanh hết
+1000140;19968;User05;141419;HP Elite Dragonfly;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
+1000141;16526;User13;197849;Acer Predator Triton 300 SE;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000142;15941;User03;176524;Acer Swift 5 SF514-55T;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000143;15752;User19;131896;Acer Chromebook 514;13/09/2023;5;Cảm thấy rất đáng tiền
+1000144;20000;User02;144625;MacBook Pro 15-inch (2019) 512GB;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000145;18544;User08;102130;Lenovo ThinkPad T14;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
+1000146;18541;User24;106047;Acer Predator Helios 300 PH315-55;15/02/2023;3;Chất lượng hoàn thiện tốt
+1000147;15752;User19;140095;HP Spectre x360 13;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000148;16740;User01;133677;Acer Spin 5;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
+1000149;19407;User27;188272;ASUS ROG Flow X13;07/07/2023;1;Màn hình bị ám nhẹ ở góc
+1000150;18541;User24;167734;HP Omen 17;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
+1000151;18048;User29;164081;HP Omen 17-cb1000;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
+1000152;17695;User16;177670;ASUS ZenBook Flip 13;29/05/2023;5;Cấu hình mạnh, chơi game tốt
+1000153;18831;User12;113617;MacBook Pro 16-inch (2021;08/02/2023;3;Màn hình bị ám nhẹ ở góc
+1000154;17695;User16;188272;ASUS ROG Flow X13;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
+1000155;15825;User22;140547;MacBook Pro 13-inch (2020;23/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000156;17695;User16;166395;ASUS ROG Strix Scar 17;03/07/2024;1;Cấu hình mạnh, chơi game tốt
+1000157;17447;User07;148754;HP Pavilion 15-eg0073cl;31/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000158;19968;User05;106047;Acer Predator Helios 300 PH315-55;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000159;18383;User18;126543;Dell Vostro 15 3500;15/08/2023;5;Hài lòng với sản phẩm này
+1000160;16231;User14;124375;Lenovo ThinkPad E15;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
+1000161;16553;User20;102863;ASUS ROG Zephyrus G14;24/04/2024;1;Cảm thấy rất đáng tiền
+1000162;19968;User05;168693;HP EliteBook 840 G7;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000163;19719;User04;141419;HP Elite Dragonfly;18/01/2023;3;Chất lượng hoàn thiện tốt
+1000164;17967;User25;138917;Lenovo IdeaPad 3 15ADA;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
+1000165;20000;User02;142570;Acer Aspire 5 A515-56;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000166;16553;User20;176078;HP Pavilion 14;21/07/2024;2;Pin yếu, dùng nhanh hết
+1000167;16740;User01;196701;ASUS Chromebook Flip C436;27/04/2024;4;Sạc nhanh, không bị nóng
+1000168;19968;User05;188051;HP Chromebook x360 14c;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
+1000169;17967;User25;168592;Acer Swift 3;08/05/2024;2;Giá hơi cao so với cấu hình
+1000170;15752;User19;130536;ASUS ROG Strix G15;14/01/2024;4;Cảm thấy rất đáng tiền
+1000171;15941;User03;129514;HP Envy 13;10/12/2023;3;Cảm thấy rất đáng tiền
+1000172;17101;User21;104906;Lenovo Legion 7i;18/05/2024;3;Máy nhẹ, tiện mang đi học
+1000173;19719;User04;178081;ASUS ROG Strix G15 Advantage Edition;24/03/2024;4;Pin yếu, dùng nhanh hết
+1000174;18357;User11;192611;Dell G15 Gaming;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000175;18357;User11;135689;Acer Swift 3 SF314-512;26/01/2023;2;Pin yếu, dùng nhanh hết
+1000176;19407;User27;167671;Acer Nitro 5 AN515-58-50RS;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
+1000177;18383;User18;151149;HP Omen 16;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
+1000178;19719;User04;141419;HP Elite Dragonfly;07/01/2024;2;Quạt kêu hơi to khi chạy nặng
+1000179;16769;User28;154152;ASUS VivoBook 15 K513;09/07/2023;5;Hài lòng với sản phẩm này
+1000180;19060;User26;191640;ASUS ROG Strix Scar 15 G533;28/09/2023;4;Cấu hình mạnh, chơi game tốt
+1000181;18383;User18;196701;ASUS Chromebook Flip C436;02/07/2024;2;Màn hình bị ám nhẹ ở góc
+1000182;18383;User18;141349;MacBook Pro 16-inch M3 Max (2024);01/02/2023;4;Cảm thấy rất đáng tiền
+1000183;18048;User29;129514;HP Envy 13;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000184;17695;User16;155884;Lenovo Chromebook Flex 5;25/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000185;17101;User21;117836;HP Spectre x360;21/09/2023;4;Chưa được như kỳ vọng
+1000186;19369;User09;140547;MacBook Pro 13-inch (2020;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
+1000187;16639;User15;184002;Acer Nitro 5 AN515-58-50RS;05/06/2023;2;Máy hơi nóng khi chơi game lâu
+1000188;16639;User15;108151;Acer Nitro 5 AN515-58;08/11/2023;4;Sạc nhanh, không bị nóng
+1000189;19407;User27;101959;HP ProBook 455;20/08/2023;1;Chưa được như kỳ vọng
+1000190;17874;User30;179111;Acer Chromebook Spin 311;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
+1000191;18357;User11;131890;Acer Aspire 5 A515-45-R92M;20/01/2024;2;Cảm thấy rất đáng tiền
+1000192;18383;User18;177670;ASUS ZenBook Flip 13;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000193;16231;User14;161293;Acer Swift 3 SF314-43;27/12/2023;2;Cấu hình mạnh, chơi game tốt
+1000194;17967;User25;125909;Lenovo ThinkPad X1 Yoga;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000195;16231;User14;167734;HP Omen 17;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000196;16553;User20;156836;Lenovo IdeaPad Flex 3;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
+1000197;17874;User30;172682;MacBook Pro 15-inch (2019) 256GB;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000198;16553;User20;129491;HP Pavilion Gaming 15;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
+1000199;16740;User01;168592;Acer Swift 3;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
+1000200;15752;User19;142838;MacBook Pro 16-inch (2019) 1TB;26/11/2023;1;Máy nhẹ, tiện mang đi học
+1000201;10000;Admin;104114;Acer Nitro 5;06/08/2023;3;Cấu hình mạnh, chơi game tốt
+1000202;17447;User07;131890;Acer Aspire 5 A515-45-R92M;31/12/2023;5;Giá hơi cao so với cấu hình
+1000203;16769;User28;137293;ASUS ZenBook 14;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000204;20000;User02;191954;HP EliteBook x360;31/01/2023;4;Chất lượng hoàn thiện tốt
+1000205;16639;User15;110762;ASUS ROG Strix G17;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
+1000206;16526;User13;179567;MacBook Air M3 (2024);08/04/2024;1;Sạc nhanh, không bị nóng
+1000207;16934;User17;102710;Acer Aspire 7 A715-42G;10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
+1000208;18544;User08;128854;HP Chromebook x360;02/08/2024;2;Máy hơi nóng khi chơi game lâu
+1000209;18831;User12;111305;Lenovo IdeaPad Gaming 3 15IMH05;11/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000210;16526;User13;129514;HP Envy 13;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
+1000211;17447;User07;198508;HP EliteBook 850;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
+1000212;16119;User23;116597;MacBook Pro 13-inch M2 (2022);19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000213;16740;User01;176078;HP Pavilion 14;06/01/2024;4;Màn hình bị ám nhẹ ở góc
+1000214;18544;User08;189612;ASUS VivoBook S14;22/01/2023;2;Pin yếu, dùng nhanh hết
+1000215;10000;Admin;109174;Lenovo ThinkPad X13;31/01/2023;5;Cấu hình mạnh, chơi game tốt
+1000216;19749;User10;102863;ASUS ROG Zephyrus G14;09/08/2024;3;Chưa được như kỳ vọng
+1000217;18831;User12;139761;Lenovo Yoga C940;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
+1000218;17101;User21;191954;HP EliteBook x360;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000219;15752;User19;144229;ASUS VivoBook 15 X515;05/04/2024;5;Màn hình bị ám nhẹ ở góc
+1000220;19060;User26;111062;ASUS ZenBook Duo 14;24/02/2023;4;Máy nhẹ, tiện mang đi học
+1000221;18831;User12;148846;Lenovo IdeaPad 5;11/04/2023;1;Máy nhẹ, tiện mang đi học
+1000222;20000;User02;151149;HP Omen 16;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000223;17874;User30;177670;ASUS ZenBook Flip 13;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
+1000224;17967;User25;141419;HP Elite Dragonfly;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000225;19060;User26;126543;Dell Vostro 15 3500;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000226;10000;Admin;156541;Dell Latitude 7420;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
+1000227;17447;User07;148754;HP Pavilion 15-eg0073cl;22/07/2023;4;Chưa được như kỳ vọng
+1000228;16740;User01;135972;Acer Predator Helios 300;23/04/2023;5;Máy nhẹ, tiện mang đi học
+1000229;16740;User01;101445;Acer Nitro 5 AN515-45-R92M;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000230;19407;User27;174542;ASUS VivoBook Flip 14;07/01/2024;4;Sạc nhanh, không bị nóng
+1000231;19749;User10;106627;Acer Predator Triton 500 SE;15/05/2023;4;Hài lòng với sản phẩm này
+1000232;17695;User16;108151;Acer Nitro 5 AN515-58;07/09/2023;3;Màn hình bị ám nhẹ ở góc
+1000233;19749;User10;130536;ASUS ROG Strix G15;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
+1000234;16526;User13;191640;ASUS ROG Strix Scar 15 G533;30/07/2023;5;Pin yếu, dùng nhanh hết
+1000235;18541;User24;103938;Lenovo IdeaPad 3;12/04/2024;1;Cấu hình mạnh, chơi game tốt
+1000236;19369;User09;110012;HP EliteBook 840;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000237;17101;User21;198505;MacBook Pro 14-inch M3 Pro (2024);10/05/2024;1;Màn hình bị ám nhẹ ở góc
+1000238;19719;User04;108558;MacBook Pro 14-inch (2021;10/06/2023;3;Pin yếu, dùng nhanh hết
+1000239;19749;User10;141388;ASUS Chromebook Flip C214;05/03/2023;1;Pin yếu, dùng nhanh hết
+1000240;19719;User04;197849;Acer Predator Triton 300 SE;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
+1000241;15547;User06;140095;HP Spectre x360 13;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000242;19719;User04;140095;HP Spectre x360 13;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000243;17447;User07;129514;HP Envy 13;13/09/2023;5;Cảm thấy rất đáng tiền
+1000244;16231;User14;191816;Acer Chromebook Spin 713;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000245;17695;User16;178914;HP ProBook 450;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
+1000246;16934;User17;148754;HP Pavilion 15-eg0073cl;15/02/2023;3;Chất lượng hoàn thiện tốt
+1000247;19749;User10;178081;ASUS ROG Strix G15 Advantage Edition;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000248;18541;User24;196353;Lenovo ThinkBook 14;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
+1000249;20000;User02;178164;ASUS VivoBook 14;07/07/2023;1;Màn hình bị ám nhẹ ở góc
+1000250;16231;User14;135689;Acer Swift 3 SF314-512;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
+1000251;16769;User28;182192;HP Envy x360;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
+1000252;16934;User17;171062;Acer Predator Triton 500 PT515-52;29/05/2023;5;Cấu hình mạnh, chơi game tốt
+1000253;18383;User18;164081;HP Omen 17-cb1000;08/02/2023;3;Màn hình bị ám nhẹ ở góc
+1000254;16740;User01;191816;Acer Chromebook Spin 713;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
+1000255;16231;User14;191640;ASUS ROG Strix Scar 15 G533;23/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000256;18544;User08;110762;ASUS ROG Strix G17;03/07/2024;1;Cấu hình mạnh, chơi game tốt
+1000257;17447;User07;191430;Acer Swift 3 SF314-59;31/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000258;15941;User03;104906;Lenovo Legion 7i;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000259;17447;User07;115893;Acer Aspire 7 A715-75G;15/08/2023;5;Hài lòng với sản phẩm này
+1000260;19407;User27;135972;Acer Predator Helios 300;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
+1000261;16639;User15;180565;HP Spectre x360 14;24/04/2024;1;Cảm thấy rất đáng tiền
+1000262;19060;User26;184002;Acer Nitro 5 AN515-58-50RS;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000263;18544;User08;110762;ASUS ROG Strix G17;18/01/2023;3;Chất lượng hoàn thiện tốt
+1000264;15547;User06;120242;ASUS ROG Strix Scar 15;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
+1000265;16526;User13;191382;MacBook Pro 16-inch M2 Max (2023);11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000266;17874;User30;140095;HP Spectre x360 13;21/07/2024;2;Pin yếu, dùng nhanh hết
+1000267;18541;User24;129514;HP Envy 13;27/04/2024;4;Sạc nhanh, không bị nóng
+1000268;15547;User06;160991;ASUS ROG Zephyrus G15 GA503;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
+1000269;19060;User26;178775;Dell Alienware m15;08/05/2024;2;Giá hơi cao so với cấu hình
+1000270;19407;User27;198505;MacBook Pro 14-inch M3 Pro (2024);14/01/2024;4;Cảm thấy rất đáng tiền
+1000271;17101;User21;171247;HP Omen 15-ek0013dx;10/12/2023;3;Cảm thấy rất đáng tiền
+1000272;16740;User01;191382;MacBook Pro 16-inch M2 Max (2023);18/05/2024;3;Máy nhẹ, tiện mang đi học
+1000273;19369;User09;191382;MacBook Pro 16-inch M2 Max (2023);24/03/2024;4;Pin yếu, dùng nhanh hết
+1000274;17967;User25;114580;ASUS ROG Zephyrus M16;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000275;15941;User03;115290;ASUS TUF Gaming FX506;26/01/2023;2;Pin yếu, dùng nhanh hết
+1000276;17695;User16;131841;Acer Aspire 7;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
+1000277;16740;User01;102863;ASUS ROG Zephyrus G14;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
+1000278;16934;User17;156836;Lenovo IdeaPad Flex 3;07/01/2024;2;Quạt kêu hơi to khi chạy nặng
+1000279;18357;User11;117836;HP Spectre x360;09/07/2023;5;Hài lòng với sản phẩm này
+1000280;17447;User07;115893;Acer Aspire 7 A715-75G;28/09/2023;4;Cấu hình mạnh, chơi game tốt
+1000281;15825;User22;135215;Lenovo Yoga 9i;02/07/2024;2;Màn hình bị ám nhẹ ở góc
+1000282;16231;User14;191382;MacBook Pro 16-inch M2 Max (2023);01/02/2023;4;Cảm thấy rất đáng tiền
+1000283;18544;User08;160991;ASUS ROG Zephyrus G15 GA503;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000284;16526;User13;103938;Lenovo IdeaPad 3;25/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000285;16231;User14;103771;ASUS ZenBook 14 OLED;21/09/2023;4;Chưa được như kỳ vọng
+1000286;15547;User06;103771;ASUS ZenBook 14 OLED;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
+1000287;16553;User20;125909;Lenovo ThinkPad X1 Yoga;05/06/2023;2;Máy hơi nóng khi chơi game lâu
+1000288;18541;User24;198508;HP EliteBook 850;08/11/2023;4;Sạc nhanh, không bị nóng
+1000289;19407;User27;141349;MacBook Pro 16-inch M3 Max (2024);20/08/2023;1;Chưa được như kỳ vọng
+1000290;16740;User01;197849;Acer Predator Triton 300 SE;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
+1000291;17967;User25;114844;ASUS VivoBook 15;20/01/2024;2;Cảm thấy rất đáng tiền
+1000292;15825;User22;137708;Dell XPS 13;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000293;15941;User03;196701;ASUS Chromebook Flip C436;27/12/2023;2;Cấu hình mạnh, chơi game tốt
+1000294;16119;User23;116597;MacBook Pro 13-inch M2 (2022);29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000295;18383;User18;144625;MacBook Pro 15-inch (2019) 512GB;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000296;15547;User06;103771;ASUS ZenBook 14 OLED;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
+1000297;17447;User07;125288;Lenovo Legion 7;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000298;17967;User25;128854;HP Chromebook x360;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
+1000299;16769;User28;130011;Acer Chromebook 315;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
+1000300;18544;User08;178164;ASUS VivoBook 14;26/11/2023;1;Máy nhẹ, tiện mang đi học
+1000301;17447;User07;135972;Acer Predator Helios 300;06/08/2023;3;Cấu hình mạnh, chơi game tốt
+1000302;15752;User19;165204;Lenovo Yoga Slim 7;31/12/2023;5;Giá hơi cao so với cấu hình
+1000303;16934;User17;122098;Acer Aspire 5;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000304;16934;User17;191382;MacBook Pro 16-inch M2 Max (2023);31/01/2023;4;Chất lượng hoàn thiện tốt
+1000305;18383;User18;156541;Dell Latitude 7420;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
+1000306;18383;User18;188051;HP Chromebook x360 14c;08/04/2024;1;Sạc nhanh, không bị nóng
+1000307;10000;Admin;171247;HP Omen 15-ek0013dx;10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
+1000308;16740;User01;161310;Acer Predator Helios 300 PH315-54;02/08/2024;2;Máy hơi nóng khi chơi game lâu
+1000309;16231;User14;161293;Acer Swift 3 SF314-43;11/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000310;18357;User11;111305;Lenovo IdeaPad Gaming 3 15IMH05;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
+1000311;16769;User28;174542;ASUS VivoBook Flip 14;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
+1000312;15547;User06;109174;Lenovo ThinkPad X13;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000313;18383;User18;125987;MacBook Air Retina 13-inch (2019) 128GB;06/01/2024;4;Màn hình bị ám nhẹ ở góc
+1000314;16526;User13;188272;ASUS ROG Flow X13;22/01/2023;2;Pin yếu, dùng nhanh hết
+1000315;18383;User18;141349;MacBook Pro 16-inch M3 Max (2024);31/01/2023;5;Cấu hình mạnh, chơi game tốt
+1000316;18048;User29;144625;MacBook Pro 15-inch (2019) 512GB;09/08/2024;3;Chưa được như kỳ vọng
+1000317;17101;User21;131841;Acer Aspire 7;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
+1000318;15752;User19;148829;Lenovo Legion 5 Pro;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000319;16231;User14;131841;Acer Aspire 7;05/04/2024;5;Màn hình bị ám nhẹ ở góc
+1000320;16769;User28;108151;Acer Nitro 5 AN515-58;24/02/2023;4;Máy nhẹ, tiện mang đi học
+1000321;17967;User25;117836;HP Spectre x360;11/04/2023;1;Máy nhẹ, tiện mang đi học
+1000322;19407;User27;191954;HP EliteBook x360;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000323;19749;User10;142838;MacBook Pro 16-inch (2019) 1TB;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
+1000324;18048;User29;106627;Acer Predator Triton 500 SE;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
+1000325;19749;User10;135215;Lenovo Yoga 9i;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000326;16934;User17;120242;ASUS ROG Strix Scar 15;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
+1000327;17695;User16;137629;MacBook Air M2 (2022);22/07/2023;4;Chưa được như kỳ vọng
+1000328;15825;User22;135743;ASUS TUF Gaming A15;23/04/2023;5;Máy nhẹ, tiện mang đi học
+1000329;19749;User10;197849;Acer Predator Triton 300 SE;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
+1000330;16934;User17;184013;HP ProBook 640;07/01/2024;4;Sạc nhanh, không bị nóng
+1000331;16119;User23;116586;ASUS Chromebook Flip C434;15/05/2023;4;Hài lòng với sản phẩm này
+1000332;18544;User08;135215;Lenovo Yoga 9i;07/09/2023;3;Màn hình bị ám nhẹ ở góc
+1000333;16119;User23;167734;HP Omen 17;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
+1000334;19749;User10;168592;Acer Swift 3;30/07/2023;5;Pin yếu, dùng nhanh hết
+1000335;19407;User27;142717;Lenovo Yoga 7i;12/04/2024;1;Cấu hình mạnh, chơi game tốt
+1000336;17874;User30;188082;MacBook Air M1 (2020) 256GB;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000337;15752;User19;144625;MacBook Pro 15-inch (2019) 512GB;10/05/2024;1;Màn hình bị ám nhẹ ở góc
+1000338;15825;User22;184002;Acer Nitro 5 AN515-58-50RS;10/06/2023;3;Pin yếu, dùng nhanh hết
+1000339;19968;User05;128854;HP Chromebook x360;05/03/2023;1;Pin yếu, dùng nhanh hết
+1000340;17967;User25;191430;Acer Swift 3 SF314-59;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
+1000341;18831;User12;174542;ASUS VivoBook Flip 14;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000342;18831;User12;108494;Acer Swift 5 SF514-55T-50QX;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000343;19749;User10;167734;HP Omen 17;13/09/2023;5;Cảm thấy rất đáng tiền
+1000344;16553;User20;144229;ASUS VivoBook 15 X515;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
+1000345;19407;User27;130536;ASUS ROG Strix G15;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
+1000346;18357;User11;171247;HP Omen 15-ek0013dx;15/02/2023;3;Chất lượng hoàn thiện tốt
+1000347;16526;User13;196353;Lenovo ThinkBook 14;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
+1000348;18048;User29;196701;ASUS Chromebook Flip C436;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
+1000349;19749;User10;133677;Acer Spin 5;07/07/2023;1;Màn hình bị ám nhẹ ở góc
+1000350;18383;User18;114844;ASUS VivoBook 15;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
+1000351;15752;User19;141349;MacBook Pro 16-inch M3 Max (2024);06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
+1000352;18357;User11;166395;ASUS ROG Strix Scar 17;29/05/2023;5;Cấu hình mạnh, chơi game tốt
+1000353;16934;User17;144625;MacBook Pro 15-inch (2019) 512GB;08/02/2023;3;Màn hình bị ám nhẹ ở góc
+1000354;18383;User18;160369;MacBook Pro 16-inch (2021;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
+1000355;18383;User18;108494;Acer Swift 5 SF514-55T-50QX;23/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000356;16553;User20;137293;ASUS ZenBook 14;03/07/2024;1;Cấu hình mạnh, chơi game tốt
+1000357;19719;User04;151149;HP Omen 16;31/01/2023;1;Máy hơi nóng khi chơi game lâu
+1000358;19749;User10;104906;Lenovo Legion 7i;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
+1000359;16769;User28;103771;ASUS ZenBook 14 OLED;15/08/2023;5;Hài lòng với sản phẩm này
+1000360;17101;User21;168693;HP EliteBook 840 G7;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
+1000361;19968;User05;116597;MacBook Pro 13-inch M2 (2022);24/04/2024;1;Cảm thấy rất đáng tiền
+1000362;18541;User24;105461;ASUS ExpertBook B1;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000363;16740;User01;137629;MacBook Air M2 (2022);18/01/2023;3;Chất lượng hoàn thiện tốt
+1000364;18357;User11;140095;HP Spectre x360 13;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
+1000365;16553;User20;182800;HP Omen 15;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000366;16740;User01;111062;ASUS ZenBook Duo 14;21/07/2024;2;Pin yếu, dùng nhanh hết
+1000367;19369;User09;184013;HP ProBook 640;27/04/2024;4;Sạc nhanh, không bị nóng
+1000368;17967;User25;137629;MacBook Air M2 (2022);01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
+1000369;19719;User04;188082;MacBook Air M1 (2020) 256GB;08/05/2024;2;Giá hơi cao so với cấu hình
+1000370;19369;User09;167671;Acer Nitro 5 AN515-58-50RS;14/01/2024;4;Cảm thấy rất đáng tiền
+1000371;16934;User17;155884;Lenovo Chromebook Flex 5;10/12/2023;3;Cảm thấy rất đáng tiền
+1000372;16639;User15;192611;Dell G15 Gaming;18/05/2024;3;Máy nhẹ, tiện mang đi học
+1000373;17447;User07;129025;HP Pavilion 14-ce3600;24/03/2024;4;Pin yếu, dùng nhanh hết
+1000374;19407;User27;109174;Lenovo ThinkPad X13;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000375;17447;User07;178164;ASUS VivoBook 14;26/01/2023;2;Pin yếu, dùng nhanh hết
+1000376;16231;User14;178164;ASUS VivoBook 14;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
+1000377;18048;User29;190366;Acer Predator Helios 300 PH317-55;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
+1000378;18357;User11;144625;MacBook Pro 15-inch (2019) 512GB;07/01/2024;2;Quạt kêu hơi to khi chạy nặng
+1000379;17447;User07;178081;ASUS ROG Strix G15 Advantage Edition;09/07/2023;5;Hài lòng với sản phẩm này
+1000380;19060;User26;177250;Lenovo IdeaPad Flex 5;28/09/2023;4;Cấu hình mạnh, chơi game tốt
+1000381;19060;User26;108151;Acer Nitro 5 AN515-58;02/07/2024;2;Màn hình bị ám nhẹ ở góc
+1000382;16740;User01;160054;Acer Nitro 5 AN515-45;01/02/2023;4;Cảm thấy rất đáng tiền
+1000383;15941;User03;144625;MacBook Pro 15-inch (2019) 512GB;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
+1000384;15825;User22;110012;HP EliteBook 840;25/03/2023;5;Cấu hình mạnh, chơi game tốt
+1000385;17447;User07;192476;ASUS ZenBook 13 OLED;21/09/2023;4;Chưa được như kỳ vọng
+1000386;19968;User05;110012;HP EliteBook 840;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
+1000387;19968;User05;106047;Acer Predator Helios 300 PH315-55;05/06/2023;2;Máy hơi nóng khi chơi game lâu
+1000388;16526;User13;176078;HP Pavilion 14;08/11/2023;4;Sạc nhanh, không bị nóng
+1000389;18541;User24;128854;HP Chromebook x360;20/08/2023;1;Chưa được như kỳ vọng
+1000390;18383;User18;104114;Acer Nitro 5;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
+1000391;16526;User13;129514;HP Envy 13;20/01/2024;2;Cảm thấy rất đáng tiền
+1000392;17447;User07;135972;Acer Predator Helios 300;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
+1000393;16119;User23;183177;Lenovo Yoga Slim 7 Carbon;27/12/2023;2;Cấu hình mạnh, chơi game tốt
+1000394;17101;User21;117836;HP Spectre x360;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000395;18383;User18;135743;ASUS TUF Gaming A15;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
+1000396;20000;User02;141419;HP Elite Dragonfly;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
+1000397;16119;User23;111305;Lenovo IdeaPad Gaming 3 15IMH05;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
+1000398;15825;User22;135215;Lenovo Yoga 9i;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
+1000399;15547;User06;135215;Lenovo Yoga 9i;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
