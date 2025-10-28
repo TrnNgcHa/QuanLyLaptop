@@ -85,12 +85,179 @@ namespace QuanLyLaptop.Models
         }
 
 
-        public static string CommentList(this List<Review> reviews, int id) 
+        public static string CommentList(this List<Review> reviews, int id)
         {
             var comments = reviews
                 .Where(r => r.LaptopID == id)
                 .Select(r => $"[{r.Rating} ★][{r.ReviewDate.ToString("dd/MM/yyyy")}] {r.AccountName}: {r.Comments}");
             return string.Join(Environment.NewLine, comments);
+        }
+
+        public static string ConvertToCsvLine(string path, List<Laptop> laptops)
+        {
+            if(laptops.Count < 1) return string.Empty;
+
+            try
+            {
+                var sb = new StringBuilder();
+                string lineHeader = "Mã Laptop;Tên Laptop;Tên Hãng;Ngày Nhập;Số Tồn;Giá Tiền;CPU;GPU;Ổ Cứng;RAM";
+                sb.AppendLine(lineHeader);
+                foreach (var laptop in laptops)
+                {
+                    var properties = laptop.GetType().GetProperties();
+                    for(int i = 0; i < properties.Length; i++)
+                    {
+                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
+                        if (value.Contains(";") || value.Contains("\""))
+                        {
+                            value = $"\"{value.Replace("\"", "\"\"")}\"";
+                        }
+                        sb.Append(value);
+                        if (i < properties.Length - 1)
+                        {
+                            sb.Append(";");
+                        }
+
+                    }
+                    sb.AppendLine();
+                }
+                return sb.ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+                return string.Empty;
+            }
+        }
+
+        public static string ConvertToCsvLine(string path, List<Account> accounts)
+        {
+            if (accounts.Count < 1) return string.Empty;
+
+            try
+            {
+                var sb = new StringBuilder();
+                string lineHeader = "Mã Tài Khoản;Mã Người Dùng;Tên Tài Khoản;Mật Khẩu;Số Dư";
+                sb.AppendLine(lineHeader);
+                foreach (var laptop in accounts)
+                {
+                    var properties = laptop.GetType().GetProperties();
+                    for (int i = 0; i < 5; i++)
+                    {
+                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
+                        if (value.Contains(";") || value.Contains("\""))
+                        {
+                            value = $"\"{value.Replace("\"", "\"\"")}\"";
+                        }
+                        sb.Append(value);
+                        if (i < 5 - 1)
+                        {
+                            sb.Append(";");
+                        }
+
+                    }
+                    sb.AppendLine();
+                }
+                return sb.ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+                return string.Empty;
+            }
+        }
+
+        public static string ConvertToCsvLine(string path, List<Receipt> receipts)
+        {
+            if (receipts.Count < 1) return string.Empty;
+
+            try
+            {
+                var sb = new StringBuilder();
+                string lineHeader = "ReceiptID;InvoiceDate;AccountID;AccountName;PersonID;PersonName;LaptopID;LaptopName;LaptopPrice;ExtraItems;ExtraPrices;TotalAmount";
+                sb.AppendLine(lineHeader);
+                foreach (var laptop in receipts)
+                {
+                    var properties = laptop.GetType().GetProperties();
+                    for (int i = 0; i < properties.Length; i++)
+                    {
+                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
+                        if (value.Contains(";") || value.Contains("\""))
+                        {
+                            value = $"\"{value.Replace("\"", "\"\"")}\"";
+                        }
+                        sb.Append(value);
+                        if (i < properties.Length - 1)
+                        {
+                            sb.Append(";");
+                        }
+
+                    }
+                    sb.AppendLine();
+                }
+                return sb.ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+                return string.Empty;
+            }
+        }
+
+        public static string ConvertToCsvLine(string path, List<Review> reviews)
+        {
+            if (reviews.Count < 1) return string.Empty;
+
+            try
+            {
+                var sb = new StringBuilder();
+                string lineHeader = "ReviewID;AccountID;AccountName;LaptopID;LaptopName;ReviewDate;Rating;Comments";
+                sb.AppendLine(lineHeader);
+                foreach (var laptop in reviews)
+                {
+                    var properties = laptop.GetType().GetProperties();
+                    for (int i = 0; i < properties.Length; i++)
+                    {
+                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
+                        if (value.Contains(";") || value.Contains("\""))
+                        {
+                            value = $"\"{value.Replace("\"", "\"\"")}\"";
+                        }
+                        sb.Append(value);
+                        if (i < properties.Length - 1)
+                        {
+                            sb.Append(";");
+                        }
+
+                    }
+                    sb.AppendLine();
+                }
+                return sb.ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+                return string.Empty;
+            }
+        }
+        public static bool WriteFile(string filePath, string content)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    writer.Write(content);
+                }
+                //Console.WriteLine($"CSV file successfully written to: {filePath}");
+                
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error writing CSV file: {ex.Message}");
+                return false;
+            }
+
         }
     }
 }

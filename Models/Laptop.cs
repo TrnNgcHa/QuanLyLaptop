@@ -14,11 +14,12 @@ namespace QuanLyLaptop.Models
         public string AgencyName { get; set; }
         public DateOnly StockInDate { get; set; }
         public int RemainAmount { get; set; }
+        public int Price { get; set; }
         public string CPU { get; set; }
         public string GPU { get; set; }
         public string Storage { get; set; }
         public string RAM { get; set; }
-        public int Price { get; set; }
+        
 
         public Laptop()
         {
@@ -61,6 +62,8 @@ namespace QuanLyLaptop.Models
             }
             return laptopList;
         }
+
+        
     }
 
 }

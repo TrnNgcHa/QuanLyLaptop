@@ -32,6 +32,7 @@
             btnAdmin = new Button();
             btnCustomer = new Button();
             groupBox2 = new GroupBox();
+            btnCapNhat = new Button();
             btnClose = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -86,6 +87,7 @@
             // 
             groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             groupBox2.BackColor = Color.FromArgb(224, 224, 224);
+            groupBox2.Controls.Add(btnCapNhat);
             groupBox2.Controls.Add(btnClose);
             groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox2.ForeColor = Color.FromArgb(64, 64, 64);
@@ -95,6 +97,20 @@
             groupBox2.TabIndex = 0;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chức Năng";
+            // 
+            // btnCapNhat
+            // 
+            btnCapNhat.BackColor = Color.Gray;
+            btnCapNhat.Dock = DockStyle.Top;
+            btnCapNhat.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCapNhat.ForeColor = Color.White;
+            btnCapNhat.Location = new Point(3, 83);
+            btnCapNhat.Name = "btnCapNhat";
+            btnCapNhat.Size = new Size(175, 60);
+            btnCapNhat.TabIndex = 1;
+            btnCapNhat.Text = "Cập Nhật";
+            btnCapNhat.UseVisualStyleBackColor = false;
+            btnCapNhat.Click += btnCapNhat_Click;
             // 
             // btnClose
             // 
@@ -122,6 +138,7 @@
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Admin";
+            FormClosing += MainMenu_FormClosing;
             Load += MainMenu_Load;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
@@ -135,5 +152,6 @@
         private Button btnAdmin;
         private GroupBox groupBox2;
         private Button btnClose;
+        private Button btnCapNhat;
     }
 }

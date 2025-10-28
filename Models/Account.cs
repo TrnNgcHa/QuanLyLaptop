@@ -9,6 +9,7 @@ namespace QuanLyLaptop.Models
     public class Account: Person
     {
         public int AccountID { get; set; }
+        public int PersonID { get; set; }
         public string AccountName { get; set; }
         public int Password { get; set; }
         public int Balance { get; set; }

@@ -48,6 +48,11 @@ namespace QuanLyLaptop
         }
         private void btnDanhGia_Click(object sender, EventArgs e)
         {
+            if(txtDanhGia.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập nội dung đánh giá!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             Review review = new Review();
             review.ReviewID = MainMenu.Reviews.Count > 0 ? MainMenu.Reviews.Max(r => r.ReviewID) + 1 : 1;
             review.AccountID = AccountAuthentication.CurrentAccount.AccountID;
@@ -59,6 +64,7 @@ namespace QuanLyLaptop
             review.Comments = txtDanhGia.Text.Trim();
             MainMenu.Reviews.Add(review);
             txtDanhSachDanhGia.Text += $"\r\n[{review.Rating} ★][{review.ReviewDate.ToString("dd/MM/yyyy")}] {review.AccountName}: {review.Comments}";
+            txtDanhGia.Text = "";
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
