@@ -330,6 +330,7 @@
             Controls.Add(groupBox1);
             Name = "Purchase";
             Text = "Purchase";
+            FormClosing += Purchase_FormClosing;
             Load += Purchase_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

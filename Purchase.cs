@@ -17,13 +17,20 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
         }
+
+        public Action<Account> UpdateAccountBalance;
+
         Laptop SelectedLaptop = new Laptop();
+        Account CurrentAccount = new Account();
         int GiaPhuKien = 0;
 
-        public Purchase(Laptop SelectedItem)
+        
+
+        public Purchase(Laptop selected, Account current)
         {
             InitializeComponent();
-            SelectedLaptop = SelectedItem;
+            SelectedLaptop = selected;
+            CurrentAccount = current;
         }
 
         private void Purchase_Load(object sender, EventArgs e)
@@ -33,9 +40,9 @@ namespace QuanLyLaptop
 
             lblTenLaptop.Text = SelectedLaptop.LaptopName;
             lblGiaLaptop.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
-            lblTenKhachHang.Text = AccountAuthentication.CurrentAccount.FirstName + " " + AccountAuthentication.CurrentAccount.LastName;
-            lblTenTaiKhoan.Text = AccountAuthentication.CurrentAccount.AccountName;
-            lblSoDu.Text += string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
+            lblTenKhachHang.Text = CurrentAccount.FirstName + " " + CurrentAccount.LastName;
+            lblTenTaiKhoan.Text = CurrentAccount.AccountName;
+            lblSoDu.Text += string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
 
             lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
             lblGiaThem.Text = "0 VND";
@@ -48,28 +55,31 @@ namespace QuanLyLaptop
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            if(AccountAuthentication.CurrentAccount.Balance >= SelectedLaptop.Price + GiaPhuKien)
-            {
-                if (!(AccountAuthentication.CurrentAccount.AccountID == 10000))
-                {
-                    AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
-                    LaptopList.SelectedItem.RemainAmount--;
-                }
-                lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
-                MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
-                LaptopList.ActiveForm.Refresh();
-                this.Close();
-            }
-            else
+            if (CurrentAccount.Balance < SelectedLaptop.Price + GiaPhuKien)
             {
                 MessageBox.Show("Số dư tài khoản không đủ để thực hiện thanh toán!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
+            if (!(CurrentAccount.AccountID == 10000))
+            {
+                AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
+                MainMenu.Laptops.First(l => l.LaptopID == SelectedLaptop.LaptopID).RemainAmount -= 1;
+            }
+            lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
+            MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            this.Close();
+
         }
 
+        public void PhuKien()
+        {
+            lblGiaThem.Text = string.Format("{0:#,##0 VND}", GiaPhuKien);
+            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price + GiaPhuKien);
+        }
         private void ckbUSB_CheckedChanged(object sender, EventArgs e)
         {
-            if(ckbUSB.Checked)
+            if (ckbUSB.Checked)
             {
                 GiaPhuKien += 80000;
             }
@@ -77,13 +87,12 @@ namespace QuanLyLaptop
             {
                 GiaPhuKien -= 80000;
             }
-            lblGiaThem.Text = string.Format("{0:#,##0 VND}", GiaPhuKien);
-            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price + GiaPhuKien);
+            PhuKien();
         }
 
         private void ckbTuiDung_CheckedChanged(object sender, EventArgs e)
         {
-            if(ckbTuiDung.Checked)
+            if (ckbTuiDung.Checked)
             {
                 GiaPhuKien += 80000;
             }
@@ -91,13 +100,12 @@ namespace QuanLyLaptop
             {
                 GiaPhuKien -= 80000;
             }
-            lblGiaThem.Text = string.Format("{0:#,##0 VND}", GiaPhuKien);
-            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price + GiaPhuKien);
+            PhuKien();
         }
 
         private void ckbNuocRua_CheckedChanged(object sender, EventArgs e)
         {
-            if(ckbNuocRua.Checked)
+            if (ckbNuocRua.Checked)
             {
                 GiaPhuKien += 35000;
             }
@@ -105,13 +113,12 @@ namespace QuanLyLaptop
             {
                 GiaPhuKien -= 35000;
             }
-            lblGiaThem.Text = string.Format("{0:#,##0 VND}", GiaPhuKien);
-            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price + GiaPhuKien);
+            PhuKien();
         }
 
         private void ckbLotChuot_CheckedChanged(object sender, EventArgs e)
         {
-            if(ckbLotChuot.Checked)
+            if (ckbLotChuot.Checked)
             {
                 GiaPhuKien += 30000;
             }
@@ -119,8 +126,12 @@ namespace QuanLyLaptop
             {
                 GiaPhuKien -= 30000;
             }
-            lblGiaThem.Text = string.Format("{0:#,##0 VND}", GiaPhuKien);
-            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price + GiaPhuKien);
+            PhuKien();
+        }
+
+        private void Purchase_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            UpdateAccountBalance?.Invoke(CurrentAccount);
         }
     }
 }

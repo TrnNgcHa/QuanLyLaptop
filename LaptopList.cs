@@ -6,6 +6,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,23 +15,32 @@ namespace QuanLyLaptop
 {
     public partial class LaptopList : Form
     {
+        public Account CurrentAccount;
         public LaptopList()
         {
             InitializeComponent();
         }
-        public static Laptop SelectedItem = new Laptop();
-        int id = 0;
+
+        public LaptopList(Account currAccount)
+        {
+            InitializeComponent();
+            CurrentAccount = currAccount;
+        }
+
+        public Laptop SelectedLaptop = new Laptop();
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
-            lblTenNguoiDung.Text = AccountAuthentication.CurrentAccount.FirstName + " " + AccountAuthentication.CurrentAccount.LastName;
-            lblTenTaiKhoan.Text = AccountAuthentication.CurrentAccount.AccountName;
-            lblSoDu.Text = string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
+            lblTenNguoiDung.Text = CurrentAccount.FirstName + " " + CurrentAccount.LastName;
+            lblTenTaiKhoan.Text = CurrentAccount.AccountName;
+            lblSoDu.Text = string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
 
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
         }
+
+        
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
@@ -51,38 +61,27 @@ namespace QuanLyLaptop
                 lblGPUInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["GPU"].Value.ToString();
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
-                id = Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value);
+
+                SelectedLaptop = MainMenu.Laptops.First(laptop => laptop.LaptopID == Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value));
             }
         }
 
         private void btnReview_Click(object sender, EventArgs e)
         {
-            foreach (var laptop in MainMenu.Laptops)
-            {
-                if (laptop.LaptopID == id)
-                {
-                    SelectedItem = laptop;
-                    break;
-                }
-            }
-            var form = new ReviewPost(SelectedItem);
+            var form = new ReviewPost(SelectedLaptop);
             form.Show();
         }
 
         private void btnPurchase_Click(object sender, EventArgs e)
         {
-            
-            foreach (var laptop in MainMenu.Laptops)
+            var form = new Purchase(SelectedLaptop, CurrentAccount);
+            form.UpdateAccountBalance = (updatedAcc) =>
             {
-                if (laptop.LaptopID == id)
-                {
-                    SelectedItem = laptop;
-                    break;
-                }
-            }
-            var form = new Purchase(SelectedItem);
+                CurrentAccount = updatedAcc;
+                lblSoDu.Text = string.Format("{0:#,##0 VND}", updatedAcc.Balance);
+            };
             form.TopMost = true;
-            form.Show();
+            form.ShowDialog();
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -104,10 +103,26 @@ namespace QuanLyLaptop
                     case "Tên Laptop":
                         filtered = MainMenu.Laptops.Where(s => s.LaptopName.ToLower().Contains(filterText)).ToList();
                         break;
+
                     case "Hãng Laptop":
                         filtered = MainMenu.Laptops.Where(s => s.AgencyName.ToLower().Contains(filterText)).ToList();
                         break;
 
+                    case "CPU":
+                        filtered = MainMenu.Laptops.Where(s => s.CPU.ToLower().Contains(filterText)).ToList();
+                        break;
+
+                    case "GPU":
+                        filtered = MainMenu.Laptops.Where(s => s.GPU.ToLower().Contains(filterText)).ToList();
+                        break;
+
+                    case "RAM":
+                        filtered = MainMenu.Laptops.Where(s => s.RAM.ToLower().Contains(filterText)).ToList();
+                        break;
+
+                    case "Ổ cứng":
+                        filtered = MainMenu.Laptops.Where(s => s.Storage.ToLower().Contains(filterText)).ToList();
+                        break;
                 }
                 dgvDanhSachLaptop.DataSource = filtered;
             }

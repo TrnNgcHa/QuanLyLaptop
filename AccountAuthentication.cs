@@ -105,26 +105,24 @@ namespace QuanLyLaptop
             MainMenu.Accounts.Add(newAccount);
             CurrentAccount = newAccount;
 
-            var form = new LaptopList();
+            var form = new LaptopList(CurrentAccount);
             form.ShowDialog();
             this.Close();
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            foreach (Account acc in MainMenu.Accounts)
+            if (!MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text)))
             {
-                if (acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text))
-                {
-                    CurrentAccount = acc;
-
-                    var form = new LaptopList();
-                    form.ShowDialog();
-                    this.Close();
-                    return;
-                }
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            CurrentAccount = MainMenu.Accounts.First(acc => acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text));
+
+            var form = new LaptopList(CurrentAccount);
+            form.ShowDialog();
+            this.Close();
             return;
         }
 
