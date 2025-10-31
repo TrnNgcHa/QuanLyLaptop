@@ -26,12 +26,24 @@ namespace QuanLyLaptop.Models
             FirstName = LastName = Gender = City = Email = PhoneNumber = IdCard = "";
         }
 
+        public Person(string lastname, string firstname, string gender, DateOnly dob, string phone, string city, string email, string idcard)
+        {
+            LastName = lastname;
+            FirstName = firstname;
+            Gender = gender;
+            DOB = dob;
+            PhoneNumber = phone;
+            City = city;
+            Email = email;
+            IdCard = idcard;
+        }
+
         public Person(string csvLine)
         {
             string[] values = csvLine.Split(';');
             PersonID = Convert.ToInt32(values[0]);
-            FirstName = values[1];
-            LastName = values[2];
+            LastName = values[1];
+            FirstName = values[2];
             Gender = values[3];
             DOB = DateOnly.Parse(values[4]);
             City = values[5];

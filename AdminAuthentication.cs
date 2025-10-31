@@ -11,8 +11,6 @@
         {
             if (txtName.Text == "Admin" && txtPassword.Text == "123456")
             {
-                this.DialogResult = DialogResult.OK;
-
                 this.Close();
             }
             else

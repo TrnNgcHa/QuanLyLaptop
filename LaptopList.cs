@@ -31,7 +31,7 @@ namespace QuanLyLaptop
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
             dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
-            lblTenNguoiDung.Text = CurrentAccount.FirstName + " " + CurrentAccount.LastName;
+            lblTenNguoiDung.Text = CurrentAccount.LastName + " " + CurrentAccount.FirstName;
             lblTenTaiKhoan.Text = CurrentAccount.AccountName;
             lblSoDu.Text = string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
 
@@ -89,7 +89,7 @@ namespace QuanLyLaptop
             string filterText = txtFilter.Text.ToLower();
             if (string.IsNullOrEmpty(filterText))
             {
-                dgvDanhSachLaptop.DataSource = MainMenu.Laptops; // danh sách thời điểm frmStudentView_Load
+                dgvDanhSachLaptop.DataSource = MainMenu.Laptops;
             }
             else
             {

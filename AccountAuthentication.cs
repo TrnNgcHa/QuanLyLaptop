@@ -31,7 +31,11 @@ namespace QuanLyLaptop
         }
         private void ckbNam_CheckedChanged(object sender, EventArgs e)
         {
-            if (ckbNam.Checked)
+            if (!ckbNam.Checked)
+            {
+                ckbNu.Checked = true;
+            }
+            else
             {
                 ckbNu.Checked = false;
             }
@@ -39,7 +43,11 @@ namespace QuanLyLaptop
 
         private void ckbNu_CheckedChanged(object sender, EventArgs e)
         {
-            if (ckbNu.Checked)
+            if (!ckbNu.Checked)
+            {
+                ckbNam.Checked = true;
+            }
+            else
             {
                 ckbNam.Checked = false;
             }
@@ -77,14 +85,13 @@ namespace QuanLyLaptop
 
             }
 
-            foreach (Account a in MainMenu.Accounts)
+            if(MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDK.Text))
             {
-                if (a.AccountName == txtTenDK.Text)
-                {
-                    MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
+                MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
+
+
             string gender = ckbNam.Checked ? "Nam" : "Nữ";
 
             var newAccount = new Account(Functions.GetFirstName(txtHoTen.Text), Functions.GetLastName(txtHoTen.Text), gender, DateOnly.FromDateTime(dtpNgaySinh.Value), txtSDT.Text, cmbTinhThanh.Text, txtEmail.Text, txtCCCD.Text);

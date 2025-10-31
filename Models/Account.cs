@@ -85,20 +85,15 @@ namespace QuanLyLaptop.Models
 
         public void FillData(List<Person> ps)
         {
-            foreach (Person p in ps)
-            {
-                if (p.PersonID == PersonID)
-                {
-                    LastName = p.LastName;
-                    FirstName = p.FirstName;
-                    Gender = p.Gender;
-                    DOB = p.DOB;
-                    PhoneNumber = p.PhoneNumber;
-                    City = p.City;
-                    Email = p.Email;
-                    IdCard = p.IdCard;
-                }
-            }
+            Person p = ps.First(x => x.PersonID == PersonID);
+            LastName = p.LastName;
+            FirstName = p.FirstName;
+            Gender = p.Gender;
+            DOB = p.DOB;
+            PhoneNumber = p.PhoneNumber;
+            City = p.City;
+            Email = p.Email;
+            IdCard = p.IdCard;
         }
 
         public List<Account> GetList(string fileName = "")
