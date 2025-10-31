@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net.Mail;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace QuanLyLaptop.Models
 {
@@ -33,6 +34,9 @@ namespace QuanLyLaptop.Models
                 }
             }
 
+            if(fullName.Any(char.IsDigit))
+                return false;
+
             return true && words.Count() > 1;
         }
 
@@ -56,9 +60,95 @@ namespace QuanLyLaptop.Models
 
         public static bool IsValidIdCard(string idCard)
         {
-            return idCard.All(char.IsDigit) && idCard != "";
+            if (!idCard.All(char.IsDigit))
+                return false;
+            if (!(idCard.Length == 9))
+                return false;
+            if(MainMenu.Accounts.Any(a => a.IdCard == idCard))
+                return false;
+            return true;
         }
 
+        public static bool IsValidDate(string date)
+        {
+            return DateOnly.TryParseExact(
+                        date,
+                        "dd/MM/yyyy",
+                        System.Globalization.CultureInfo.InvariantCulture,
+                        System.Globalization.DateTimeStyles.None,
+                        out _
+                        );
+        }
+
+        public static bool IsValidCity(string city)
+        {
+            List<string> cityList = new List<string>{
+                                        "An Giang",
+                                        "Bà Rịa – Vũng Tàu",
+                                        "Bắc Giang",
+                                        "Bắc Kạn",
+                                        "Bạc Liêu",
+                                        "Bắc Ninh",
+                                        "Bến Tre",
+                                        "Bình Định",
+                                        "Bình Dương",
+                                        "Bình Phước",
+                                        "Bình Thuận",
+                                        "Cà Mau",
+                                        "Cao Bằng",
+                                        "Cần Thơ",
+                                        "Đà Nẵng",
+                                        "Đắk Lắk",
+                                        "Đắk Nông",
+                                        "Điện Biên",
+                                        "Đồng Nai",
+                                        "Đồng Tháp",
+                                        "Gia Lai",
+                                        "Hà Giang",
+                                        "Hà Nam",
+                                        "Hà Nội",
+                                        "Hà Tĩnh",
+                                        "Hải Dương",
+                                        "Hải Phòng",
+                                        "Hậu Giang",
+                                        "Hòa Bình",
+                                        "Hưng Yên",
+                                        "Khánh Hòa",
+                                        "Kiên Giang",
+                                        "Kon Tum",
+                                        "Lai Châu",
+                                        "Lâm Đồng",
+                                        "Lạng Sơn",
+                                        "Lào Cai",
+                                        "Long An",
+                                        "Nam Định",
+                                        "Nghệ An",
+                                        "Ninh Bình",
+                                        "Ninh Thuận",
+                                        "Phú Thọ",
+                                        "Phú Yên",
+                                        "Quảng Bình",
+                                        "Quảng Nam",
+                                        "Quảng Ngãi",
+                                        "Quảng Ninh",
+                                        "Quảng Trị",
+                                        "Sóc Trăng",
+                                        "Sơn La",
+                                        "Tây Ninh",
+                                        "Thái Bình",
+                                        "Thái Nguyên",
+                                        "Thanh Hóa",
+                                        "Thừa Thiên Huế",
+                                        "Tiền Giang",
+                                        "TP. Hồ Chí Minh",
+                                        "Trà Vinh",
+                                        "Tuyên Quang",
+                                        "Vĩnh Long",
+                                        "Vĩnh Phúc",
+                                        "Yên Bái"
+                                    };
+            return cityList.Any(p => p == city);
+        }
         public static string GetFirstName(string fullName)
         {
             if (string.IsNullOrWhiteSpace(fullName))

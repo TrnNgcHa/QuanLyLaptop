@@ -201,6 +201,7 @@
             // 
             // cmbTinhThanh
             // 
+            cmbTinhThanh.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTinhThanh.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbTinhThanh.ForeColor = Color.FromArgb(28, 28, 28);
             cmbTinhThanh.FormattingEnabled = true;
@@ -209,7 +210,6 @@
             cmbTinhThanh.Name = "cmbTinhThanh";
             cmbTinhThanh.Size = new Size(167, 28);
             cmbTinhThanh.TabIndex = 4;
-            cmbTinhThanh.Text = "TP. Hồ Chí Minh";
             // 
             // ckbNu
             // 

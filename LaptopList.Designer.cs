@@ -54,11 +54,12 @@
             label1 = new Label();
             label5 = new Label();
             groupBox1 = new GroupBox();
+            btnTTTK = new Button();
+            btnNapTien = new Button();
             btnThoat = new Button();
             btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
-            btnNapTien = new Button();
             lblSoDu = new Label();
             lblTenTaiKhoan = new Label();
             lblTenNguoiDung = new Label();
@@ -82,7 +83,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.BackColor = Color.Black;
+            tableLayoutPanel1.BackColor = Color.WhiteSmoke;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
@@ -214,7 +215,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.WhiteSmoke;
+            panel1.BackColor = Color.FromArgb(224, 224, 224);
             panel1.Controls.Add(lblTenLaptop);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(label5);
@@ -241,7 +242,7 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Top;
-            groupBox2.BackColor = Color.FromArgb(224, 224, 224);
+            groupBox2.BackColor = Color.Silver;
             groupBox2.Controls.Add(lblRAMInfo);
             groupBox2.Controls.Add(lblStorageInfo);
             groupBox2.Controls.Add(lblGPUInfo);
@@ -261,6 +262,7 @@
             // 
             // lblRAMInfo
             // 
+            lblRAMInfo.BackColor = Color.FromArgb(224, 224, 224);
             lblRAMInfo.BorderStyle = BorderStyle.Fixed3D;
             lblRAMInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblRAMInfo.ForeColor = Color.FromArgb(64, 64, 64);
@@ -272,6 +274,7 @@
             // 
             // lblStorageInfo
             // 
+            lblStorageInfo.BackColor = Color.FromArgb(224, 224, 224);
             lblStorageInfo.BorderStyle = BorderStyle.Fixed3D;
             lblStorageInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblStorageInfo.ForeColor = Color.FromArgb(64, 64, 64);
@@ -283,6 +286,7 @@
             // 
             // lblGPUInfo
             // 
+            lblGPUInfo.BackColor = Color.FromArgb(224, 224, 224);
             lblGPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblGPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblGPUInfo.ForeColor = Color.FromArgb(64, 64, 64);
@@ -294,6 +298,7 @@
             // 
             // lblCPUInfo
             // 
+            lblCPUInfo.BackColor = Color.FromArgb(224, 224, 224);
             lblCPUInfo.BorderStyle = BorderStyle.Fixed3D;
             lblCPUInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblCPUInfo.ForeColor = Color.FromArgb(64, 64, 64);
@@ -354,7 +359,9 @@
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top;
-            groupBox1.BackColor = Color.FromArgb(224, 224, 224);
+            groupBox1.BackColor = Color.Silver;
+            groupBox1.Controls.Add(btnTTTK);
+            groupBox1.Controls.Add(btnNapTien);
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
@@ -362,19 +369,45 @@
             groupBox1.ForeColor = Color.FromArgb(64, 64, 64);
             groupBox1.Location = new Point(178, 301);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(397, 120);
+            groupBox1.Size = new Size(397, 179);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Chức Năng";
             // 
+            // btnTTTK
+            // 
+            btnTTTK.BackColor = Color.SteelBlue;
+            btnTTTK.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnTTTK.ForeColor = Color.White;
+            btnTTTK.Location = new Point(132, 104);
+            btnTTTK.Name = "btnTTTK";
+            btnTTTK.Size = new Size(120, 58);
+            btnTTTK.TabIndex = 4;
+            btnTTTK.Text = "Trung tâm\r\ntài khoản";
+            btnTTTK.UseVisualStyleBackColor = false;
+            btnTTTK.Click += btnTTTK_Click;
+            // 
+            // btnNapTien
+            // 
+            btnNapTien.BackColor = Color.DarkGoldenrod;
+            btnNapTien.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnNapTien.ForeColor = Color.White;
+            btnNapTien.Location = new Point(6, 104);
+            btnNapTien.Name = "btnNapTien";
+            btnNapTien.Size = new Size(120, 58);
+            btnNapTien.TabIndex = 4;
+            btnNapTien.Text = "Nạp tiền";
+            btnNapTien.UseVisualStyleBackColor = false;
+            btnNapTien.Click += btnNapTien_Click;
+            // 
             // btnThoat
             // 
-            btnThoat.BackColor = Color.DarkGray;
+            btnThoat.BackColor = Color.Gray;
             btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThoat.ForeColor = Color.White;
-            btnThoat.Location = new Point(297, 40);
+            btnThoat.Location = new Point(310, 104);
             btnThoat.Name = "btnThoat";
-            btnThoat.Size = new Size(94, 40);
+            btnThoat.Size = new Size(81, 58);
             btnThoat.TabIndex = 1;
             btnThoat.Text = "Thoát";
             btnThoat.UseVisualStyleBackColor = false;
@@ -382,12 +415,12 @@
             // 
             // btnReview
             // 
-            btnReview.BackColor = Color.Red;
+            btnReview.BackColor = Color.Maroon;
             btnReview.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnReview.ForeColor = Color.White;
             btnReview.Location = new Point(132, 40);
             btnReview.Name = "btnReview";
-            btnReview.Size = new Size(120, 40);
+            btnReview.Size = new Size(120, 58);
             btnReview.TabIndex = 0;
             btnReview.Text = "Đánh Giá";
             btnReview.UseVisualStyleBackColor = false;
@@ -395,12 +428,12 @@
             // 
             // btnPurchase
             // 
-            btnPurchase.BackColor = Color.Red;
+            btnPurchase.BackColor = Color.Maroon;
             btnPurchase.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPurchase.ForeColor = Color.White;
             btnPurchase.Location = new Point(6, 40);
             btnPurchase.Name = "btnPurchase";
-            btnPurchase.Size = new Size(120, 40);
+            btnPurchase.Size = new Size(120, 58);
             btnPurchase.TabIndex = 0;
             btnPurchase.Text = "Mua";
             btnPurchase.UseVisualStyleBackColor = false;
@@ -408,8 +441,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.WhiteSmoke;
-            panel2.Controls.Add(btnNapTien);
+            panel2.BackColor = Color.FromArgb(224, 224, 224);
             panel2.Controls.Add(lblSoDu);
             panel2.Controls.Add(lblTenTaiKhoan);
             panel2.Controls.Add(lblTenNguoiDung);
@@ -422,24 +454,11 @@
             panel2.Size = new Size(752, 99);
             panel2.TabIndex = 2;
             // 
-            // btnNapTien
-            // 
-            btnNapTien.BackColor = Color.Goldenrod;
-            btnNapTien.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnNapTien.ForeColor = Color.White;
-            btnNapTien.Location = new Point(625, 13);
-            btnNapTien.Name = "btnNapTien";
-            btnNapTien.Size = new Size(94, 34);
-            btnNapTien.TabIndex = 4;
-            btnNapTien.Text = "Nạp tiền";
-            btnNapTien.UseVisualStyleBackColor = false;
-            btnNapTien.Click += btnNapTien_Click;
-            // 
             // lblSoDu
             // 
             lblSoDu.AutoSize = true;
             lblSoDu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblSoDu.ForeColor = Color.FromArgb(64, 64, 64);
+            lblSoDu.ForeColor = Color.Maroon;
             lblSoDu.Location = new Point(470, 17);
             lblSoDu.Name = "lblSoDu";
             lblSoDu.Size = new Size(0, 20);
@@ -449,7 +468,7 @@
             // 
             lblTenTaiKhoan.AutoSize = true;
             lblTenTaiKhoan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblTenTaiKhoan.ForeColor = Color.FromArgb(64, 64, 64);
+            lblTenTaiKhoan.ForeColor = Color.Maroon;
             lblTenTaiKhoan.Location = new Point(312, 17);
             lblTenTaiKhoan.Name = "lblTenTaiKhoan";
             lblTenTaiKhoan.Size = new Size(0, 20);
@@ -500,7 +519,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.WhiteSmoke;
+            panel3.BackColor = Color.FromArgb(224, 224, 224);
             panel3.Controls.Add(btnTimKiem);
             panel3.Controls.Add(txtFilter);
             panel3.Controls.Add(cmbLoaiTimKiem);
@@ -641,5 +660,6 @@
         private Button btnThoat;
         private Button btnNapTien;
         private GroupBox groupBox3;
+        private Button btnTTTK;
     }
 }

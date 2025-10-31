@@ -40,7 +40,7 @@ namespace QuanLyLaptop
 
         }
 
-        
+
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
@@ -138,6 +138,12 @@ namespace QuanLyLaptop
         private void btnNapTien_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnTTTK_Click(object sender, EventArgs e)
+        {
+            var form = new AccountCenter(CurrentAccount);
+            form.ShowDialog();
         }
     }
 }
