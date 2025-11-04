@@ -16,16 +16,13 @@ namespace QuanLyLaptop.Models
         public string PersonName { get; set; }
         public int LaptopID { get; set; }
         public string LaptopName { get; set; }
-        public int LaptopPrice { get; set; }
-        public string ExtraItems { get; set; } 
-        public string ExtraPrices { get; set; }
-        public int TotalAmount { get; set; }
+        public int Total { get; set; }
 
         public Receipt()
         {
-            ReceiptID = AccountID = PersonID = LaptopID = TotalAmount = 0;
+            ReceiptID = AccountID = PersonID = LaptopID = Total = 0;
             InvoiceDate = new DateOnly(1,1,1);
-            AccountName = PersonName = LaptopName = ExtraItems = ExtraPrices = "";
+            AccountName = PersonName = LaptopName = "";
         }
         public string CleanCommaList(string str)
         {
@@ -50,10 +47,7 @@ namespace QuanLyLaptop.Models
             PersonName = values[5];
             LaptopID = Convert.ToInt32(values[6]);
             LaptopName = values[7];
-            LaptopPrice = Convert.ToInt32(values[8]);
-            ExtraItems = CleanCommaList(values[9]);
-            ExtraPrices = CleanCommaList(values[10]);
-            TotalAmount = Convert.ToInt32(values[11]);
+            Total = Convert.ToInt32(values[8]);
         }
 
         

@@ -495,6 +495,7 @@
             Name = "AccountAuthentication";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Authentication";
+            FormClosing += AccountAuthentication_FormClosing;
             Load += Authentication_Load;
             grbDangKy.ResumeLayout(false);
             grbDangKy.PerformLayout();

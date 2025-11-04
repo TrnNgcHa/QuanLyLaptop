@@ -45,5 +45,16 @@ namespace QuanLyLaptop
                 dgvQuanLyHoaDon.DataSource = filtered;
             }
         }
+
+        private void dgvQuanLyHoaDon_CellEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            if(dgvQuanLyHoaDon.CurrentRow != null)
+            {
+                lblMaTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["AccountID"].Value.ToString();
+                lblTenTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["AccountName"].Value.ToString();
+                lblMaNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["PersonID"].Value.ToString();
+                lblTenNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["PersonName"].Value.ToString();
+            }
+        }
     }
 }

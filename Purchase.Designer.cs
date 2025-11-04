@@ -32,14 +32,8 @@
             btnHuy = new Button();
             btnThanhToan = new Button();
             groupBox3 = new GroupBox();
-            ckbNuocRua = new CheckBox();
-            ckbTuiDung = new CheckBox();
-            ckbLotChuot = new CheckBox();
-            ckbUSB = new CheckBox();
-            lblGiaThem = new Label();
             lblGiaLaptop = new Label();
             lblTenLaptop = new Label();
-            label8 = new Label();
             label2 = new Label();
             groupBox2 = new GroupBox();
             lblNgayLapHoaDon = new Label();
@@ -59,7 +53,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.BackColor = Color.Silver;
+            groupBox1.BackColor = Color.FromArgb(224, 224, 224);
             groupBox1.Controls.Add(btnHuy);
             groupBox1.Controls.Add(btnThanhToan);
             groupBox1.Controls.Add(groupBox3);
@@ -102,14 +96,8 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(ckbNuocRua);
-            groupBox3.Controls.Add(ckbTuiDung);
-            groupBox3.Controls.Add(ckbLotChuot);
-            groupBox3.Controls.Add(ckbUSB);
-            groupBox3.Controls.Add(lblGiaThem);
             groupBox3.Controls.Add(lblGiaLaptop);
             groupBox3.Controls.Add(lblTenLaptop);
-            groupBox3.Controls.Add(label8);
             groupBox3.Controls.Add(label2);
             groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox3.ForeColor = Color.DimGray;
@@ -118,59 +106,6 @@
             groupBox3.Size = new Size(385, 198);
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
-            // 
-            // ckbNuocRua
-            // 
-            ckbNuocRua.AutoSize = true;
-            ckbNuocRua.Location = new Point(94, 123);
-            ckbNuocRua.Name = "ckbNuocRua";
-            ckbNuocRua.Size = new Size(132, 24);
-            ckbNuocRua.TabIndex = 5;
-            ckbNuocRua.Text = "Nước rửa màn";
-            ckbNuocRua.UseVisualStyleBackColor = true;
-            ckbNuocRua.CheckedChanged += ckbNuocRua_CheckedChanged;
-            // 
-            // ckbTuiDung
-            // 
-            ckbTuiDung.AutoSize = true;
-            ckbTuiDung.Location = new Point(226, 93);
-            ckbTuiDung.Name = "ckbTuiDung";
-            ckbTuiDung.Size = new Size(142, 24);
-            ckbTuiDung.TabIndex = 5;
-            ckbTuiDung.Text = "Túi đựng laptop";
-            ckbTuiDung.UseVisualStyleBackColor = true;
-            ckbTuiDung.CheckedChanged += ckbTuiDung_CheckedChanged;
-            // 
-            // ckbLotChuot
-            // 
-            ckbLotChuot.AutoSize = true;
-            ckbLotChuot.Location = new Point(226, 123);
-            ckbLotChuot.Name = "ckbLotChuot";
-            ckbLotChuot.Size = new Size(98, 24);
-            ckbLotChuot.TabIndex = 5;
-            ckbLotChuot.Text = "Lót chuột";
-            ckbLotChuot.UseVisualStyleBackColor = true;
-            ckbLotChuot.CheckedChanged += ckbLotChuot_CheckedChanged;
-            // 
-            // ckbUSB
-            // 
-            ckbUSB.AutoSize = true;
-            ckbUSB.Location = new Point(94, 93);
-            ckbUSB.Name = "ckbUSB";
-            ckbUSB.Size = new Size(115, 24);
-            ckbUSB.TabIndex = 5;
-            ckbUSB.Text = "USB (16GB)";
-            ckbUSB.UseVisualStyleBackColor = true;
-            ckbUSB.CheckedChanged += ckbUSB_CheckedChanged;
-            // 
-            // lblGiaThem
-            // 
-            lblGiaThem.BorderStyle = BorderStyle.Fixed3D;
-            lblGiaThem.ForeColor = Color.FromArgb(64, 64, 64);
-            lblGiaThem.Location = new Point(156, 160);
-            lblGiaThem.Name = "lblGiaThem";
-            lblGiaThem.Size = new Size(223, 25);
-            lblGiaThem.TabIndex = 3;
             // 
             // lblGiaLaptop
             // 
@@ -189,15 +124,6 @@
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(223, 25);
             lblTenLaptop.TabIndex = 3;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(7, 95);
-            label8.Name = "label8";
-            label8.Size = new Size(53, 20);
-            label8.TabIndex = 4;
-            label8.Text = "Thêm:";
             // 
             // label2
             // 
@@ -352,18 +278,12 @@
         private Label label5;
         private GroupBox groupBox2;
         private GroupBox groupBox3;
-        private Label label8;
         private Label lblTenLaptop;
         private Label lblNgayLapHoaDon;
         private Label lblTenKhachHang;
         private Label lblTenTaiKhoan;
-        private CheckBox ckbNuocRua;
-        private CheckBox ckbTuiDung;
-        private CheckBox ckbLotChuot;
-        private CheckBox ckbUSB;
         private Label lblGiaLaptop;
         private Label label6;
-        private Label lblGiaThem;
         private Label lblThanhTien;
         private Button btnHuy;
         private Button btnThanhToan;

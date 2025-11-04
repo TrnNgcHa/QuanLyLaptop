@@ -22,10 +22,6 @@ namespace QuanLyLaptop
 
         Laptop SelectedLaptop = new Laptop();
         Account CurrentAccount = new Account();
-        int GiaPhuKien = 0;
-
-        
-
         public Purchase(Laptop selected, Account current)
         {
             InitializeComponent();
@@ -45,7 +41,6 @@ namespace QuanLyLaptop
             lblSoDu.Text += string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
 
             lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
-            lblGiaThem.Text = "0 VND";
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -55,15 +50,32 @@ namespace QuanLyLaptop
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            if (CurrentAccount.Balance < SelectedLaptop.Price + GiaPhuKien)
+            if (CurrentAccount.Balance < SelectedLaptop.Price)
             {
                 MessageBox.Show("Số dư tài khoản không đủ để thực hiện thanh toán!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (!(CurrentAccount.AccountID == 10000))
             {
-                AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price + GiaPhuKien);
+                AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price);
                 MainMenu.Laptops.First(l => l.LaptopID == SelectedLaptop.LaptopID).RemainAmount -= 1;
+
+                Receipt receipt = new Receipt();
+                int id = 0;
+                do
+                {
+                    id = new Random().Next(50000, 69999);
+                }while (MainMenu.Receipts.Any(r => r.ReceiptID == id));
+                receipt.ReceiptID = id;
+                receipt.InvoiceDate = DateOnly.FromDateTime(DateTime.Now);
+                receipt.AccountID = CurrentAccount.AccountID;
+                receipt.AccountName = CurrentAccount.AccountName;
+                receipt.PersonID = CurrentAccount.PersonID;
+                receipt.PersonName = CurrentAccount.LastName + " " + CurrentAccount.FirstName;
+                receipt.LaptopID = SelectedLaptop.LaptopID;
+                receipt.LaptopName = SelectedLaptop.LaptopName;
+                receipt.Total = SelectedLaptop.Price;
+                MainMenu.Receipts.Add(receipt);
             }
             lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
             MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -74,61 +86,8 @@ namespace QuanLyLaptop
 
         public void PhuKien()
         {
-            lblGiaThem.Text = string.Format("{0:#,##0 VND}", GiaPhuKien);
-            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price + GiaPhuKien);
+            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
         }
-        private void ckbUSB_CheckedChanged(object sender, EventArgs e)
-        {
-            if (ckbUSB.Checked)
-            {
-                GiaPhuKien += 80000;
-            }
-            else
-            {
-                GiaPhuKien -= 80000;
-            }
-            PhuKien();
-        }
-
-        private void ckbTuiDung_CheckedChanged(object sender, EventArgs e)
-        {
-            if (ckbTuiDung.Checked)
-            {
-                GiaPhuKien += 80000;
-            }
-            else
-            {
-                GiaPhuKien -= 80000;
-            }
-            PhuKien();
-        }
-
-        private void ckbNuocRua_CheckedChanged(object sender, EventArgs e)
-        {
-            if (ckbNuocRua.Checked)
-            {
-                GiaPhuKien += 35000;
-            }
-            else
-            {
-                GiaPhuKien -= 35000;
-            }
-            PhuKien();
-        }
-
-        private void ckbLotChuot_CheckedChanged(object sender, EventArgs e)
-        {
-            if (ckbLotChuot.Checked)
-            {
-                GiaPhuKien += 30000;
-            }
-            else
-            {
-                GiaPhuKien -= 30000;
-            }
-            PhuKien();
-        }
-
         private void Purchase_FormClosing(object sender, FormClosingEventArgs e)
         {
             UpdateAccountBalance?.Invoke(CurrentAccount);

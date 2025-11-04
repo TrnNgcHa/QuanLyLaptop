@@ -38,16 +38,13 @@
             TenNguoiDung = new DataGridViewTextBoxColumn();
             MaLaptop = new DataGridViewTextBoxColumn();
             TenLaptop = new DataGridViewTextBoxColumn();
-            GiaLaptop = new DataGridViewTextBoxColumn();
-            PhuKien = new DataGridViewTextBoxColumn();
-            GiaPhuKien = new DataGridViewTextBoxColumn();
             TongTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             groupBox1 = new GroupBox();
-            label8 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label5 = new Label();
+            lblTenNguoiDung = new Label();
+            lblMaNguoiDung = new Label();
+            lblTenTaiKhoan = new Label();
+            lblMaTaiKhoan = new Label();
             label4 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -87,13 +84,14 @@
             // dgvQuanLyHoaDon
             // 
             dgvQuanLyHoaDon.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvQuanLyHoaDon.Columns.AddRange(new DataGridViewColumn[] { MaHoaDon, NgayLapHoaDon, MaTaiKhoan, TenTaiKhoan, MaNguoiDung, TenNguoiDung, MaLaptop, TenLaptop, GiaLaptop, PhuKien, GiaPhuKien, TongTien });
+            dgvQuanLyHoaDon.Columns.AddRange(new DataGridViewColumn[] { MaHoaDon, NgayLapHoaDon, MaTaiKhoan, TenTaiKhoan, MaNguoiDung, TenNguoiDung, MaLaptop, TenLaptop, TongTien });
             dgvQuanLyHoaDon.Dock = DockStyle.Fill;
             dgvQuanLyHoaDon.Location = new Point(3, 82);
             dgvQuanLyHoaDon.Name = "dgvQuanLyHoaDon";
             dgvQuanLyHoaDon.RowHeadersWidth = 51;
             dgvQuanLyHoaDon.Size = new Size(970, 642);
             dgvQuanLyHoaDon.TabIndex = 0;
+            dgvQuanLyHoaDon.CellEnter += dgvQuanLyHoaDon_CellEnter;
             // 
             // MaHoaDon
             // 
@@ -171,39 +169,10 @@
             TenLaptop.Name = "TenLaptop";
             TenLaptop.Width = 103;
             // 
-            // GiaLaptop
-            // 
-            GiaLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            GiaLaptop.DataPropertyName = "LaptopPrice";
-            GiaLaptop.HeaderText = "Giá Laptop";
-            GiaLaptop.MinimumWidth = 6;
-            GiaLaptop.Name = "GiaLaptop";
-            GiaLaptop.Visible = false;
-            GiaLaptop.Width = 125;
-            // 
-            // PhuKien
-            // 
-            PhuKien.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            PhuKien.DataPropertyName = "ExtraItems";
-            PhuKien.HeaderText = "Phụ Kiện";
-            PhuKien.MinimumWidth = 6;
-            PhuKien.Name = "PhuKien";
-            PhuKien.Width = 88;
-            // 
-            // GiaPhuKien
-            // 
-            GiaPhuKien.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            GiaPhuKien.DataPropertyName = "ExtraPrices";
-            GiaPhuKien.HeaderText = "Giá Phụ Kiện";
-            GiaPhuKien.MinimumWidth = 6;
-            GiaPhuKien.Name = "GiaPhuKien";
-            GiaPhuKien.Visible = false;
-            GiaPhuKien.Width = 125;
-            // 
             // TongTien
             // 
             TongTien.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            TongTien.DataPropertyName = "TotalAmount";
+            TongTien.DataPropertyName = "Total";
             TongTien.HeaderText = "Tổng Tiền";
             TongTien.MinimumWidth = 6;
             TongTien.Name = "TongTien";
@@ -222,16 +191,16 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.FromArgb(224, 224, 224);
-            groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(lblTenNguoiDung);
+            groupBox1.Controls.Add(lblMaNguoiDung);
+            groupBox1.Controls.Add(lblTenTaiKhoan);
+            groupBox1.Controls.Add(lblMaTaiKhoan);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label1);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.ForeColor = Color.FromArgb(108, 117, 125);
+            groupBox1.ForeColor = Color.DimGray;
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(499, 132);
@@ -239,45 +208,46 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin Tài khoản";
             // 
-            // label8
+            // lblTenNguoiDung
             // 
-            label8.BorderStyle = BorderStyle.Fixed3D;
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(339, 74);
-            label8.Name = "label8";
-            label8.Size = new Size(144, 25);
-            label8.TabIndex = 1;
+            lblTenNguoiDung.BorderStyle = BorderStyle.Fixed3D;
+            lblTenNguoiDung.ForeColor = Color.DimGray;
+            lblTenNguoiDung.Location = new Point(339, 74);
+            lblTenNguoiDung.Name = "lblTenNguoiDung";
+            lblTenNguoiDung.Size = new Size(144, 25);
+            lblTenNguoiDung.TabIndex = 1;
             // 
-            // label6
+            // lblMaNguoiDung
             // 
-            label6.BorderStyle = BorderStyle.Fixed3D;
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(127, 74);
-            label6.Name = "label6";
-            label6.Size = new Size(84, 25);
-            label6.TabIndex = 1;
+            lblMaNguoiDung.BorderStyle = BorderStyle.Fixed3D;
+            lblMaNguoiDung.ForeColor = Color.DimGray;
+            lblMaNguoiDung.Location = new Point(127, 74);
+            lblMaNguoiDung.Name = "lblMaNguoiDung";
+            lblMaNguoiDung.Size = new Size(84, 25);
+            lblMaNguoiDung.TabIndex = 1;
             // 
-            // label7
+            // lblTenTaiKhoan
             // 
-            label7.BorderStyle = BorderStyle.Fixed3D;
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(339, 34);
-            label7.Name = "label7";
-            label7.Size = new Size(144, 25);
-            label7.TabIndex = 1;
+            lblTenTaiKhoan.BorderStyle = BorderStyle.Fixed3D;
+            lblTenTaiKhoan.ForeColor = Color.DimGray;
+            lblTenTaiKhoan.Location = new Point(339, 34);
+            lblTenTaiKhoan.Name = "lblTenTaiKhoan";
+            lblTenTaiKhoan.Size = new Size(144, 25);
+            lblTenTaiKhoan.TabIndex = 1;
             // 
-            // label5
+            // lblMaTaiKhoan
             // 
-            label5.BorderStyle = BorderStyle.Fixed3D;
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(127, 34);
-            label5.Name = "label5";
-            label5.Size = new Size(84, 25);
-            label5.TabIndex = 1;
+            lblMaTaiKhoan.BorderStyle = BorderStyle.Fixed3D;
+            lblMaTaiKhoan.ForeColor = Color.DimGray;
+            lblMaTaiKhoan.Location = new Point(127, 34);
+            lblMaTaiKhoan.Name = "lblMaTaiKhoan";
+            lblMaTaiKhoan.Size = new Size(84, 25);
+            lblMaTaiKhoan.TabIndex = 1;
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.ForeColor = Color.DimGray;
             label4.Location = new Point(217, 74);
             label4.Name = "label4";
             label4.Size = new Size(123, 20);
@@ -287,6 +257,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.ForeColor = Color.DimGray;
             label2.Location = new Point(217, 34);
             label2.Name = "label2";
             label2.Size = new Size(107, 20);
@@ -296,6 +267,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.ForeColor = Color.DimGray;
             label3.Location = new Point(6, 74);
             label3.Name = "label3";
             label3.Size = new Size(120, 20);
@@ -305,6 +277,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = Color.DimGray;
             label1.Location = new Point(6, 34);
             label1.Name = "label1";
             label1.Size = new Size(104, 20);
@@ -404,24 +377,12 @@
 
         private TableLayoutPanel TableSplit;
         private DataGridView dgvQuanLyHoaDon;
-        private DataGridViewTextBoxColumn MaHoaDon;
-        private DataGridViewTextBoxColumn NgayLapHoaDon;
-        private DataGridViewTextBoxColumn MaTaiKhoan;
-        private DataGridViewTextBoxColumn TenTaiKhoan;
-        private DataGridViewTextBoxColumn MaNguoiDung;
-        private DataGridViewTextBoxColumn TenNguoiDung;
-        private DataGridViewTextBoxColumn MaLaptop;
-        private DataGridViewTextBoxColumn TenLaptop;
-        private DataGridViewTextBoxColumn GiaLaptop;
-        private DataGridViewTextBoxColumn PhuKien;
-        private DataGridViewTextBoxColumn GiaPhuKien;
-        private DataGridViewTextBoxColumn TongTien;
         private Panel panel1;
         private GroupBox groupBox1;
-        private Label label8;
-        private Label label6;
-        private Label label7;
-        private Label label5;
+        private Label lblTenNguoiDung;
+        private Label lblMaNguoiDung;
+        private Label lblTenTaiKhoan;
+        private Label lblMaTaiKhoan;
         private Label label4;
         private Label label2;
         private Label label3;
@@ -432,5 +393,14 @@
         private ComboBox cmbLoaiTimKiem;
         private Label label9;
         private Panel panel3;
+        private DataGridViewTextBoxColumn MaHoaDon;
+        private DataGridViewTextBoxColumn NgayLapHoaDon;
+        private DataGridViewTextBoxColumn MaTaiKhoan;
+        private DataGridViewTextBoxColumn TenTaiKhoan;
+        private DataGridViewTextBoxColumn MaNguoiDung;
+        private DataGridViewTextBoxColumn TenNguoiDung;
+        private DataGridViewTextBoxColumn MaLaptop;
+        private DataGridViewTextBoxColumn TenLaptop;
+        private DataGridViewTextBoxColumn TongTien;
     }
 }

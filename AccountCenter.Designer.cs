@@ -60,8 +60,13 @@
             txtSoDu = new TextBox();
             btnMatKhau = new Button();
             btnTaiKhoan = new Button();
+            groupBox3 = new GroupBox();
+            lsvLichSuGiaoDich = new ListView();
+            btnLuu = new Button();
+            btnThoat = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
@@ -451,21 +456,75 @@
             btnTaiKhoan.UseVisualStyleBackColor = false;
             btnTaiKhoan.Click += Edit_Click;
             // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = Color.Silver;
+            groupBox3.Controls.Add(lsvLichSuGiaoDich);
+            groupBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox3.ForeColor = Color.Maroon;
+            groupBox3.Location = new Point(12, 439);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(743, 208);
+            groupBox3.TabIndex = 1;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Lịch sửa giao dịch";
+            // 
+            // lsvLichSuGiaoDich
+            // 
+            lsvLichSuGiaoDich.Dock = DockStyle.Fill;
+            lsvLichSuGiaoDich.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lsvLichSuGiaoDich.Location = new Point(3, 30);
+            lsvLichSuGiaoDich.Name = "lsvLichSuGiaoDich";
+            lsvLichSuGiaoDich.Size = new Size(737, 175);
+            lsvLichSuGiaoDich.TabIndex = 0;
+            lsvLichSuGiaoDich.UseCompatibleStateImageBehavior = false;
+            // 
+            // btnLuu
+            // 
+            btnLuu.BackColor = Color.Maroon;
+            btnLuu.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLuu.ForeColor = Color.White;
+            btnLuu.Location = new Point(405, 227);
+            btnLuu.Name = "btnLuu";
+            btnLuu.Size = new Size(117, 52);
+            btnLuu.TabIndex = 2;
+            btnLuu.Text = "Lưu";
+            btnLuu.UseVisualStyleBackColor = false;
+            btnLuu.Click += btnLuu_Click;
+            // 
+            // btnThoat
+            // 
+            btnThoat.BackColor = Color.DimGray;
+            btnThoat.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnThoat.ForeColor = Color.White;
+            btnThoat.Location = new Point(528, 227);
+            btnThoat.Name = "btnThoat";
+            btnThoat.Size = new Size(117, 52);
+            btnThoat.TabIndex = 2;
+            btnThoat.Text = "Thoát";
+            btnThoat.UseVisualStyleBackColor = false;
+            btnThoat.Click += btnThoat_Click;
+            // 
             // AccountCenter
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
-            ClientSize = new Size(851, 550);
+            ClientSize = new Size(768, 696);
+            Controls.Add(btnThoat);
+            Controls.Add(btnLuu);
+            Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "AccountCenter";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AccountCenter";
             Load += AccountCenter_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -502,5 +561,9 @@
         private TextBox txtTaiKhoan;
         private TextBox txtMatKhau;
         private TextBox txtSoDu;
+        private GroupBox groupBox3;
+        private ListView lsvLichSuGiaoDich;
+        private Button btnLuu;
+        private Button btnThoat;
     }
 }

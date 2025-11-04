@@ -85,7 +85,7 @@ namespace QuanLyLaptop
 
             }
 
-            if(MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDK.Text))
+            if (MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDK.Text))
             {
                 MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -143,6 +143,11 @@ namespace QuanLyLaptop
         {
             grbDangKy.Visible = true;
             grbDangNhap.Visible = false;
+        }
+
+        private void AccountAuthentication_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            CurrentAccount = new Account();
         }
     }
 }

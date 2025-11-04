@@ -83,8 +83,8 @@
             // 
             // txtPassword
             // 
-            txtPassword.BackColor = Color.Silver;
-            txtPassword.ForeColor = Color.DimGray;
+            txtPassword.BackColor = Color.White;
+            txtPassword.ForeColor = Color.Black;
             txtPassword.Location = new Point(95, 149);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
@@ -93,8 +93,8 @@
             // 
             // txtName
             // 
-            txtName.BackColor = Color.Silver;
-            txtName.ForeColor = Color.DimGray;
+            txtName.BackColor = Color.White;
+            txtName.ForeColor = Color.Black;
             txtName.Location = new Point(97, 103);
             txtName.Name = "txtName";
             txtName.Size = new Size(200, 27);

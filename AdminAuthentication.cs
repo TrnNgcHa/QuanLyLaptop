@@ -12,6 +12,7 @@
             if (txtName.Text == "Admin" && txtPassword.Text == "123456")
             {
                 var form = new Administration();
+                form.ShowDialog();
                 this.Close();
             }
             else
