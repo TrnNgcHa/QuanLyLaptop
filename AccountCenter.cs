@@ -46,21 +46,16 @@ namespace QuanLyLaptop
             Button btn = sender as Button;
             string name = btn.Name.Replace("btn", "txt");
             TextBox txt = this.Controls.Find(name, true).FirstOrDefault() as TextBox;
-            if (txt != null)
-            {
-                txt.Enabled = true;
-                txt.Focus();
-            }
+            txt.Enabled = true;
+            txt.Focus();
         }
 
         private void TextBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                Button btn = sender as Button;
-                string name = btn.Name.Replace("btn", "txt");
-                TextBox txt = this.Controls.Find(name, true).FirstOrDefault() as TextBox;
-                if (txt != null)
+                TextBox txt = sender as TextBox;
+                if(txt != null && txt.Enabled)
                 {
                     txt.Enabled = false;
                     e.Handled = true;
@@ -71,9 +66,7 @@ namespace QuanLyLaptop
 
         private void TextBox_Leave(object sender, EventArgs e)
         {
-            Button btn = sender as Button;
-            string name = btn.Name.Replace("btn", "txt");
-            TextBox txt = this.Controls.Find(name, true).FirstOrDefault() as TextBox;
+            TextBox txt = sender as TextBox;
             if (txt != null && txt.Enabled)
             {
                 txt.Enabled = false;
