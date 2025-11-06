@@ -50,10 +50,10 @@ namespace QuanLyLaptop
         {
             if(dgvQuanLyHoaDon.CurrentRow != null)
             {
-                lblMaTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["AccountID"].Value.ToString();
-                lblTenTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["AccountName"].Value.ToString();
-                lblMaNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["PersonID"].Value.ToString();
-                lblTenNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["PersonName"].Value.ToString();
+                lblMaTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["MaTaiKhoan"].Value.ToString();
+                lblTenTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["TenTaiKhoan"].Value.ToString();
+                lblMaNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["MaNguoiDung"].Value.ToString();
+                lblTenNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["TenNguoiDung"].Value.ToString();
             }
         }
     }

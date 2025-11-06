@@ -55,7 +55,7 @@ namespace QuanLyLaptop
                 MessageBox.Show("Số dư tài khoản không đủ để thực hiện thanh toán!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (!(CurrentAccount.AccountID == 10000))
+            if (!(CurrentAccount.AccountID == 20000))
             {
                 AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price);
                 MainMenu.Laptops.First(l => l.LaptopID == SelectedLaptop.LaptopID).RemainAmount -= 1;

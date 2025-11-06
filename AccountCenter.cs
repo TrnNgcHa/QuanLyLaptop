@@ -15,6 +15,7 @@ namespace QuanLyLaptop
     public partial class AccountCenter : Form
     {
         Account acc = new Account();
+        bool isEditing = false;
         public AccountCenter()
         {
             InitializeComponent();
@@ -112,7 +113,25 @@ namespace QuanLyLaptop
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-
+            if (isEditing)
+            {
+                MessageBox.Show("Thay đổi thông tin tài khoản sẽ phải đăng nhập lại từ đầu!", "Thay đổi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                var form = Application.OpenForms["LaptopList"];
+                if (form != null)
+                {
+                    form.Close();
+                }
+                this.Close();
+            }
+            else
+            {
+                var result = MessageBox.Show("Thoát mà không lưu?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    this.Close();
+                }
+            }
+            
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -127,11 +146,24 @@ namespace QuanLyLaptop
             acc.IdCard = txtCCCD.Text;
             acc.AccountName = txtTaiKhoan.Text;
             acc.Password = Convert.ToInt32(txtMatKhau.Text);
-            
+
             var result = MessageBox.Show("Lưu thay đổi?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 AccountAuthentication.CurrentAccount.CopyFrom(acc);
+            }
+
+            isEditing = true;
+        }
+
+        private void btnXoaTaiKhoan_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Xóa tài khoản sẽ xóa tất cả dữ liệu liên quan. Bạn có chắc chắn muốn xóa tài khoản này?", "Xác nhận xóa tài khoản", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                MainMenu.Accounts.RemoveAll(a => a.AccountID == acc.AccountID);
+                AccountAuthentication.CurrentAccount = null;
+                this.Close();
             }
         }
     }

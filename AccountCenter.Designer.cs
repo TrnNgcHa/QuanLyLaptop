@@ -64,6 +64,7 @@
             lsvLichSuGiaoDich = new ListView();
             btnLuu = new Button();
             btnThoat = new Button();
+            btnXoaTaiKhoan = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -505,6 +506,19 @@
             btnThoat.UseVisualStyleBackColor = false;
             btnThoat.Click += btnThoat_Click;
             // 
+            // btnXoaTaiKhoan
+            // 
+            btnXoaTaiKhoan.BackColor = Color.Maroon;
+            btnXoaTaiKhoan.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnXoaTaiKhoan.ForeColor = Color.White;
+            btnXoaTaiKhoan.Location = new Point(405, 285);
+            btnXoaTaiKhoan.Name = "btnXoaTaiKhoan";
+            btnXoaTaiKhoan.Size = new Size(117, 52);
+            btnXoaTaiKhoan.TabIndex = 2;
+            btnXoaTaiKhoan.Text = "Xóa tài khoản";
+            btnXoaTaiKhoan.UseVisualStyleBackColor = false;
+            btnXoaTaiKhoan.Click += btnXoaTaiKhoan_Click;
+            // 
             // AccountCenter
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -512,6 +526,7 @@
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(768, 696);
             Controls.Add(btnThoat);
+            Controls.Add(btnXoaTaiKhoan);
             Controls.Add(btnLuu);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
@@ -565,5 +580,6 @@
         private ListView lsvLichSuGiaoDich;
         private Button btnLuu;
         private Button btnThoat;
+        private Button btnXoaTaiKhoan;
     }
 }
