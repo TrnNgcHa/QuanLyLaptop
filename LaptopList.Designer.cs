@@ -42,7 +42,17 @@
             RAM = new DataGridViewTextBoxColumn();
             GiaTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
+            ckbNamSao = new CheckBox();
+            ckbBonSao = new CheckBox();
+            groupBox4 = new GroupBox();
+            btnDanhGia = new Button();
+            btnHuy = new Button();
+            cmbSoSao = new ComboBox();
+            txtDanhGia = new TextBox();
+            label11 = new Label();
+            ckbBaSao = new CheckBox();
             lblTenLaptop = new Label();
+            ckbHaiSao = new CheckBox();
             groupBox2 = new GroupBox();
             lblRAMInfo = new Label();
             lblStorageInfo = new Label();
@@ -52,12 +62,13 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            ckbMotSao = new CheckBox();
             label5 = new Label();
+            label14 = new Label();
             groupBox1 = new GroupBox();
             btnTTTK = new Button();
             btnNapTien = new Button();
             btnThoat = new Button();
-            btnReview = new Button();
             btnPurchase = new Button();
             panel2 = new Panel();
             lblSoDu = new Label();
@@ -72,9 +83,11 @@
             cmbLoaiTimKiem = new ComboBox();
             label9 = new Label();
             groupBox3 = new GroupBox();
+            flpBinhLuan = new FlowLayoutPanel();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
+            groupBox4.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             panel2.SuspendLayout();
@@ -97,7 +110,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
-            tableLayoutPanel1.Size = new Size(1894, 1055);
+            tableLayoutPanel1.Size = new Size(1924, 1055);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // dgvDanhSachLaptop
@@ -108,7 +121,7 @@
             dgvDanhSachLaptop.Location = new Point(3, 108);
             dgvDanhSachLaptop.Name = "dgvDanhSachLaptop";
             dgvDanhSachLaptop.RowHeadersWidth = 51;
-            dgvDanhSachLaptop.Size = new Size(1130, 944);
+            dgvDanhSachLaptop.Size = new Size(1148, 944);
             dgvDanhSachLaptop.TabIndex = 0;
             dgvDanhSachLaptop.CellEnter += dgvDanhSachLaptop_CellEnter;
             dgvDanhSachLaptop.DataBindingComplete += dgvDanhSachLaptop_DataBindingComplete;
@@ -216,15 +229,144 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(224, 224, 224);
+            panel1.Controls.Add(flpBinhLuan);
+            panel1.Controls.Add(ckbNamSao);
+            panel1.Controls.Add(ckbBonSao);
+            panel1.Controls.Add(groupBox4);
+            panel1.Controls.Add(ckbBaSao);
             panel1.Controls.Add(lblTenLaptop);
+            panel1.Controls.Add(ckbHaiSao);
             panel1.Controls.Add(groupBox2);
+            panel1.Controls.Add(ckbMotSao);
             panel1.Controls.Add(label5);
+            panel1.Controls.Add(label14);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(1139, 108);
+            panel1.Location = new Point(1157, 108);
             panel1.Name = "panel1";
-            panel1.Size = new Size(752, 944);
+            panel1.Size = new Size(764, 944);
             panel1.TabIndex = 1;
+            // 
+            // ckbNamSao
+            // 
+            ckbNamSao.AutoSize = true;
+            ckbNamSao.Checked = true;
+            ckbNamSao.CheckState = CheckState.Checked;
+            ckbNamSao.Cursor = Cursors.Hand;
+            ckbNamSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbNamSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbNamSao.Location = new Point(378, 503);
+            ckbNamSao.Name = "ckbNamSao";
+            ckbNamSao.Size = new Size(58, 24);
+            ckbNamSao.TabIndex = 1;
+            ckbNamSao.Text = "5 ★";
+            ckbNamSao.UseVisualStyleBackColor = true;
+            ckbNamSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbBonSao
+            // 
+            ckbBonSao.AutoSize = true;
+            ckbBonSao.Checked = true;
+            ckbBonSao.CheckState = CheckState.Checked;
+            ckbBonSao.Cursor = Cursors.Hand;
+            ckbBonSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbBonSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbBonSao.Location = new Point(316, 503);
+            ckbBonSao.Name = "ckbBonSao";
+            ckbBonSao.Size = new Size(58, 24);
+            ckbBonSao.TabIndex = 1;
+            ckbBonSao.Text = "4 ★";
+            ckbBonSao.UseVisualStyleBackColor = true;
+            ckbBonSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // groupBox4
+            // 
+            groupBox4.BackColor = Color.Silver;
+            groupBox4.Controls.Add(btnDanhGia);
+            groupBox4.Controls.Add(btnHuy);
+            groupBox4.Controls.Add(cmbSoSao);
+            groupBox4.Controls.Add(txtDanhGia);
+            groupBox4.Controls.Add(label11);
+            groupBox4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox4.ForeColor = Color.FromArgb(26, 26, 26);
+            groupBox4.Location = new Point(419, 51);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(336, 289);
+            groupBox4.TabIndex = 3;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Đánh Giá";
+            // 
+            // btnDanhGia
+            // 
+            btnDanhGia.BackColor = Color.Maroon;
+            btnDanhGia.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDanhGia.ForeColor = Color.White;
+            btnDanhGia.Location = new Point(6, 223);
+            btnDanhGia.Name = "btnDanhGia";
+            btnDanhGia.Size = new Size(94, 58);
+            btnDanhGia.TabIndex = 7;
+            btnDanhGia.Text = "Đánh giá";
+            btnDanhGia.UseVisualStyleBackColor = false;
+            btnDanhGia.Click += btnDanhGia_Click;
+            // 
+            // btnHuy
+            // 
+            btnHuy.BackColor = Color.Gray;
+            btnHuy.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnHuy.ForeColor = Color.White;
+            btnHuy.Location = new Point(106, 223);
+            btnHuy.Name = "btnHuy";
+            btnHuy.Size = new Size(82, 58);
+            btnHuy.TabIndex = 4;
+            btnHuy.Text = "Hủy";
+            btnHuy.UseVisualStyleBackColor = false;
+            btnHuy.Click += btnHuy_Click;
+            // 
+            // cmbSoSao
+            // 
+            cmbSoSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cmbSoSao.FormattingEnabled = true;
+            cmbSoSao.Items.AddRange(new object[] { "1 ★", "2 ★", "3 ★", "4 ★", "5 ★" });
+            cmbSoSao.Location = new Point(84, 39);
+            cmbSoSao.Name = "cmbSoSao";
+            cmbSoSao.Size = new Size(52, 28);
+            cmbSoSao.TabIndex = 3;
+            cmbSoSao.Text = "5 ★";
+            // 
+            // txtDanhGia
+            // 
+            txtDanhGia.Location = new Point(6, 73);
+            txtDanhGia.Multiline = true;
+            txtDanhGia.Name = "txtDanhGia";
+            txtDanhGia.Size = new Size(324, 144);
+            txtDanhGia.TabIndex = 2;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label11.ForeColor = Color.FromArgb(26, 26, 26);
+            label11.Location = new Point(6, 42);
+            label11.Name = "label11";
+            label11.Size = new Size(72, 20);
+            label11.TabIndex = 1;
+            label11.Text = "Mức sao:";
+            // 
+            // ckbBaSao
+            // 
+            ckbBaSao.AutoSize = true;
+            ckbBaSao.Checked = true;
+            ckbBaSao.CheckState = CheckState.Checked;
+            ckbBaSao.Cursor = Cursors.Hand;
+            ckbBaSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbBaSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbBaSao.Location = new Point(254, 503);
+            ckbBaSao.Name = "ckbBaSao";
+            ckbBaSao.Size = new Size(58, 24);
+            ckbBaSao.TabIndex = 1;
+            ckbBaSao.Text = "3 ★";
+            ckbBaSao.UseVisualStyleBackColor = true;
+            ckbBaSao.CheckedChanged += ChonLoaiDanhGia;
             // 
             // lblTenLaptop
             // 
@@ -233,11 +375,27 @@
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
             lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTenLaptop.ForeColor = Color.Maroon;
-            lblTenLaptop.Location = new Point(284, 7);
+            lblTenLaptop.Location = new Point(118, 10);
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(2, 30);
             lblTenLaptop.TabIndex = 2;
             lblTenLaptop.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // ckbHaiSao
+            // 
+            ckbHaiSao.AutoSize = true;
+            ckbHaiSao.Checked = true;
+            ckbHaiSao.CheckState = CheckState.Checked;
+            ckbHaiSao.Cursor = Cursors.Hand;
+            ckbHaiSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbHaiSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbHaiSao.Location = new Point(192, 503);
+            ckbHaiSao.Name = "ckbHaiSao";
+            ckbHaiSao.Size = new Size(58, 24);
+            ckbHaiSao.TabIndex = 1;
+            ckbHaiSao.Text = "2 ★";
+            ckbHaiSao.UseVisualStyleBackColor = true;
+            ckbHaiSao.CheckedChanged += ChonLoaiDanhGia;
             // 
             // groupBox2
             // 
@@ -253,7 +411,7 @@
             groupBox2.Controls.Add(label1);
             groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox2.ForeColor = Color.FromArgb(64, 64, 64);
-            groupBox2.Location = new Point(178, 49);
+            groupBox2.Location = new Point(12, 51);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(397, 234);
             groupBox2.TabIndex = 1;
@@ -344,17 +502,44 @@
             label1.TabIndex = 0;
             label1.Text = "CPU:";
             // 
+            // ckbMotSao
+            // 
+            ckbMotSao.AutoSize = true;
+            ckbMotSao.Checked = true;
+            ckbMotSao.CheckState = CheckState.Checked;
+            ckbMotSao.Cursor = Cursors.Hand;
+            ckbMotSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbMotSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbMotSao.Location = new Point(130, 503);
+            ckbMotSao.Name = "ckbMotSao";
+            ckbMotSao.Size = new Size(58, 24);
+            ckbMotSao.TabIndex = 1;
+            ckbMotSao.Text = "1 ★";
+            ckbMotSao.UseVisualStyleBackColor = true;
+            ckbMotSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
             // label5
             // 
             label5.Anchor = AnchorStyles.Top;
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Maroon;
-            label5.Location = new Point(190, 8);
+            label5.Location = new Point(12, 11);
             label5.Name = "label5";
             label5.Size = new Size(82, 28);
             label5.TabIndex = 0;
             label5.Text = "Laptop:";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label14.ForeColor = Color.FromArgb(26, 26, 26);
+            label14.Location = new Point(18, 505);
+            label14.Name = "label14";
+            label14.Size = new Size(106, 20);
+            label14.TabIndex = 0;
+            label14.Text = "Loại đánh giá:";
             // 
             // groupBox1
             // 
@@ -363,11 +548,10 @@
             groupBox1.Controls.Add(btnTTTK);
             groupBox1.Controls.Add(btnNapTien);
             groupBox1.Controls.Add(btnThoat);
-            groupBox1.Controls.Add(btnReview);
             groupBox1.Controls.Add(btnPurchase);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox1.ForeColor = Color.FromArgb(64, 64, 64);
-            groupBox1.Location = new Point(178, 301);
+            groupBox1.Location = new Point(12, 303);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(397, 179);
             groupBox1.TabIndex = 0;
@@ -413,19 +597,6 @@
             btnThoat.UseVisualStyleBackColor = false;
             btnThoat.Click += btnThoat_Click;
             // 
-            // btnReview
-            // 
-            btnReview.BackColor = Color.Maroon;
-            btnReview.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnReview.ForeColor = Color.White;
-            btnReview.Location = new Point(132, 40);
-            btnReview.Name = "btnReview";
-            btnReview.Size = new Size(120, 58);
-            btnReview.TabIndex = 0;
-            btnReview.Text = "Đánh Giá";
-            btnReview.UseVisualStyleBackColor = false;
-            btnReview.Click += btnReview_Click;
-            // 
             // btnPurchase
             // 
             btnPurchase.BackColor = Color.Maroon;
@@ -449,9 +620,9 @@
             panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(1139, 3);
+            panel2.Location = new Point(1157, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(752, 99);
+            panel2.Size = new Size(764, 99);
             panel2.TabIndex = 2;
             // 
             // lblSoDu
@@ -528,7 +699,7 @@
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1130, 99);
+            panel3.Size = new Size(1148, 99);
             panel3.TabIndex = 3;
             // 
             // btnTimKiem
@@ -591,10 +762,17 @@
             groupBox3.TabIndex = 8;
             groupBox3.TabStop = false;
             // 
+            // flpBinhLuan
+            // 
+            flpBinhLuan.Location = new Point(12, 533);
+            flpBinhLuan.Name = "flpBinhLuan";
+            flpBinhLuan.Size = new Size(743, 402);
+            flpBinhLuan.TabIndex = 4;
+            // 
             // LaptopList
             // 
             AutoScaleMode = AutoScaleMode.Inherit;
-            ClientSize = new Size(1894, 1055);
+            ClientSize = new Size(1924, 1055);
             Controls.Add(tableLayoutPanel1);
             Name = "LaptopList";
             StartPosition = FormStartPosition.CenterScreen;
@@ -605,6 +783,8 @@
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
@@ -622,7 +802,6 @@
         private Panel panel1;
         private GroupBox groupBox2;
         private GroupBox groupBox1;
-        private Button btnReview;
         private Button btnPurchase;
         private Label lblCPUInfo;
         private Label label4;
@@ -661,5 +840,18 @@
         private Button btnNapTien;
         private GroupBox groupBox3;
         private Button btnTTTK;
+        private GroupBox groupBox4;
+        private Button btnDanhGia;
+        private ComboBox cmbSoSao;
+        private TextBox txtDanhGia;
+        private Label label11;
+        private CheckBox ckbNamSao;
+        private CheckBox ckbBonSao;
+        private CheckBox ckbBaSao;
+        private CheckBox ckbHaiSao;
+        private CheckBox ckbMotSao;
+        private Label label14;
+        private Button btnHuy;
+        private FlowLayoutPanel flpBinhLuan;
     }
 }

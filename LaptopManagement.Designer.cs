@@ -87,6 +87,13 @@
             cmbLoaiTimKiem = new ComboBox();
             label6 = new Label();
             groupBox2 = new GroupBox();
+            flpBinhLuan = new FlowLayoutPanel();
+            ckbNamSao = new CheckBox();
+            ckbBonSao = new CheckBox();
+            ckbBaSao = new CheckBox();
+            ckbHaiSao = new CheckBox();
+            ckbMotSao = new CheckBox();
+            label17 = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -111,6 +118,9 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.Size = new Size(1924, 1055);
             tableLayoutPanel1.TabIndex = 0;
             // 
@@ -230,6 +240,13 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(224, 224, 224);
+            panel1.Controls.Add(flpBinhLuan);
+            panel1.Controls.Add(ckbNamSao);
+            panel1.Controls.Add(ckbBonSao);
+            panel1.Controls.Add(ckbBaSao);
+            panel1.Controls.Add(ckbHaiSao);
+            panel1.Controls.Add(ckbMotSao);
+            panel1.Controls.Add(label17);
             panel1.Controls.Add(grbTTLaptop);
             panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(lblTenLaptop);
@@ -766,6 +783,104 @@
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             // 
+            // flpBinhLuan
+            // 
+            flpBinhLuan.Location = new Point(12, 665);
+            flpBinhLuan.Name = "flpBinhLuan";
+            flpBinhLuan.Size = new Size(743, 261);
+            flpBinhLuan.TabIndex = 14;
+            // 
+            // ckbNamSao
+            // 
+            ckbNamSao.AutoSize = true;
+            ckbNamSao.Checked = true;
+            ckbNamSao.CheckState = CheckState.Checked;
+            ckbNamSao.Cursor = Cursors.Hand;
+            ckbNamSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbNamSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbNamSao.Location = new Point(378, 635);
+            ckbNamSao.Name = "ckbNamSao";
+            ckbNamSao.Size = new Size(58, 24);
+            ckbNamSao.TabIndex = 9;
+            ckbNamSao.Text = "5 ★";
+            ckbNamSao.UseVisualStyleBackColor = true;
+            ckbNamSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbBonSao
+            // 
+            ckbBonSao.AutoSize = true;
+            ckbBonSao.Checked = true;
+            ckbBonSao.CheckState = CheckState.Checked;
+            ckbBonSao.Cursor = Cursors.Hand;
+            ckbBonSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbBonSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbBonSao.Location = new Point(316, 635);
+            ckbBonSao.Name = "ckbBonSao";
+            ckbBonSao.Size = new Size(58, 24);
+            ckbBonSao.TabIndex = 10;
+            ckbBonSao.Text = "4 ★";
+            ckbBonSao.UseVisualStyleBackColor = true;
+            ckbBonSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbBaSao
+            // 
+            ckbBaSao.AutoSize = true;
+            ckbBaSao.Checked = true;
+            ckbBaSao.CheckState = CheckState.Checked;
+            ckbBaSao.Cursor = Cursors.Hand;
+            ckbBaSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbBaSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbBaSao.Location = new Point(254, 635);
+            ckbBaSao.Name = "ckbBaSao";
+            ckbBaSao.Size = new Size(58, 24);
+            ckbBaSao.TabIndex = 11;
+            ckbBaSao.Text = "3 ★";
+            ckbBaSao.UseVisualStyleBackColor = true;
+            ckbBaSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbHaiSao
+            // 
+            ckbHaiSao.AutoSize = true;
+            ckbHaiSao.Checked = true;
+            ckbHaiSao.CheckState = CheckState.Checked;
+            ckbHaiSao.Cursor = Cursors.Hand;
+            ckbHaiSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbHaiSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbHaiSao.Location = new Point(192, 635);
+            ckbHaiSao.Name = "ckbHaiSao";
+            ckbHaiSao.Size = new Size(58, 24);
+            ckbHaiSao.TabIndex = 12;
+            ckbHaiSao.Text = "2 ★";
+            ckbHaiSao.UseVisualStyleBackColor = true;
+            ckbHaiSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbMotSao
+            // 
+            ckbMotSao.AutoSize = true;
+            ckbMotSao.Checked = true;
+            ckbMotSao.CheckState = CheckState.Checked;
+            ckbMotSao.Cursor = Cursors.Hand;
+            ckbMotSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbMotSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbMotSao.Location = new Point(130, 635);
+            ckbMotSao.Name = "ckbMotSao";
+            ckbMotSao.Size = new Size(58, 24);
+            ckbMotSao.TabIndex = 13;
+            ckbMotSao.Text = "1 ★";
+            ckbMotSao.UseVisualStyleBackColor = true;
+            ckbMotSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label17.ForeColor = Color.FromArgb(26, 26, 26);
+            label17.Location = new Point(18, 637);
+            label17.Name = "label17";
+            label17.Size = new Size(106, 20);
+            label17.TabIndex = 8;
+            label17.Text = "Loại đánh giá:";
+            // 
             // LaptopManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -851,5 +966,12 @@
         private Label label16;
         private Button btnXacNhan;
         private Button btnHuy;
+        private FlowLayoutPanel flpBinhLuan;
+        private CheckBox ckbNamSao;
+        private CheckBox ckbBonSao;
+        private CheckBox ckbBaSao;
+        private CheckBox ckbHaiSao;
+        private CheckBox ckbMotSao;
+        private Label label17;
     }
 }

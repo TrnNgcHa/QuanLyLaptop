@@ -55,7 +55,7 @@
             // 
             // btnAdmin
             // 
-            btnAdmin.BackColor = Color.FromArgb(192, 0, 0);
+            btnAdmin.BackColor = Color.Maroon;
             btnAdmin.Cursor = Cursors.Hand;
             btnAdmin.Dock = DockStyle.Top;
             btnAdmin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -70,7 +70,7 @@
             // 
             // btnCustomer
             // 
-            btnCustomer.BackColor = Color.Red;
+            btnCustomer.BackColor = Color.Maroon;
             btnCustomer.Cursor = Cursors.Hand;
             btnCustomer.Dock = DockStyle.Top;
             btnCustomer.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);

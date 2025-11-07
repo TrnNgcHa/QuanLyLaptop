@@ -4,7 +4,8 @@ using System.Linq;
 using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
+using System.Windows.Forms;
+using System.Drawing;
 
 namespace QuanLyLaptop.Models
 {
@@ -175,13 +176,34 @@ namespace QuanLyLaptop.Models
         }
 
 
-        public static string CommentList(this List<Review> reviews, int id)
+        public static List<TextBox> CommentList(List<Review> reviews, int id)
         {
+            List<TextBox> listTextBox = new List<TextBox>();
+
             var comments = reviews
                 .Where(r => r.LaptopID == id)
-                .Select(r => $"[{r.Rating} ★][{r.ReviewDate.ToString("dd/MM/yyyy")}] {r.AccountName}: {r.Comments}");
-            return string.Join(Environment.NewLine, comments);
+                .Select(r => $"[{r.Rating} ★][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}");
+
+            foreach (var comment in comments)
+            {
+                TextBox txt = new TextBox();
+                txt.Name = $"1{MainMenu.Reviews.Max(r => r.ReviewID) + 1}";
+                txt.Multiline = true;              
+                txt.ReadOnly = true;               
+                txt.Width = 600;                   
+                txt.Height = 40;
+                txt.Text = comment;                
+                txt.BackColor = Color.WhiteSmoke;  
+                txt.ForeColor = Color.Black;
+                txt.BorderStyle = BorderStyle.FixedSingle;
+                txt.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+
+                listTextBox.Add(txt);
+            }
+
+            return listTextBox;
         }
+
 
         public static string ConvertToCsvLine(string path, List<Laptop> laptops)
         {

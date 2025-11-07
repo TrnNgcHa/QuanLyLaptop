@@ -10,6 +10,7 @@ using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace QuanLyLaptop
 {
@@ -63,13 +64,9 @@ namespace QuanLyLaptop
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
 
                 SelectedLaptop = MainMenu.Laptops.First(laptop => laptop.LaptopID == Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value));
+                
+                ChonLoaiDanhGia(sender, e);
             }
-        }
-
-        private void btnReview_Click(object sender, EventArgs e)
-        {
-            var form = new ReviewPost(SelectedLaptop);
-            form.Show();
         }
 
         private void btnPurchase_Click(object sender, EventArgs e)
@@ -144,6 +141,67 @@ namespace QuanLyLaptop
         {
             var form = new AccountCenter(CurrentAccount);
             form.ShowDialog();
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            txtDanhGia.Text = "";
+        }
+
+        private void ChonLoaiDanhGia(object sender, EventArgs e)
+        {
+            List<Review> filteredReviews = new List<Review>();
+            List<int> selectedRatings = new List<int>();
+            if (ckbMotSao.Checked) selectedRatings.Add(1);
+            if (ckbHaiSao.Checked) selectedRatings.Add(2);
+            if (ckbBaSao.Checked) selectedRatings.Add(3);
+            if (ckbBonSao.Checked) selectedRatings.Add(4);
+            if (ckbNamSao.Checked) selectedRatings.Add(5);
+            filteredReviews = MainMenu.Reviews
+                .Where(r => r.LaptopID == SelectedLaptop.LaptopID && selectedRatings.Contains(r.Rating))
+                .ToList();
+
+            var reviews = Functions.CommentList(filteredReviews, SelectedLaptop.LaptopID);
+            flpBinhLuan.Controls.Clear();
+            foreach (var txt in reviews)
+            {
+                flpBinhLuan.Controls.Add(txt);
+            }
+        }
+
+        private void btnDanhGia_Click(object sender, EventArgs e)
+        {
+            if (txtDanhGia.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập nội dung đánh giá!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            Review review = new Review();
+            review.ReviewID = MainMenu.Reviews.Count > 0 ? MainMenu.Reviews.Max(r => r.ReviewID) + 1 : 1;
+            review.AccountID = AccountAuthentication.CurrentAccount.AccountID;
+            review.AccountName = AccountAuthentication.CurrentAccount.AccountName;
+            review.LaptopID = SelectedLaptop.LaptopID;
+            review.LaptopName = SelectedLaptop.LaptopName;
+            review.ReviewDate = DateOnly.FromDateTime(DateTime.Now);
+            review.Rating = cmbSoSao.SelectedIndex + 1;
+            review.Comments = txtDanhGia.Text.Trim();
+            MainMenu.Reviews.Add(review);
+
+            TextBox txt = new TextBox();
+            txt.Name = $"1{MainMenu.Reviews.Max(r => r.ReviewID) + 1}";
+            txt.Multiline = true;
+            txt.ReadOnly = true;
+            txt.Width = 600;
+            txt.Height = 40;
+            txt.Text = $"[{review.Rating} ★][{review.ReviewDate.ToString("dd/MM/yyyy")}] {review.AccountName}: {review.Comments}";
+            txt.BackColor = Color.WhiteSmoke;
+            txt.ForeColor = Color.Black;
+            txt.BorderStyle = BorderStyle.FixedSingle;
+            txt.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+
+            flpBinhLuan.Controls.Add(txt);
+
+            txtDanhGia.Text = "";
         }
     }
 }

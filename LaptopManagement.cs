@@ -24,8 +24,8 @@ namespace QuanLyLaptop
             dgvDanhSachLaptop.DataSource = bs;
             dgvDanhSachLaptop.Refresh();
         }
-        
-        public static Laptop SelectedItem = new Laptop();
+
+        public Laptop SelectedItem = new Laptop();
         int id = 0;
         bool isEdit = false;
 
@@ -49,6 +49,8 @@ namespace QuanLyLaptop
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
                 id = Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value);
                 SelectedItem = MainMenu.Laptops.First(l => l.LaptopID == id);
+
+                ChonLoaiDanhGia(sender, e);
             }
         }
 
@@ -172,14 +174,14 @@ namespace QuanLyLaptop
             {
                 if (isEdit)
                 {
-                    LaptopManagement.SelectedItem.LaptopName = txtTenLaptop.Text;
-                    LaptopManagement.SelectedItem.AgencyName = txtHang.Text;
-                    LaptopManagement.SelectedItem.StockInDate = DateOnly.FromDateTime(dtpNgayNhap.Value);
-                    LaptopManagement.SelectedItem.RemainAmount = int.Parse(txtSoTon.Text);
-                    LaptopManagement.SelectedItem.CPU = txtCPU.Text;
-                    LaptopManagement.SelectedItem.GPU = txtGPU.Text;
-                    LaptopManagement.SelectedItem.RAM = txtRAM.Text;
-                    LaptopManagement.SelectedItem.Storage = txtOCung.Text;
+                    SelectedItem.LaptopName = txtTenLaptop.Text;
+                    SelectedItem.AgencyName = txtHang.Text;
+                    SelectedItem.StockInDate = DateOnly.FromDateTime(dtpNgayNhap.Value);
+                    SelectedItem.RemainAmount = int.Parse(txtSoTon.Text);
+                    SelectedItem.CPU = txtCPU.Text;
+                    SelectedItem.GPU = txtGPU.Text;
+                    SelectedItem.RAM = txtRAM.Text;
+                    SelectedItem.Storage = txtOCung.Text;
                 }
                 else
                 {
@@ -203,7 +205,7 @@ namespace QuanLyLaptop
                 isEdit = false;
             }
 
-            
+
             grbTTLaptop.Visible = false;
         }
 
@@ -220,6 +222,27 @@ namespace QuanLyLaptop
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
+            }
+        }
+
+        private void ChonLoaiDanhGia(object sender, EventArgs e)
+        {
+            List<Review> filteredReviews = new List<Review>();
+            List<int> selectedRatings = new List<int>();
+            if (ckbMotSao.Checked) selectedRatings.Add(1);
+            if (ckbHaiSao.Checked) selectedRatings.Add(2);
+            if (ckbBaSao.Checked) selectedRatings.Add(3);
+            if (ckbBonSao.Checked) selectedRatings.Add(4);
+            if (ckbNamSao.Checked) selectedRatings.Add(5);
+            filteredReviews = MainMenu.Reviews
+                .Where(r => r.LaptopID == SelectedItem.LaptopID && selectedRatings.Contains(r.Rating))
+                .ToList();
+
+            var reviews = Functions.CommentList(filteredReviews, SelectedItem.LaptopID);
+            flpBinhLuan.Controls.Clear();
+            foreach (var txt in reviews)
+            {
+                flpBinhLuan.Controls.Add(txt);
             }
         }
     }
