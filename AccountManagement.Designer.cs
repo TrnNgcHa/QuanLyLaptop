@@ -257,7 +257,8 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dgvLichSuGiaoDich);
-            groupBox2.ForeColor = Color.White;
+            groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox2.ForeColor = Color.DimGray;
             groupBox2.Location = new Point(3, 330);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(950, 287);
@@ -286,7 +287,7 @@
             MaHoaDon.HeaderText = "Mã Hóa Đơn";
             MaHoaDon.MinimumWidth = 6;
             MaHoaDon.Name = "MaHoaDon";
-            MaHoaDon.Width = 113;
+            MaHoaDon.Width = 115;
             // 
             // NgayLapHoaDon
             // 
@@ -295,7 +296,7 @@
             NgayLapHoaDon.HeaderText = "Ngày Lập Hóa Đơn";
             NgayLapHoaDon.MinimumWidth = 6;
             NgayLapHoaDon.Name = "NgayLapHoaDon";
-            NgayLapHoaDon.Width = 126;
+            NgayLapHoaDon.Width = 128;
             // 
             // MaNguoiDung
             // 
@@ -340,7 +341,7 @@
             MaLaptop.HeaderText = "Mã Laptop";
             MaLaptop.MinimumWidth = 6;
             MaLaptop.Name = "MaLaptop";
-            MaLaptop.Width = 101;
+            MaLaptop.Width = 104;
             // 
             // TenLaptop
             // 
@@ -349,7 +350,7 @@
             TenLaptop.HeaderText = "Tên Laptop";
             TenLaptop.MinimumWidth = 6;
             TenLaptop.Name = "TenLaptop";
-            TenLaptop.Width = 103;
+            TenLaptop.Width = 107;
             // 
             // ThanhTien
             // 
@@ -358,7 +359,7 @@
             ThanhTien.HeaderText = "Thành Tiền";
             ThanhTien.MinimumWidth = 6;
             ThanhTien.Name = "ThanhTien";
-            ThanhTien.Width = 101;
+            ThanhTien.Width = 107;
             // 
             // groupBox1
             // 
@@ -542,7 +543,7 @@
             // btnTimKiem
             // 
             btnTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnTimKiem.Location = new Point(493, 16);
+            btnTimKiem.Location = new Point(423, 42);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(30, 29);
             btnTimKiem.TabIndex = 7;
@@ -553,7 +554,7 @@
             // txtFilter
             // 
             txtFilter.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            txtFilter.Location = new Point(229, 16);
+            txtFilter.Location = new Point(159, 42);
             txtFilter.Name = "txtFilter";
             txtFilter.Size = new Size(258, 27);
             txtFilter.TabIndex = 6;
@@ -564,7 +565,7 @@
             cmbLoaiTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             cmbLoaiTimKiem.FormattingEnabled = true;
             cmbLoaiTimKiem.Items.AddRange(new object[] { "Tên người dùng", "Mã người dùng", "Tên tài khoản", "Mã tài khoản" });
-            cmbLoaiTimKiem.Location = new Point(88, 16);
+            cmbLoaiTimKiem.Location = new Point(18, 42);
             cmbLoaiTimKiem.Name = "cmbLoaiTimKiem";
             cmbLoaiTimKiem.Size = new Size(135, 28);
             cmbLoaiTimKiem.TabIndex = 5;
@@ -595,11 +596,11 @@
             // 
             btnThoat.Anchor = AnchorStyles.Top;
             btnThoat.BackColor = Color.Gray;
-            btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnThoat.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThoat.ForeColor = Color.White;
             btnThoat.Location = new Point(660, 3);
             btnThoat.Name = "btnThoat";
-            btnThoat.Size = new Size(101, 44);
+            btnThoat.Size = new Size(98, 66);
             btnThoat.TabIndex = 4;
             btnThoat.Text = "Thoát";
             btnThoat.UseVisualStyleBackColor = false;

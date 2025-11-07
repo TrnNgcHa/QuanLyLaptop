@@ -25,6 +25,7 @@ namespace QuanLyLaptop.Models
         {
             LaptopID = Price = RemainAmount = 0;
             LaptopName = AgencyName = CPU = GPU = Storage = RAM = "";
+            StockInDate = new DateOnly(1753, 1,1);
         }
 
         public Laptop(string csvLine)

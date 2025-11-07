@@ -17,9 +17,17 @@ namespace QuanLyLaptop
         {
             InitializeComponent();
         }
-
+        BindingSource bs = new BindingSource();
+        public void RefreshData()
+        {
+            bs.DataSource = MainMenu.Laptops;
+            dgvDanhSachLaptop.DataSource = bs;
+            dgvDanhSachLaptop.Refresh();
+        }
+        
         public static Laptop SelectedItem = new Laptop();
         int id = 0;
+        bool isEdit = false;
 
         private void LaptopManagement_Load(object sender, EventArgs e)
         {
@@ -40,28 +48,47 @@ namespace QuanLyLaptop
                 lblRAMInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["RAM"].Value.ToString();
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
                 id = Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value);
+                SelectedItem = MainMenu.Laptops.First(l => l.LaptopID == id);
             }
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            var form = new CustomItem();
-            form.ShowDialog();
+            grbTTLaptop.Visible = true;
+            int rd = 0;
+            do
+            {
+                rd = new Random().Next(10000, 99999);
+            } while (MainMenu.Laptops.Any(l => l.LaptopID == rd));
+            txtMaLaptop.Text = rd.ToString();
+
+            txtTenLaptop.Text = txtHang.Text = "";
+            txtSoTon.Text = txtGiaTien.Text = "0";
+            txtCPU.Text = txtGPU.Text = txtRAM.Text = txtOCung.Text = "";
+            txtGiaTien.Enabled = true;
+            dtpNgayNhap.Text = DateTime.Now.ToString();
+
+            isEdit = false;
         }
 
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            foreach (var laptop in MainMenu.Laptops)
-            {
-                if (laptop.LaptopID == id)
-                {
-                    SelectedItem = laptop;
-                    break;
-                }
-            }
-            var form = new CustomItem(SelectedItem);
-            form.ShowDialog();
+
+            grbTTLaptop.Visible = true;
+            txtGiaTien.Enabled = false;
+            txtMaLaptop.Text = SelectedItem.LaptopID.ToString();
+            txtTenLaptop.Text = SelectedItem.LaptopName;
+            txtHang.Text = SelectedItem.AgencyName;
+            dtpNgayNhap.Text = SelectedItem.StockInDate.ToDateTime(new TimeOnly(0, 0)).ToString();
+            txtSoTon.Text = SelectedItem.RemainAmount.ToString();
+            txtCPU.Text = SelectedItem.CPU;
+            txtGPU.Text = SelectedItem.GPU;
+            txtRAM.Text = SelectedItem.RAM;
+            txtOCung.Text = SelectedItem.Storage;
+            txtGiaTien.Text = SelectedItem.Price.ToString();
+
+            isEdit = true;
         }
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
@@ -80,7 +107,8 @@ namespace QuanLyLaptop
             if (result == DialogResult.Yes)
             {
                 MainMenu.Laptops.Remove(SelectedItem);
-                dgvDanhSachLaptop.CurrentCell = null;
+                bs.ResetBindings(false);
+                dgvDanhSachLaptop.Refresh();
                 lblTenLaptop.Text = lblCPUInfo.Text = lblGPUInfo.Text = lblRAMInfo.Text = lblStorageInfo.Text = "";
             }
         }
@@ -107,6 +135,21 @@ namespace QuanLyLaptop
                     case "Hãng Laptop":
                         filtered = MainMenu.Laptops.Where(s => s.AgencyName.ToLower().Contains(filterText)).ToList();
                         break;
+                    case "CPU":
+                        filtered = MainMenu.Laptops.Where(s => s.CPU.ToLower().Contains(filterText)).ToList();
+                        break;
+
+                    case "GPU":
+                        filtered = MainMenu.Laptops.Where(s => s.GPU.ToLower().Contains(filterText)).ToList();
+                        break;
+
+                    case "RAM":
+                        filtered = MainMenu.Laptops.Where(s => s.RAM.ToLower().Contains(filterText)).ToList();
+                        break;
+
+                    case "Ổ cứng":
+                        filtered = MainMenu.Laptops.Where(s => s.Storage.ToLower().Contains(filterText)).ToList();
+                        break;
 
                 }
                 dgvDanhSachLaptop.DataSource = filtered;
@@ -119,6 +162,64 @@ namespace QuanLyLaptop
             if (result == DialogResult.Yes)
             {
                 this.Close();
+            }
+        }
+
+        private void btnXacNhan_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Xác nhận lưu thông tin?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                if (isEdit)
+                {
+                    LaptopManagement.SelectedItem.LaptopName = txtTenLaptop.Text;
+                    LaptopManagement.SelectedItem.AgencyName = txtHang.Text;
+                    LaptopManagement.SelectedItem.StockInDate = DateOnly.FromDateTime(dtpNgayNhap.Value);
+                    LaptopManagement.SelectedItem.RemainAmount = int.Parse(txtSoTon.Text);
+                    LaptopManagement.SelectedItem.CPU = txtCPU.Text;
+                    LaptopManagement.SelectedItem.GPU = txtGPU.Text;
+                    LaptopManagement.SelectedItem.RAM = txtRAM.Text;
+                    LaptopManagement.SelectedItem.Storage = txtOCung.Text;
+                }
+                else
+                {
+                    var newLaptop = new Laptop()
+                    {
+                        LaptopID = int.Parse(txtMaLaptop.Text),
+                        LaptopName = txtTenLaptop.Text,
+                        AgencyName = txtHang.Text,
+                        StockInDate = DateOnly.FromDateTime(dtpNgayNhap.Value),
+                        RemainAmount = int.Parse(txtSoTon.Text),
+                        CPU = txtCPU.Text,
+                        GPU = txtGPU.Text,
+                        RAM = txtRAM.Text,
+                        Storage = txtOCung.Text,
+                        Price = int.Parse(txtGiaTien.Text)
+                    };
+                    MainMenu.Laptops.Add(newLaptop);
+                }
+                bs.ResetBindings(false);
+                dgvDanhSachLaptop.Refresh();
+                isEdit = false;
+            }
+
+            
+            grbTTLaptop.Visible = false;
+        }
+
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            isEdit = false;
+            grbTTLaptop.Visible = false;
+
+        }
+
+        private void txtSoTon_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

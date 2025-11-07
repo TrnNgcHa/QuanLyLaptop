@@ -14,6 +14,7 @@ namespace QuanLyLaptop
 {
     public partial class CustomItem : Form
     {
+        event EventHandler ItemChanged;
         bool isEdit = false;
         Laptop SelectedItem = new Laptop();
         public CustomItem()
@@ -34,7 +35,7 @@ namespace QuanLyLaptop
             txtMaLaptop.Text = SelectedItem.LaptopID.ToString();
             txtTenLaptop.Text = SelectedItem.LaptopName;
             txtHang.Text = SelectedItem.AgencyName;
-            txtNgayNhap.Text = SelectedItem.StockInDate.ToString();
+            dtpNgayNhap.Text = SelectedItem.StockInDate.ToDateTime(new TimeOnly(0,0)).ToString();
             txtSoTon.Text = SelectedItem.RemainAmount.ToString();
             txtCPU.Text = SelectedItem.CPU;
             txtGPU.Text = SelectedItem.GPU;
@@ -43,20 +44,14 @@ namespace QuanLyLaptop
             txtGiaTien.Text = SelectedItem.Price.ToString();
             if (!isEdit)
             {
-                btnRandom.Visible = true;
                 txtGiaTien.Enabled = true;
-                btnRandom_Click(sender, e);
+                int id = 0;
+                do
+                {
+                    id = new Random().Next(10000, 99999);
+                }while (MainMenu.Laptops.Any(l => l.LaptopID == id));
+                txtMaLaptop.Text = id.ToString();
             }
-        }
-
-        private void btnRandom_Click(object sender, EventArgs e)
-        {
-            int newID = 0;
-            do
-            {
-                newID = new Random().Next(100000, 200000);
-            } while (MainMenu.Laptops.Any(a => a.LaptopID == newID));
-            txtMaLaptop.Text = newID.ToString();
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -73,7 +68,7 @@ namespace QuanLyLaptop
                 {
                     LaptopManagement.SelectedItem.LaptopName = txtTenLaptop.Text;
                     LaptopManagement.SelectedItem.AgencyName = txtHang.Text;
-                    LaptopManagement.SelectedItem.StockInDate = DateOnly.Parse(txtNgayNhap.Text);
+                    LaptopManagement.SelectedItem.StockInDate = DateOnly.FromDateTime(dtpNgayNhap.Value);
                     LaptopManagement.SelectedItem.RemainAmount = int.Parse(txtSoTon.Text);
                     LaptopManagement.SelectedItem.CPU = txtCPU.Text;
                     LaptopManagement.SelectedItem.GPU = txtGPU.Text;
@@ -87,7 +82,7 @@ namespace QuanLyLaptop
                         LaptopID = int.Parse(txtMaLaptop.Text),
                         LaptopName = txtTenLaptop.Text,
                         AgencyName = txtHang.Text,
-                        StockInDate = DateOnly.Parse(txtNgayNhap.Text),
+                        StockInDate = DateOnly.FromDateTime(dtpNgayNhap.Value),
                         RemainAmount = int.Parse(txtSoTon.Text),
                         CPU = txtCPU.Text,
                         GPU = txtGPU.Text,
@@ -99,7 +94,7 @@ namespace QuanLyLaptop
                 }
                 LaptopManagement.ActiveForm.Refresh();
                 this.Close();
-
+                ItemChanged?.Invoke(this, EventArgs.Empty);
             }
         }
     }
