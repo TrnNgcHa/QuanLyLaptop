@@ -1,6 +1,6 @@
 ﻿namespace QuanLyLaptop
 {
-    partial class LaptopList
+    partial class Advanced
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,6 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
-            dgvDanhSachLaptop = new DataGridView();
-            STT1 = new DataGridViewTextBoxColumn();
-            MaLaptop = new DataGridViewTextBoxColumn();
-            TenLaptop = new DataGridViewTextBoxColumn();
-            TenHang = new DataGridViewTextBoxColumn();
-            NgayNhap = new DataGridViewTextBoxColumn();
-            SoTon = new DataGridViewTextBoxColumn();
-            CPU = new DataGridViewTextBoxColumn();
-            GPU = new DataGridViewTextBoxColumn();
-            OCung = new DataGridViewTextBoxColumn();
-            RAM = new DataGridViewTextBoxColumn();
-            GiaTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             flpBinhLuan = new FlowLayoutPanel();
             ckbNamSao = new CheckBox();
@@ -83,8 +71,8 @@
             cmbLoaiTimKiem = new ComboBox();
             label9 = new Label();
             groupBox3 = new GroupBox();
+            flpDanhSachLaptop = new FlowLayoutPanel();
             tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -97,12 +85,12 @@
             // 
             tableLayoutPanel1.BackColor = Color.WhiteSmoke;
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            tableLayoutPanel1.Controls.Add(dgvDanhSachLaptop, 0, 1);
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 74.7921F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25.207901F));
             tableLayoutPanel1.Controls.Add(panel1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
             tableLayoutPanel1.Controls.Add(panel3, 0, 0);
+            tableLayoutPanel1.Controls.Add(flpDanhSachLaptop, 0, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -110,131 +98,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
             tableLayoutPanel1.Size = new Size(1924, 1055);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // dgvDanhSachLaptop
-            // 
-            dgvDanhSachLaptop.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDanhSachLaptop.Columns.AddRange(new DataGridViewColumn[] { STT1, MaLaptop, TenLaptop, TenHang, NgayNhap, SoTon, CPU, GPU, OCung, RAM, GiaTien });
-            dgvDanhSachLaptop.Dock = DockStyle.Fill;
-            dgvDanhSachLaptop.Location = new Point(3, 108);
-            dgvDanhSachLaptop.Name = "dgvDanhSachLaptop";
-            dgvDanhSachLaptop.RowHeadersWidth = 51;
-            dgvDanhSachLaptop.Size = new Size(1148, 944);
-            dgvDanhSachLaptop.TabIndex = 0;
-            dgvDanhSachLaptop.CellEnter += dgvDanhSachLaptop_CellEnter;
-            dgvDanhSachLaptop.DataBindingComplete += dgvDanhSachLaptop_DataBindingComplete;
-            // 
-            // STT1
-            // 
-            STT1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            STT1.HeaderText = "STT";
-            STT1.MinimumWidth = 6;
-            STT1.Name = "STT1";
-            STT1.ReadOnly = true;
-            STT1.Width = 62;
-            // 
-            // MaLaptop
-            // 
-            MaLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            MaLaptop.DataPropertyName = "LaptopID";
-            MaLaptop.HeaderText = "Mã Laptop";
-            MaLaptop.MinimumWidth = 6;
-            MaLaptop.Name = "MaLaptop";
-            MaLaptop.ReadOnly = true;
-            MaLaptop.Width = 110;
-            // 
-            // TenLaptop
-            // 
-            TenLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            TenLaptop.DataPropertyName = "LaptopName";
-            TenLaptop.HeaderText = "Tên Laptop";
-            TenLaptop.MinimumWidth = 6;
-            TenLaptop.Name = "TenLaptop";
-            TenLaptop.ReadOnly = true;
-            // 
-            // TenHang
-            // 
-            TenHang.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            TenHang.DataPropertyName = "AgencyName";
-            TenHang.HeaderText = "Tên Hãng";
-            TenHang.MinimumWidth = 6;
-            TenHang.Name = "TenHang";
-            TenHang.ReadOnly = true;
-            TenHang.Width = 101;
-            // 
-            // NgayNhap
-            // 
-            NgayNhap.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            NgayNhap.DataPropertyName = "StockInDate";
-            NgayNhap.HeaderText = "Ngày Nhập";
-            NgayNhap.MinimumWidth = 6;
-            NgayNhap.Name = "NgayNhap";
-            NgayNhap.ReadOnly = true;
-            NgayNhap.Width = 113;
-            // 
-            // SoTon
-            // 
-            SoTon.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            SoTon.DataPropertyName = "RemainAmount";
-            SoTon.HeaderText = "Số Tồn";
-            SoTon.MinimumWidth = 6;
-            SoTon.Name = "SoTon";
-            SoTon.ReadOnly = true;
-            SoTon.Width = 84;
-            // 
-            // CPU
-            // 
-            CPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            CPU.DataPropertyName = "CPU";
-            CPU.HeaderText = "CPU";
-            CPU.MinimumWidth = 6;
-            CPU.Name = "CPU";
-            CPU.ReadOnly = true;
-            CPU.Visible = false;
-            CPU.Width = 125;
-            // 
-            // GPU
-            // 
-            GPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            GPU.DataPropertyName = "GPU";
-            GPU.HeaderText = "GPU";
-            GPU.MinimumWidth = 6;
-            GPU.Name = "GPU";
-            GPU.ReadOnly = true;
-            GPU.Visible = false;
-            GPU.Width = 125;
-            // 
-            // OCung
-            // 
-            OCung.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            OCung.DataPropertyName = "Storage";
-            OCung.HeaderText = "Ổ Cứng";
-            OCung.MinimumWidth = 6;
-            OCung.Name = "OCung";
-            OCung.ReadOnly = true;
-            OCung.Visible = false;
-            OCung.Width = 125;
-            // 
-            // RAM
-            // 
-            RAM.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            RAM.DataPropertyName = "RAM";
-            RAM.HeaderText = "RAM";
-            RAM.MinimumWidth = 6;
-            RAM.Name = "RAM";
-            RAM.ReadOnly = true;
-            RAM.Visible = false;
-            RAM.Width = 125;
-            // 
-            // GiaTien
-            // 
-            GiaTien.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            GiaTien.DataPropertyName = "Price";
-            GiaTien.HeaderText = "Giá Tiền";
-            GiaTien.MinimumWidth = 6;
-            GiaTien.Name = "GiaTien";
-            GiaTien.ReadOnly = true;
+            tableLayoutPanel1.TabIndex = 1;
             // 
             // panel1
             // 
@@ -252,18 +116,18 @@
             panel1.Controls.Add(label14);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(1157, 108);
+            panel1.Location = new Point(1442, 108);
             panel1.Name = "panel1";
-            panel1.Size = new Size(764, 944);
+            panel1.Size = new Size(479, 944);
             panel1.TabIndex = 1;
             // 
             // flpBinhLuan
             // 
             flpBinhLuan.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             flpBinhLuan.AutoScroll = true;
-            flpBinhLuan.Location = new Point(12, 411);
+            flpBinhLuan.Location = new Point(9, 631);
             flpBinhLuan.Name = "flpBinhLuan";
-            flpBinhLuan.Size = new Size(743, 323);
+            flpBinhLuan.Size = new Size(467, 290);
             flpBinhLuan.TabIndex = 4;
             // 
             // ckbNamSao
@@ -274,7 +138,7 @@
             ckbNamSao.Cursor = Cursors.Hand;
             ckbNamSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             ckbNamSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbNamSao.Location = new Point(378, 381);
+            ckbNamSao.Location = new Point(369, 606);
             ckbNamSao.Name = "ckbNamSao";
             ckbNamSao.Size = new Size(58, 24);
             ckbNamSao.TabIndex = 1;
@@ -290,7 +154,7 @@
             ckbBonSao.Cursor = Cursors.Hand;
             ckbBonSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             ckbBonSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbBonSao.Location = new Point(316, 381);
+            ckbBonSao.Location = new Point(307, 606);
             ckbBonSao.Name = "ckbBonSao";
             ckbBonSao.Size = new Size(58, 24);
             ckbBonSao.TabIndex = 1;
@@ -307,9 +171,9 @@
             groupBox4.Controls.Add(label11);
             groupBox4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox4.ForeColor = Color.FromArgb(26, 26, 26);
-            groupBox4.Location = new Point(12, 297);
+            groupBox4.Location = new Point(9, 517);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(743, 83);
+            groupBox4.Size = new Size(433, 83);
             groupBox4.TabIndex = 3;
             groupBox4.TabStop = false;
             groupBox4.Text = "Đánh Giá";
@@ -317,7 +181,7 @@
             // btnDanhGia
             // 
             btnDanhGia.Image = Properties.Resources.send;
-            btnDanhGia.Location = new Point(708, 38);
+            btnDanhGia.Location = new Point(395, 38);
             btnDanhGia.Name = "btnDanhGia";
             btnDanhGia.Size = new Size(29, 29);
             btnDanhGia.TabIndex = 4;
@@ -340,7 +204,7 @@
             txtDanhGia.Location = new Point(148, 39);
             txtDanhGia.Multiline = true;
             txtDanhGia.Name = "txtDanhGia";
-            txtDanhGia.Size = new Size(564, 28);
+            txtDanhGia.Size = new Size(249, 28);
             txtDanhGia.TabIndex = 2;
             // 
             // label11
@@ -362,7 +226,7 @@
             ckbBaSao.Cursor = Cursors.Hand;
             ckbBaSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             ckbBaSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbBaSao.Location = new Point(254, 381);
+            ckbBaSao.Location = new Point(245, 606);
             ckbBaSao.Name = "ckbBaSao";
             ckbBaSao.Size = new Size(58, 24);
             ckbBaSao.TabIndex = 1;
@@ -377,7 +241,7 @@
             lblTenLaptop.BorderStyle = BorderStyle.FixedSingle;
             lblTenLaptop.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTenLaptop.ForeColor = Color.Maroon;
-            lblTenLaptop.Location = new Point(118, 10);
+            lblTenLaptop.Location = new Point(115, 15);
             lblTenLaptop.Name = "lblTenLaptop";
             lblTenLaptop.Size = new Size(2, 30);
             lblTenLaptop.TabIndex = 2;
@@ -391,7 +255,7 @@
             ckbHaiSao.Cursor = Cursors.Hand;
             ckbHaiSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             ckbHaiSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbHaiSao.Location = new Point(192, 381);
+            ckbHaiSao.Location = new Point(183, 606);
             ckbHaiSao.Name = "ckbHaiSao";
             ckbHaiSao.Size = new Size(58, 24);
             ckbHaiSao.TabIndex = 1;
@@ -412,8 +276,8 @@
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(label1);
             groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            groupBox2.ForeColor = Color.FromArgb(64, 64, 64);
-            groupBox2.Location = new Point(12, 51);
+            groupBox2.ForeColor = Color.FromArgb(26, 26, 26);
+            groupBox2.Location = new Point(9, 63);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(397, 234);
             groupBox2.TabIndex = 1;
@@ -512,7 +376,7 @@
             ckbMotSao.Cursor = Cursors.Hand;
             ckbMotSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             ckbMotSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbMotSao.Location = new Point(130, 381);
+            ckbMotSao.Location = new Point(121, 606);
             ckbMotSao.Name = "ckbMotSao";
             ckbMotSao.Size = new Size(58, 24);
             ckbMotSao.TabIndex = 1;
@@ -526,7 +390,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Maroon;
-            label5.Location = new Point(12, 11);
+            label5.Location = new Point(9, 16);
             label5.Name = "label5";
             label5.Size = new Size(82, 28);
             label5.TabIndex = 0;
@@ -537,7 +401,7 @@
             label14.AutoSize = true;
             label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label14.ForeColor = Color.FromArgb(26, 26, 26);
-            label14.Location = new Point(18, 383);
+            label14.Location = new Point(9, 608);
             label14.Name = "label14";
             label14.Size = new Size(106, 20);
             label14.TabIndex = 0;
@@ -553,7 +417,7 @@
             groupBox1.Controls.Add(btnPurchase);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox1.ForeColor = Color.FromArgb(64, 64, 64);
-            groupBox1.Location = new Point(419, 51);
+            groupBox1.Location = new Point(9, 322);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(336, 179);
             groupBox1.TabIndex = 0;
@@ -622,9 +486,9 @@
             panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(1157, 3);
+            panel2.Location = new Point(1442, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(764, 99);
+            panel2.Size = new Size(479, 99);
             panel2.TabIndex = 2;
             // 
             // lblSoDu
@@ -632,7 +496,7 @@
             lblSoDu.AutoSize = true;
             lblSoDu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblSoDu.ForeColor = Color.Maroon;
-            lblSoDu.Location = new Point(470, 17);
+            lblSoDu.Location = new Point(283, 54);
             lblSoDu.Name = "lblSoDu";
             lblSoDu.Size = new Size(0, 20);
             lblSoDu.TabIndex = 3;
@@ -662,7 +526,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label8.ForeColor = Color.FromArgb(64, 64, 64);
-            label8.Location = new Point(419, 17);
+            label8.Location = new Point(232, 54);
             label8.Name = "label8";
             label8.Size = new Size(53, 20);
             label8.TabIndex = 0;
@@ -701,7 +565,7 @@
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1148, 99);
+            panel3.Size = new Size(1433, 99);
             panel3.TabIndex = 3;
             // 
             // btnTimKiem
@@ -764,18 +628,26 @@
             groupBox3.TabIndex = 8;
             groupBox3.TabStop = false;
             // 
-            // LaptopList
+            // flpDanhSachLaptop
             // 
-            AutoScaleMode = AutoScaleMode.Inherit;
+            flpDanhSachLaptop.AutoScroll = true;
+            flpDanhSachLaptop.BackColor = Color.FromArgb(224, 224, 224);
+            flpDanhSachLaptop.Dock = DockStyle.Fill;
+            flpDanhSachLaptop.Location = new Point(3, 108);
+            flpDanhSachLaptop.Name = "flpDanhSachLaptop";
+            flpDanhSachLaptop.Size = new Size(1433, 944);
+            flpDanhSachLaptop.TabIndex = 4;
+            // 
+            // Advanced
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1924, 1055);
             Controls.Add(tableLayoutPanel1);
-            Name = "LaptopList";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Danh Sách Laptop";
-            WindowState = FormWindowState.Maximized;
-            Load += DanhSachLaptop_Load;
+            Name = "Advanced";
+            Text = "Advanced";
+            Load += Advanced_Load;
             tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             groupBox4.ResumeLayout(false);
@@ -793,59 +665,48 @@
         #endregion
 
         private TableLayoutPanel tableLayoutPanel1;
-        private DataGridView dgvDanhSachLaptop;
         private Panel panel1;
+        private FlowLayoutPanel flpBinhLuan;
+        private CheckBox ckbNamSao;
+        private CheckBox ckbBonSao;
+        private GroupBox groupBox4;
+        private Button btnDanhGia;
+        private ComboBox cmbSoSao;
+        private TextBox txtDanhGia;
+        private Label label11;
+        private CheckBox ckbBaSao;
+        private Label lblTenLaptop;
+        private CheckBox ckbHaiSao;
         private GroupBox groupBox2;
-        private GroupBox groupBox1;
-        private Button btnPurchase;
+        private Label lblRAMInfo;
+        private Label lblStorageInfo;
+        private Label lblGPUInfo;
         private Label lblCPUInfo;
         private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
-        private Label lblRAMInfo;
-        private Label lblStorageInfo;
-        private Label lblGPUInfo;
-        private Label lblTenLaptop;
-        private Panel panel2;
+        private CheckBox ckbMotSao;
         private Label label5;
+        private Label label14;
+        private GroupBox groupBox1;
+        private Button btnTTTK;
+        private Button btnNapTien;
+        private Button btnThoat;
+        private Button btnPurchase;
+        private Panel panel2;
+        private Label lblSoDu;
+        private Label lblTenTaiKhoan;
+        private Label lblTenNguoiDung;
+        private Label label8;
         private Label label7;
         private Label label6;
-        private Label lblTenNguoiDung;
-        private Label lblTenTaiKhoan;
-        private Label label8;
-        private Label lblSoDu;
         private Panel panel3;
         private Button btnTimKiem;
         private TextBox txtFilter;
         private ComboBox cmbLoaiTimKiem;
         private Label label9;
-        private Button btnThoat;
-        private Button btnNapTien;
         private GroupBox groupBox3;
-        private Button btnTTTK;
-        private GroupBox groupBox4;
-        private ComboBox cmbSoSao;
-        private TextBox txtDanhGia;
-        private Label label11;
-        private CheckBox ckbNamSao;
-        private CheckBox ckbBonSao;
-        private CheckBox ckbBaSao;
-        private CheckBox ckbHaiSao;
-        private CheckBox ckbMotSao;
-        private Label label14;
-        private FlowLayoutPanel flpBinhLuan;
-        private DataGridViewTextBoxColumn STT1;
-        private DataGridViewTextBoxColumn MaLaptop;
-        private DataGridViewTextBoxColumn TenLaptop;
-        private DataGridViewTextBoxColumn TenHang;
-        private DataGridViewTextBoxColumn NgayNhap;
-        private DataGridViewTextBoxColumn SoTon;
-        private DataGridViewTextBoxColumn CPU;
-        private DataGridViewTextBoxColumn GPU;
-        private DataGridViewTextBoxColumn OCung;
-        private DataGridViewTextBoxColumn RAM;
-        private DataGridViewTextBoxColumn GiaTien;
-        private Button btnDanhGia;
+        private FlowLayoutPanel flpDanhSachLaptop;
     }
 }

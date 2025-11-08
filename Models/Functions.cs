@@ -175,37 +175,6 @@ namespace QuanLyLaptop.Models
 
             return string.Join(" ", parts.Take(parts.Length - 1));
         }
-
-
-        public static List<TextBox> CommentList(List<Review> reviews, int id)
-        {
-            List<TextBox> listTextBox = new List<TextBox>();
-
-            var filteredReviews = reviews.Where(r => r.LaptopID == id);
-
-            foreach (var r in filteredReviews)
-            {
-
-                TextBox txt = new TextBox();
-                txt.Name = $"txt{r.ReviewID}";
-                txt.Multiline = true;
-                txt.Enabled = false;
-                txt.ReadOnly = true;
-                txt.Width = 600;
-                txt.Height = 40;
-                txt.Text = $"[{r.Rating} ★][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}";
-                txt.BackColor = Color.WhiteSmoke;
-                txt.ForeColor = Color.Black;
-                txt.BorderStyle = BorderStyle.FixedSingle;
-                txt.Font = new Font("Segoe UI", 10, FontStyle.Bold);
-
-                listTextBox.Add(txt);
-            }
-
-            return listTextBox;
-        }
-
-
         public static string ConvertToCsvLine(string path, List<Laptop> laptops)
         {
             if(laptops.Count < 1) return string.Empty;

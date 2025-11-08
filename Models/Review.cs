@@ -44,13 +44,13 @@ namespace QuanLyLaptop.Models
                 Multiline = true,
                 Enabled = false,
                 ReadOnly = true,
-                Width = 600,
+                Width = 400,
                 Height = 40,
                 Text = $"[{Rating} ★][{ReviewDate:dd/MM/yyyy}] {AccountName}: {Comments}",
                 BackColor = Color.WhiteSmoke,
                 ForeColor = Color.Black,
                 BorderStyle = BorderStyle.FixedSingle,
-                Font = new Font("Segoe UI", 10, FontStyle.Bold)
+                Font = new Font("Segoe UI", 8, FontStyle.Bold)
             };
             DeleteButton = new Button()
             {
@@ -59,7 +59,7 @@ namespace QuanLyLaptop.Models
                 Width = 40,
                 Height = 40,
                 BackColor = Color.White,
-                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                Font = new Font("Segoe UI", 8, FontStyle.Bold),
                 Visible = false
             };
 

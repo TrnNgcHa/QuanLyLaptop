@@ -66,7 +66,7 @@ namespace QuanLyLaptop
                 lblStorageInfo.Text = dgvDanhSachLaptop.CurrentRow.Cells["OCung"].Value.ToString();
 
                 SelectedLaptop = MainMenu.Laptops.First(laptop => laptop.LaptopID == Convert.ToInt32(dgvDanhSachLaptop.CurrentRow.Cells["MaLaptop"].Value));
-                
+
                 ChonLoaiDanhGia(sender, e);
             }
         }
@@ -156,12 +156,6 @@ namespace QuanLyLaptop
             var form = new AccountCenter(CurrentAccount);
             form.ShowDialog();
         }
-
-        private void btnHuy_Click(object sender, EventArgs e)
-        {
-            txtDanhGia.Text = "";
-        }
-
         private void ChonLoaiDanhGia(object sender, EventArgs e)
         {
             List<Review> filteredReviews = new List<Review>();
@@ -178,7 +172,7 @@ namespace QuanLyLaptop
             foreach (Review rv in filteredReviews)
             {
                 flpBinhLuan.Controls.Add(rv.ReviewTextBox);
-                if(rv.AccountID == CurrentAccount.AccountID)
+                if (rv.AccountID == CurrentAccount.AccountID)
                 {
                     rv.DeleteButton.Visible = true;
                     flpBinhLuan.Controls.Add(rv.DeleteButton);
@@ -190,7 +184,7 @@ namespace QuanLyLaptop
                         flpBinhLuan.Controls.Remove(rv.DeleteButton);
                     };
                 }
-                
+
             }
         }
 
