@@ -16,12 +16,15 @@ namespace QuanLyLaptop.Models
         public DateOnly ReviewDate { get; set; }
         public int Rating { get; set; }
         public string Comments { get; set; }
-
+        public TextBox ReviewTextBox { get; set; }
+        public Button DeleteButton { get; set; }
         public Review()
         {
             ReviewID = LaptopID = AccountID = Rating = 0;
             AccountName = LaptopName = Comments = "";
             ReviewDate = new DateOnly(1, 1, 1);
+            ReviewTextBox = new TextBox();
+            DeleteButton = new Button();
         }
 
         public Review(string csvLine)
@@ -35,6 +38,31 @@ namespace QuanLyLaptop.Models
             ReviewDate = DateOnly.Parse(values[5]);
             Rating = Convert.ToInt32(values[6]);
             Comments = values[7];
+            ReviewTextBox = new TextBox()
+            {
+                Name = $"txtComent_{ReviewID}",
+                Multiline = true,
+                Enabled = false,
+                ReadOnly = true,
+                Width = 600,
+                Height = 40,
+                Text = $"[{Rating} ★][{ReviewDate:dd/MM/yyyy}] {AccountName}: {Comments}",
+                BackColor = Color.WhiteSmoke,
+                ForeColor = Color.Black,
+                BorderStyle = BorderStyle.FixedSingle,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold)
+            };
+            DeleteButton = new Button()
+            {
+                Name = $"btnDelete_{ReviewID}",
+                Image = Properties.Resources.delete,
+                Width = 40,
+                Height = 40,
+                BackColor = Color.White,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                Visible = false
+            };
+
         }
 
         public List<Review> GetList(string fileName = "")

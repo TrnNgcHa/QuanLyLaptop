@@ -163,13 +163,26 @@ namespace QuanLyLaptop
             filteredReviews = MainMenu.Reviews
                 .Where(r => r.LaptopID == SelectedLaptop.LaptopID && selectedRatings.Contains(r.Rating))
                 .ToList();
-
-            var reviews = Functions.CommentList(filteredReviews, SelectedLaptop.LaptopID);
             flpBinhLuan.Controls.Clear();
-            foreach (var txt in reviews)
+            foreach (Review rv in filteredReviews)
             {
-                flpBinhLuan.Controls.Add(txt);
+                flpBinhLuan.Controls.Add(rv.ReviewTextBox);
+                flpBinhLuan.Controls.Add(rv.DeleteButton);
+
+                rv.DeleteButton.Click += (s, ev) =>
+                {
+                    MainMenu.Reviews.Remove(rv);
+                    flpBinhLuan.Controls.Remove(rv.ReviewTextBox);
+                    flpBinhLuan.Controls.Remove(rv.DeleteButton);
+                };
             }
+
+            //var reviews = Functions.CommentList(filteredReviews, SelectedLaptop.LaptopID);
+            //flpBinhLuan.Controls.Clear();
+            //foreach (var txt in reviews)
+            //{
+            //    flpBinhLuan.Controls.Add(txt);
+            //}
         }
 
         private void btnDanhGia_Click(object sender, EventArgs e)
@@ -190,17 +203,20 @@ namespace QuanLyLaptop
             review.Comments = txtDanhGia.Text.Trim();
             MainMenu.Reviews.Add(review);
 
-            TextBox txt = new TextBox();
-            txt.Name = $"1{MainMenu.Reviews.Max(r => r.ReviewID) + 1}";
-            txt.Multiline = true;
-            txt.ReadOnly = true;
-            txt.Width = 600;
-            txt.Height = 40;
-            txt.Text = $"[{review.Rating} ★][{review.ReviewDate.ToString("dd/MM/yyyy")}] {review.AccountName}: {review.Comments}";
-            txt.BackColor = Color.WhiteSmoke;
-            txt.ForeColor = Color.Black;
-            txt.BorderStyle = BorderStyle.FixedSingle;
-            txt.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            TextBox txt = new TextBox() 
+            {
+                Name = $"txtComment_{MainMenu.Reviews.Max(r => r.ReviewID) + 1}",
+                Multiline = true,
+                ReadOnly = true,
+                Width = 600,
+                Height = 40,
+                Text = $"[{review.Rating} ★][{review.ReviewDate.ToString("dd/MM/yyyy")}] {review.AccountName}: {review.Comments}",
+                BackColor = Color.WhiteSmoke,
+                ForeColor = Color.Black,
+                BorderStyle = BorderStyle.FixedSingle,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+            };
+            
 
             flpBinhLuan.Controls.Add(txt);
 

@@ -238,11 +238,18 @@ namespace QuanLyLaptop
                 .Where(r => r.LaptopID == SelectedItem.LaptopID && selectedRatings.Contains(r.Rating))
                 .ToList();
 
-            var reviews = Functions.CommentList(filteredReviews, SelectedItem.LaptopID);
             flpBinhLuan.Controls.Clear();
-            foreach (var txt in reviews)
+            foreach (Review rv in filteredReviews)
             {
-                flpBinhLuan.Controls.Add(txt);
+                flpBinhLuan.Controls.Add(rv.ReviewTextBox);
+                flpBinhLuan.Controls.Add(rv.DeleteButton);
+
+                rv.DeleteButton.Click += (s, ev) =>
+                {
+                    MainMenu.Reviews.Remove(rv);
+                    flpBinhLuan.Controls.Remove(rv.ReviewTextBox);
+                    flpBinhLuan.Controls.Remove(rv.DeleteButton);
+                };
             }
         }
     }

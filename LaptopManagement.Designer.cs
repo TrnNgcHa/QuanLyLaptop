@@ -30,17 +30,6 @@
         {
             tableLayoutPanel1 = new TableLayoutPanel();
             dgvDanhSachLaptop = new DataGridView();
-            STT1 = new DataGridViewTextBoxColumn();
-            MaLaptop = new DataGridViewTextBoxColumn();
-            TenLaptop = new DataGridViewTextBoxColumn();
-            TenHang = new DataGridViewTextBoxColumn();
-            NgayNhap = new DataGridViewTextBoxColumn();
-            SoTon = new DataGridViewTextBoxColumn();
-            CPU = new DataGridViewTextBoxColumn();
-            GPU = new DataGridViewTextBoxColumn();
-            OCung = new DataGridViewTextBoxColumn();
-            RAM = new DataGridViewTextBoxColumn();
-            GiaTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             flpBinhLuan = new FlowLayoutPanel();
             ckbNamSao = new CheckBox();
@@ -94,6 +83,17 @@
             cmbLoaiTimKiem = new ComboBox();
             label6 = new Label();
             groupBox2 = new GroupBox();
+            STT1 = new DataGridViewTextBoxColumn();
+            MaLaptop = new DataGridViewTextBoxColumn();
+            TenLaptop = new DataGridViewTextBoxColumn();
+            TenHang = new DataGridViewTextBoxColumn();
+            NgayNhap = new DataGridViewTextBoxColumn();
+            SoTon = new DataGridViewTextBoxColumn();
+            CPU = new DataGridViewTextBoxColumn();
+            GPU = new DataGridViewTextBoxColumn();
+            OCung = new DataGridViewTextBoxColumn();
+            RAM = new DataGridViewTextBoxColumn();
+            GiaTien = new DataGridViewTextBoxColumn();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -136,106 +136,6 @@
             dgvDanhSachLaptop.TabIndex = 1;
             dgvDanhSachLaptop.CellEnter += dgvDanhSachLaptop_CellEnter;
             dgvDanhSachLaptop.DataBindingComplete += dgvDanhSachLaptop_DataBindingComplete;
-            // 
-            // STT1
-            // 
-            STT1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            STT1.HeaderText = "STT";
-            STT1.MinimumWidth = 6;
-            STT1.Name = "STT1";
-            STT1.Width = 62;
-            // 
-            // MaLaptop
-            // 
-            MaLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            MaLaptop.DataPropertyName = "LaptopID";
-            MaLaptop.HeaderText = "Mã Laptop";
-            MaLaptop.MinimumWidth = 6;
-            MaLaptop.Name = "MaLaptop";
-            MaLaptop.Width = 110;
-            // 
-            // TenLaptop
-            // 
-            TenLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            TenLaptop.DataPropertyName = "LaptopName";
-            TenLaptop.HeaderText = "Tên Laptop";
-            TenLaptop.MinimumWidth = 6;
-            TenLaptop.Name = "TenLaptop";
-            // 
-            // TenHang
-            // 
-            TenHang.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            TenHang.DataPropertyName = "AgencyName";
-            TenHang.HeaderText = "Tên Hãng";
-            TenHang.MinimumWidth = 6;
-            TenHang.Name = "TenHang";
-            TenHang.Width = 101;
-            // 
-            // NgayNhap
-            // 
-            NgayNhap.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            NgayNhap.DataPropertyName = "StockInDate";
-            NgayNhap.HeaderText = "Ngày Nhập";
-            NgayNhap.MinimumWidth = 6;
-            NgayNhap.Name = "NgayNhap";
-            NgayNhap.Width = 113;
-            // 
-            // SoTon
-            // 
-            SoTon.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            SoTon.DataPropertyName = "RemainAmount";
-            SoTon.HeaderText = "Số Tồn";
-            SoTon.MinimumWidth = 6;
-            SoTon.Name = "SoTon";
-            SoTon.Width = 84;
-            // 
-            // CPU
-            // 
-            CPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            CPU.DataPropertyName = "CPU";
-            CPU.HeaderText = "CPU";
-            CPU.MinimumWidth = 6;
-            CPU.Name = "CPU";
-            CPU.Visible = false;
-            CPU.Width = 125;
-            // 
-            // GPU
-            // 
-            GPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            GPU.DataPropertyName = "GPU";
-            GPU.HeaderText = "GPU";
-            GPU.MinimumWidth = 6;
-            GPU.Name = "GPU";
-            GPU.Visible = false;
-            GPU.Width = 125;
-            // 
-            // OCung
-            // 
-            OCung.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            OCung.DataPropertyName = "Storage";
-            OCung.HeaderText = "Ổ Cứng";
-            OCung.MinimumWidth = 6;
-            OCung.Name = "OCung";
-            OCung.Visible = false;
-            OCung.Width = 125;
-            // 
-            // RAM
-            // 
-            RAM.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            RAM.DataPropertyName = "RAM";
-            RAM.HeaderText = "RAM";
-            RAM.MinimumWidth = 6;
-            RAM.Name = "RAM";
-            RAM.Visible = false;
-            RAM.Width = 125;
-            // 
-            // GiaTien
-            // 
-            GiaTien.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            GiaTien.DataPropertyName = "Price";
-            GiaTien.HeaderText = "Giá Tiền";
-            GiaTien.MinimumWidth = 6;
-            GiaTien.Name = "GiaTien";
             // 
             // panel1
             // 
@@ -881,6 +781,117 @@
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             // 
+            // STT1
+            // 
+            STT1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            STT1.HeaderText = "STT";
+            STT1.MinimumWidth = 6;
+            STT1.Name = "STT1";
+            STT1.ReadOnly = true;
+            STT1.Width = 62;
+            // 
+            // MaLaptop
+            // 
+            MaLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            MaLaptop.DataPropertyName = "LaptopID";
+            MaLaptop.HeaderText = "Mã Laptop";
+            MaLaptop.MinimumWidth = 6;
+            MaLaptop.Name = "MaLaptop";
+            MaLaptop.ReadOnly = true;
+            MaLaptop.Width = 110;
+            // 
+            // TenLaptop
+            // 
+            TenLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            TenLaptop.DataPropertyName = "LaptopName";
+            TenLaptop.HeaderText = "Tên Laptop";
+            TenLaptop.MinimumWidth = 6;
+            TenLaptop.Name = "TenLaptop";
+            TenLaptop.ReadOnly = true;
+            // 
+            // TenHang
+            // 
+            TenHang.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            TenHang.DataPropertyName = "AgencyName";
+            TenHang.HeaderText = "Tên Hãng";
+            TenHang.MinimumWidth = 6;
+            TenHang.Name = "TenHang";
+            TenHang.ReadOnly = true;
+            TenHang.Width = 101;
+            // 
+            // NgayNhap
+            // 
+            NgayNhap.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            NgayNhap.DataPropertyName = "StockInDate";
+            NgayNhap.HeaderText = "Ngày Nhập";
+            NgayNhap.MinimumWidth = 6;
+            NgayNhap.Name = "NgayNhap";
+            NgayNhap.ReadOnly = true;
+            NgayNhap.Width = 113;
+            // 
+            // SoTon
+            // 
+            SoTon.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            SoTon.DataPropertyName = "RemainAmount";
+            SoTon.HeaderText = "Số Tồn";
+            SoTon.MinimumWidth = 6;
+            SoTon.Name = "SoTon";
+            SoTon.ReadOnly = true;
+            SoTon.Width = 84;
+            // 
+            // CPU
+            // 
+            CPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            CPU.DataPropertyName = "CPU";
+            CPU.HeaderText = "CPU";
+            CPU.MinimumWidth = 6;
+            CPU.Name = "CPU";
+            CPU.ReadOnly = true;
+            CPU.Visible = false;
+            CPU.Width = 65;
+            // 
+            // GPU
+            // 
+            GPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            GPU.DataPropertyName = "GPU";
+            GPU.HeaderText = "GPU";
+            GPU.MinimumWidth = 6;
+            GPU.Name = "GPU";
+            GPU.ReadOnly = true;
+            GPU.Visible = false;
+            GPU.Width = 66;
+            // 
+            // OCung
+            // 
+            OCung.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            OCung.DataPropertyName = "Storage";
+            OCung.HeaderText = "Ổ Cứng";
+            OCung.MinimumWidth = 6;
+            OCung.Name = "OCung";
+            OCung.ReadOnly = true;
+            OCung.Visible = false;
+            OCung.Width = 88;
+            // 
+            // RAM
+            // 
+            RAM.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            RAM.DataPropertyName = "RAM";
+            RAM.HeaderText = "RAM";
+            RAM.MinimumWidth = 6;
+            RAM.Name = "RAM";
+            RAM.ReadOnly = true;
+            RAM.Visible = false;
+            RAM.Width = 70;
+            // 
+            // GiaTien
+            // 
+            GiaTien.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            GiaTien.DataPropertyName = "Price";
+            GiaTien.HeaderText = "Giá Tiền";
+            GiaTien.MinimumWidth = 6;
+            GiaTien.Name = "GiaTien";
+            GiaTien.ReadOnly = true;
+            // 
             // LaptopManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -909,17 +920,6 @@
 
         private TableLayoutPanel tableLayoutPanel1;
         private DataGridView dgvDanhSachLaptop;
-        private DataGridViewTextBoxColumn STT1;
-        private DataGridViewTextBoxColumn MaLaptop;
-        private DataGridViewTextBoxColumn TenLaptop;
-        private DataGridViewTextBoxColumn TenHang;
-        private DataGridViewTextBoxColumn NgayNhap;
-        private DataGridViewTextBoxColumn SoTon;
-        private DataGridViewTextBoxColumn CPU;
-        private DataGridViewTextBoxColumn GPU;
-        private DataGridViewTextBoxColumn OCung;
-        private DataGridViewTextBoxColumn RAM;
-        private DataGridViewTextBoxColumn GiaTien;
         private Panel panel1;
         private Label lblTenLaptop;
         private GroupBox grbCTSP;
@@ -973,5 +973,16 @@
         private CheckBox ckbHaiSao;
         private CheckBox ckbMotSao;
         private Label label17;
+        private DataGridViewTextBoxColumn STT1;
+        private DataGridViewTextBoxColumn MaLaptop;
+        private DataGridViewTextBoxColumn TenLaptop;
+        private DataGridViewTextBoxColumn TenHang;
+        private DataGridViewTextBoxColumn NgayNhap;
+        private DataGridViewTextBoxColumn SoTon;
+        private DataGridViewTextBoxColumn CPU;
+        private DataGridViewTextBoxColumn GPU;
+        private DataGridViewTextBoxColumn OCung;
+        private DataGridViewTextBoxColumn RAM;
+        private DataGridViewTextBoxColumn GiaTien;
     }
 }

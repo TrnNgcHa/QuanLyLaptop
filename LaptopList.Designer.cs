@@ -132,6 +132,7 @@
             STT1.HeaderText = "STT";
             STT1.MinimumWidth = 6;
             STT1.Name = "STT1";
+            STT1.ReadOnly = true;
             STT1.Width = 62;
             // 
             // MaLaptop
@@ -141,6 +142,7 @@
             MaLaptop.HeaderText = "Mã Laptop";
             MaLaptop.MinimumWidth = 6;
             MaLaptop.Name = "MaLaptop";
+            MaLaptop.ReadOnly = true;
             MaLaptop.Width = 110;
             // 
             // TenLaptop
@@ -150,6 +152,7 @@
             TenLaptop.HeaderText = "Tên Laptop";
             TenLaptop.MinimumWidth = 6;
             TenLaptop.Name = "TenLaptop";
+            TenLaptop.ReadOnly = true;
             // 
             // TenHang
             // 
@@ -158,6 +161,7 @@
             TenHang.HeaderText = "Tên Hãng";
             TenHang.MinimumWidth = 6;
             TenHang.Name = "TenHang";
+            TenHang.ReadOnly = true;
             TenHang.Width = 101;
             // 
             // NgayNhap
@@ -167,6 +171,7 @@
             NgayNhap.HeaderText = "Ngày Nhập";
             NgayNhap.MinimumWidth = 6;
             NgayNhap.Name = "NgayNhap";
+            NgayNhap.ReadOnly = true;
             NgayNhap.Width = 113;
             // 
             // SoTon
@@ -176,6 +181,7 @@
             SoTon.HeaderText = "Số Tồn";
             SoTon.MinimumWidth = 6;
             SoTon.Name = "SoTon";
+            SoTon.ReadOnly = true;
             SoTon.Width = 84;
             // 
             // CPU
@@ -185,6 +191,7 @@
             CPU.HeaderText = "CPU";
             CPU.MinimumWidth = 6;
             CPU.Name = "CPU";
+            CPU.ReadOnly = true;
             CPU.Visible = false;
             CPU.Width = 125;
             // 
@@ -195,6 +202,7 @@
             GPU.HeaderText = "GPU";
             GPU.MinimumWidth = 6;
             GPU.Name = "GPU";
+            GPU.ReadOnly = true;
             GPU.Visible = false;
             GPU.Width = 125;
             // 
@@ -205,6 +213,7 @@
             OCung.HeaderText = "Ổ Cứng";
             OCung.MinimumWidth = 6;
             OCung.Name = "OCung";
+            OCung.ReadOnly = true;
             OCung.Visible = false;
             OCung.Width = 125;
             // 
@@ -215,6 +224,7 @@
             RAM.HeaderText = "RAM";
             RAM.MinimumWidth = 6;
             RAM.Name = "RAM";
+            RAM.ReadOnly = true;
             RAM.Visible = false;
             RAM.Width = 125;
             // 
@@ -225,6 +235,7 @@
             GiaTien.HeaderText = "Giá Tiền";
             GiaTien.MinimumWidth = 6;
             GiaTien.Name = "GiaTien";
+            GiaTien.ReadOnly = true;
             // 
             // panel1
             // 
@@ -251,7 +262,7 @@
             // 
             flpBinhLuan.Location = new Point(12, 533);
             flpBinhLuan.Name = "flpBinhLuan";
-            flpBinhLuan.Size = new Size(743, 402);
+            flpBinhLuan.Size = new Size(743, 226);
             flpBinhLuan.TabIndex = 4;
             // 
             // ckbNamSao
@@ -811,17 +822,6 @@
         private Label lblRAMInfo;
         private Label lblStorageInfo;
         private Label lblGPUInfo;
-        private DataGridViewTextBoxColumn STT1;
-        private DataGridViewTextBoxColumn MaLaptop;
-        private DataGridViewTextBoxColumn TenLaptop;
-        private DataGridViewTextBoxColumn TenHang;
-        private DataGridViewTextBoxColumn NgayNhap;
-        private DataGridViewTextBoxColumn SoTon;
-        private DataGridViewTextBoxColumn CPU;
-        private DataGridViewTextBoxColumn GPU;
-        private DataGridViewTextBoxColumn OCung;
-        private DataGridViewTextBoxColumn RAM;
-        private DataGridViewTextBoxColumn GiaTien;
         private Label lblTenLaptop;
         private Panel panel2;
         private Label label5;
@@ -853,5 +853,16 @@
         private Label label14;
         private Button btnHuy;
         private FlowLayoutPanel flpBinhLuan;
+        private DataGridViewTextBoxColumn STT1;
+        private DataGridViewTextBoxColumn MaLaptop;
+        private DataGridViewTextBoxColumn TenLaptop;
+        private DataGridViewTextBoxColumn TenHang;
+        private DataGridViewTextBoxColumn NgayNhap;
+        private DataGridViewTextBoxColumn SoTon;
+        private DataGridViewTextBoxColumn CPU;
+        private DataGridViewTextBoxColumn GPU;
+        private DataGridViewTextBoxColumn OCung;
+        private DataGridViewTextBoxColumn RAM;
+        private DataGridViewTextBoxColumn GiaTien;
     }
 }

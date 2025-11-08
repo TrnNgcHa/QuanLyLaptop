@@ -377,6 +377,7 @@
             STT.HeaderText = "STT";
             STT.MinimumWidth = 6;
             STT.Name = "STT";
+            STT.ReadOnly = true;
             STT.Width = 62;
             // 
             // MaHoaDon
@@ -386,6 +387,7 @@
             MaHoaDon.HeaderText = "Mã Hóa Đơn";
             MaHoaDon.MinimumWidth = 6;
             MaHoaDon.Name = "MaHoaDon";
+            MaHoaDon.ReadOnly = true;
             MaHoaDon.Width = 123;
             // 
             // NgayLapHoaDon
@@ -395,6 +397,7 @@
             NgayLapHoaDon.HeaderText = "Ngày Lập Hóa Đơn";
             NgayLapHoaDon.MinimumWidth = 6;
             NgayLapHoaDon.Name = "NgayLapHoaDon";
+            NgayLapHoaDon.ReadOnly = true;
             NgayLapHoaDon.Width = 126;
             // 
             // MaTaiKhoan
@@ -404,6 +407,7 @@
             MaTaiKhoan.HeaderText = "Mã Tài Khoản";
             MaTaiKhoan.MinimumWidth = 6;
             MaTaiKhoan.Name = "MaTaiKhoan";
+            MaTaiKhoan.ReadOnly = true;
             MaTaiKhoan.Width = 117;
             // 
             // TenTaiKhoan
@@ -413,6 +417,7 @@
             TenTaiKhoan.HeaderText = "Tên Tài Khoản";
             TenTaiKhoan.MinimumWidth = 6;
             TenTaiKhoan.Name = "TenTaiKhoan";
+            TenTaiKhoan.ReadOnly = true;
             TenTaiKhoan.Visible = false;
             TenTaiKhoan.Width = 119;
             // 
@@ -423,6 +428,7 @@
             MaNguoiDung.HeaderText = "Mã Người Dùng";
             MaNguoiDung.MinimumWidth = 6;
             MaNguoiDung.Name = "MaNguoiDung";
+            MaNguoiDung.ReadOnly = true;
             MaNguoiDung.Width = 133;
             // 
             // TenNguoiDung
@@ -432,6 +438,7 @@
             TenNguoiDung.HeaderText = "Tên Người Dùng";
             TenNguoiDung.MinimumWidth = 6;
             TenNguoiDung.Name = "TenNguoiDung";
+            TenNguoiDung.ReadOnly = true;
             TenNguoiDung.Visible = false;
             TenNguoiDung.Width = 135;
             // 
@@ -442,6 +449,7 @@
             MaLaptop.HeaderText = "Mã Laptop";
             MaLaptop.MinimumWidth = 6;
             MaLaptop.Name = "MaLaptop";
+            MaLaptop.ReadOnly = true;
             MaLaptop.Width = 101;
             // 
             // TenLaptop
@@ -451,6 +459,7 @@
             TenLaptop.HeaderText = "Tên Laptop";
             TenLaptop.MinimumWidth = 6;
             TenLaptop.Name = "TenLaptop";
+            TenLaptop.ReadOnly = true;
             TenLaptop.Width = 103;
             // 
             // TongTien
@@ -460,6 +469,7 @@
             TongTien.HeaderText = "Thành Tiền";
             TongTien.MinimumWidth = 6;
             TongTien.Name = "TongTien";
+            TongTien.ReadOnly = true;
             TongTien.Width = 101;
             // 
             // ReceiptManagement

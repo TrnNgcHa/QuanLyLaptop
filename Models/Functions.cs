@@ -185,7 +185,6 @@ namespace QuanLyLaptop.Models
 
             foreach (var r in filteredReviews)
             {
-                //string comment = $"[{r.Rating} ★][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}";
 
                 TextBox txt = new TextBox();
                 txt.Name = $"txt{r.ReviewID}";
@@ -194,7 +193,7 @@ namespace QuanLyLaptop.Models
                 txt.ReadOnly = true;
                 txt.Width = 600;
                 txt.Height = 40;
-                txt.Text = $"txt{r.ReviewID}";
+                txt.Text = $"[{r.Rating} ★][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}";
                 txt.BackColor = Color.WhiteSmoke;
                 txt.ForeColor = Color.Black;
                 txt.BorderStyle = BorderStyle.FixedSingle;
