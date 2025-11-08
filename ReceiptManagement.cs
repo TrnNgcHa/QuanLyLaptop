@@ -26,6 +26,8 @@ namespace QuanLyLaptop
             dgvQuanLyHoaDon.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvQuanLyHoaDon.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
+            cmbLoaiTimKiem.SelectedIndex = 0;
+
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -43,7 +45,27 @@ namespace QuanLyLaptop
                     case "Mã hóa đơn":
                         filtered = MainMenu.Receipts.Where(p => p.ReceiptID.ToString().Contains(filterText)).ToList();
                         break;
-
+                    case "Mã tài khoản":
+                        filtered = MainMenu.Receipts.Where(p => p.AccountID.ToString().Contains(filterText)).ToList();
+                        break;
+                    case "Tên tài khoản":
+                        filtered = MainMenu.Receipts.Where(p => p.AccountName.ToLower().Contains(filterText)).ToList();
+                        break;
+                    case "Mã laptop":
+                        filtered = MainMenu.Receipts.Where(p => p.LaptopID.ToString().Contains(filterText)).ToList();
+                        break;
+                    case "Tên laptop":
+                        filtered = MainMenu.Receipts.Where(p => p.LaptopName.ToLower().Contains(filterText)).ToList();
+                        break;
+                    case "Tất cả":
+                        filtered = MainMenu.Receipts.Where(p =>
+                            p.ReceiptID.ToString().Contains(filterText) ||
+                            p.AccountID.ToString().Contains(filterText) ||
+                            p.AccountName.ToLower().Contains(filterText) ||
+                            p.LaptopID.ToString().Contains(filterText) ||
+                            p.LaptopName.ToLower().Contains(filterText)
+                        ).ToList();
+                        break;
                 }
                 dgvQuanLyHoaDon.DataSource = filtered;
             }
@@ -73,6 +95,11 @@ namespace QuanLyLaptop
                 if (!row.IsNewRow)
                     row.Cells["STT"].Value = row.Index + 1;
             }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

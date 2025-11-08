@@ -24,6 +24,19 @@ namespace QuanLyLaptop.Models
             InvoiceDate = new DateOnly(1,1,1);
             AccountName = PersonName = LaptopName = "";
         }
+
+        public Receipt(int receiptID, DateOnly invoiceDate, int accountID, string accountName, int personID, string personName, int laptopID, string laptopName,  int total)
+        {
+            ReceiptID = receiptID;
+            InvoiceDate = invoiceDate;
+            AccountID = accountID;
+            AccountName = accountName;
+            PersonID = personID;
+            PersonName = personName;
+            LaptopID = laptopID;
+            LaptopName = laptopName;
+            Total = total;
+        }
         public string CleanCommaList(string str)
         {
             List<string> items = str.Split(',').ToList();

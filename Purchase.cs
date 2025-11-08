@@ -56,39 +56,29 @@ namespace QuanLyLaptop
                 MessageBox.Show("Số dư tài khoản không đủ để thực hiện thanh toán!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            //Kiểm tra tài khoản hiện tại có phải của admin hay không
-            if (!(CurrentAccount.AccountID == 20000))
+            AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price);
+            MainMenu.Laptops.First(l => l.LaptopID == SelectedLaptop.LaptopID).RemainAmount -= 1;
+
+            
+            int id = 0;
+            do
             {
-                //trừ tiền của tài khoản hiện tại
-                AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price);
-                //trừ số tồn của laptop được chọn
-                MainMenu.Laptops.First(l => l.LaptopID == SelectedLaptop.LaptopID).RemainAmount -= 1;
+                id = new Random().Next(50000, 69999);
+            } while (MainMenu.Receipts.Any(r => r.ReceiptID == id));
 
-                //tạo hóa đơn
-                Receipt receipt = new Receipt();
-                int id = 0;
-                //tạo mã hóa đơn ngẫu nhiên và không trùng với bất kỳ hóa đơn đang tồn tại
-                do
-                {
-                    id = new Random().Next(50000, 69999);
-                }while (MainMenu.Receipts.Any(r => r.ReceiptID == id));
+            Receipt receipt = new Receipt(
+                id,
+                DateOnly.FromDateTime(DateTime.Now),
+                CurrentAccount.AccountID,
+                CurrentAccount.AccountName,
+                CurrentAccount.PersonID,
+                CurrentAccount.LastName + " " + CurrentAccount.FirstName,
+                SelectedLaptop.LaptopID,
+                SelectedLaptop.LaptopName,
+                SelectedLaptop.Price
+                );
 
-                receipt.ReceiptID = id;
-                //Ngày lập hóa đơn lấy ngày hiện tại
-                receipt.InvoiceDate = DateOnly.FromDateTime(DateTime.Now);
-
-                receipt.AccountID = CurrentAccount.AccountID;
-                receipt.AccountName = CurrentAccount.AccountName;
-
-                receipt.PersonID = CurrentAccount.PersonID;
-                receipt.PersonName = CurrentAccount.LastName + " " + CurrentAccount.FirstName;
-
-                receipt.LaptopID = SelectedLaptop.LaptopID;
-                receipt.LaptopName = SelectedLaptop.LaptopName;
-
-                receipt.Total = SelectedLaptop.Price;
-                MainMenu.Receipts.Add(receipt);
-            }
+            MainMenu.Receipts.Add(receipt);
             lblSoDu.Text = "Số dư tài khoản: " + string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
             MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

@@ -20,6 +20,8 @@ namespace QuanLyLaptop
             dgvLichSuGiaoDich.DataSource = MainMenu.Receipts;
             dgvLichSuGiaoDich.ForeColor = Color.Black;
 
+            cmbLoaiTimKiem.SelectedIndex = 0;
+
         }
 
         private void dgvQuanLyTaiKhoan_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -63,7 +65,6 @@ namespace QuanLyLaptop
                     case "Mã người dùng":
                         filtered = MainMenu.Accounts.Where(s => s.PersonID.ToString().ToLower().Contains(filterText)).ToList();
                         break;
-
                     case "Tên người dùng":
                         filtered = MainMenu.Accounts.Where(s => s.LastName.ToLower().Contains(filterText) || s.FirstName.ToLower().Contains(filterText)).ToList();
                         break;
@@ -72,6 +73,15 @@ namespace QuanLyLaptop
                         break;
                     case "Tên tài khoản":
                         filtered = MainMenu.Accounts.Where(s => s.AccountName.ToLower().Contains(filterText)).ToList();
+                        break;
+                    case "Tất cả":
+                        filtered = MainMenu.Accounts.Where(s =>
+                            s.PersonID.ToString().Contains(filterText) ||
+                            s.LastName.ToLower().Contains(filterText) ||
+                            s.FirstName.ToLower().Contains(filterText) ||
+                            s.AccountID.ToString().Contains(filterText) ||
+                            s.AccountName.ToLower().Contains(filterText)
+                        ).ToList();
                         break;
                 }
                 dgvQuanLyTaiKhoan.DataSource = filtered;

@@ -40,6 +40,7 @@ namespace QuanLyLaptop
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
+            cmbLoaiTimKiem.SelectedIndex = 0;
         }
 
 
@@ -118,9 +119,19 @@ namespace QuanLyLaptop
                     case "RAM":
                         filtered = MainMenu.Laptops.Where(s => s.RAM.ToLower().Contains(filterText)).ToList();
                         break;
-
                     case "Ổ cứng":
                         filtered = MainMenu.Laptops.Where(s => s.Storage.ToLower().Contains(filterText)).ToList();
+                        break;
+                    case "Tất cả":
+                        filtered = MainMenu.Laptops.Where(s =>
+                            s.LaptopID.ToString().ToLower().Contains(filterText) ||
+                            s.LaptopName.ToLower().Contains(filterText) ||
+                            s.AgencyName.ToLower().Contains(filterText) ||
+                            s.CPU.ToLower().Contains(filterText) ||
+                            s.GPU.ToLower().Contains(filterText) ||
+                            s.RAM.ToLower().Contains(filterText) ||
+                            s.Storage.ToLower().Contains(filterText)
+                        ).ToList();
                         break;
                 }
                 dgvDanhSachLaptop.DataSource = filtered;
@@ -167,22 +178,20 @@ namespace QuanLyLaptop
             foreach (Review rv in filteredReviews)
             {
                 flpBinhLuan.Controls.Add(rv.ReviewTextBox);
-                flpBinhLuan.Controls.Add(rv.DeleteButton);
-
-                rv.DeleteButton.Click += (s, ev) =>
+                if(rv.AccountID == CurrentAccount.AccountID)
                 {
-                    MainMenu.Reviews.Remove(rv);
-                    flpBinhLuan.Controls.Remove(rv.ReviewTextBox);
-                    flpBinhLuan.Controls.Remove(rv.DeleteButton);
-                };
-            }
+                    rv.DeleteButton.Visible = true;
+                    flpBinhLuan.Controls.Add(rv.DeleteButton);
 
-            //var reviews = Functions.CommentList(filteredReviews, SelectedLaptop.LaptopID);
-            //flpBinhLuan.Controls.Clear();
-            //foreach (var txt in reviews)
-            //{
-            //    flpBinhLuan.Controls.Add(txt);
-            //}
+                    rv.DeleteButton.Click += (s, ev) =>
+                    {
+                        MainMenu.Reviews.Remove(rv);
+                        flpBinhLuan.Controls.Remove(rv.ReviewTextBox);
+                        flpBinhLuan.Controls.Remove(rv.DeleteButton);
+                    };
+                }
+                
+            }
         }
 
         private void btnDanhGia_Click(object sender, EventArgs e)
@@ -192,33 +201,26 @@ namespace QuanLyLaptop
                 MessageBox.Show("Vui lòng nhập nội dung đánh giá!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            Review review = new Review();
-            review.ReviewID = MainMenu.Reviews.Count > 0 ? MainMenu.Reviews.Max(r => r.ReviewID) + 1 : 1;
-            review.AccountID = AccountAuthentication.CurrentAccount.AccountID;
-            review.AccountName = AccountAuthentication.CurrentAccount.AccountName;
-            review.LaptopID = SelectedLaptop.LaptopID;
-            review.LaptopName = SelectedLaptop.LaptopName;
-            review.ReviewDate = DateOnly.FromDateTime(DateTime.Now);
-            review.Rating = cmbSoSao.SelectedIndex + 1;
-            review.Comments = txtDanhGia.Text.Trim();
-            MainMenu.Reviews.Add(review);
-
-            TextBox txt = new TextBox() 
+            Review review = new Review(
+                MainMenu.Reviews.Count > 0 ? MainMenu.Reviews.Max(r => r.ReviewID) + 1 : 1,
+                AccountAuthentication.CurrentAccount.AccountID,
+                AccountAuthentication.CurrentAccount.AccountName,
+                SelectedLaptop.LaptopID,
+                SelectedLaptop.LaptopName,
+                DateOnly.FromDateTime(DateTime.Now),
+                cmbSoSao.SelectedIndex + 1,
+                txtDanhGia.Text.Trim()
+                );
+            review.DeleteButton.Click += (s, ev) =>
             {
-                Name = $"txtComment_{MainMenu.Reviews.Max(r => r.ReviewID) + 1}",
-                Multiline = true,
-                ReadOnly = true,
-                Width = 600,
-                Height = 40,
-                Text = $"[{review.Rating} ★][{review.ReviewDate.ToString("dd/MM/yyyy")}] {review.AccountName}: {review.Comments}",
-                BackColor = Color.WhiteSmoke,
-                ForeColor = Color.Black,
-                BorderStyle = BorderStyle.FixedSingle,
-                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                MainMenu.Reviews.Remove(review);
+                flpBinhLuan.Controls.Remove(review.ReviewTextBox);
+                flpBinhLuan.Controls.Remove(review.DeleteButton);
             };
-            
 
-            flpBinhLuan.Controls.Add(txt);
+            MainMenu.Reviews.Add(review);
+            flpBinhLuan.Controls.Add(review.ReviewTextBox);
+            flpBinhLuan.Controls.Add(review.DeleteButton);
 
             txtDanhGia.Text = "";
         }

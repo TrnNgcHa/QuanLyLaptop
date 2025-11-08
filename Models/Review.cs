@@ -65,6 +65,42 @@ namespace QuanLyLaptop.Models
 
         }
 
+        public Review(int reviewID, int accountID, string accountName, int laptopID, string laptopName, DateOnly reviewDate, int rating, string comments)
+        {
+            ReviewID = reviewID;
+            AccountID = accountID;
+            AccountName = accountName;
+            LaptopID = laptopID;
+            LaptopName = laptopName;
+            ReviewDate = reviewDate;
+            Rating = rating;
+            Comments = comments;
+            ReviewTextBox = new TextBox()
+            {
+                Name = $"txtComent_{ReviewID}",
+                Multiline = true,
+                Enabled = false,
+                ReadOnly = true,
+                Width = 600,
+                Height = 40,
+                Text = $"[{Rating} ★][{ReviewDate:dd/MM/yyyy}] {AccountName}: {Comments}",
+                BackColor = Color.WhiteSmoke,
+                ForeColor = Color.Black,
+                BorderStyle = BorderStyle.FixedSingle,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold)
+            };
+            DeleteButton = new Button()
+            {
+                Name = $"btnDelete_{ReviewID}",
+                Image = Properties.Resources.delete,
+                Width = 40,
+                Height = 40,
+                BackColor = Color.White,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                Visible = false
+            };
+        }
+
         public List<Review> GetList(string fileName = "")
         {
             List<Review> ReviewList = new List<Review>();

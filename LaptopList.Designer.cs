@@ -260,9 +260,11 @@
             // 
             // flpBinhLuan
             // 
+            flpBinhLuan.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            flpBinhLuan.AutoScroll = true;
             flpBinhLuan.Location = new Point(12, 533);
             flpBinhLuan.Name = "flpBinhLuan";
-            flpBinhLuan.Size = new Size(743, 226);
+            flpBinhLuan.Size = new Size(743, 323);
             flpBinhLuan.TabIndex = 4;
             // 
             // ckbNamSao
@@ -747,15 +749,15 @@
             // cmbLoaiTimKiem
             // 
             cmbLoaiTimKiem.BackColor = Color.White;
+            cmbLoaiTimKiem.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbLoaiTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             cmbLoaiTimKiem.ForeColor = Color.FromArgb(64, 64, 64);
             cmbLoaiTimKiem.FormattingEnabled = true;
-            cmbLoaiTimKiem.Items.AddRange(new object[] { "Mã Laptop", "Tên Laptop", "Hãng Laptop", "CPU", "GPU", "RAM", "Ổ cứng" });
+            cmbLoaiTimKiem.Items.AddRange(new object[] { "Tất cả", "Mã Laptop", "Tên Laptop", "Hãng Laptop", "CPU", "GPU", "RAM", "Ổ cứng" });
             cmbLoaiTimKiem.Location = new Point(95, 45);
             cmbLoaiTimKiem.Name = "cmbLoaiTimKiem";
             cmbLoaiTimKiem.Size = new Size(117, 28);
             cmbLoaiTimKiem.TabIndex = 5;
-            cmbLoaiTimKiem.Text = "Tên Laptop";
             // 
             // label9
             // 

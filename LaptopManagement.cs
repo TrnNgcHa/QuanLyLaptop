@@ -36,6 +36,7 @@ namespace QuanLyLaptop
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvDanhSachLaptop.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
 
+            cmbLoaiTimKiem.SelectedIndex = 0;
         }
 
         private void dgvDanhSachLaptop_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -148,9 +149,19 @@ namespace QuanLyLaptop
                     case "RAM":
                         filtered = MainMenu.Laptops.Where(s => s.RAM.ToLower().Contains(filterText)).ToList();
                         break;
-
                     case "Ổ cứng":
                         filtered = MainMenu.Laptops.Where(s => s.Storage.ToLower().Contains(filterText)).ToList();
+                        break;
+                    case "Tất cả":
+                        filtered = MainMenu.Laptops.Where(s =>
+                            s.LaptopID.ToString().ToLower().Contains(filterText) ||
+                            s.LaptopName.ToLower().Contains(filterText) ||
+                            s.AgencyName.ToLower().Contains(filterText) ||
+                            s.CPU.ToLower().Contains(filterText) ||
+                            s.GPU.ToLower().Contains(filterText) ||
+                            s.RAM.ToLower().Contains(filterText) ||
+                            s.Storage.ToLower().Contains(filterText)
+                        ).ToList();
                         break;
 
                 }
