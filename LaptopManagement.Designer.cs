@@ -42,6 +42,13 @@
             RAM = new DataGridViewTextBoxColumn();
             GiaTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
+            flpBinhLuan = new FlowLayoutPanel();
+            ckbNamSao = new CheckBox();
+            ckbBonSao = new CheckBox();
+            ckbBaSao = new CheckBox();
+            ckbHaiSao = new CheckBox();
+            ckbMotSao = new CheckBox();
+            label17 = new Label();
             grbTTLaptop = new GroupBox();
             dtpNgayNhap = new DateTimePicker();
             label10 = new Label();
@@ -87,13 +94,6 @@
             cmbLoaiTimKiem = new ComboBox();
             label6 = new Label();
             groupBox2 = new GroupBox();
-            flpBinhLuan = new FlowLayoutPanel();
-            ckbNamSao = new CheckBox();
-            ckbBonSao = new CheckBox();
-            ckbBaSao = new CheckBox();
-            ckbHaiSao = new CheckBox();
-            ckbMotSao = new CheckBox();
-            label17 = new Label();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -258,6 +258,104 @@
             panel1.Size = new Size(764, 944);
             panel1.TabIndex = 2;
             // 
+            // flpBinhLuan
+            // 
+            flpBinhLuan.Location = new Point(12, 665);
+            flpBinhLuan.Name = "flpBinhLuan";
+            flpBinhLuan.Size = new Size(743, 261);
+            flpBinhLuan.TabIndex = 14;
+            // 
+            // ckbNamSao
+            // 
+            ckbNamSao.AutoSize = true;
+            ckbNamSao.Checked = true;
+            ckbNamSao.CheckState = CheckState.Checked;
+            ckbNamSao.Cursor = Cursors.Hand;
+            ckbNamSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbNamSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbNamSao.Location = new Point(378, 635);
+            ckbNamSao.Name = "ckbNamSao";
+            ckbNamSao.Size = new Size(58, 24);
+            ckbNamSao.TabIndex = 9;
+            ckbNamSao.Text = "5 ★";
+            ckbNamSao.UseVisualStyleBackColor = true;
+            ckbNamSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbBonSao
+            // 
+            ckbBonSao.AutoSize = true;
+            ckbBonSao.Checked = true;
+            ckbBonSao.CheckState = CheckState.Checked;
+            ckbBonSao.Cursor = Cursors.Hand;
+            ckbBonSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbBonSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbBonSao.Location = new Point(316, 635);
+            ckbBonSao.Name = "ckbBonSao";
+            ckbBonSao.Size = new Size(58, 24);
+            ckbBonSao.TabIndex = 10;
+            ckbBonSao.Text = "4 ★";
+            ckbBonSao.UseVisualStyleBackColor = true;
+            ckbBonSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbBaSao
+            // 
+            ckbBaSao.AutoSize = true;
+            ckbBaSao.Checked = true;
+            ckbBaSao.CheckState = CheckState.Checked;
+            ckbBaSao.Cursor = Cursors.Hand;
+            ckbBaSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbBaSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbBaSao.Location = new Point(254, 635);
+            ckbBaSao.Name = "ckbBaSao";
+            ckbBaSao.Size = new Size(58, 24);
+            ckbBaSao.TabIndex = 11;
+            ckbBaSao.Text = "3 ★";
+            ckbBaSao.UseVisualStyleBackColor = true;
+            ckbBaSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbHaiSao
+            // 
+            ckbHaiSao.AutoSize = true;
+            ckbHaiSao.Checked = true;
+            ckbHaiSao.CheckState = CheckState.Checked;
+            ckbHaiSao.Cursor = Cursors.Hand;
+            ckbHaiSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbHaiSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbHaiSao.Location = new Point(192, 635);
+            ckbHaiSao.Name = "ckbHaiSao";
+            ckbHaiSao.Size = new Size(58, 24);
+            ckbHaiSao.TabIndex = 12;
+            ckbHaiSao.Text = "2 ★";
+            ckbHaiSao.UseVisualStyleBackColor = true;
+            ckbHaiSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // ckbMotSao
+            // 
+            ckbMotSao.AutoSize = true;
+            ckbMotSao.Checked = true;
+            ckbMotSao.CheckState = CheckState.Checked;
+            ckbMotSao.Cursor = Cursors.Hand;
+            ckbMotSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            ckbMotSao.ForeColor = Color.FromArgb(26, 26, 26);
+            ckbMotSao.Location = new Point(130, 635);
+            ckbMotSao.Name = "ckbMotSao";
+            ckbMotSao.Size = new Size(58, 24);
+            ckbMotSao.TabIndex = 13;
+            ckbMotSao.Text = "1 ★";
+            ckbMotSao.UseVisualStyleBackColor = true;
+            ckbMotSao.CheckedChanged += ChonLoaiDanhGia;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label17.ForeColor = Color.FromArgb(26, 26, 26);
+            label17.Location = new Point(18, 637);
+            label17.Name = "label17";
+            label17.Size = new Size(106, 20);
+            label17.TabIndex = 8;
+            label17.Text = "Loại đánh giá:";
+            // 
             // grbTTLaptop
             // 
             grbTTLaptop.BackColor = Color.LightGray;
@@ -316,7 +414,7 @@
             btnHuy.Cursor = Cursors.Hand;
             btnHuy.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnHuy.ForeColor = Color.White;
-            btnHuy.Location = new Point(104, 517);
+            btnHuy.Location = new Point(134, 517);
             btnHuy.Name = "btnHuy";
             btnHuy.Size = new Size(89, 45);
             btnHuy.TabIndex = 0;
@@ -330,7 +428,7 @@
             btnXacNhan.Cursor = Cursors.Hand;
             btnXacNhan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnXacNhan.ForeColor = Color.White;
-            btnXacNhan.Location = new Point(212, 517);
+            btnXacNhan.Location = new Point(15, 517);
             btnXacNhan.Name = "btnXacNhan";
             btnXacNhan.Size = new Size(112, 45);
             btnXacNhan.TabIndex = 0;
@@ -782,104 +880,6 @@
             groupBox2.Size = new Size(523, 67);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
-            // 
-            // flpBinhLuan
-            // 
-            flpBinhLuan.Location = new Point(12, 665);
-            flpBinhLuan.Name = "flpBinhLuan";
-            flpBinhLuan.Size = new Size(743, 261);
-            flpBinhLuan.TabIndex = 14;
-            // 
-            // ckbNamSao
-            // 
-            ckbNamSao.AutoSize = true;
-            ckbNamSao.Checked = true;
-            ckbNamSao.CheckState = CheckState.Checked;
-            ckbNamSao.Cursor = Cursors.Hand;
-            ckbNamSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            ckbNamSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbNamSao.Location = new Point(378, 635);
-            ckbNamSao.Name = "ckbNamSao";
-            ckbNamSao.Size = new Size(58, 24);
-            ckbNamSao.TabIndex = 9;
-            ckbNamSao.Text = "5 ★";
-            ckbNamSao.UseVisualStyleBackColor = true;
-            ckbNamSao.CheckedChanged += ChonLoaiDanhGia;
-            // 
-            // ckbBonSao
-            // 
-            ckbBonSao.AutoSize = true;
-            ckbBonSao.Checked = true;
-            ckbBonSao.CheckState = CheckState.Checked;
-            ckbBonSao.Cursor = Cursors.Hand;
-            ckbBonSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            ckbBonSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbBonSao.Location = new Point(316, 635);
-            ckbBonSao.Name = "ckbBonSao";
-            ckbBonSao.Size = new Size(58, 24);
-            ckbBonSao.TabIndex = 10;
-            ckbBonSao.Text = "4 ★";
-            ckbBonSao.UseVisualStyleBackColor = true;
-            ckbBonSao.CheckedChanged += ChonLoaiDanhGia;
-            // 
-            // ckbBaSao
-            // 
-            ckbBaSao.AutoSize = true;
-            ckbBaSao.Checked = true;
-            ckbBaSao.CheckState = CheckState.Checked;
-            ckbBaSao.Cursor = Cursors.Hand;
-            ckbBaSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            ckbBaSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbBaSao.Location = new Point(254, 635);
-            ckbBaSao.Name = "ckbBaSao";
-            ckbBaSao.Size = new Size(58, 24);
-            ckbBaSao.TabIndex = 11;
-            ckbBaSao.Text = "3 ★";
-            ckbBaSao.UseVisualStyleBackColor = true;
-            ckbBaSao.CheckedChanged += ChonLoaiDanhGia;
-            // 
-            // ckbHaiSao
-            // 
-            ckbHaiSao.AutoSize = true;
-            ckbHaiSao.Checked = true;
-            ckbHaiSao.CheckState = CheckState.Checked;
-            ckbHaiSao.Cursor = Cursors.Hand;
-            ckbHaiSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            ckbHaiSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbHaiSao.Location = new Point(192, 635);
-            ckbHaiSao.Name = "ckbHaiSao";
-            ckbHaiSao.Size = new Size(58, 24);
-            ckbHaiSao.TabIndex = 12;
-            ckbHaiSao.Text = "2 ★";
-            ckbHaiSao.UseVisualStyleBackColor = true;
-            ckbHaiSao.CheckedChanged += ChonLoaiDanhGia;
-            // 
-            // ckbMotSao
-            // 
-            ckbMotSao.AutoSize = true;
-            ckbMotSao.Checked = true;
-            ckbMotSao.CheckState = CheckState.Checked;
-            ckbMotSao.Cursor = Cursors.Hand;
-            ckbMotSao.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            ckbMotSao.ForeColor = Color.FromArgb(26, 26, 26);
-            ckbMotSao.Location = new Point(130, 635);
-            ckbMotSao.Name = "ckbMotSao";
-            ckbMotSao.Size = new Size(58, 24);
-            ckbMotSao.TabIndex = 13;
-            ckbMotSao.Text = "1 ★";
-            ckbMotSao.UseVisualStyleBackColor = true;
-            ckbMotSao.CheckedChanged += ChonLoaiDanhGia;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label17.ForeColor = Color.FromArgb(26, 26, 26);
-            label17.Location = new Point(18, 637);
-            label17.Name = "label17";
-            label17.Size = new Size(106, 20);
-            label17.TabIndex = 8;
-            label17.Text = "Loại đánh giá:";
             // 
             // LaptopManagement
             // 

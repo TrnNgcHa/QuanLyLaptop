@@ -30,6 +30,7 @@
         {
             grbDangKy = new GroupBox();
             groupBox3 = new GroupBox();
+            ckbHienMK1 = new CheckBox();
             llbDangNhap = new LinkLabel();
             btnDangKy = new Button();
             label10 = new Label();
@@ -55,6 +56,7 @@
             label1 = new Label();
             grbDangNhap = new GroupBox();
             groupBox5 = new GroupBox();
+            ckbHienMK2 = new CheckBox();
             llbDangKy = new LinkLabel();
             btnDangNhap = new Button();
             label12 = new Label();
@@ -78,7 +80,7 @@
             grbDangKy.ForeColor = Color.White;
             grbDangKy.Location = new Point(39, 12);
             grbDangKy.Name = "grbDangKy";
-            grbDangKy.Size = new Size(335, 559);
+            grbDangKy.Size = new Size(335, 587);
             grbDangKy.TabIndex = 2;
             grbDangKy.TabStop = false;
             grbDangKy.Visible = false;
@@ -86,6 +88,7 @@
             // groupBox3
             // 
             groupBox3.BackColor = Color.Transparent;
+            groupBox3.Controls.Add(ckbHienMK1);
             groupBox3.Controls.Add(llbDangNhap);
             groupBox3.Controls.Add(btnDangKy);
             groupBox3.Controls.Add(label10);
@@ -96,10 +99,22 @@
             groupBox3.ForeColor = Color.DimGray;
             groupBox3.Location = new Point(15, 358);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(304, 192);
+            groupBox3.Size = new Size(304, 212);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Text = "Thông tin đăng ký";
+            // 
+            // ckbHienMK1
+            // 
+            ckbHienMK1.AutoSize = true;
+            ckbHienMK1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ckbHienMK1.Location = new Point(164, 106);
+            ckbHienMK1.Name = "ckbHienMK1";
+            ckbHienMK1.Size = new Size(133, 24);
+            ckbHienMK1.TabIndex = 12;
+            ckbHienMK1.Text = "Hiện mật khẩu";
+            ckbHienMK1.UseVisualStyleBackColor = true;
+            ckbHienMK1.CheckedChanged += ckbHienMK1_CheckedChanged;
             // 
             // llbDangNhap
             // 
@@ -109,7 +124,7 @@
             llbDangNhap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             llbDangNhap.ForeColor = Color.White;
             llbDangNhap.LinkColor = Color.Blue;
-            llbDangNhap.Location = new Point(177, 162);
+            llbDangNhap.Location = new Point(177, 189);
             llbDangNhap.Name = "llbDangNhap";
             llbDangNhap.Size = new Size(120, 20);
             llbDangNhap.TabIndex = 11;
@@ -123,7 +138,7 @@
             btnDangKy.Cursor = Cursors.Hand;
             btnDangKy.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDangKy.ForeColor = Color.White;
-            btnDangKy.Location = new Point(67, 111);
+            btnDangKy.Location = new Point(67, 136);
             btnDangKy.Name = "btnDangKy";
             btnDangKy.Size = new Size(171, 44);
             btnDangKy.TabIndex = 10;
@@ -383,13 +398,14 @@
             grbDangNhap.Controls.Add(label11);
             grbDangNhap.Location = new Point(423, 12);
             grbDangNhap.Name = "grbDangNhap";
-            grbDangNhap.Size = new Size(335, 264);
+            grbDangNhap.Size = new Size(335, 287);
             grbDangNhap.TabIndex = 3;
             grbDangNhap.TabStop = false;
             // 
             // groupBox5
             // 
             groupBox5.BackColor = Color.Transparent;
+            groupBox5.Controls.Add(ckbHienMK2);
             groupBox5.Controls.Add(llbDangKy);
             groupBox5.Controls.Add(btnDangNhap);
             groupBox5.Controls.Add(label12);
@@ -400,17 +416,29 @@
             groupBox5.ForeColor = Color.DimGray;
             groupBox5.Location = new Point(15, 57);
             groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(304, 192);
+            groupBox5.Size = new Size(304, 211);
             groupBox5.TabIndex = 4;
             groupBox5.TabStop = false;
             groupBox5.Text = "Thông tin đăng nhập";
+            // 
+            // ckbHienMK2
+            // 
+            ckbHienMK2.AutoSize = true;
+            ckbHienMK2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ckbHienMK2.Location = new Point(166, 106);
+            ckbHienMK2.Name = "ckbHienMK2";
+            ckbHienMK2.Size = new Size(133, 24);
+            ckbHienMK2.TabIndex = 13;
+            ckbHienMK2.Text = "Hiện mật khẩu";
+            ckbHienMK2.UseVisualStyleBackColor = true;
+            ckbHienMK2.CheckedChanged += ckbHienMK2_CheckedChanged;
             // 
             // llbDangKy
             // 
             llbDangKy.AutoSize = true;
             llbDangKy.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             llbDangKy.LinkColor = Color.Blue;
-            llbDangKy.Location = new Point(164, 162);
+            llbDangKy.Location = new Point(164, 184);
             llbDangKy.Name = "llbDangKy";
             llbDangKy.Size = new Size(135, 20);
             llbDangKy.TabIndex = 4;
@@ -424,7 +452,7 @@
             btnDangNhap.Cursor = Cursors.Hand;
             btnDangNhap.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDangNhap.ForeColor = Color.White;
-            btnDangNhap.Location = new Point(67, 105);
+            btnDangNhap.Location = new Point(67, 132);
             btnDangNhap.Name = "btnDangNhap";
             btnDangNhap.Size = new Size(171, 44);
             btnDangNhap.TabIndex = 3;
@@ -546,5 +574,7 @@
         private TextBox txtMatKhauDN;
         private TextBox txtTenDN;
         private Label label11;
+        private CheckBox ckbHienMK1;
+        private CheckBox ckbHienMK2;
     }
 }

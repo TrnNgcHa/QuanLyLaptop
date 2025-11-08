@@ -56,13 +56,13 @@ namespace QuanLyLaptop
         private void btnDangKy_Click(object sender, EventArgs e)
         {
 
-            //if (!Functions.IsValidUserName(txtHoTen.Text))
-            //{
-            //    MessageBox.Show("Tên người dùng không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    txtTenDK.Focus();
-            //    return;
+            if (!Functions.IsValidUserName(txtHoTen.Text))
+            {
+                MessageBox.Show("Tên người dùng không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtTenDK.Focus();
+                return;
 
-            //}
+            }
             if (!Functions.IsValidPhone(txtSDT.Text))
             {
                 MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -97,12 +97,12 @@ namespace QuanLyLaptop
             var newAccount = new Account(Functions.GetFirstName(txtHoTen.Text), Functions.GetLastName(txtHoTen.Text), gender, DateOnly.FromDateTime(dtpNgaySinh.Value), txtSDT.Text, cmbTinhThanh.Text, txtEmail.Text, txtCCCD.Text);
             do
             {
-                newAccount.AccountID = Random.Shared.Next(15001, 20000);
+                newAccount.AccountID = Random.Shared.Next(20001, 29999);
             }
             while (MainMenu.Accounts.Any(a => a.AccountID == newAccount.AccountID));
             do
             {
-                newAccount.PersonID = Random.Shared.Next(10001, 15000);
+                newAccount.PersonID = Random.Shared.Next(10001, 19999);
             }
             while (MainMenu.Accounts.Any(a => a.PersonID == newAccount.PersonID));
             newAccount.SetAccount(txtTenDK.Text, Convert.ToInt32(txtMatKhauDK.Text));
@@ -148,6 +148,16 @@ namespace QuanLyLaptop
         private void AccountAuthentication_FormClosing(object sender, FormClosingEventArgs e)
         {
             CurrentAccount = new Account();
+        }
+
+        private void ckbHienMK1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtMatKhauDK.PasswordChar = ckbHienMK1.Checked ? '\0' : '*';
+        }
+
+        private void ckbHienMK2_CheckedChanged(object sender, EventArgs e)
+        {
+            txtMatKhauDN.PasswordChar = ckbHienMK2.Checked ? '\0' : '*';
         }
     }
 }

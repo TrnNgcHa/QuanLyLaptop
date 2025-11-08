@@ -39,5 +39,10 @@
                 this.Close();
             }
         }
+
+        private void ckbHienMK_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPassword.PasswordChar = ckbHienMK.Checked ? '\0' : '*';
+        }
     }
 }

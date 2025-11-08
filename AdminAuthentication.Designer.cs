@@ -36,12 +36,14 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            ckbHienMK = new CheckBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.BackColor = Color.LightGray;
+            groupBox1.Controls.Add(ckbHienMK);
             groupBox1.Controls.Add(btnThoat);
             groupBox1.Controls.Add(btnConfirm);
             groupBox1.Controls.Add(txtPassword);
@@ -51,7 +53,7 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(67, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(322, 255);
+            groupBox1.Size = new Size(322, 269);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
@@ -60,7 +62,7 @@
             btnThoat.BackColor = Color.Gray;
             btnThoat.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnThoat.ForeColor = Color.White;
-            btnThoat.Location = new Point(19, 198);
+            btnThoat.Location = new Point(19, 215);
             btnThoat.Name = "btnThoat";
             btnThoat.Size = new Size(94, 42);
             btnThoat.TabIndex = 4;
@@ -73,7 +75,7 @@
             btnConfirm.BackColor = Color.Maroon;
             btnConfirm.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnConfirm.ForeColor = Color.White;
-            btnConfirm.Location = new Point(130, 198);
+            btnConfirm.Location = new Point(130, 215);
             btnConfirm.Name = "btnConfirm";
             btnConfirm.Size = new Size(167, 42);
             btnConfirm.TabIndex = 3;
@@ -135,6 +137,19 @@
             label1.Text = "XÁC NHẬN\r\nQUYỀN QUẢN TRỊ VIÊN";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // ckbHienMK
+            // 
+            ckbHienMK.AutoSize = true;
+            ckbHienMK.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ckbHienMK.ForeColor = Color.DimGray;
+            ckbHienMK.Location = new Point(183, 185);
+            ckbHienMK.Name = "ckbHienMK";
+            ckbHienMK.Size = new Size(133, 24);
+            ckbHienMK.TabIndex = 5;
+            ckbHienMK.Text = "Hiện mật khẩu";
+            ckbHienMK.UseVisualStyleBackColor = true;
+            ckbHienMK.CheckedChanged += ckbHienMK_CheckedChanged;
+            // 
             // AdminAuthentication
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -160,5 +175,6 @@
         private Label label1;
         private Button btnConfirm;
         private Button btnThoat;
+        private CheckBox ckbHienMK;
     }
 }

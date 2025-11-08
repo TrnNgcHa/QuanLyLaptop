@@ -23,6 +23,9 @@ namespace QuanLyLaptop
         {
             dgvQuanLyHoaDon.DataSource = MainMenu.Receipts;
 
+            dgvQuanLyHoaDon.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvQuanLyHoaDon.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
+
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -50,10 +53,16 @@ namespace QuanLyLaptop
         {
             if (dgvQuanLyHoaDon.CurrentRow != null)
             {
-                lblMaTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["MaTaiKhoan"].Value.ToString();
-                lblTenTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["TenTaiKhoan"].Value.ToString();
-                lblMaNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["MaNguoiDung"].Value.ToString();
-                lblTenNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["TenNguoiDung"].Value.ToString();
+                int id = Convert.ToInt32(dgvQuanLyHoaDon.CurrentRow.Cells["MaTaiKhoan"].Value);
+                var acc = MainMenu.Accounts.First(a => a.AccountID == id);
+                lblHoTen.Text = acc.LastName + " " + acc.FirstName;
+                lblGioiTinh.Text = acc.Gender;
+                lblThanhPho.Text = acc.City;
+                lblNgaySinh.Text = acc.DOB.ToString("dd/MM/yyyy");
+                lblSDT.Text = acc.PhoneNumber;
+                lblEmail.Text = acc.Email;
+                lblCCCD.Text = acc.IdCard;
+                lblSoDu.Text = acc.Balance.ToString("#,##0 VND");
             }
         }
 
