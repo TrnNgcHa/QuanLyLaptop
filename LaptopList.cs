@@ -78,7 +78,7 @@ namespace QuanLyLaptop
                 lblSoDu.Text = string.Format("{0:#,##0 VND}", updatedAcc.Balance);
             };
             form.TopMost = true;
-            form.ShowDialog();
+            form.Show();
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)

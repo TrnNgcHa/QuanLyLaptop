@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             dgvQuanLyTaiKhoan = new DataGridView();
+            STT = new DataGridViewTextBoxColumn();
             MaNguoi = new DataGridViewTextBoxColumn();
             MaTaiKhoan = new DataGridViewTextBoxColumn();
             TenTaiKhoan = new DataGridViewTextBoxColumn();
@@ -90,7 +91,7 @@
             // dgvQuanLyTaiKhoan
             // 
             dgvQuanLyTaiKhoan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvQuanLyTaiKhoan.Columns.AddRange(new DataGridViewColumn[] { MaNguoi, MaTaiKhoan, TenTaiKhoan, MatKhau, SoDu, HoNguoi, TenNguoi, GioiTinh, NgaySinh, ThanhPho, SoDienThoai, Email, CCCD });
+            dgvQuanLyTaiKhoan.Columns.AddRange(new DataGridViewColumn[] { STT, MaNguoi, MaTaiKhoan, TenTaiKhoan, MatKhau, SoDu, HoNguoi, TenNguoi, GioiTinh, NgaySinh, ThanhPho, SoDienThoai, Email, CCCD });
             dgvQuanLyTaiKhoan.Dock = DockStyle.Fill;
             dgvQuanLyTaiKhoan.Location = new Point(3, 95);
             dgvQuanLyTaiKhoan.Name = "dgvQuanLyTaiKhoan";
@@ -98,6 +99,15 @@
             dgvQuanLyTaiKhoan.Size = new Size(956, 830);
             dgvQuanLyTaiKhoan.TabIndex = 0;
             dgvQuanLyTaiKhoan.CellEnter += dgvQuanLyTaiKhoan_CellEnter;
+            dgvQuanLyTaiKhoan.DataBindingComplete += dgvQuanLyTaiKhoan_DataBindingComplete;
+            // 
+            // STT
+            // 
+            STT.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            STT.HeaderText = "STT";
+            STT.MinimumWidth = 6;
+            STT.Name = "STT";
+            STT.Width = 62;
             // 
             // MaNguoi
             // 
@@ -279,6 +289,7 @@
             dgvLichSuGiaoDich.RowTemplate.ReadOnly = true;
             dgvLichSuGiaoDich.Size = new Size(944, 261);
             dgvLichSuGiaoDich.TabIndex = 0;
+            dgvLichSuGiaoDich.DataBindingComplete += dgvLichSuGiaoDich_DataBindingComplete;
             // 
             // MaHoaDon
             // 
@@ -659,6 +670,16 @@
         private GroupBox groupBox2;
         private Panel panel3;
         private DataGridView dgvLichSuGiaoDich;
+        private DataGridViewTextBoxColumn MaHoaDon;
+        private DataGridViewTextBoxColumn NgayLapHoaDon;
+        private DataGridViewTextBoxColumn MaNguoiDung;
+        private DataGridViewTextBoxColumn TenNguoiDung;
+        private DataGridViewTextBoxColumn MaTaiKhoan_;
+        private DataGridViewTextBoxColumn TenTaiKhoan_;
+        private DataGridViewTextBoxColumn MaLaptop;
+        private DataGridViewTextBoxColumn TenLaptop;
+        private DataGridViewTextBoxColumn ThanhTien;
+        private DataGridViewTextBoxColumn STT;
         private DataGridViewTextBoxColumn MaNguoi;
         private DataGridViewTextBoxColumn MaTaiKhoan;
         private DataGridViewTextBoxColumn TenTaiKhoan;
@@ -672,14 +693,5 @@
         private DataGridViewTextBoxColumn SoDienThoai;
         private DataGridViewTextBoxColumn Email;
         private DataGridViewTextBoxColumn CCCD;
-        private DataGridViewTextBoxColumn MaHoaDon;
-        private DataGridViewTextBoxColumn NgayLapHoaDon;
-        private DataGridViewTextBoxColumn MaNguoiDung;
-        private DataGridViewTextBoxColumn TenNguoiDung;
-        private DataGridViewTextBoxColumn MaTaiKhoan_;
-        private DataGridViewTextBoxColumn TenTaiKhoan_;
-        private DataGridViewTextBoxColumn MaLaptop;
-        private DataGridViewTextBoxColumn TenLaptop;
-        private DataGridViewTextBoxColumn ThanhTien;
     }
 }

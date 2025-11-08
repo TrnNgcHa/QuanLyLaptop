@@ -101,9 +101,9 @@
             groupBox3.Controls.Add(label2);
             groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox3.ForeColor = Color.DimGray;
-            groupBox3.Location = new Point(6, 190);
+            groupBox3.Location = new Point(6, 206);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(385, 198);
+            groupBox3.Size = new Size(385, 182);
             groupBox3.TabIndex = 5;
             groupBox3.TabStop = false;
             // 
@@ -146,7 +146,7 @@
             groupBox2.ForeColor = Color.DimGray;
             groupBox2.Location = new Point(6, 54);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(385, 130);
+            groupBox2.Size = new Size(385, 155);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
             // 
@@ -154,7 +154,7 @@
             // 
             lblNgayLapHoaDon.BorderStyle = BorderStyle.Fixed3D;
             lblNgayLapHoaDon.ForeColor = Color.FromArgb(64, 64, 64);
-            lblNgayLapHoaDon.Location = new Point(156, 94);
+            lblNgayLapHoaDon.Location = new Point(156, 109);
             lblNgayLapHoaDon.Name = "lblNgayLapHoaDon";
             lblNgayLapHoaDon.Size = new Size(223, 25);
             lblNgayLapHoaDon.TabIndex = 3;
@@ -163,7 +163,7 @@
             // 
             lblTenKhachHang.BorderStyle = BorderStyle.Fixed3D;
             lblTenKhachHang.ForeColor = Color.FromArgb(64, 64, 64);
-            lblTenKhachHang.Location = new Point(156, 58);
+            lblTenKhachHang.Location = new Point(156, 65);
             lblTenKhachHang.Name = "lblTenKhachHang";
             lblTenKhachHang.Size = new Size(223, 25);
             lblTenKhachHang.TabIndex = 3;
@@ -189,7 +189,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(7, 59);
+            label4.Location = new Point(7, 67);
             label4.Name = "label4";
             label4.Size = new Size(122, 20);
             label4.TabIndex = 1;
@@ -198,7 +198,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(7, 95);
+            label5.Location = new Point(7, 111);
             label5.Name = "label5";
             label5.Size = new Size(136, 20);
             label5.TabIndex = 2;

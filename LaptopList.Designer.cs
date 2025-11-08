@@ -42,6 +42,7 @@
             RAM = new DataGridViewTextBoxColumn();
             GiaTien = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
+            flpBinhLuan = new FlowLayoutPanel();
             ckbNamSao = new CheckBox();
             ckbBonSao = new CheckBox();
             groupBox4 = new GroupBox();
@@ -83,7 +84,6 @@
             cmbLoaiTimKiem = new ComboBox();
             label9 = new Label();
             groupBox3 = new GroupBox();
-            flpBinhLuan = new FlowLayoutPanel();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDanhSachLaptop).BeginInit();
             panel1.SuspendLayout();
@@ -246,6 +246,13 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(764, 944);
             panel1.TabIndex = 1;
+            // 
+            // flpBinhLuan
+            // 
+            flpBinhLuan.Location = new Point(12, 533);
+            flpBinhLuan.Name = "flpBinhLuan";
+            flpBinhLuan.Size = new Size(743, 402);
+            flpBinhLuan.TabIndex = 4;
             // 
             // ckbNamSao
             // 
@@ -761,13 +768,6 @@
             groupBox3.Size = new Size(513, 93);
             groupBox3.TabIndex = 8;
             groupBox3.TabStop = false;
-            // 
-            // flpBinhLuan
-            // 
-            flpBinhLuan.Location = new Point(12, 533);
-            flpBinhLuan.Name = "flpBinhLuan";
-            flpBinhLuan.Size = new Size(743, 402);
-            flpBinhLuan.TabIndex = 4;
             // 
             // LaptopList
             // 

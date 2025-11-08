@@ -48,12 +48,21 @@ namespace QuanLyLaptop
 
         private void dgvQuanLyHoaDon_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
-            if(dgvQuanLyHoaDon.CurrentRow != null)
+            if (dgvQuanLyHoaDon.CurrentRow != null)
             {
                 lblMaTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["MaTaiKhoan"].Value.ToString();
                 lblTenTaiKhoan.Text = dgvQuanLyHoaDon.CurrentRow.Cells["TenTaiKhoan"].Value.ToString();
                 lblMaNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["MaNguoiDung"].Value.ToString();
                 lblTenNguoiDung.Text = dgvQuanLyHoaDon.CurrentRow.Cells["TenNguoiDung"].Value.ToString();
+            }
+        }
+
+        private void dgvQuanLyHoaDon_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            foreach (DataGridViewRow row in dgvQuanLyHoaDon.Rows)
+            {
+                if (!row.IsNewRow)
+                    row.Cells["STT"].Value = row.Index + 1;
             }
         }
     }

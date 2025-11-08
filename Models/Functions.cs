@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Windows.Forms.VisualStyles;
 
 namespace QuanLyLaptop.Models
 {
@@ -180,20 +181,21 @@ namespace QuanLyLaptop.Models
         {
             List<TextBox> listTextBox = new List<TextBox>();
 
-            var comments = reviews
-                .Where(r => r.LaptopID == id)
-                .Select(r => $"[{r.Rating} ★][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}");
+            var filteredReviews = reviews.Where(r => r.LaptopID == id);
 
-            foreach (var comment in comments)
+            foreach (var r in filteredReviews)
             {
+                //string comment = $"[{r.Rating} ★][{r.ReviewDate:dd/MM/yyyy}] {r.AccountName}: {r.Comments}";
+
                 TextBox txt = new TextBox();
-                txt.Name = $"1{MainMenu.Reviews.Max(r => r.ReviewID) + 1}";
-                txt.Multiline = true;              
-                txt.ReadOnly = true;               
-                txt.Width = 600;                   
+                txt.Name = $"txt{r.ReviewID}";
+                txt.Multiline = true;
+                txt.Enabled = false;
+                txt.ReadOnly = true;
+                txt.Width = 600;
                 txt.Height = 40;
-                txt.Text = comment;                
-                txt.BackColor = Color.WhiteSmoke;  
+                txt.Text = $"txt{r.ReviewID}";
+                txt.BackColor = Color.WhiteSmoke;
                 txt.ForeColor = Color.Black;
                 txt.BorderStyle = BorderStyle.FixedSingle;
                 txt.Font = new Font("Segoe UI", 10, FontStyle.Bold);
@@ -267,6 +269,41 @@ namespace QuanLyLaptop.Models
                             sb.Append(";");
                         }
 
+                    }
+                    sb.AppendLine();
+                }
+                return sb.ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+                return string.Empty;
+            }
+        }
+
+        public static string ConvertToCsvLine(string path, List<Person> persons)
+        {
+            if (persons.Count < 1) return string.Empty;
+            try
+            {
+                var sb = new StringBuilder();
+                string lineHeader = "Mã Người Dùng;Họ Tên;Giới Tính;Ngày Sinh;Số Điện Thoại;Thành Phố;Email;CMND";
+                sb.AppendLine(lineHeader);
+                foreach (var laptop in persons)
+                {
+                    var properties = laptop.GetType().GetProperties();
+                    for (int i = 0; i < properties.Length; i++)
+                    {
+                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
+                        if (value.Contains(";") || value.Contains("\""))
+                        {
+                            value = $"\"{value.Replace("\"", "\"\"")}\"";
+                        }
+                        sb.Append(value);
+                        if (i < properties.Length - 1)
+                        {
+                            sb.Append(";");
+                        }
                     }
                     sb.AppendLine();
                 }

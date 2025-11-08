@@ -77,5 +77,23 @@ namespace QuanLyLaptop
                 dgvQuanLyTaiKhoan.DataSource = filtered;
             }
         }
+
+        private void dgvQuanLyTaiKhoan_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            foreach (DataGridViewRow row in dgvQuanLyTaiKhoan.Rows)
+            {
+                if (!row.IsNewRow)
+                    row.Cells["STT"].Value = row.Index + 1;
+            }
+        }
+
+        private void dgvLichSuGiaoDich_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            foreach (DataGridViewRow row in dgvLichSuGiaoDich.Rows)
+            {
+                if (!row.IsNewRow)
+                    row.Cells["STT_"].Value = row.Index + 1;
+            }
+        }
     }
 }

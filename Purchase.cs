@@ -83,11 +83,6 @@ namespace QuanLyLaptop
             this.Close();
 
         }
-
-        public void PhuKien()
-        {
-            lblThanhTien.Text = string.Format("{0:#,##0 VND}", SelectedLaptop.Price);
-        }
         private void Purchase_FormClosing(object sender, FormClosingEventArgs e)
         {
             UpdateAccountBalance?.Invoke(CurrentAccount);
