@@ -50,30 +50,42 @@ namespace QuanLyLaptop
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
+            //Kiểm tra có đủ tiền không
             if (CurrentAccount.Balance < SelectedLaptop.Price)
             {
                 MessageBox.Show("Số dư tài khoản không đủ để thực hiện thanh toán!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            //Kiểm tra tài khoản hiện tại có phải của admin hay không
             if (!(CurrentAccount.AccountID == 20000))
             {
+                //trừ tiền của tài khoản hiện tại
                 AccountAuthentication.CurrentAccount.Balance -= (SelectedLaptop.Price);
+                //trừ số tồn của laptop được chọn
                 MainMenu.Laptops.First(l => l.LaptopID == SelectedLaptop.LaptopID).RemainAmount -= 1;
 
+                //tạo hóa đơn
                 Receipt receipt = new Receipt();
                 int id = 0;
+                //tạo mã hóa đơn ngẫu nhiên và không trùng với bất kỳ hóa đơn đang tồn tại
                 do
                 {
                     id = new Random().Next(50000, 69999);
                 }while (MainMenu.Receipts.Any(r => r.ReceiptID == id));
+
                 receipt.ReceiptID = id;
+                //Ngày lập hóa đơn lấy ngày hiện tại
                 receipt.InvoiceDate = DateOnly.FromDateTime(DateTime.Now);
+
                 receipt.AccountID = CurrentAccount.AccountID;
                 receipt.AccountName = CurrentAccount.AccountName;
+
                 receipt.PersonID = CurrentAccount.PersonID;
                 receipt.PersonName = CurrentAccount.LastName + " " + CurrentAccount.FirstName;
+
                 receipt.LaptopID = SelectedLaptop.LaptopID;
                 receipt.LaptopName = SelectedLaptop.LaptopName;
+
                 receipt.Total = SelectedLaptop.Price;
                 MainMenu.Receipts.Add(receipt);
             }

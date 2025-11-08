@@ -161,9 +161,11 @@ namespace QuanLyLaptop
             var result = MessageBox.Show("Xóa tài khoản sẽ xóa tất cả dữ liệu liên quan. Bạn có chắc chắn muốn xóa tài khoản này?", "Xác nhận xóa tài khoản", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
+                //xóa tất cả dữ liệu liên quan đến tài khoản hiện tại
                 MainMenu.Accounts.RemoveAll(a => a.AccountID == acc.AccountID);
                 AccountAuthentication.CurrentAccount = null;
                 this.Close();
+                //hiện tại chỉ đóng được mỗi form trung tâm tài khoản, cần đóng cả form danh sách laptop
             }
         }
     }

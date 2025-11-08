@@ -28,6 +28,7 @@ namespace QuanLyLaptop
             CurrentAccount = currAccount;
         }
 
+        //Biến laptop được chọn
         public Laptop SelectedLaptop = new Laptop();
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
@@ -71,6 +72,7 @@ namespace QuanLyLaptop
 
         private void btnPurchase_Click(object sender, EventArgs e)
         {
+            //truyền laptop được chọn và tài khoản hiện tại vào form Purchase
             var form = new Purchase(SelectedLaptop, CurrentAccount);
             form.UpdateAccountBalance = (updatedAcc) =>
             {
@@ -134,11 +136,12 @@ namespace QuanLyLaptop
 
         private void btnNapTien_Click(object sender, EventArgs e)
         {
-
+            //Nạp tiền chưa có
         }
 
         private void btnTTTK_Click(object sender, EventArgs e)
         {
+            //truyền vào tài khoản hiện tại
             var form = new AccountCenter(CurrentAccount);
             form.ShowDialog();
         }

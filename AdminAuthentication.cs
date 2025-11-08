@@ -9,6 +9,7 @@
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+            //Kiểm tra tên đăng nhập và mật khẩu có phải của Admin không
             if (txtName.Text == "Admin" && txtPassword.Text == "123456")
             {
                 var form = new Administration();

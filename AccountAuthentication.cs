@@ -19,6 +19,7 @@ namespace QuanLyLaptop
             InitializeComponent();
         }
 
+        //Tài khoản hiện tại
         public static Account CurrentAccount = new Account();
         private void Authentication_Load(object sender, EventArgs e)
         {
@@ -55,7 +56,8 @@ namespace QuanLyLaptop
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
-
+            //Kiểm tra tính hợp lệ của thông tin đăng ký
+            //Tên đăng nhập chỉ chứa chữ cái, chữ số, dấu chấm, dấu gạch dưới, không có khoảng trắng và có 2 chữ trở lên
             if (!Functions.IsValidUserName(txtHoTen.Text))
             {
                 MessageBox.Show("Tên người dùng không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -63,6 +65,7 @@ namespace QuanLyLaptop
                 return;
 
             }
+            //Mật khẩu chỉ chứa chữ cái, chữ số, dấu chấm, dấu gạch dưới, không có khoảng trắng và có 6 ký tự trở lên
             if (!Functions.IsValidPhone(txtSDT.Text))
             {
                 MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -70,6 +73,7 @@ namespace QuanLyLaptop
                 return;
 
             }
+            //Email phải có @gmail.com
             if (!Functions.IsValidEmail(txtEmail.Text))
             {
                 MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -77,14 +81,15 @@ namespace QuanLyLaptop
                 return;
 
             }
-            //if (!Functions.IsValidIdCard(txtCCCD.Text))
-            //{
-            //    MessageBox.Show("Căn cước công dân không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    txtCCCD.Focus();
-            //    return;
+            //Căn cước công dân phải là 12 chữ số
+            if (!Functions.IsValidIdCard(txtCCCD.Text))
+            {
+                MessageBox.Show("Căn cước công dân không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCCCD.Focus();
+                return;
 
-            //}
-
+            }
+            //Kiểm tra tên đăng nhập đã tồn tại trong danh sách tài khoản chưa
             if (MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDK.Text))
             {
                 MessageBox.Show("Tên đăng nhập đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -95,6 +100,8 @@ namespace QuanLyLaptop
             string gender = ckbNam.Checked ? "Nam" : "Nữ";
 
             var newAccount = new Account(Functions.GetFirstName(txtHoTen.Text), Functions.GetLastName(txtHoTen.Text), gender, DateOnly.FromDateTime(dtpNgaySinh.Value), txtSDT.Text, cmbTinhThanh.Text, txtEmail.Text, txtCCCD.Text);
+
+            //tạo mã tài khoản và mã người dùng ngẫu nhiên, không trùng với các tài khoản đã có
             do
             {
                 newAccount.AccountID = Random.Shared.Next(20001, 29999);
@@ -105,6 +112,7 @@ namespace QuanLyLaptop
                 newAccount.PersonID = Random.Shared.Next(10001, 19999);
             }
             while (MainMenu.Accounts.Any(a => a.PersonID == newAccount.PersonID));
+
             newAccount.SetAccount(txtTenDK.Text, Convert.ToInt32(txtMatKhauDK.Text));
 
             MessageBox.Show("Đăng ký thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -117,14 +125,17 @@ namespace QuanLyLaptop
             this.Close();
         }
 
+        //Đăng nhập
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
+            //Kiem tra tên đăng nhập và mật khẩu có tồn tại trong danh sách tài khoản không
             if (!MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text)))
             {
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
+            //Gán tài khoản hiện tại bằng tài khoản đã qua kiểm tra thành công
             CurrentAccount = MainMenu.Accounts.First(acc => acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text));
 
             var form = new LaptopList(CurrentAccount);
