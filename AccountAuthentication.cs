@@ -56,13 +56,13 @@ namespace QuanLyLaptop
         private void btnDangKy_Click(object sender, EventArgs e)
         {
 
-            if (!Functions.IsValidUserName(txtHoTen.Text))
-            {
-                MessageBox.Show("Tên đăng nhập không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtTenDK.Focus();
-                return;
+            //if (!Functions.IsValidUserName(txtHoTen.Text))
+            //{
+            //    MessageBox.Show("Tên người dùng không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    txtTenDK.Focus();
+            //    return;
 
-            }
+            //}
             if (!Functions.IsValidPhone(txtSDT.Text))
             {
                 MessageBox.Show("Số điện thoại không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -77,13 +77,13 @@ namespace QuanLyLaptop
                 return;
 
             }
-            if (!Functions.IsValidIdCard(txtCCCD.Text))
-            {
-                MessageBox.Show("Căn cước công dân không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtCCCD.Focus();
-                return;
+            //if (!Functions.IsValidIdCard(txtCCCD.Text))
+            //{
+            //    MessageBox.Show("Căn cước công dân không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    txtCCCD.Focus();
+            //    return;
 
-            }
+            //}
 
             if (MainMenu.Accounts.Any(acc => acc.AccountName == txtTenDK.Text))
             {

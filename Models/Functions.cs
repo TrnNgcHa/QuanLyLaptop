@@ -244,74 +244,69 @@ namespace QuanLyLaptop.Models
             }
         }
 
-        public static string ConvertToCsvLine(string path, List<Account> accounts)
+        public static string ConvertToCsvLine(string path, List<Account> accounts, bool isPerson = false)
         {
-            if (accounts.Count < 1) return string.Empty;
-
-            try
-            {
-                var sb = new StringBuilder();
-                string lineHeader = "Mã Tài Khoản;Mã Người Dùng;Tên Tài Khoản;Mật Khẩu;Số Dư";
-                sb.AppendLine(lineHeader);
-                foreach (var laptop in accounts)
-                {
-                    var properties = laptop.GetType().GetProperties();
-                    for (int i = 0; i < 5; i++)
-                    {
-                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
-                        if (value.Contains(";") || value.Contains("\""))
-                        {
-                            value = $"\"{value.Replace("\"", "\"\"")}\"";
-                        }
-                        sb.Append(value);
-                        if (i < 5 - 1)
-                        {
-                            sb.Append(";");
-                        }
-
-                    }
-                    sb.AppendLine();
-                }
-                return sb.ToString();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+            if (accounts == null || accounts.Count < 1)
                 return string.Empty;
-            }
-        }
 
-        public static string ConvertToCsvLine(string path, List<Person> persons)
-        {
-            if (persons.Count < 1) return string.Empty;
             try
             {
                 var sb = new StringBuilder();
-                string lineHeader = "Mã Người Dùng;Họ Tên;Giới Tính;Ngày Sinh;Số Điện Thoại;Thành Phố;Email;CMND";
-                sb.AppendLine(lineHeader);
-                foreach (var laptop in persons)
+
+                if (!isPerson)
                 {
-                    var properties = laptop.GetType().GetProperties();
-                    for (int i = 0; i < properties.Length; i++)
+                    // ---- Ghi file Account.csv ----
+                    sb.AppendLine("Mã Tài Khoản;Mã Người Dùng;Tên Tài Khoản;Mật Khẩu;Số Dư");
+
+                    foreach (var acc in accounts)
                     {
-                        var value = properties[i].GetValue(laptop)?.ToString() ?? "";
-                        if (value.Contains(";") || value.Contains("\""))
+                        string[] values = new string[]
                         {
-                            value = $"\"{value.Replace("\"", "\"\"")}\"";
-                        }
-                        sb.Append(value);
-                        if (i < properties.Length - 1)
-                        {
-                            sb.Append(";");
-                        }
+                            acc.AccountID.ToString(),
+                            acc.PersonID.ToString(),
+                            acc.AccountName,
+                            acc.Password.ToString(),
+                            acc.Balance.ToString()
+                        };
+
+                        sb.AppendLine(string.Join(";", values.Select(v =>
+                            v.Contains(";") || v.Contains("\"")
+                                ? $"\"{v.Replace("\"", "\"\"")}\""
+                                : v)));
                     }
-                    sb.AppendLine();
                 }
+                else
+                {
+                    // ---- Ghi file Person.csv ----
+                    sb.AppendLine("Mã Người Dùng;Họ;Tên;Giới Tính;Ngày Sinh;Thành Phố;Số Điện Thoại;Email;CCCD");
+
+                    foreach (var acc in accounts)
+                    {
+                        string[] values = new string[]
+                        {
+                            acc.PersonID.ToString(),
+                            acc.LastName,
+                            acc.FirstName,
+                            acc.Gender,
+                            acc.DOB.ToString("dd/MM/yyyy"),
+                            acc.City,
+                            acc.PhoneNumber,
+                            acc.Email,
+                            acc.IdCard
+                        };
+
+                        sb.AppendLine(string.Join(";", values.Select(v =>
+                            v.Contains(";") || v.Contains("\"")
+                                ? $"\"{v.Replace("\"", "\"\"")}\""
+                                : v)));
+                    }
+                }
+
                 return sb.ToString();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error converting laptops to CSV: {ex.Message}");
+                Console.WriteLine($"Error converting list to CSV: {ex.Message}");
                 return string.Empty;
             }
         }

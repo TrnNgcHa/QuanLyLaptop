@@ -9,6 +9,7 @@ namespace QuanLyLaptop.Models
     public class Account: Person
     {
         public int AccountID { get; set; }
+        public int PersonID { get; set; }
         public string AccountName { get; set; }
         public int Password { get; set; }
         public int Balance { get; set; }
@@ -17,23 +18,6 @@ namespace QuanLyLaptop.Models
         {
             AccountID = Balance = Password = 0;
             AccountName = "";
-        }
-
-        public Account(Account acc) 
-        {
-            this.AccountID = acc.AccountID;
-            this.PersonID = acc.PersonID;
-            this.AccountName = acc.AccountName;
-            this.Password = acc.Password;
-            this.Balance = acc.Balance;
-            this.LastName = acc.LastName;
-            this.FirstName = acc.FirstName;
-            this.Gender = acc.Gender;
-            this.DOB = acc.DOB;
-            this.PhoneNumber = acc.PhoneNumber;
-            this.City = acc.City;
-            this.Email = acc.Email;
-            this.IdCard = acc.IdCard;
         }
 
         public void CopyFrom(Account acc) 
