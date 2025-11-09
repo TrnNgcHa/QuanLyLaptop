@@ -61,7 +61,6 @@
             MaTaiKhoan = new DataGridViewTextBoxColumn();
             TenTaiKhoan = new DataGridViewTextBoxColumn();
             MaNguoiDung = new DataGridViewTextBoxColumn();
-            TenNguoiDung = new DataGridViewTextBoxColumn();
             MaLaptop = new DataGridViewTextBoxColumn();
             TenLaptop = new DataGridViewTextBoxColumn();
             TongTien = new DataGridViewTextBoxColumn();
@@ -76,7 +75,7 @@
             // dgvQuanLyHoaDon
             // 
             dgvQuanLyHoaDon.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvQuanLyHoaDon.Columns.AddRange(new DataGridViewColumn[] { STT, MaHoaDon, NgayLapHoaDon, MaTaiKhoan, TenTaiKhoan, MaNguoiDung, TenNguoiDung, MaLaptop, TenLaptop, TongTien });
+            dgvQuanLyHoaDon.Columns.AddRange(new DataGridViewColumn[] { STT, MaHoaDon, NgayLapHoaDon, MaTaiKhoan, TenTaiKhoan, MaNguoiDung, MaLaptop, TenLaptop, TongTien });
             dgvQuanLyHoaDon.Dock = DockStyle.Fill;
             dgvQuanLyHoaDon.Location = new Point(3, 82);
             dgvQuanLyHoaDon.Name = "dgvQuanLyHoaDon";
@@ -447,17 +446,6 @@
             MaNguoiDung.ReadOnly = true;
             MaNguoiDung.Width = 133;
             // 
-            // TenNguoiDung
-            // 
-            TenNguoiDung.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            TenNguoiDung.DataPropertyName = "PersonName";
-            TenNguoiDung.HeaderText = "Tên Người Dùng";
-            TenNguoiDung.MinimumWidth = 6;
-            TenNguoiDung.Name = "TenNguoiDung";
-            TenNguoiDung.ReadOnly = true;
-            TenNguoiDung.Visible = false;
-            TenNguoiDung.Width = 135;
-            // 
             // MaLaptop
             // 
             MaLaptop.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
@@ -543,7 +531,6 @@
         private DataGridViewTextBoxColumn MaTaiKhoan;
         private DataGridViewTextBoxColumn TenTaiKhoan;
         private DataGridViewTextBoxColumn MaNguoiDung;
-        private DataGridViewTextBoxColumn TenNguoiDung;
         private DataGridViewTextBoxColumn MaLaptop;
         private DataGridViewTextBoxColumn TenLaptop;
         private DataGridViewTextBoxColumn TongTien;

@@ -72,7 +72,6 @@ namespace QuanLyLaptop
                 CurrentAccount.AccountID,
                 CurrentAccount.AccountName,
                 CurrentAccount.PersonID,
-                CurrentAccount.LastName + " " + CurrentAccount.FirstName,
                 SelectedLaptop.LaptopID,
                 SelectedLaptop.LaptopName,
                 SelectedLaptop.Price

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace QuanLyLaptop.Models
 {
-    public class Receipt
+    public class Receipt : Person
     {
         public int ReceiptID { get; set; }
         public DateOnly InvoiceDate { get; set; }
         public int AccountID { get; set; }
         public string AccountName { get; set; }
-        public int PersonID { get; set; }
-        public string PersonName { get; set; }
+
+        public new int PersonID { get; set; }
         public int LaptopID { get; set; }
         public string LaptopName { get; set; }
         public int Total { get; set; }
@@ -22,17 +22,16 @@ namespace QuanLyLaptop.Models
         {
             ReceiptID = AccountID = PersonID = LaptopID = Total = 0;
             InvoiceDate = new DateOnly(1,1,1);
-            AccountName = PersonName = LaptopName = "";
+            AccountName = LaptopName = "";
         }
 
-        public Receipt(int receiptID, DateOnly invoiceDate, int accountID, string accountName, int personID, string personName, int laptopID, string laptopName,  int total)
+        public Receipt(int receiptID, DateOnly invoiceDate, int accountID, string accountName, int personID, int laptopID, string laptopName,  int total)
         {
             ReceiptID = receiptID;
             InvoiceDate = invoiceDate;
             AccountID = accountID;
             AccountName = accountName;
             PersonID = personID;
-            PersonName = personName;
             LaptopID = laptopID;
             LaptopName = laptopName;
             Total = total;
@@ -57,16 +56,30 @@ namespace QuanLyLaptop.Models
             AccountID = Convert.ToInt32(values[2]);
             AccountName = values[3];
             PersonID = Convert.ToInt32(values[4]);
-            PersonName = values[5];
-            LaptopID = Convert.ToInt32(values[6]);
-            LaptopName = values[7];
-            Total = Convert.ToInt32(values[8]);
+            LaptopID = Convert.ToInt32(values[5]);
+            LaptopName = values[6];
+            Total = Convert.ToInt32(values[7]);
         }
 
-        
-        public List<Receipt> GetList(string fileName = "")
+        public void FillData(List<Person> ps)
+        {
+            Person p = ps.First(x => x.PersonID == PersonID);
+            LastName = p.LastName;
+            FirstName = p.FirstName;
+            Gender = p.Gender;
+            DOB = p.DOB;
+            PhoneNumber = p.PhoneNumber;
+            City = p.City;
+            Email = p.Email;
+            IdCard = p.IdCard;
+        }
+
+
+
+        public new List<Receipt> GetList(string fileName = "")
         {
             List<Receipt> receiptList = new List<Receipt>();
+            List<Person> personList = new Person().GetList();
             fileName = fileName == "" ? GlobalSetting.ReceiptFile : fileName;
             using (StreamReader reader = new StreamReader(fileName))
             {
@@ -77,6 +90,7 @@ namespace QuanLyLaptop.Models
                 {
                     line = reader.ReadLine();
                     Receipt rc = new Receipt(line);
+                    rc.FillData(personList);
                     receiptList.Add(rc);
                 }
             }

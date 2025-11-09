@@ -42,10 +42,8 @@ namespace QuanLyLaptop
             lsvLichSuGiaoDich.GridLines = true;
 
             lsvLichSuGiaoDich.Columns.Clear();
-            lsvLichSuGiaoDich.Columns.Add("Ngày lập", 120);
-            lsvLichSuGiaoDich.Columns.Add("Tài khoản", 150);
+            lsvLichSuGiaoDich.Columns.Add("Ngày giao dịch", 120);
             lsvLichSuGiaoDich.Columns.Add("Laptop", 250);
-            lsvLichSuGiaoDich.Columns.Add("Phụ kiện", 200);
             lsvLichSuGiaoDich.Columns.Add("Tổng tiền", 100);
 
             List<Receipt> receipts = MainMenu.Receipts.Where(r => r.AccountID == acc.AccountID).ToList();
@@ -56,7 +54,6 @@ namespace QuanLyLaptop
 
                 // Tạo item
                 ListViewItem item = new ListViewItem(r.InvoiceDate.ToString("dd/MM/yyyy"));
-                item.SubItems.Add(r.PersonName);
                 item.SubItems.Add(r.LaptopName);
                 item.SubItems.Add($"{r.Total:N0}₫");
 
@@ -154,6 +151,10 @@ namespace QuanLyLaptop
             {
                 MainMenu.Accounts.RemoveAll(a => a.AccountID == acc.AccountID);
                 MainMenu.Reviews.RemoveAll(r => r.AccountID == acc.AccountID);
+                Receipt rcp = MainMenu.Receipts.First(r => r.AccountID == acc.AccountID);
+                rcp.AccountID = 0;
+                rcp.AccountName = "Tài khoản đã xóa";
+
                 AccountAuthentication.CurrentAccount = null;
                 var form = Application.OpenForms["Advanced"];
                 if (form != null)

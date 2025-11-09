@@ -75,21 +75,15 @@ namespace QuanLyLaptop
         {
             if (dgvQuanLyHoaDon.CurrentRow != null)
             {
-                int id = Convert.ToInt32(dgvQuanLyHoaDon.CurrentRow.Cells["MaTaiKhoan"].Value);
-                var acc = MainMenu.Accounts.FirstOrDefault(a => a.AccountID == id);
-                if(acc == null)
-                {
-                    lblHoTen.Text = lblGioiTinh.Text = lblThanhPho.Text = lblNgaySinh.Text = lblSDT.Text = lblEmail.Text = lblCCCD.Text = lblSoDu.Text = "";
-                    return;
-                }
-                lblHoTen.Text = acc.LastName + " " + acc.FirstName;
-                lblGioiTinh.Text = acc.Gender;
-                lblThanhPho.Text = acc.City;
-                lblNgaySinh.Text = acc.DOB.ToString("dd/MM/yyyy");
-                lblSDT.Text = acc.PhoneNumber;
-                lblEmail.Text = acc.Email;
-                lblCCCD.Text = acc.IdCard;
-                lblSoDu.Text = acc.Balance.ToString("#,##0 VND");
+                int id = Convert.ToInt32(dgvQuanLyHoaDon.CurrentRow.Cells["MaNguoiDung"].Value);
+                Receipt rcp = MainMenu.Receipts.First(r => r.PersonID == id);
+                lblHoTen.Text = rcp.LastName + " " + rcp.FirstName;
+                lblGioiTinh.Text = rcp.Gender;
+                lblThanhPho.Text = rcp.City;
+                lblNgaySinh.Text = rcp.DOB.ToString("dd/MM/yyyy");
+                lblSDT.Text = rcp.PhoneNumber;
+                lblEmail.Text = rcp.Email;
+                lblCCCD.Text = rcp.IdCard;
             }
         }
 
