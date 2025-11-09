@@ -286,12 +286,12 @@ namespace QuanLyLaptop.Models
             try
             {
                 var sb = new StringBuilder();
-                string lineHeader = "ReceiptID;InvoiceDate;AccountID;AccountName;PersonID;PersonName;LaptopID;LaptopName;LaptopPrice;ExtraItems;ExtraPrices;TotalAmount";
+                string lineHeader = "ReceiptID;InvoiceDate;AccountID;AccountName;PersonID;LaptopID;LaptopName;LaptopPrice";
                 sb.AppendLine(lineHeader);
                 foreach (var laptop in receipts)
                 {
                     var properties = laptop.GetType().GetProperties();
-                    for (int i = 0; i < properties.Length; i++)
+                    for (int i = 0; i < 8; i++)
                     {
                         var value = properties[i].GetValue(laptop)?.ToString() ?? "";
                         if (value.Contains(";") || value.Contains("\""))

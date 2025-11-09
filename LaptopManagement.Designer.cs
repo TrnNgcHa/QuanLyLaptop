@@ -271,6 +271,8 @@
             // 
             // flpBinhLuan
             // 
+            flpBinhLuan.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            flpBinhLuan.AutoScroll = true;
             flpBinhLuan.Location = new Point(12, 665);
             flpBinhLuan.Name = "flpBinhLuan";
             flpBinhLuan.Size = new Size(743, 261);

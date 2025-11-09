@@ -662,6 +662,7 @@
             Controls.Add(tableLayoutPanel1);
             Name = "Advanced";
             Text = "Advanced";
+            WindowState = FormWindowState.Maximized;
             Load += Advanced_Load;
             tableLayoutPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);

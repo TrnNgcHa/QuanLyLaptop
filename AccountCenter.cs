@@ -152,7 +152,6 @@ namespace QuanLyLaptop
                 MainMenu.Accounts.RemoveAll(a => a.AccountID == acc.AccountID);
                 MainMenu.Reviews.RemoveAll(r => r.AccountID == acc.AccountID);
                 Receipt rcp = MainMenu.Receipts.First(r => r.AccountID == acc.AccountID);
-                rcp.AccountID = 0;
                 rcp.AccountName = "Tài khoản đã xóa";
 
                 AccountAuthentication.CurrentAccount = null;
