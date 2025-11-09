@@ -23,8 +23,8 @@ namespace QuanLyLaptop
         {
             dgvQuanLyHoaDon.DataSource = MainMenu.Receipts;
 
-            dgvQuanLyHoaDon.Columns["GiaTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dgvQuanLyHoaDon.Columns["GiaTien"].DefaultCellStyle.Format = "#,##0 VND";
+            dgvQuanLyHoaDon.Columns["TongTien"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvQuanLyHoaDon.Columns["TongTien"].DefaultCellStyle.Format = "#,##0 VND";
 
             cmbLoaiTimKiem.SelectedIndex = 0;
 
@@ -76,7 +76,12 @@ namespace QuanLyLaptop
             if (dgvQuanLyHoaDon.CurrentRow != null)
             {
                 int id = Convert.ToInt32(dgvQuanLyHoaDon.CurrentRow.Cells["MaTaiKhoan"].Value);
-                var acc = MainMenu.Accounts.First(a => a.AccountID == id);
+                var acc = MainMenu.Accounts.FirstOrDefault(a => a.AccountID == id);
+                if(acc == null)
+                {
+                    lblHoTen.Text = lblGioiTinh.Text = lblThanhPho.Text = lblNgaySinh.Text = lblSDT.Text = lblEmail.Text = lblCCCD.Text = lblSoDu.Text = "";
+                    return;
+                }
                 lblHoTen.Text = acc.LastName + " " + acc.FirstName;
                 lblGioiTinh.Text = acc.Gender;
                 lblThanhPho.Text = acc.City;

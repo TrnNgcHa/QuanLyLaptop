@@ -1,4 +1,4 @@
-﻿ReceiptID;InvoiceDate;AccountID;AccountName;PersonID;PersonName;LaptopID;LaptopName;LaptopPrice;ExtraItems;ExtraPrices;TotalAmount
+﻿ReceiptID;InvoiceDate;AccountID;AccountName;PersonID;PersonName;LaptopID;LaptopName;Total
 66759;07/01/2025;23340;User1061;13289;Tạ Hoàng Khuê;110762;ASUS ROG Strix G17;35000000
 64571;09/01/2025;28291;User1070;19082;Bạch Mai Chi;109174;Lenovo ThinkPad X13;35000000
 65489;30/01/2025;26320;User1024;12966;Lê Văn Hoa;126543;Dell Vostro 15 3500;16000000

@@ -9,12 +9,12 @@ namespace QuanLyLaptop.Models
     public class Account: Person
     {
         public int AccountID { get; set; }
-        public int PersonID { get; set; }
+        public new int PersonID { get; set; }
         public string AccountName { get; set; }
         public int Password { get; set; }
         public int Balance { get; set; }
 
-        public Account()
+        public Account(): base()
         {
             AccountID = Balance = Password = 0;
             AccountName = "";
@@ -79,7 +79,7 @@ namespace QuanLyLaptop.Models
             IdCard = p.IdCard;
         }
 
-        public List<Account> GetList(string fileName = "")
+        public new List<Account> GetList(string fileName = "")
         {
             List<Account> AccountList = new List<Account>();
             List<Person> PersonList = new Person().GetList();
