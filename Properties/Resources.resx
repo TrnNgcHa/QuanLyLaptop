@@ -133,4 +133,49 @@
   <data name="laptop_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laptop_avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="laptop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

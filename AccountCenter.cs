@@ -14,18 +14,11 @@ namespace QuanLyLaptop
 {
     public partial class AccountCenter : Form
     {
-        Account acc = new Account();
+        Account acc = AccountAuthentication.CurrentAccount;
         bool isEditing = false;
         public AccountCenter()
         {
             InitializeComponent();
-        }
-
-        public AccountCenter(Account currAccount)
-        {
-            InitializeComponent();
-            acc = currAccount;
-
         }
 
         public void Loadtxt()
@@ -76,7 +69,6 @@ namespace QuanLyLaptop
             Loadtxt();
             Loadlsv();
 
-
         }
 
         private void Edit_Click(object sender, EventArgs e)
@@ -116,7 +108,7 @@ namespace QuanLyLaptop
             if (isEditing)
             {
                 MessageBox.Show("Thay đổi thông tin tài khoản sẽ phải đăng nhập lại từ đầu!", "Thay đổi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                var form = Application.OpenForms["LaptopList"];
+                var form = Application.OpenForms["Advanced"];
                 if (form != null)
                 {
                     form.Close();
@@ -136,21 +128,20 @@ namespace QuanLyLaptop
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            acc.LastName = Functions.GetLastName(txtHoTen.Text);
-            acc.FirstName = Functions.GetFirstName(txtHoTen.Text);
-            acc.Gender = txtGioiTinh.Text;
-            acc.DOB = DateOnly.ParseExact(txtNgaySinh.Text, "dd/MM/yyyy");
-            acc.PhoneNumber = txtSDT.Text;
-            acc.City = txtThanhPho.Text;
-            acc.Email = txtEmail.Text;
-            acc.IdCard = txtCCCD.Text;
-            acc.AccountName = txtTaiKhoan.Text;
-            acc.Password = Convert.ToInt32(txtMatKhau.Text);
 
             var result = MessageBox.Show("Lưu thay đổi?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                AccountAuthentication.CurrentAccount.CopyFrom(acc);
+                acc.LastName = Functions.GetLastName(txtHoTen.Text);
+                acc.FirstName = Functions.GetFirstName(txtHoTen.Text);
+                acc.Gender = txtGioiTinh.Text;
+                acc.DOB = DateOnly.ParseExact(txtNgaySinh.Text, "dd/MM/yyyy");
+                acc.PhoneNumber = txtSDT.Text;
+                acc.City = txtThanhPho.Text;
+                acc.Email = txtEmail.Text;
+                acc.IdCard = txtCCCD.Text;
+                acc.AccountName = txtTaiKhoan.Text;
+                acc.Password = Convert.ToInt32(txtMatKhau.Text);
             }
 
             isEditing = true;
@@ -161,11 +152,15 @@ namespace QuanLyLaptop
             var result = MessageBox.Show("Xóa tài khoản sẽ xóa tất cả dữ liệu liên quan. Bạn có chắc chắn muốn xóa tài khoản này?", "Xác nhận xóa tài khoản", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
-                //xóa tất cả dữ liệu liên quan đến tài khoản hiện tại
                 MainMenu.Accounts.RemoveAll(a => a.AccountID == acc.AccountID);
+                MainMenu.Reviews.RemoveAll(r => r.AccountID == acc.AccountID);
                 AccountAuthentication.CurrentAccount = null;
+                var form = Application.OpenForms["Advanced"];
+                if (form != null)
+                {
+                    form.Close();
+                }
                 this.Close();
-                //hiện tại chỉ đóng được mỗi form trung tâm tài khoản, cần đóng cả form danh sách laptop
             }
         }
     }

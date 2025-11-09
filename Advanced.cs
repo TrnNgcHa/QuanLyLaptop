@@ -13,16 +13,9 @@ namespace QuanLyLaptop
 {
     public partial class Advanced : Form
     {
-        public Account CurrentAccount = new Account();
         public Advanced()
         {
             InitializeComponent();
-        }
-
-        public Advanced(Account currAccount)
-        {
-            InitializeComponent();
-            CurrentAccount = currAccount;
         }
 
         public Laptop SelectedLaptop = new Laptop();
@@ -37,6 +30,8 @@ namespace QuanLyLaptop
                     c.BackColor = color;
             }
         }
+
+        bool isCreated = false;
         public void LoadLaptopList(List<Laptop> list)
         {
             flpDanhSachLaptop.Controls.Clear();
@@ -46,7 +41,7 @@ namespace QuanLyLaptop
                 Panel Card = new Panel
                 {
                     Width = 325,
-                    Height = 375,
+                    Height = 475,
                     BorderStyle = BorderStyle.FixedSingle,
                     Margin = new Padding(10),
                     BackColor = Color.WhiteSmoke,
@@ -62,6 +57,57 @@ namespace QuanLyLaptop
                     Height = 200,
                     Enabled = false
                 };
+                int rd = laptop.LaptopID % 5 + 1;
+                switch (rd)
+                {
+                    case 1:
+                        HinhAnh.Image = Properties.Resources.laptop1;
+                        break;
+                    case 2:
+                        HinhAnh.Image = Properties.Resources.laptop2;
+                        break;
+                    case 3:
+                        HinhAnh.Image = Properties.Resources.laptop3;
+                        break;
+                    case 4:
+                        HinhAnh.Image = Properties.Resources.laptop4;
+                        break;
+                    case 5:
+                        HinhAnh.Image = Properties.Resources.laptop5;
+                        break;
+                    case 6:
+                        HinhAnh.Image = Properties.Resources.laptop6;
+                        break;
+                    case 7:
+                        HinhAnh.Image = Properties.Resources.laptop7;
+                        break;
+                    case 8:
+                        HinhAnh.Image = Properties.Resources.laptop8;
+                        break;
+                    case 9:
+                        HinhAnh.Image = Properties.Resources.laptop9;
+                        break;
+                    case 10:
+                        HinhAnh.Image = Properties.Resources.laptop10;
+                        break;
+                    case 11:
+                        HinhAnh.Image = Properties.Resources.laptop11;
+                        break;
+                    case 12:
+                        HinhAnh.Image = Properties.Resources.laptop12;
+                        break;
+                    case 13:
+                        HinhAnh.Image = Properties.Resources.laptop13;
+                        break;
+                    case 14:
+                        HinhAnh.Image = Properties.Resources.laptop14;
+                        break;
+                    case 15:
+                        HinhAnh.Image = Properties.Resources.laptop15;
+                        break;
+                    default:
+                        break;
+                }
 
                 TextBox MaLaptop = new TextBox
                 {
@@ -87,11 +133,17 @@ namespace QuanLyLaptop
 
                 TextBox ThongTin = new TextBox
                 {
-                    Text = $"Hãng: {laptop.AgencyName}\r\nNgày nhập: {laptop.StockInDate:dd/MM/yyyy}\r\nSố tồn: {laptop.RemainAmount}",
-                    Font = new Font("Segoe UI", 10, FontStyle.Regular),
+                    Text = $"Hãng: {laptop.AgencyName}" +
+                    $"\r\nNgày nhập: {laptop.StockInDate:dd/MM/yyyy}" +
+                    $"\r\nSố tồn: {laptop.RemainAmount}" +
+                    $"\r\nCPU: {laptop.CPU}" +
+                    $"\r\nGPU: {laptop.GPU}" +
+                    $"\r\nRAM: {laptop.RAM}" +
+                    $"\r\nỔ cứng: {laptop.Storage}" ,
+                    Font = new Font("Segoe UI", 9, FontStyle.Bold),
                     Dock = DockStyle.Top,
                     Multiline = true,
-                    Height = 80,
+                    Height = 180,
                     TextAlign = HorizontalAlignment.Left,
                     ReadOnly = true,
                     BackColor = Card.BackColor,
@@ -136,11 +188,16 @@ namespace QuanLyLaptop
             }
         }
 
+        private void Card_MouseHover(object? sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private void Advanced_Load(object sender, EventArgs e)
         {
-            lblTenNguoiDung.Text = CurrentAccount.LastName + " " + CurrentAccount.FirstName;
-            lblTenTaiKhoan.Text = CurrentAccount.AccountName;
-            lblSoDu.Text = string.Format("{0:#,##0 VND}", CurrentAccount.Balance);
+            lblTenNguoiDung.Text = AccountAuthentication.CurrentAccount.LastName + " " + AccountAuthentication.CurrentAccount.FirstName;
+            lblTenTaiKhoan.Text = AccountAuthentication.CurrentAccount.AccountName;
+            lblSoDu.Text = string.Format("{0:#,##0 VND}", AccountAuthentication.CurrentAccount.Balance);
 
             LoadLaptopList(MainMenu.Laptops);
 
@@ -150,10 +207,10 @@ namespace QuanLyLaptop
         private void btnPurchase_Click(object sender, EventArgs e)
         {
             //truyền laptop được chọn và tài khoản hiện tại vào form Purchase
-            var form = new Purchase(SelectedLaptop, CurrentAccount);
+            var form = new Purchase(SelectedLaptop, AccountAuthentication.CurrentAccount);
             form.UpdateAccountBalance = (updatedAcc) =>
             {
-                CurrentAccount = updatedAcc;
+                AccountAuthentication.CurrentAccount = updatedAcc;
                 lblSoDu.Text = string.Format("{0:#,##0 VND}", updatedAcc.Balance);
             };
             form.TopMost = true;
@@ -222,7 +279,7 @@ namespace QuanLyLaptop
         private void btnTTTK_Click(object sender, EventArgs e)
         {
             //truyền vào tài khoản hiện tại
-            var form = new AccountCenter(CurrentAccount);
+            var form = new AccountCenter();
             form.ShowDialog();
         }
         private void ChonLoaiDanhGia(object sender, EventArgs e)
@@ -241,9 +298,10 @@ namespace QuanLyLaptop
             foreach (Review rv in filteredReviews)
             {
                 flpBinhLuan.Controls.Add(rv.ReviewTextBox);
-                if (rv.AccountID == CurrentAccount.AccountID)
+                if (rv.AccountID == AccountAuthentication.CurrentAccount.AccountID)
                 {
                     rv.DeleteButton.Visible = true;
+                    rv.ReviewTextBox.Enabled = true;
                     flpBinhLuan.Controls.Add(rv.DeleteButton);
 
                     rv.DeleteButton.Click += (s, ev) =>
@@ -280,6 +338,8 @@ namespace QuanLyLaptop
                 flpBinhLuan.Controls.Remove(review.ReviewTextBox);
                 flpBinhLuan.Controls.Remove(review.DeleteButton);
             };
+            review.ReviewTextBox.Enabled = true;
+            review.DeleteButton.Visible = true;
 
             MainMenu.Reviews.Add(review);
             flpBinhLuan.Controls.Add(review.ReviewTextBox);

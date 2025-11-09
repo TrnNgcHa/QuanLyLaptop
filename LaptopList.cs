@@ -28,7 +28,6 @@ namespace QuanLyLaptop
             CurrentAccount = currAccount;
         }
 
-        //Biến laptop được chọn
         public Laptop SelectedLaptop = new Laptop();
         private void DanhSachLaptop_Load(object sender, EventArgs e)
         {
@@ -42,8 +41,6 @@ namespace QuanLyLaptop
 
             cmbLoaiTimKiem.SelectedIndex = 0;
         }
-
-
 
         private void dgvDanhSachLaptop_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
@@ -153,7 +150,7 @@ namespace QuanLyLaptop
         private void btnTTTK_Click(object sender, EventArgs e)
         {
             //truyền vào tài khoản hiện tại
-            var form = new AccountCenter(CurrentAccount);
+            var form = new AccountCenter();
             form.ShowDialog();
         }
         private void ChonLoaiDanhGia(object sender, EventArgs e)

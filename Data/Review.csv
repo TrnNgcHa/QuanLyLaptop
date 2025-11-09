@@ -1,401 +1,401 @@
 ﻿ReviewID;AccountID;AccountName;LaptopID;LaptopName;ReviewDate;Rating;Comments
-1000000;22044;User1057;130011;Acer Chromebook 315;26/11/2023;1;Máy nhẹ, tiện mang đi học
-1000001;27279;User1065;168693;HP EliteBook 840 G7;06/08/2023;3;Cấu hình mạnh, chơi game tốt
-1000002;25291;User1058;108494;Acer Swift 5 SF514-55T-50QX;31/12/2023;5;Giá hơi cao so với cấu hình
-1000003;23519;User1049;191640;ASUS ROG Strix Scar 15 G533;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000004;28397;User1037;128854;HP Chromebook x360;31/01/2023;4;Chất lượng hoàn thiện tốt
-1000005;26110;User1004;174542;ASUS VivoBook Flip 14;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
-1000006;20758;User1071;104114;Acer Nitro 5;08/04/2024;1;Sạc nhanh, không bị nóng
-1000007;26188;User1074;116597;MacBook Pro 13-inch M2 (2022);10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
-1000008;28994;User1027;101959;HP ProBook 455;02/08/2024;2;Máy hơi nóng khi chơi game lâu
-1000009;26299;User1069;148846;Lenovo IdeaPad 5;11/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000010;29196;User1015;188051;HP Chromebook x360 14c;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
-1000011;24072;User1062;156836;Lenovo IdeaPad Flex 3;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
-1000012;22678;User1019;148846;Lenovo IdeaPad 5;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000013;25483;User1009;124375;Lenovo ThinkPad E15;06/01/2024;4;Màn hình bị ám nhẹ ở góc
-1000014;23519;User1049;196701;ASUS Chromebook Flip C436;22/01/2023;2;Pin yếu, dùng nhanh hết
-1000015;20923;User1052;178914;HP ProBook 450;31/01/2023;5;Cấu hình mạnh, chơi game tốt
-1000016;27112;User1017;129514;HP Envy 13;09/08/2024;3;Chưa được như kỳ vọng
-1000017;26656;User1055;191816;Acer Chromebook Spin 713;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
-1000018;23085;User1043;160369;MacBook Pro 16-inch (2021;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000019;22044;User1057;191816;Acer Chromebook Spin 713;05/04/2024;5;Màn hình bị ám nhẹ ở góc
-1000020;25015;User1032;103938;Lenovo IdeaPad 3;24/02/2023;4;Máy nhẹ, tiện mang đi học
-1000021;26293;User1077;133228;ASUS TUF Gaming F15;11/04/2023;1;Máy nhẹ, tiện mang đi học
-1000022;26299;User1069;175086;Lenovo ThinkPad L14;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000023;28272;User1079;192476;ASUS ZenBook 13 OLED;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
-1000024;25044;User1029;129025;HP Pavilion 14-ce3600;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000025;25329;User1041;108494;Acer Swift 5 SF514-55T-50QX;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000026;23938;User1039;137708;Dell XPS 13;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
-1000027;28753;User1054;172682;MacBook Pro 15-inch (2019) 256GB;22/07/2023;4;Chưa được như kỳ vọng
-1000028;21424;User1011;168693;HP EliteBook 840 G7;23/04/2023;5;Máy nhẹ, tiện mang đi học
-1000029;29829;User1067;192476;ASUS ZenBook 13 OLED;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000030;21424;User1011;114580;ASUS ROG Zephyrus M16;07/01/2024;4;Sạc nhanh, không bị nóng
-1000031;29732;User1059;139581;HP Chromebook 14;15/05/2023;4;Hài lòng với sản phẩm này
-1000032;23340;User1061;198508;HP EliteBook 850;07/09/2023;3;Màn hình bị ám nhẹ ở góc
-1000033;26863;User1044;102863;ASUS ROG Zephyrus G14;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
-1000034;26623;User1021;109174;Lenovo ThinkPad X13;30/07/2023;5;Pin yếu, dùng nhanh hết
-1000035;22370;User1005;135215;Lenovo Yoga 9i;12/04/2024;1;Cấu hình mạnh, chơi game tốt
-1000036;27598;User1026;184013;HP ProBook 640;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000037;24072;User1062;191640;ASUS ROG Strix Scar 15 G533;10/05/2024;1;Màn hình bị ám nhẹ ở góc
-1000038;29875;User1031;156910;Lenovo Legion 5 15ACH6;10/06/2023;3;Pin yếu, dùng nhanh hết
-1000039;22044;User1057;189612;ASUS VivoBook S14;05/03/2023;1;Pin yếu, dùng nhanh hết
-1000040;20000;Admin;135743;ASUS TUF Gaming A15;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
-1000041;23211;User1075;131841;Acer Aspire 7;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000042;27279;User1065;106627;Acer Predator Triton 500 SE;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000043;26188;User1074;168592;Acer Swift 3;13/09/2023;5;Cảm thấy rất đáng tiền
-1000044;28115;User1028;168592;Acer Swift 3;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000045;25329;User1041;154152;ASUS VivoBook 15 K513;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
-1000046;29875;User1031;196353;Lenovo ThinkBook 14;15/02/2023;3;Chất lượng hoàn thiện tốt
-1000047;24861;User1035;191382;MacBook Pro 16-inch M2 Max (2023);21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000048;22678;User1019;125005;Lenovo Legion 5;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
-1000049;25491;User1010;142838;MacBook Pro 16-inch (2019) 1TB;07/07/2023;1;Màn hình bị ám nhẹ ở góc
-1000050;22759;User1051;167734;HP Omen 17;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
-1000051;28291;User1070;188082;MacBook Air M1 (2020) 256GB;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
-1000052;24072;User1062;103938;Lenovo IdeaPad 3;29/05/2023;5;Cấu hình mạnh, chơi game tốt
-1000053;25044;User1029;131890;Acer Aspire 5 A515-45-R92M;08/02/2023;3;Màn hình bị ám nhẹ ở góc
-1000054;23211;User1075;156910;Lenovo Legion 5 15ACH6;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
-1000055;28291;User1070;191430;Acer Swift 3 SF314-59;23/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000056;27112;User1017;191640;ASUS ROG Strix Scar 15 G533;03/07/2024;1;Cấu hình mạnh, chơi game tốt
-1000057;22923;User1003;110762;ASUS ROG Strix G17;31/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000058;23102;User1020;137708;Dell XPS 13;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000059;28291;User1070;179111;Acer Chromebook Spin 311;15/08/2023;5;Hài lòng với sản phẩm này
-1000060;23085;User1043;174168;Lenovo IdeaPad Gaming 3;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
-1000061;27842;User1046;131890;Acer Aspire 5 A515-45-R92M;24/04/2024;1;Cảm thấy rất đáng tiền
-1000062;28028;User1076;160991;ASUS ROG Zephyrus G15 GA503;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000063;22923;User1003;182800;HP Omen 15;18/01/2023;3;Chất lượng hoàn thiện tốt
-1000064;25291;User1058;106627;Acer Predator Triton 500 SE;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
-1000065;24072;User1062;105461;ASUS ExpertBook B1;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000066;22738;User1023;111305;Lenovo IdeaPad Gaming 3 15IMH05;21/07/2024;2;Pin yếu, dùng nhanh hết
-1000067;25483;User1009;179567;MacBook Air M3 (2024);27/04/2024;4;Sạc nhanh, không bị nóng
-1000068;23211;User1075;129025;HP Pavilion 14-ce3600;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
-1000069;22738;User1023;198508;HP EliteBook 850;08/05/2024;2;Giá hơi cao so với cấu hình
-1000070;25044;User1029;197597;MacBook Pro 16-inch (2019) 512GB;14/01/2024;4;Cảm thấy rất đáng tiền
-1000071;23126;User1016;100984;MacBook Pro 13-inch (2019;10/12/2023;3;Cảm thấy rất đáng tiền
-1000072;29732;User1059;129491;HP Pavilion Gaming 15;18/05/2024;3;Máy nhẹ, tiện mang đi học
-1000073;21424;User1011;137708;Dell XPS 13;24/03/2024;4;Pin yếu, dùng nhanh hết
-1000074;23211;User1075;148829;Lenovo Legion 5 Pro;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000075;25491;User1010;156910;Lenovo Legion 5 15ACH6;26/01/2023;2;Pin yếu, dùng nhanh hết
-1000076;26303;User1048;126543;Dell Vostro 15 3500;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
-1000077;26748;User1064;166868;Lenovo Legion Slim 7;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
-1000078;23938;User1039;191382;MacBook Pro 16-inch M2 Max (2023);07/01/2024;2;Quạt kêu hơi to khi chạy nặng
-1000079;28994;User1027;191430;Acer Swift 3 SF314-59;09/07/2023;5;Hài lòng với sản phẩm này
-1000080;22134;User1030;148168;Acer Swift 5;28/09/2023;4;Cấu hình mạnh, chơi game tốt
-1000081;26303;User1048;131841;Acer Aspire 7;02/07/2024;2;Màn hình bị ám nhẹ ở góc
-1000082;28028;User1076;198505;MacBook Pro 14-inch M3 Pro (2024);01/02/2023;4;Cảm thấy rất đáng tiền
-1000083;28397;User1037;129025;HP Pavilion 14-ce3600;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000084;22923;User1003;196353;Lenovo ThinkBook 14;25/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000085;21518;User1001;133677;Acer Spin 5;21/09/2023;4;Chưa được như kỳ vọng
-1000086;28144;User1040;191382;MacBook Pro 16-inch M2 Max (2023);10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
-1000087;20855;User1025;108151;Acer Nitro 5 AN515-58;05/06/2023;2;Máy hơi nóng khi chơi game lâu
-1000088;22681;User1047;198508;HP EliteBook 850;08/11/2023;4;Sạc nhanh, không bị nóng
-1000089;26748;User1064;188082;MacBook Air M1 (2020) 256GB;20/08/2023;1;Chưa được như kỳ vọng
-1000090;28144;User1040;168592;Acer Swift 3;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
-1000091;22678;User1019;184002;Acer Nitro 5 AN515-58-50RS;20/01/2024;2;Cảm thấy rất đáng tiền
-1000092;23102;User1020;161310;Acer Predator Helios 300 PH315-54;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000093;25200;User1034;144625;MacBook Pro 15-inch (2019) 512GB;27/12/2023;2;Cấu hình mạnh, chơi game tốt
-1000094;21313;User1073;175086;Lenovo ThinkPad L14;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000095;22282;User1072;131890;Acer Aspire 5 A515-45-R92M;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000096;24936;User1036;124375;Lenovo ThinkPad E15;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
-1000097;22434;User1014;108558;MacBook Pro 14-inch (2021;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000098;23085;User1043;135589;MacBook Pro 13-inch (2020;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
-1000099;20020;User1063;148754;HP Pavilion 15-eg0073cl;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
-1000100;27279;User1065;156541;Dell Latitude 7420;26/11/2023;1;Máy nhẹ, tiện mang đi học
-1000101;26863;User1044;124375;Lenovo ThinkPad E15;06/08/2023;3;Cấu hình mạnh, chơi game tốt
-1000102;25044;User1029;154152;ASUS VivoBook 15 K513;31/12/2023;5;Giá hơi cao so với cấu hình
-1000103;24574;User1045;151149;HP Omen 16;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000104;24274;User1022;104114;Acer Nitro 5;31/01/2023;4;Chất lượng hoàn thiện tốt
-1000105;23340;User1061;137629;MacBook Air M2 (2022);09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
-1000106;22759;User1051;196701;ASUS Chromebook Flip C436;08/04/2024;1;Sạc nhanh, không bị nóng
-1000107;24495;User1007;150959;MacBook Pro 14-inch M2 Pro (2023);10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
-1000108;22759;User1051;102710;Acer Aspire 7 A715-42G;02/08/2024;2;Máy hơi nóng khi chơi game lâu
-1000109;25483;User1009;110762;ASUS ROG Strix G17;11/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000110;21313;User1073;124375;Lenovo ThinkPad E15;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
-1000111;23340;User1061;110762;ASUS ROG Strix G17;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
-1000112;20020;User1063;148829;Lenovo Legion 5 Pro;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000113;26303;User1048;156541;Dell Latitude 7420;06/01/2024;4;Màn hình bị ám nhẹ ở góc
-1000114;26320;User1024;156836;Lenovo IdeaPad Flex 3;22/01/2023;2;Pin yếu, dùng nhanh hết
-1000115;22434;User1014;151149;HP Omen 16;31/01/2023;5;Cấu hình mạnh, chơi game tốt
-1000116;20855;User1025;166395;ASUS ROG Strix Scar 17;09/08/2024;3;Chưa được như kỳ vọng
-1000117;29033;User1042;103938;Lenovo IdeaPad 3;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
-1000118;21138;User1068;160054;Acer Nitro 5 AN515-45;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000119;26623;User1021;197849;Acer Predator Triton 300 SE;05/04/2024;5;Màn hình bị ám nhẹ ở góc
-1000120;24861;User1035;113617;MacBook Pro 16-inch (2021;24/02/2023;4;Máy nhẹ, tiện mang đi học
-1000121;21518;User1001;120242;ASUS ROG Strix Scar 15;11/04/2023;1;Máy nhẹ, tiện mang đi học
-1000122;20000;Admin;141349;MacBook Pro 16-inch M3 Max (2024);10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000123;22370;User1005;197597;MacBook Pro 16-inch (2019) 512GB;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
-1000124;29635;User1038;191640;ASUS ROG Strix Scar 15 G533;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000125;22370;User1005;171247;HP Omen 15-ek0013dx;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000126;27112;User1017;135743;ASUS TUF Gaming A15;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
-1000127;25200;User1034;151149;HP Omen 16;22/07/2023;4;Chưa được như kỳ vọng
-1000128;26188;User1074;150959;MacBook Pro 14-inch M2 Pro (2023);23/04/2023;5;Máy nhẹ, tiện mang đi học
-1000129;23211;User1075;176078;HP Pavilion 14;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000130;27958;User1033;186732;Dell Inspiron 15 5000;07/01/2024;4;Sạc nhanh, không bị nóng
-1000131;25329;User1041;142838;MacBook Pro 16-inch (2019) 1TB;15/05/2023;4;Hài lòng với sản phẩm này
-1000132;26299;User1069;111305;Lenovo IdeaPad Gaming 3 15IMH05;07/09/2023;3;Màn hình bị ám nhẹ ở góc
-1000133;26623;User1021;135215;Lenovo Yoga 9i;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
-1000134;20000;Admin;103771;ASUS ZenBook 14 OLED;30/07/2023;5;Pin yếu, dùng nhanh hết
-1000135;25015;User1032;110762;ASUS ROG Strix G17;12/04/2024;1;Cấu hình mạnh, chơi game tốt
-1000136;25015;User1032;116597;MacBook Pro 13-inch M2 (2022);10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000137;28115;User1028;115893;Acer Aspire 7 A715-75G;10/05/2024;1;Màn hình bị ám nhẹ ở góc
-1000138;26188;User1074;130011;Acer Chromebook 315;10/06/2023;3;Pin yếu, dùng nhanh hết
-1000139;21518;User1001;142838;MacBook Pro 16-inch (2019) 1TB;05/03/2023;1;Pin yếu, dùng nhanh hết
-1000140;26188;User1074;141419;HP Elite Dragonfly;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
-1000141;26643;User1060;197849;Acer Predator Triton 300 SE;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000142;26656;User1055;176524;Acer Swift 5 SF514-55T;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000143;22434;User1014;131896;Acer Chromebook 514;13/09/2023;5;Cảm thấy rất đáng tiền
-1000144;28753;User1054;144625;MacBook Pro 15-inch (2019) 512GB;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000145;28994;User1027;102130;Lenovo ThinkPad T14;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
-1000146;20020;User1063;106047;Acer Predator Helios 300 PH315-55;15/02/2023;3;Chất lượng hoàn thiện tốt
-1000147;25200;User1034;140095;HP Spectre x360 13;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000148;23102;User1020;133677;Acer Spin 5;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
-1000149;26110;User1004;188272;ASUS ROG Flow X13;07/07/2023;1;Màn hình bị ám nhẹ ở góc
-1000150;24072;User1062;167734;HP Omen 17;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
-1000151;27112;User1017;164081;HP Omen 17-cb1000;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
-1000152;29829;User1067;177670;ASUS ZenBook Flip 13;29/05/2023;5;Cấu hình mạnh, chơi game tốt
-1000153;24936;User1036;113617;MacBook Pro 16-inch (2021;08/02/2023;3;Màn hình bị ám nhẹ ở góc
-1000154;21816;User1013;188272;ASUS ROG Flow X13;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
-1000155;22044;User1057;140547;MacBook Pro 13-inch (2020;23/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000156;26863;User1044;166395;ASUS ROG Strix Scar 17;03/07/2024;1;Cấu hình mạnh, chơi game tốt
-1000157;22759;User1051;148754;HP Pavilion 15-eg0073cl;31/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000158;27279;User1065;106047;Acer Predator Helios 300 PH315-55;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000159;26623;User1021;126543;Dell Vostro 15 3500;15/08/2023;5;Hài lòng với sản phẩm này
-1000160;22759;User1051;124375;Lenovo ThinkPad E15;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
-1000161;24274;User1022;102863;ASUS ROG Zephyrus G14;24/04/2024;1;Cảm thấy rất đáng tiền
-1000162;26293;User1077;168693;HP EliteBook 840 G7;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000163;22370;User1005;141419;HP Elite Dragonfly;18/01/2023;3;Chất lượng hoàn thiện tốt
-1000164;28994;User1027;138917;Lenovo IdeaPad 3 15ADA;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
-1000165;22044;User1057;142570;Acer Aspire 5 A515-56;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000166;21138;User1068;176078;HP Pavilion 14;21/07/2024;2;Pin yếu, dùng nhanh hết
-1000167;21816;User1013;196701;ASUS Chromebook Flip C436;27/04/2024;4;Sạc nhanh, không bị nóng
-1000168;21313;User1073;188051;HP Chromebook x360 14c;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
-1000169;29196;User1015;168592;Acer Swift 3;08/05/2024;2;Giá hơi cao so với cấu hình
-1000170;24516;User1012;130536;ASUS ROG Strix G15;14/01/2024;4;Cảm thấy rất đáng tiền
-1000171;25329;User1041;129514;HP Envy 13;10/12/2023;3;Cảm thấy rất đáng tiền
-1000172;28291;User1070;104906;Lenovo Legion 7i;18/05/2024;3;Máy nhẹ, tiện mang đi học
-1000173;29732;User1059;178081;ASUS ROG Strix G15 Advantage Edition;24/03/2024;4;Pin yếu, dùng nhanh hết
-1000174;29635;User1038;192611;Dell G15 Gaming;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000175;28028;User1076;135689;Acer Swift 3 SF314-512;26/01/2023;2;Pin yếu, dùng nhanh hết
-1000176;20000;Admin;167671;Acer Nitro 5 AN515-58-50RS;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
-1000177;28753;User1054;151149;HP Omen 16;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
-1000178;22434;User1014;141419;HP Elite Dragonfly;07/01/2024;2;Quạt kêu hơi to khi chạy nặng
-1000179;21518;User1001;154152;ASUS VivoBook 15 K513;09/07/2023;5;Hài lòng với sản phẩm này
-1000180;29829;User1067;191640;ASUS ROG Strix Scar 15 G533;28/09/2023;4;Cấu hình mạnh, chơi game tốt
-1000181;22678;User1019;196701;ASUS Chromebook Flip C436;02/07/2024;2;Màn hình bị ám nhẹ ở góc
-1000182;27304;User1002;141349;MacBook Pro 16-inch M3 Max (2024);01/02/2023;4;Cảm thấy rất đáng tiền
-1000183;26748;User1064;129514;HP Envy 13;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000184;28144;User1040;155884;Lenovo Chromebook Flex 5;25/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000185;22302;User1056;117836;HP Spectre x360;21/09/2023;4;Chưa được như kỳ vọng
-1000186;26643;User1060;140547;MacBook Pro 13-inch (2020;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
-1000187;27958;User1033;184002;Acer Nitro 5 AN515-58-50RS;05/06/2023;2;Máy hơi nóng khi chơi game lâu
-1000188;23102;User1020;108151;Acer Nitro 5 AN515-58;08/11/2023;4;Sạc nhanh, không bị nóng
-1000189;26110;User1004;101959;HP ProBook 455;20/08/2023;1;Chưa được như kỳ vọng
-1000190;27842;User1046;179111;Acer Chromebook Spin 311;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
-1000191;21816;User1013;131890;Acer Aspire 5 A515-45-R92M;20/01/2024;2;Cảm thấy rất đáng tiền
-1000192;26303;User1048;177670;ASUS ZenBook Flip 13;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000193;26643;User1060;161293;Acer Swift 3 SF314-43;27/12/2023;2;Cấu hình mạnh, chơi game tốt
-1000194;21313;User1073;125909;Lenovo ThinkPad X1 Yoga;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000195;20758;User1071;167734;HP Omen 17;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000196;25015;User1032;156836;Lenovo IdeaPad Flex 3;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
-1000197;23183;User1050;172682;MacBook Pro 15-inch (2019) 256GB;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000198;21816;User1013;129491;HP Pavilion Gaming 15;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
-1000199;23102;User1020;168592;Acer Swift 3;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
-1000200;21424;User1011;142838;MacBook Pro 16-inch (2019) 1TB;26/11/2023;1;Máy nhẹ, tiện mang đi học
-1000201;25483;User1009;104114;Acer Nitro 5;06/08/2023;3;Cấu hình mạnh, chơi game tốt
-1000202;27112;User1017;131890;Acer Aspire 5 A515-45-R92M;31/12/2023;5;Giá hơi cao so với cấu hình
-1000203;25044;User1029;137293;ASUS ZenBook 14;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000204;27864;User1066;191954;HP EliteBook x360;31/01/2023;4;Chất lượng hoàn thiện tốt
-1000205;26623;User1021;110762;ASUS ROG Strix G17;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
-1000206;26293;User1077;179567;MacBook Air M3 (2024);08/04/2024;1;Sạc nhanh, không bị nóng
-1000207;29196;User1015;102710;Acer Aspire 7 A715-42G;10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
-1000208;29829;User1067;128854;HP Chromebook x360;02/08/2024;2;Máy hơi nóng khi chơi game lâu
-1000209;29658;User1008;111305;Lenovo IdeaPad Gaming 3 15IMH05;11/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000210;29288;User1078;129514;HP Envy 13;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
-1000211;25483;User1009;198508;HP EliteBook 850;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
-1000212;29033;User1042;116597;MacBook Pro 13-inch M2 (2022);19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000213;27279;User1065;176078;HP Pavilion 14;06/01/2024;4;Màn hình bị ám nhẹ ở góc
-1000214;23211;User1075;189612;ASUS VivoBook S14;22/01/2023;2;Pin yếu, dùng nhanh hết
-1000215;27958;User1033;109174;Lenovo ThinkPad X13;31/01/2023;5;Cấu hình mạnh, chơi game tốt
-1000216;28144;User1040;102863;ASUS ROG Zephyrus G14;09/08/2024;3;Chưa được như kỳ vọng
-1000217;22302;User1056;139761;Lenovo Yoga C940;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
-1000218;28115;User1028;191954;HP EliteBook x360;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000219;20923;User1052;144229;ASUS VivoBook 15 X515;05/04/2024;5;Màn hình bị ám nhẹ ở góc
-1000220;29732;User1059;111062;ASUS ZenBook Duo 14;24/02/2023;4;Máy nhẹ, tiện mang đi học
-1000221;26430;User1006;148846;Lenovo IdeaPad 5;11/04/2023;1;Máy nhẹ, tiện mang đi học
-1000222;22282;User1072;151149;HP Omen 16;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000223;28397;User1037;177670;ASUS ZenBook Flip 13;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
-1000224;22738;User1023;141419;HP Elite Dragonfly;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000225;25329;User1041;126543;Dell Vostro 15 3500;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000226;25015;User1032;156541;Dell Latitude 7420;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
-1000227;21816;User1013;148754;HP Pavilion 15-eg0073cl;22/07/2023;4;Chưa được như kỳ vọng
-1000228;23085;User1043;135972;Acer Predator Helios 300;23/04/2023;5;Máy nhẹ, tiện mang đi học
-1000229;27864;User1066;101445;Acer Nitro 5 AN515-45-R92M;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000230;22370;User1005;174542;ASUS VivoBook Flip 14;07/01/2024;4;Sạc nhanh, không bị nóng
-1000231;29829;User1067;106627;Acer Predator Triton 500 SE;15/05/2023;4;Hài lòng với sản phẩm này
-1000232;26863;User1044;108151;Acer Nitro 5 AN515-58;07/09/2023;3;Màn hình bị ám nhẹ ở góc
-1000233;21518;User1001;130536;ASUS ROG Strix G15;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
-1000234;24274;User1022;191640;ASUS ROG Strix Scar 15 G533;30/07/2023;5;Pin yếu, dùng nhanh hết
-1000235;24072;User1062;103938;Lenovo IdeaPad 3;12/04/2024;1;Cấu hình mạnh, chơi game tốt
-1000236;20020;User1063;110012;HP EliteBook 840;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000237;22681;User1047;198505;MacBook Pro 14-inch M3 Pro (2024);10/05/2024;1;Màn hình bị ám nhẹ ở góc
-1000238;25015;User1032;108558;MacBook Pro 14-inch (2021;10/06/2023;3;Pin yếu, dùng nhanh hết
-1000239;22370;User1005;141388;ASUS Chromebook Flip C214;05/03/2023;1;Pin yếu, dùng nhanh hết
-1000240;23519;User1049;197849;Acer Predator Triton 300 SE;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
-1000241;23126;User1016;140095;HP Spectre x360 13;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000242;26643;User1060;140095;HP Spectre x360 13;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000243;27279;User1065;129514;HP Envy 13;13/09/2023;5;Cảm thấy rất đáng tiền
-1000244;24495;User1007;191816;Acer Chromebook Spin 713;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000245;22759;User1051;178914;HP ProBook 450;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
-1000246;29829;User1067;148754;HP Pavilion 15-eg0073cl;15/02/2023;3;Chất lượng hoàn thiện tốt
-1000247;29658;User1008;178081;ASUS ROG Strix G15 Advantage Edition;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000248;26293;User1077;196353;Lenovo ThinkBook 14;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
-1000249;28291;User1070;178164;ASUS VivoBook 14;07/07/2023;1;Màn hình bị ám nhẹ ở góc
-1000250;26303;User1048;135689;Acer Swift 3 SF314-512;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
-1000251;22678;User1019;182192;HP Envy x360;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
-1000252;25329;User1041;171062;Acer Predator Triton 500 PT515-52;29/05/2023;5;Cấu hình mạnh, chơi game tốt
-1000253;24072;User1062;164081;HP Omen 17-cb1000;08/02/2023;3;Màn hình bị ám nhẹ ở góc
-1000254;26188;User1074;191816;Acer Chromebook Spin 713;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
-1000255;22759;User1051;191640;ASUS ROG Strix Scar 15 G533;23/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000256;26623;User1021;110762;ASUS ROG Strix G17;03/07/2024;1;Cấu hình mạnh, chơi game tốt
-1000257;27598;User1026;191430;Acer Swift 3 SF314-59;31/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000258;24861;User1035;104906;Lenovo Legion 7i;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000259;24072;User1062;115893;Acer Aspire 7 A715-75G;15/08/2023;5;Hài lòng với sản phẩm này
-1000260;28397;User1037;135972;Acer Predator Helios 300;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
-1000261;25291;User1058;180565;HP Spectre x360 14;24/04/2024;1;Cảm thấy rất đáng tiền
-1000262;21313;User1073;184002;Acer Nitro 5 AN515-58-50RS;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000263;28144;User1040;110762;ASUS ROG Strix G17;18/01/2023;3;Chất lượng hoàn thiện tốt
-1000264;25200;User1034;120242;ASUS ROG Strix Scar 15;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
-1000265;22759;User1051;191382;MacBook Pro 16-inch M2 Max (2023);11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000266;28272;User1079;140095;HP Spectre x360 13;21/07/2024;2;Pin yếu, dùng nhanh hết
-1000267;25329;User1041;129514;HP Envy 13;27/04/2024;4;Sạc nhanh, không bị nóng
-1000268;23938;User1039;160991;ASUS ROG Zephyrus G15 GA503;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
-1000269;26303;User1048;178775;Dell Alienware m15;08/05/2024;2;Giá hơi cao so với cấu hình
-1000270;24072;User1062;198505;MacBook Pro 14-inch M3 Pro (2024);14/01/2024;4;Cảm thấy rất đáng tiền
-1000271;23211;User1075;171247;HP Omen 15-ek0013dx;10/12/2023;3;Cảm thấy rất đáng tiền
-1000272;26748;User1064;191382;MacBook Pro 16-inch M2 Max (2023);18/05/2024;3;Máy nhẹ, tiện mang đi học
-1000273;24861;User1035;191382;MacBook Pro 16-inch M2 Max (2023);24/03/2024;4;Pin yếu, dùng nhanh hết
-1000274;20855;User1025;114580;ASUS ROG Zephyrus M16;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000275;21424;User1011;115290;ASUS TUF Gaming FX506;26/01/2023;2;Pin yếu, dùng nhanh hết
-1000276;23085;User1043;131841;Acer Aspire 7;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
-1000277;28272;User1079;102863;ASUS ROG Zephyrus G14;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
-1000278;20020;User1063;156836;Lenovo IdeaPad Flex 3;07/01/2024;2;Quạt kêu hơi to khi chạy nặng
-1000279;24495;User1007;117836;HP Spectre x360;09/07/2023;5;Hài lòng với sản phẩm này
-1000280;26188;User1074;115893;Acer Aspire 7 A715-75G;28/09/2023;4;Cấu hình mạnh, chơi game tốt
-1000281;25483;User1009;135215;Lenovo Yoga 9i;02/07/2024;2;Màn hình bị ám nhẹ ở góc
-1000282;26643;User1060;191382;MacBook Pro 16-inch M2 Max (2023);01/02/2023;4;Cảm thấy rất đáng tiền
-1000283;29540;User1053;160991;ASUS ROG Zephyrus G15 GA503;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000284;28291;User1070;103938;Lenovo IdeaPad 3;25/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000285;27842;User1046;103771;ASUS ZenBook 14 OLED;21/09/2023;4;Chưa được như kỳ vọng
-1000286;24274;User1022;103771;ASUS ZenBook 14 OLED;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
-1000287;26188;User1074;125909;Lenovo ThinkPad X1 Yoga;05/06/2023;2;Máy hơi nóng khi chơi game lâu
-1000288;27304;User1002;198508;HP EliteBook 850;08/11/2023;4;Sạc nhanh, không bị nóng
-1000289;26656;User1055;141349;MacBook Pro 16-inch M3 Max (2024);20/08/2023;1;Chưa được như kỳ vọng
-1000290;29635;User1038;197849;Acer Predator Triton 300 SE;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
-1000291;27598;User1026;114844;ASUS VivoBook 15;20/01/2024;2;Cảm thấy rất đáng tiền
-1000292;27958;User1033;137708;Dell XPS 13;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000293;23211;User1075;196701;ASUS Chromebook Flip C436;27/12/2023;2;Cấu hình mạnh, chơi game tốt
-1000294;23340;User1061;116597;MacBook Pro 13-inch M2 (2022);29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000295;22302;User1056;144625;MacBook Pro 15-inch (2019) 512GB;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000296;24495;User1007;103771;ASUS ZenBook 14 OLED;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
-1000297;27598;User1026;125288;Lenovo Legion 7;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000298;29540;User1053;128854;HP Chromebook x360;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
-1000299;28291;User1070;130011;Acer Chromebook 315;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
-1000300;22302;User1056;178164;ASUS VivoBook 14;26/11/2023;1;Máy nhẹ, tiện mang đi học
-1000301;21424;User1011;135972;Acer Predator Helios 300;06/08/2023;3;Cấu hình mạnh, chơi game tốt
-1000302;20855;User1025;165204;Lenovo Yoga Slim 7;31/12/2023;5;Giá hơi cao so với cấu hình
-1000303;27958;User1033;122098;Acer Aspire 5;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000304;25200;User1034;191382;MacBook Pro 16-inch M2 Max (2023);31/01/2023;4;Chất lượng hoàn thiện tốt
-1000305;21518;User1001;156541;Dell Latitude 7420;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm
-1000306;21424;User1011;188051;HP Chromebook x360 14c;08/04/2024;1;Sạc nhanh, không bị nóng
-1000307;29658;User1008;171247;HP Omen 15-ek0013dx;10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy
-1000308;28291;User1070;161310;Acer Predator Helios 300 PH315-54;02/08/2024;2;Máy hơi nóng khi chơi game lâu
-1000309;23102;User1020;161293;Acer Swift 3 SF314-43;11/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000310;20855;User1025;111305;Lenovo IdeaPad Gaming 3 15IMH05;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy
-1000311;25044;User1029;174542;ASUS VivoBook Flip 14;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn
-1000312;29875;User1031;109174;Lenovo ThinkPad X13;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000313;27598;User1026;125987;MacBook Air Retina 13-inch (2019) 128GB;06/01/2024;4;Màn hình bị ám nhẹ ở góc
-1000314;22134;User1030;188272;ASUS ROG Flow X13;22/01/2023;2;Pin yếu, dùng nhanh hết
-1000315;28272;User1079;141349;MacBook Pro 16-inch M3 Max (2024);31/01/2023;5;Cấu hình mạnh, chơi game tốt
-1000316;24072;User1062;144625;MacBook Pro 15-inch (2019) 512GB;09/08/2024;3;Chưa được như kỳ vọng
-1000317;28115;User1028;131841;Acer Aspire 7;25/07/2023;5;Quạt kêu hơi to khi chạy nặng
-1000318;23340;User1061;148829;Lenovo Legion 5 Pro;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000319;26643;User1060;131841;Acer Aspire 7;05/04/2024;5;Màn hình bị ám nhẹ ở góc
-1000320;29288;User1078;108151;Acer Nitro 5 AN515-58;24/02/2023;4;Máy nhẹ, tiện mang đi học
-1000321;28115;User1028;117836;HP Spectre x360;11/04/2023;1;Máy nhẹ, tiện mang đi học
-1000322;23126;User1016;191954;HP EliteBook x360;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000323;25291;User1058;142838;MacBook Pro 16-inch (2019) 1TB;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm
-1000324;21138;User1068;106627;Acer Predator Triton 500 SE;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm
-1000325;20020;User1063;135215;Lenovo Yoga 9i;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000326;21424;User1011;120242;ASUS ROG Strix Scar 15;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu
-1000327;24861;User1035;137629;MacBook Air M2 (2022);22/07/2023;4;Chưa được như kỳ vọng
-1000328;29829;User1067;135743;ASUS TUF Gaming A15;23/04/2023;5;Máy nhẹ, tiện mang đi học
-1000329;21816;User1013;197849;Acer Predator Triton 300 SE;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm
-1000330;21816;User1013;184013;HP ProBook 640;07/01/2024;4;Sạc nhanh, không bị nóng
-1000331;29732;User1059;116586;ASUS Chromebook Flip C434;15/05/2023;4;Hài lòng với sản phẩm này
-1000332;28144;User1040;135215;Lenovo Yoga 9i;07/09/2023;3;Màn hình bị ám nhẹ ở góc
-1000333;29635;User1038;167734;HP Omen 17;14/03/2023;1;Quạt kêu hơi to khi chạy nặng
-1000334;26188;User1074;168592;Acer Swift 3;30/07/2023;5;Pin yếu, dùng nhanh hết
-1000335;27958;User1033;142717;Lenovo Yoga 7i;12/04/2024;1;Cấu hình mạnh, chơi game tốt
-1000336;28272;User1079;188082;MacBook Air M1 (2020) 256GB;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000337;22678;User1019;144625;MacBook Pro 15-inch (2019) 512GB;10/05/2024;1;Màn hình bị ám nhẹ ở góc
-1000338;24495;User1007;184002;Acer Nitro 5 AN515-58-50RS;10/06/2023;3;Pin yếu, dùng nhanh hết
-1000339;27279;User1065;128854;HP Chromebook x360;05/03/2023;1;Pin yếu, dùng nhanh hết
-1000340;26110;User1004;191430;Acer Swift 3 SF314-59;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp
-1000341;29635;User1038;174542;ASUS VivoBook Flip 14;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000342;20000;Admin;108494;Acer Swift 5 SF514-55T-50QX;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000343;23183;User1050;167734;HP Omen 17;13/09/2023;5;Cảm thấy rất đáng tiền
-1000344;27279;User1065;144229;ASUS VivoBook 15 X515;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu
-1000345;26303;User1048;130536;ASUS ROG Strix G15;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp
-1000346;20758;User1071;171247;HP Omen 15-ek0013dx;15/02/2023;3;Chất lượng hoàn thiện tốt
-1000347;29033;User1042;196353;Lenovo ThinkBook 14;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp
-1000348;26863;User1044;196701;ASUS Chromebook Flip C436;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp
-1000349;28397;User1037;133677;Acer Spin 5;07/07/2023;1;Màn hình bị ám nhẹ ở góc
-1000350;21313;User1073;114844;ASUS VivoBook 15;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy
-1000351;28115;User1028;141349;MacBook Pro 16-inch M3 Max (2024);06/07/2024;1;Âm thanh tốt, bàn phím gõ êm
-1000352;26320;User1024;166395;ASUS ROG Strix Scar 17;29/05/2023;5;Cấu hình mạnh, chơi game tốt
-1000353;21424;User1011;144625;MacBook Pro 15-inch (2019) 512GB;08/02/2023;3;Màn hình bị ám nhẹ ở góc
-1000354;29875;User1031;160369;MacBook Pro 16-inch (2021;03/03/2024;3;Dịch vụ bảo hành nhanh chóng
-1000355;24574;User1045;108494;Acer Swift 5 SF514-55T-50QX;23/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000356;26656;User1055;137293;ASUS ZenBook 14;03/07/2024;1;Cấu hình mạnh, chơi game tốt
-1000357;24274;User1022;151149;HP Omen 16;31/01/2023;1;Máy hơi nóng khi chơi game lâu
-1000358;24516;User1012;104906;Lenovo Legion 7i;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn
-1000359;23126;User1016;103771;ASUS ZenBook 14 OLED;15/08/2023;5;Hài lòng với sản phẩm này
-1000360;24861;User1035;168693;HP EliteBook 840 G7;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn
-1000361;29732;User1059;116597;MacBook Pro 13-inch M2 (2022);24/04/2024;1;Cảm thấy rất đáng tiền
-1000362;27112;User1017;105461;ASUS ExpertBook B1;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000363;24936;User1036;137629;MacBook Air M2 (2022);18/01/2023;3;Chất lượng hoàn thiện tốt
-1000364;29875;User1031;140095;HP Spectre x360 13;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy
-1000365;22923;User1003;182800;HP Omen 15;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000366;25491;User1010;111062;ASUS ZenBook Duo 14;21/07/2024;2;Pin yếu, dùng nhanh hết
-1000367;22044;User1057;184013;HP ProBook 640;27/04/2024;4;Sạc nhanh, không bị nóng
-1000368;25329;User1041;137629;MacBook Air M2 (2022);01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu
-1000369;26863;User1044;188082;MacBook Air M1 (2020) 256GB;08/05/2024;2;Giá hơi cao so với cấu hình
-1000370;28144;User1040;167671;Acer Nitro 5 AN515-58-50RS;14/01/2024;4;Cảm thấy rất đáng tiền
-1000371;25044;User1029;155884;Lenovo Chromebook Flex 5;10/12/2023;3;Cảm thấy rất đáng tiền
-1000372;23938;User1039;192611;Dell G15 Gaming;18/05/2024;3;Máy nhẹ, tiện mang đi học
-1000373;27958;User1033;129025;HP Pavilion 14-ce3600;24/03/2024;4;Pin yếu, dùng nhanh hết
-1000374;27842;User1046;109174;Lenovo ThinkPad X13;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000375;21518;User1001;178164;ASUS VivoBook 14;26/01/2023;2;Pin yếu, dùng nhanh hết
-1000376;21313;User1073;178164;ASUS VivoBook 14;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn
-1000377;22923;User1003;190366;Acer Predator Helios 300 PH317-55;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy
-1000378;26299;User1069;144625;MacBook Pro 15-inch (2019) 512GB;07/01/2024;2;Quạt kêu hơi to khi chạy nặng
-1000379;23340;User1061;178081;ASUS ROG Strix G15 Advantage Edition;09/07/2023;5;Hài lòng với sản phẩm này
-1000380;24495;User1007;177250;Lenovo IdeaPad Flex 5;28/09/2023;4;Cấu hình mạnh, chơi game tốt
-1000381;24274;User1022;108151;Acer Nitro 5 AN515-58;02/07/2024;2;Màn hình bị ám nhẹ ở góc
-1000382;22434;User1014;160054;Acer Nitro 5 AN515-45;01/02/2023;4;Cảm thấy rất đáng tiền
-1000383;28397;User1037;144625;MacBook Pro 15-inch (2019) 512GB;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng
-1000384;25015;User1032;110012;HP EliteBook 840;25/03/2023;5;Cấu hình mạnh, chơi game tốt
-1000385;28272;User1079;192476;ASUS ZenBook 13 OLED;21/09/2023;4;Chưa được như kỳ vọng
-1000386;28397;User1037;110012;HP EliteBook 840;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp
-1000387;24274;User1022;106047;Acer Predator Helios 300 PH315-55;05/06/2023;2;Máy hơi nóng khi chơi game lâu
-1000388;20855;User1025;176078;HP Pavilion 14;08/11/2023;4;Sạc nhanh, không bị nóng
-1000389;21424;User1011;128854;HP Chromebook x360;20/08/2023;1;Chưa được như kỳ vọng
-1000390;26188;User1074;104114;Acer Nitro 5;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn
-1000391;24274;User1022;129514;HP Envy 13;20/01/2024;2;Cảm thấy rất đáng tiền
-1000392;22370;User1005;135972;Acer Predator Helios 300;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD
-1000393;26188;User1074;183177;Lenovo Yoga Slim 7 Carbon;27/12/2023;2;Cấu hình mạnh, chơi game tốt
-1000394;29829;User1067;117836;HP Spectre x360;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000395;22738;User1023;135743;ASUS TUF Gaming A15;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng
-1000396;20000;Admin;141419;HP Elite Dragonfly;03/10/2023;4;Quạt kêu hơi to khi chạy nặng
-1000397;22370;User1005;111305;Lenovo IdeaPad Gaming 3 15IMH05;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu
-1000398;22044;User1057;135215;Lenovo Yoga 9i;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng
-1000399;22434;User1014;135215;Lenovo Yoga 9i;02/06/2023;5;Quạt kêu hơi to khi chạy nặng
+1000000;22044;User1057;130011;Acer Chromebook 315;26/11/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][26/11/2023] User1057: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000001;27279;User1065;168693;HP EliteBook 840 G7;06/08/2023;3;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [3 ★][06/08/2023] User1065: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000002;25291;User1058;108494;Acer Swift 5 SF514-55T-50QX;31/12/2023;5;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [5 ★][31/12/2023] User1058: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000003;23519;User1049;191640;ASUS ROG Strix Scar 15 G533;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1049: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000004;28397;User1037;128854;HP Chromebook x360;31/01/2023;4;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [4 ★][31/01/2023] User1037: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000005;26110;User1004;174542;ASUS VivoBook Flip 14;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][09/11/2023] User1004: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000006;20758;User1071;104114;Acer Nitro 5;08/04/2024;1;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [1 ★][08/04/2024] User1071: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000007;26188;User1074;116597;MacBook Pro 13-inch M2 (2022);10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [4 ★][10/07/2023] User1074: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000008;28994;User1027;101959;HP ProBook 455;02/08/2024;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][02/08/2024] User1027: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000009;26299;User1069;148846;Lenovo IdeaPad 5;11/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][11/01/2023] User1069: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000010;29196;User1015;188051;HP Chromebook x360 14c;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][03/09/2023] User1015: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000011;24072;User1062;156836;Lenovo IdeaPad Flex 3;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][03/12/2023] User1062: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000012;22678;User1019;148846;Lenovo IdeaPad 5;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][19/02/2024] User1019: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000013;25483;User1009;124375;Lenovo ThinkPad E15;06/01/2024;4;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [4 ★][06/01/2024] User1009: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000014;23519;User1049;196701;ASUS Chromebook Flip C436;22/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][22/01/2023] User1049: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000015;20923;User1052;178914;HP ProBook 450;31/01/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][31/01/2023] User1052: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000016;27112;User1017;129514;HP Envy 13;09/08/2024;3;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [3 ★][09/08/2024] User1017: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000017;26656;User1055;191816;Acer Chromebook Spin 713;25/07/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][25/07/2023] User1055: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000018;23085;User1043;160369;MacBook Pro 16-inch (2021;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [1 ★][15/07/2023] User1043: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000019;22044;User1057;191816;Acer Chromebook Spin 713;05/04/2024;5;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [5 ★][05/04/2024] User1057: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000020;25015;User1032;103938;Lenovo IdeaPad 3;24/02/2023;4;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [4 ★][24/02/2023] User1032: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000021;26293;User1077;133228;ASUS TUF Gaming F15;11/04/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][11/04/2023] User1077: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000022;26299;User1069;175086;Lenovo ThinkPad L14;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [3 ★][10/01/2023] User1069: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000023;28272;User1079;192476;ASUS ZenBook 13 OLED;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [3 ★][12/07/2023] User1079: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000024;25044;User1029;129025;HP Pavilion 14-ce3600;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][05/03/2024] User1029: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000025;25329;User1041;108494;Acer Swift 5 SF514-55T-50QX;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][19/05/2024] User1041: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000026;23938;User1039;137708;Dell XPS 13;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [2 ★][01/05/2024] User1039: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000027;28753;User1054;172682;MacBook Pro 15-inch (2019) 256GB;22/07/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1054: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000028;21424;User1011;168693;HP EliteBook 840 G7;23/04/2023;5;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [5 ★][23/04/2023] User1011: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000029;29829;User1067;192476;ASUS ZenBook 13 OLED;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][29/03/2023] User1067: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000030;21424;User1011;114580;ASUS ROG Zephyrus M16;07/01/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][07/01/2024] User1011: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000031;29732;User1059;139581;HP Chromebook 14;15/05/2023;4;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [4 ★][15/05/2023] User1059: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000032;23340;User1061;198508;HP EliteBook 850;07/09/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][07/09/2023] User1061: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000033;26863;User1044;102863;ASUS ROG Zephyrus G14;14/03/2023;1;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [1 ★][14/03/2023] User1044: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000034;26623;User1021;109174;Lenovo ThinkPad X13;30/07/2023;5;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [5 ★][30/07/2023] User1021: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000035;22370;User1005;135215;Lenovo Yoga 9i;12/04/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][12/04/2024] User1005: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000036;27598;User1026;184013;HP ProBook 640;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][10/03/2024] User1026: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000037;24072;User1062;191640;ASUS ROG Strix Scar 15 G533;10/05/2024;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][10/05/2024] User1062: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000038;29875;User1031;156910;Lenovo Legion 5 15ACH6;10/06/2023;3;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [3 ★][10/06/2023] User1031: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000039;22044;User1057;189612;ASUS VivoBook S14;05/03/2023;1;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [1 ★][05/03/2023] User1057: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000040;20000;Admin;135743;ASUS TUF Gaming A15;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][03/08/2024] Admin: Màn hình hiển t...;System.Windows.Forms.Button, Text: 
+1000041;23211;User1075;131841;Acer Aspire 7;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][27/04/2023] User1075: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000042;27279;User1065;106627;Acer Predator Triton 500 SE;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2023] User1065: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000043;26188;User1074;168592;Acer Swift 3;13/09/2023;5;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [5 ★][13/09/2023] User1074: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000044;28115;User1028;168592;Acer Swift 3;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][06/12/2023] User1028: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000045;25329;User1041;154152;ASUS VivoBook 15 K513;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][21/01/2023] User1041: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000046;29875;User1031;196353;Lenovo ThinkBook 14;15/02/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][15/02/2023] User1031: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000047;24861;User1035;191382;MacBook Pro 16-inch M2 Max (2023);21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][21/03/2024] User1035: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000048;22678;User1019;125005;Lenovo Legion 5;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][15/10/2023] User1019: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000049;25491;User1010;142838;MacBook Pro 16-inch (2019) 1TB;07/07/2023;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][07/07/2023] User1010: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000050;22759;User1051;167734;HP Omen 17;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [1 ★][12/02/2023] User1051: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000051;28291;User1070;188082;MacBook Air M1 (2020) 256GB;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [1 ★][06/07/2024] User1070: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000052;24072;User1062;103938;Lenovo IdeaPad 3;29/05/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][29/05/2023] User1062: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000053;25044;User1029;131890;Acer Aspire 5 A515-45-R92M;08/02/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][08/02/2023] User1029: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000054;23211;User1075;156910;Lenovo Legion 5 15ACH6;03/03/2024;3;Dịch vụ bảo hành nhanh chóng;System.Windows.Forms.TextBox, Text: [3 ★][03/03/2024] User1075: Dịch vụ bảo ...;System.Windows.Forms.Button, Text: 
+1000055;28291;User1070;191430;Acer Swift 3 SF314-59;23/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][23/03/2023] User1070: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000056;27112;User1017;191640;ASUS ROG Strix Scar 15 G533;03/07/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][03/07/2024] User1017: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000057;22923;User1003;110762;ASUS ROG Strix G17;31/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][31/01/2023] User1003: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000058;23102;User1020;137708;Dell XPS 13;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2024] User1020: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000059;28291;User1070;179111;Acer Chromebook Spin 311;15/08/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][15/08/2023] User1070: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000060;23085;User1043;174168;Lenovo IdeaPad Gaming 3;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [3 ★][27/12/2023] User1043: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000061;27842;User1046;131890;Acer Aspire 5 A515-45-R92M;24/04/2024;1;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [1 ★][24/04/2024] User1046: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000062;28028;User1076;160991;ASUS ROG Zephyrus G15 GA503;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [2 ★][03/02/2023] User1076: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000063;22923;User1003;182800;HP Omen 15;18/01/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][18/01/2023] User1003: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000064;25291;User1058;106627;Acer Predator Triton 500 SE;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][15/03/2024] User1058: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000065;24072;User1062;105461;ASUS ExpertBook B1;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][11/09/2023] User1062: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000066;22738;User1023;111305;Lenovo IdeaPad Gaming 3 15IMH05;21/07/2024;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][21/07/2024] User1023: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000067;25483;User1009;179567;MacBook Air M3 (2024);27/04/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][27/04/2024] User1009: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000068;23211;User1075;129025;HP Pavilion 14-ce3600;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [3 ★][01/06/2024] User1075: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000069;22738;User1023;198508;HP EliteBook 850;08/05/2024;2;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [2 ★][08/05/2024] User1023: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000070;25044;User1029;197597;MacBook Pro 16-inch (2019) 512GB;14/01/2024;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][14/01/2024] User1029: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000071;23126;User1016;100984;MacBook Pro 13-inch (2019;10/12/2023;3;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [3 ★][10/12/2023] User1016: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000072;29732;User1059;129491;HP Pavilion Gaming 15;18/05/2024;3;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [3 ★][18/05/2024] User1059: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000073;21424;User1011;137708;Dell XPS 13;24/03/2024;4;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [4 ★][24/03/2024] User1011: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000074;23211;User1075;148829;Lenovo Legion 5 Pro;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][17/08/2023] User1075: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000075;25491;User1010;156910;Lenovo Legion 5 15ACH6;26/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][26/01/2023] User1010: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000076;26303;User1048;126543;Dell Vostro 15 3500;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [2 ★][20/07/2023] User1048: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000077;26748;User1064;166868;Lenovo Legion Slim 7;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [2 ★][19/03/2024] User1064: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000078;23938;User1039;191382;MacBook Pro 16-inch M2 Max (2023);07/01/2024;2;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [2 ★][07/01/2024] User1039: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000079;28994;User1027;191430;Acer Swift 3 SF314-59;09/07/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][09/07/2023] User1027: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000080;22134;User1030;148168;Acer Swift 5;28/09/2023;4;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [4 ★][28/09/2023] User1030: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000081;26303;User1048;131841;Acer Aspire 7;02/07/2024;2;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [2 ★][02/07/2024] User1048: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000082;28028;User1076;198505;MacBook Pro 14-inch M3 Pro (2024);01/02/2023;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][01/02/2023] User1076: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000083;28397;User1037;129025;HP Pavilion 14-ce3600;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][03/08/2023] User1037: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000084;22923;User1003;196353;Lenovo ThinkBook 14;25/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][25/03/2023] User1003: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000085;21518;User1001;133677;Acer Spin 5;21/09/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][21/09/2023] User1001: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000086;28144;User1040;191382;MacBook Pro 16-inch M2 Max (2023);10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][10/06/2024] User1040: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000087;20855;User1025;108151;Acer Nitro 5 AN515-58;05/06/2023;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][05/06/2023] User1025: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000088;22681;User1047;198508;HP EliteBook 850;08/11/2023;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][08/11/2023] User1047: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000089;26748;User1064;188082;MacBook Air M1 (2020) 256GB;20/08/2023;1;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [1 ★][20/08/2023] User1064: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000090;28144;User1040;168592;Acer Swift 3;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][22/03/2024] User1040: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000091;22678;User1019;184002;Acer Nitro 5 AN515-58-50RS;20/01/2024;2;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [2 ★][20/01/2024] User1019: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000092;23102;User1020;161310;Acer Predator Helios 300 PH315-54;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][10/09/2023] User1020: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000093;25200;User1034;144625;MacBook Pro 15-inch (2019) 512GB;27/12/2023;2;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [2 ★][27/12/2023] User1034: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000094;21313;User1073;175086;Lenovo ThinkPad L14;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][29/04/2023] User1073: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000095;22282;User1072;131890;Acer Aspire 5 A515-45-R92M;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][05/12/2023] User1072: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000096;24936;User1036;124375;Lenovo ThinkPad E15;03/10/2023;4;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [4 ★][03/10/2023] User1036: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000097;22434;User1014;108558;MacBook Pro 14-inch (2021;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][05/08/2023] User1014: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000098;23085;User1043;135589;MacBook Pro 13-inch (2020;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][25/02/2024] User1043: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000099;20020;User1063;148754;HP Pavilion 15-eg0073cl;02/06/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][02/06/2023] User1063: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000100;27279;User1065;156541;Dell Latitude 7420;26/11/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][26/11/2023] User1065: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000101;26863;User1044;124375;Lenovo ThinkPad E15;06/08/2023;3;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [3 ★][06/08/2023] User1044: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000102;25044;User1029;154152;ASUS VivoBook 15 K513;31/12/2023;5;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [5 ★][31/12/2023] User1029: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000103;24574;User1045;151149;HP Omen 16;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1045: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000104;24274;User1022;104114;Acer Nitro 5;31/01/2023;4;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [4 ★][31/01/2023] User1022: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000105;23340;User1061;137629;MacBook Air M2 (2022);09/11/2023;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][09/11/2023] User1061: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000106;22759;User1051;196701;ASUS Chromebook Flip C436;08/04/2024;1;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [1 ★][08/04/2024] User1051: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000107;24495;User1007;150959;MacBook Pro 14-inch M2 Pro (2023);10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [4 ★][10/07/2023] User1007: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000108;22759;User1051;102710;Acer Aspire 7 A715-42G;02/08/2024;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][02/08/2024] User1051: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000109;25483;User1009;110762;ASUS ROG Strix G17;11/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][11/01/2023] User1009: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000110;21313;User1073;124375;Lenovo ThinkPad E15;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][03/09/2023] User1073: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000111;23340;User1061;110762;ASUS ROG Strix G17;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][03/12/2023] User1061: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000112;20020;User1063;148829;Lenovo Legion 5 Pro;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][19/02/2024] User1063: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000113;26303;User1048;156541;Dell Latitude 7420;06/01/2024;4;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [4 ★][06/01/2024] User1048: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000114;26320;User1024;156836;Lenovo IdeaPad Flex 3;22/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][22/01/2023] User1024: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000115;22434;User1014;151149;HP Omen 16;31/01/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][31/01/2023] User1014: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000116;20855;User1025;166395;ASUS ROG Strix Scar 17;09/08/2024;3;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [3 ★][09/08/2024] User1025: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000117;29033;User1042;103938;Lenovo IdeaPad 3;25/07/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][25/07/2023] User1042: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000118;21138;User1068;160054;Acer Nitro 5 AN515-45;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [1 ★][15/07/2023] User1068: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000119;26623;User1021;197849;Acer Predator Triton 300 SE;05/04/2024;5;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [5 ★][05/04/2024] User1021: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000120;24861;User1035;113617;MacBook Pro 16-inch (2021;24/02/2023;4;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [4 ★][24/02/2023] User1035: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000121;21518;User1001;120242;ASUS ROG Strix Scar 15;11/04/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][11/04/2023] User1001: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000122;20000;Admin;141349;MacBook Pro 16-inch M3 Max (2024);10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [3 ★][10/01/2023] Admin: Ổ cứng hơi nhỏ,...;System.Windows.Forms.Button, Text: 
+1000123;22370;User1005;197597;MacBook Pro 16-inch (2019) 512GB;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [3 ★][12/07/2023] User1005: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000124;29635;User1038;191640;ASUS ROG Strix Scar 15 G533;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][05/03/2024] User1038: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000125;22370;User1005;171247;HP Omen 15-ek0013dx;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][19/05/2024] User1005: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000126;27112;User1017;135743;ASUS TUF Gaming A15;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [2 ★][01/05/2024] User1017: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000127;25200;User1034;151149;HP Omen 16;22/07/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1034: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000128;26188;User1074;150959;MacBook Pro 14-inch M2 Pro (2023);23/04/2023;5;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [5 ★][23/04/2023] User1074: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000129;23211;User1075;176078;HP Pavilion 14;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][29/03/2023] User1075: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000130;27958;User1033;186732;Dell Inspiron 15 5000;07/01/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][07/01/2024] User1033: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000131;25329;User1041;142838;MacBook Pro 16-inch (2019) 1TB;15/05/2023;4;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [4 ★][15/05/2023] User1041: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000132;26299;User1069;111305;Lenovo IdeaPad Gaming 3 15IMH05;07/09/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][07/09/2023] User1069: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000133;26623;User1021;135215;Lenovo Yoga 9i;14/03/2023;1;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [1 ★][14/03/2023] User1021: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000134;20000;Admin;103771;ASUS ZenBook 14 OLED;30/07/2023;5;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [5 ★][30/07/2023] Admin: Pin yếu, dùng n...;System.Windows.Forms.Button, Text: 
+1000135;25015;User1032;110762;ASUS ROG Strix G17;12/04/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][12/04/2024] User1032: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000136;25015;User1032;116597;MacBook Pro 13-inch M2 (2022);10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][10/03/2024] User1032: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000137;28115;User1028;115893;Acer Aspire 7 A715-75G;10/05/2024;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][10/05/2024] User1028: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000138;26188;User1074;130011;Acer Chromebook 315;10/06/2023;3;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [3 ★][10/06/2023] User1074: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000139;21518;User1001;142838;MacBook Pro 16-inch (2019) 1TB;05/03/2023;1;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [1 ★][05/03/2023] User1001: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000140;26188;User1074;141419;HP Elite Dragonfly;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][03/08/2024] User1074: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000141;26643;User1060;197849;Acer Predator Triton 300 SE;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][27/04/2023] User1060: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000142;26656;User1055;176524;Acer Swift 5 SF514-55T;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2023] User1055: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000143;22434;User1014;131896;Acer Chromebook 514;13/09/2023;5;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [5 ★][13/09/2023] User1014: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000144;28753;User1054;144625;MacBook Pro 15-inch (2019) 512GB;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][06/12/2023] User1054: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000145;28994;User1027;102130;Lenovo ThinkPad T14;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][21/01/2023] User1027: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000146;20020;User1063;106047;Acer Predator Helios 300 PH315-55;15/02/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][15/02/2023] User1063: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000147;25200;User1034;140095;HP Spectre x360 13;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][21/03/2024] User1034: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000148;23102;User1020;133677;Acer Spin 5;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][15/10/2023] User1020: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000149;26110;User1004;188272;ASUS ROG Flow X13;07/07/2023;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][07/07/2023] User1004: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000150;24072;User1062;167734;HP Omen 17;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [1 ★][12/02/2023] User1062: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000151;27112;User1017;164081;HP Omen 17-cb1000;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [1 ★][06/07/2024] User1017: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000152;29829;User1067;177670;ASUS ZenBook Flip 13;29/05/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][29/05/2023] User1067: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000153;24936;User1036;113617;MacBook Pro 16-inch (2021;08/02/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][08/02/2023] User1036: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000154;21816;User1013;188272;ASUS ROG Flow X13;03/03/2024;3;Dịch vụ bảo hành nhanh chóng;System.Windows.Forms.TextBox, Text: [3 ★][03/03/2024] User1013: Dịch vụ bảo ...;System.Windows.Forms.Button, Text: 
+1000155;22044;User1057;140547;MacBook Pro 13-inch (2020;23/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][23/03/2023] User1057: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000156;26863;User1044;166395;ASUS ROG Strix Scar 17;03/07/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][03/07/2024] User1044: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000157;22759;User1051;148754;HP Pavilion 15-eg0073cl;31/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][31/01/2023] User1051: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000158;27279;User1065;106047;Acer Predator Helios 300 PH315-55;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2024] User1065: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000159;26623;User1021;126543;Dell Vostro 15 3500;15/08/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][15/08/2023] User1021: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000160;22759;User1051;124375;Lenovo ThinkPad E15;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [3 ★][27/12/2023] User1051: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000161;24274;User1022;102863;ASUS ROG Zephyrus G14;24/04/2024;1;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [1 ★][24/04/2024] User1022: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000162;26293;User1077;168693;HP EliteBook 840 G7;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [2 ★][03/02/2023] User1077: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000163;22370;User1005;141419;HP Elite Dragonfly;18/01/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][18/01/2023] User1005: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000164;28994;User1027;138917;Lenovo IdeaPad 3 15ADA;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][15/03/2024] User1027: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000165;22044;User1057;142570;Acer Aspire 5 A515-56;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][11/09/2023] User1057: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000166;21138;User1068;176078;HP Pavilion 14;21/07/2024;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][21/07/2024] User1068: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000167;21816;User1013;196701;ASUS Chromebook Flip C436;27/04/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][27/04/2024] User1013: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000168;21313;User1073;188051;HP Chromebook x360 14c;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [3 ★][01/06/2024] User1073: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000169;29196;User1015;168592;Acer Swift 3;08/05/2024;2;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [2 ★][08/05/2024] User1015: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000170;24516;User1012;130536;ASUS ROG Strix G15;14/01/2024;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][14/01/2024] User1012: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000171;25329;User1041;129514;HP Envy 13;10/12/2023;3;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [3 ★][10/12/2023] User1041: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000172;28291;User1070;104906;Lenovo Legion 7i;18/05/2024;3;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [3 ★][18/05/2024] User1070: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000173;29732;User1059;178081;ASUS ROG Strix G15 Advantage Edition;24/03/2024;4;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [4 ★][24/03/2024] User1059: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000174;29635;User1038;192611;Dell G15 Gaming;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][17/08/2023] User1038: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000175;28028;User1076;135689;Acer Swift 3 SF314-512;26/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][26/01/2023] User1076: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000176;20000;Admin;167671;Acer Nitro 5 AN515-58-50RS;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [2 ★][20/07/2023] Admin: Máy khởi động n...;System.Windows.Forms.Button, Text: 
+1000177;28753;User1054;151149;HP Omen 16;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [2 ★][19/03/2024] User1054: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000178;22434;User1014;141419;HP Elite Dragonfly;07/01/2024;2;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [2 ★][07/01/2024] User1014: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000179;21518;User1001;154152;ASUS VivoBook 15 K513;09/07/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][09/07/2023] User1001: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000180;29829;User1067;191640;ASUS ROG Strix Scar 15 G533;28/09/2023;4;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [4 ★][28/09/2023] User1067: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000181;22678;User1019;196701;ASUS Chromebook Flip C436;02/07/2024;2;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [2 ★][02/07/2024] User1019: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000182;27304;User1002;141349;MacBook Pro 16-inch M3 Max (2024);01/02/2023;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][01/02/2023] User1002: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000183;26748;User1064;129514;HP Envy 13;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][03/08/2023] User1064: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000184;28144;User1040;155884;Lenovo Chromebook Flex 5;25/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][25/03/2023] User1040: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000185;22302;User1056;117836;HP Spectre x360;21/09/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][21/09/2023] User1056: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000186;26643;User1060;140547;MacBook Pro 13-inch (2020;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][10/06/2024] User1060: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000187;27958;User1033;184002;Acer Nitro 5 AN515-58-50RS;05/06/2023;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][05/06/2023] User1033: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000188;23102;User1020;108151;Acer Nitro 5 AN515-58;08/11/2023;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][08/11/2023] User1020: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000189;26110;User1004;101959;HP ProBook 455;20/08/2023;1;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [1 ★][20/08/2023] User1004: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000190;27842;User1046;179111;Acer Chromebook Spin 311;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][22/03/2024] User1046: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000191;21816;User1013;131890;Acer Aspire 5 A515-45-R92M;20/01/2024;2;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [2 ★][20/01/2024] User1013: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000192;26303;User1048;177670;ASUS ZenBook Flip 13;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][10/09/2023] User1048: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000193;26643;User1060;161293;Acer Swift 3 SF314-43;27/12/2023;2;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [2 ★][27/12/2023] User1060: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000194;21313;User1073;125909;Lenovo ThinkPad X1 Yoga;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][29/04/2023] User1073: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000195;20758;User1071;167734;HP Omen 17;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][05/12/2023] User1071: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000196;25015;User1032;156836;Lenovo IdeaPad Flex 3;03/10/2023;4;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [4 ★][03/10/2023] User1032: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000197;23183;User1050;172682;MacBook Pro 15-inch (2019) 256GB;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][05/08/2023] User1050: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000198;21816;User1013;129491;HP Pavilion Gaming 15;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][25/02/2024] User1013: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000199;23102;User1020;168592;Acer Swift 3;02/06/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][02/06/2023] User1020: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000200;21424;User1011;142838;MacBook Pro 16-inch (2019) 1TB;26/11/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][26/11/2023] User1011: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000201;25483;User1009;104114;Acer Nitro 5;06/08/2023;3;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [3 ★][06/08/2023] User1009: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000202;27112;User1017;131890;Acer Aspire 5 A515-45-R92M;31/12/2023;5;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [5 ★][31/12/2023] User1017: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000203;25044;User1029;137293;ASUS ZenBook 14;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1029: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000204;27864;User1066;191954;HP EliteBook x360;31/01/2023;4;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [4 ★][31/01/2023] User1066: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000205;26623;User1021;110762;ASUS ROG Strix G17;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][09/11/2023] User1021: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000206;26293;User1077;179567;MacBook Air M3 (2024);08/04/2024;1;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [1 ★][08/04/2024] User1077: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000207;29196;User1015;102710;Acer Aspire 7 A715-42G;10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [4 ★][10/07/2023] User1015: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000208;29829;User1067;128854;HP Chromebook x360;02/08/2024;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][02/08/2024] User1067: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000209;29658;User1008;111305;Lenovo IdeaPad Gaming 3 15IMH05;11/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][11/01/2023] User1008: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000210;29288;User1078;129514;HP Envy 13;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][03/09/2023] User1078: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000211;25483;User1009;198508;HP EliteBook 850;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][03/12/2023] User1009: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000212;29033;User1042;116597;MacBook Pro 13-inch M2 (2022);19/02/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][19/02/2024] User1042: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000213;27279;User1065;176078;HP Pavilion 14;06/01/2024;4;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [4 ★][06/01/2024] User1065: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000214;23211;User1075;189612;ASUS VivoBook S14;22/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][22/01/2023] User1075: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000215;27958;User1033;109174;Lenovo ThinkPad X13;31/01/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][31/01/2023] User1033: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000216;28144;User1040;102863;ASUS ROG Zephyrus G14;09/08/2024;3;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [3 ★][09/08/2024] User1040: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000217;22302;User1056;139761;Lenovo Yoga C940;25/07/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][25/07/2023] User1056: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000218;28115;User1028;191954;HP EliteBook x360;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [1 ★][15/07/2023] User1028: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000219;20923;User1052;144229;ASUS VivoBook 15 X515;05/04/2024;5;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [5 ★][05/04/2024] User1052: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000220;29732;User1059;111062;ASUS ZenBook Duo 14;24/02/2023;4;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [4 ★][24/02/2023] User1059: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000221;26430;User1006;148846;Lenovo IdeaPad 5;11/04/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][11/04/2023] User1006: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000222;22282;User1072;151149;HP Omen 16;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [3 ★][10/01/2023] User1072: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000223;28397;User1037;177670;ASUS ZenBook Flip 13;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [3 ★][12/07/2023] User1037: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000224;22738;User1023;141419;HP Elite Dragonfly;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][05/03/2024] User1023: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000225;25329;User1041;126543;Dell Vostro 15 3500;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][19/05/2024] User1041: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000226;25015;User1032;156541;Dell Latitude 7420;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [2 ★][01/05/2024] User1032: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000227;21816;User1013;148754;HP Pavilion 15-eg0073cl;22/07/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1013: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000228;23085;User1043;135972;Acer Predator Helios 300;23/04/2023;5;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [5 ★][23/04/2023] User1043: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000229;27864;User1066;101445;Acer Nitro 5 AN515-45-R92M;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][29/03/2023] User1066: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000230;22370;User1005;174542;ASUS VivoBook Flip 14;07/01/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][07/01/2024] User1005: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000231;29829;User1067;106627;Acer Predator Triton 500 SE;15/05/2023;4;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [4 ★][15/05/2023] User1067: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000232;26863;User1044;108151;Acer Nitro 5 AN515-58;07/09/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][07/09/2023] User1044: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000233;21518;User1001;130536;ASUS ROG Strix G15;14/03/2023;1;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [1 ★][14/03/2023] User1001: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000234;24274;User1022;191640;ASUS ROG Strix Scar 15 G533;30/07/2023;5;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [5 ★][30/07/2023] User1022: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000235;24072;User1062;103938;Lenovo IdeaPad 3;12/04/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][12/04/2024] User1062: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000236;20020;User1063;110012;HP EliteBook 840;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][10/03/2024] User1063: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000237;22681;User1047;198505;MacBook Pro 14-inch M3 Pro (2024);10/05/2024;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][10/05/2024] User1047: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000238;25015;User1032;108558;MacBook Pro 14-inch (2021;10/06/2023;3;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [3 ★][10/06/2023] User1032: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000239;22370;User1005;141388;ASUS Chromebook Flip C214;05/03/2023;1;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [1 ★][05/03/2023] User1005: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000240;23519;User1049;197849;Acer Predator Triton 300 SE;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][03/08/2024] User1049: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000241;23126;User1016;140095;HP Spectre x360 13;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][27/04/2023] User1016: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000242;26643;User1060;140095;HP Spectre x360 13;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2023] User1060: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000243;27279;User1065;129514;HP Envy 13;13/09/2023;5;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [5 ★][13/09/2023] User1065: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000244;24495;User1007;191816;Acer Chromebook Spin 713;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][06/12/2023] User1007: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000245;22759;User1051;178914;HP ProBook 450;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][21/01/2023] User1051: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000246;29829;User1067;148754;HP Pavilion 15-eg0073cl;15/02/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][15/02/2023] User1067: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000247;29658;User1008;178081;ASUS ROG Strix G15 Advantage Edition;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][21/03/2024] User1008: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000248;26293;User1077;196353;Lenovo ThinkBook 14;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][15/10/2023] User1077: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000249;28291;User1070;178164;ASUS VivoBook 14;07/07/2023;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][07/07/2023] User1070: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000250;26303;User1048;135689;Acer Swift 3 SF314-512;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [1 ★][12/02/2023] User1048: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000251;22678;User1019;182192;HP Envy x360;06/07/2024;1;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [1 ★][06/07/2024] User1019: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000252;25329;User1041;171062;Acer Predator Triton 500 PT515-52;29/05/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][29/05/2023] User1041: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000253;24072;User1062;164081;HP Omen 17-cb1000;08/02/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][08/02/2023] User1062: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000254;26188;User1074;191816;Acer Chromebook Spin 713;03/03/2024;3;Dịch vụ bảo hành nhanh chóng;System.Windows.Forms.TextBox, Text: [3 ★][03/03/2024] User1074: Dịch vụ bảo ...;System.Windows.Forms.Button, Text: 
+1000255;22759;User1051;191640;ASUS ROG Strix Scar 15 G533;23/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][23/03/2023] User1051: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000256;26623;User1021;110762;ASUS ROG Strix G17;03/07/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][03/07/2024] User1021: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000257;27598;User1026;191430;Acer Swift 3 SF314-59;31/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][31/01/2023] User1026: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000258;24861;User1035;104906;Lenovo Legion 7i;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2024] User1035: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000259;24072;User1062;115893;Acer Aspire 7 A715-75G;15/08/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][15/08/2023] User1062: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000260;28397;User1037;135972;Acer Predator Helios 300;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [3 ★][27/12/2023] User1037: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000261;25291;User1058;180565;HP Spectre x360 14;24/04/2024;1;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [1 ★][24/04/2024] User1058: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000262;21313;User1073;184002;Acer Nitro 5 AN515-58-50RS;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [2 ★][03/02/2023] User1073: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000263;28144;User1040;110762;ASUS ROG Strix G17;18/01/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][18/01/2023] User1040: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000264;25200;User1034;120242;ASUS ROG Strix Scar 15;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][15/03/2024] User1034: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000265;22759;User1051;191382;MacBook Pro 16-inch M2 Max (2023);11/09/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][11/09/2023] User1051: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000266;28272;User1079;140095;HP Spectre x360 13;21/07/2024;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][21/07/2024] User1079: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000267;25329;User1041;129514;HP Envy 13;27/04/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][27/04/2024] User1041: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000268;23938;User1039;160991;ASUS ROG Zephyrus G15 GA503;01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [3 ★][01/06/2024] User1039: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000269;26303;User1048;178775;Dell Alienware m15;08/05/2024;2;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [2 ★][08/05/2024] User1048: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000270;24072;User1062;198505;MacBook Pro 14-inch M3 Pro (2024);14/01/2024;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][14/01/2024] User1062: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000271;23211;User1075;171247;HP Omen 15-ek0013dx;10/12/2023;3;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [3 ★][10/12/2023] User1075: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000272;26748;User1064;191382;MacBook Pro 16-inch M2 Max (2023);18/05/2024;3;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [3 ★][18/05/2024] User1064: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000273;24861;User1035;191382;MacBook Pro 16-inch M2 Max (2023);24/03/2024;4;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [4 ★][24/03/2024] User1035: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000274;20855;User1025;114580;ASUS ROG Zephyrus M16;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][17/08/2023] User1025: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000275;21424;User1011;115290;ASUS TUF Gaming FX506;26/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][26/01/2023] User1011: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000276;23085;User1043;131841;Acer Aspire 7;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [2 ★][20/07/2023] User1043: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000277;28272;User1079;102863;ASUS ROG Zephyrus G14;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [2 ★][19/03/2024] User1079: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000278;20020;User1063;156836;Lenovo IdeaPad Flex 3;07/01/2024;2;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [2 ★][07/01/2024] User1063: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000279;24495;User1007;117836;HP Spectre x360;09/07/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][09/07/2023] User1007: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000280;26188;User1074;115893;Acer Aspire 7 A715-75G;28/09/2023;4;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [4 ★][28/09/2023] User1074: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000281;25483;User1009;135215;Lenovo Yoga 9i;02/07/2024;2;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [2 ★][02/07/2024] User1009: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000282;26643;User1060;191382;MacBook Pro 16-inch M2 Max (2023);01/02/2023;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][01/02/2023] User1060: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000283;29540;User1053;160991;ASUS ROG Zephyrus G15 GA503;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][03/08/2023] User1053: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000284;28291;User1070;103938;Lenovo IdeaPad 3;25/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][25/03/2023] User1070: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000285;27842;User1046;103771;ASUS ZenBook 14 OLED;21/09/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][21/09/2023] User1046: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000286;24274;User1022;103771;ASUS ZenBook 14 OLED;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][10/06/2024] User1022: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000287;26188;User1074;125909;Lenovo ThinkPad X1 Yoga;05/06/2023;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][05/06/2023] User1074: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000288;27304;User1002;198508;HP EliteBook 850;08/11/2023;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][08/11/2023] User1002: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000289;26656;User1055;141349;MacBook Pro 16-inch M3 Max (2024);20/08/2023;1;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [1 ★][20/08/2023] User1055: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000290;29635;User1038;197849;Acer Predator Triton 300 SE;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][22/03/2024] User1038: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000291;27598;User1026;114844;ASUS VivoBook 15;20/01/2024;2;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [2 ★][20/01/2024] User1026: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000292;27958;User1033;137708;Dell XPS 13;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][10/09/2023] User1033: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000293;23211;User1075;196701;ASUS Chromebook Flip C436;27/12/2023;2;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [2 ★][27/12/2023] User1075: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000294;23340;User1061;116597;MacBook Pro 13-inch M2 (2022);29/04/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][29/04/2023] User1061: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000295;22302;User1056;144625;MacBook Pro 15-inch (2019) 512GB;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][05/12/2023] User1056: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000296;24495;User1007;103771;ASUS ZenBook 14 OLED;03/10/2023;4;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [4 ★][03/10/2023] User1007: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000297;27598;User1026;125288;Lenovo Legion 7;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][05/08/2023] User1026: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000298;29540;User1053;128854;HP Chromebook x360;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][25/02/2024] User1053: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000299;28291;User1070;130011;Acer Chromebook 315;02/06/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][02/06/2023] User1070: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000300;22302;User1056;178164;ASUS VivoBook 14;26/11/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][26/11/2023] User1056: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000301;21424;User1011;135972;Acer Predator Helios 300;06/08/2023;3;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [3 ★][06/08/2023] User1011: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000302;20855;User1025;165204;Lenovo Yoga Slim 7;31/12/2023;5;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [5 ★][31/12/2023] User1025: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000303;27958;User1033;122098;Acer Aspire 5;22/07/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1033: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000304;25200;User1034;191382;MacBook Pro 16-inch M2 Max (2023);31/01/2023;4;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [4 ★][31/01/2023] User1034: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000305;21518;User1001;156541;Dell Latitude 7420;09/11/2023;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][09/11/2023] User1001: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000306;21424;User1011;188051;HP Chromebook x360 14c;08/04/2024;1;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [1 ★][08/04/2024] User1011: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000307;29658;User1008;171247;HP Omen 15-ek0013dx;10/07/2023;4;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [4 ★][10/07/2023] User1008: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000308;28291;User1070;161310;Acer Predator Helios 300 PH315-54;02/08/2024;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][02/08/2024] User1070: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000309;23102;User1020;161293;Acer Swift 3 SF314-43;11/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][11/01/2023] User1020: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000310;20855;User1025;111305;Lenovo IdeaPad Gaming 3 15IMH05;03/09/2023;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][03/09/2023] User1025: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000311;25044;User1029;174542;ASUS VivoBook Flip 14;03/12/2023;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][03/12/2023] User1029: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000312;29875;User1031;109174;Lenovo ThinkPad X13;19/02/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][19/02/2024] User1031: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000313;27598;User1026;125987;MacBook Air Retina 13-inch (2019) 128GB;06/01/2024;4;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [4 ★][06/01/2024] User1026: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000314;22134;User1030;188272;ASUS ROG Flow X13;22/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][22/01/2023] User1030: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000315;28272;User1079;141349;MacBook Pro 16-inch M3 Max (2024);31/01/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][31/01/2023] User1079: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000316;24072;User1062;144625;MacBook Pro 15-inch (2019) 512GB;09/08/2024;3;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [3 ★][09/08/2024] User1062: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000317;28115;User1028;131841;Acer Aspire 7;25/07/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][25/07/2023] User1028: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000318;23340;User1061;148829;Lenovo Legion 5 Pro;15/07/2023;1;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [1 ★][15/07/2023] User1061: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000319;26643;User1060;131841;Acer Aspire 7;05/04/2024;5;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [5 ★][05/04/2024] User1060: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000320;29288;User1078;108151;Acer Nitro 5 AN515-58;24/02/2023;4;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [4 ★][24/02/2023] User1078: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000321;28115;User1028;117836;HP Spectre x360;11/04/2023;1;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [1 ★][11/04/2023] User1028: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000322;23126;User1016;191954;HP EliteBook x360;10/01/2023;3;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [3 ★][10/01/2023] User1016: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000323;25291;User1058;142838;MacBook Pro 16-inch (2019) 1TB;12/07/2023;3;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [3 ★][12/07/2023] User1058: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000324;21138;User1068;106627;Acer Predator Triton 500 SE;05/03/2024;2;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [2 ★][05/03/2024] User1068: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000325;20020;User1063;135215;Lenovo Yoga 9i;19/05/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][19/05/2024] User1063: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000326;21424;User1011;120242;ASUS ROG Strix Scar 15;01/05/2024;2;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [2 ★][01/05/2024] User1011: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000327;24861;User1035;137629;MacBook Air M2 (2022);22/07/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][22/07/2023] User1035: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000328;29829;User1067;135743;ASUS TUF Gaming A15;23/04/2023;5;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [5 ★][23/04/2023] User1067: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000329;21816;User1013;197849;Acer Predator Triton 300 SE;29/03/2023;4;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [4 ★][29/03/2023] User1013: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000330;21816;User1013;184013;HP ProBook 640;07/01/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][07/01/2024] User1013: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000331;29732;User1059;116586;ASUS Chromebook Flip C434;15/05/2023;4;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [4 ★][15/05/2023] User1059: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000332;28144;User1040;135215;Lenovo Yoga 9i;07/09/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][07/09/2023] User1040: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000333;29635;User1038;167734;HP Omen 17;14/03/2023;1;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [1 ★][14/03/2023] User1038: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000334;26188;User1074;168592;Acer Swift 3;30/07/2023;5;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [5 ★][30/07/2023] User1074: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000335;27958;User1033;142717;Lenovo Yoga 7i;12/04/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][12/04/2024] User1033: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000336;28272;User1079;188082;MacBook Air M1 (2020) 256GB;10/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][10/03/2024] User1079: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000337;22678;User1019;144625;MacBook Pro 15-inch (2019) 512GB;10/05/2024;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][10/05/2024] User1019: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000338;24495;User1007;184002;Acer Nitro 5 AN515-58-50RS;10/06/2023;3;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [3 ★][10/06/2023] User1007: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000339;27279;User1065;128854;HP Chromebook x360;05/03/2023;1;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [1 ★][05/03/2023] User1065: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000340;26110;User1004;191430;Acer Swift 3 SF314-59;03/08/2024;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][03/08/2024] User1004: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000341;29635;User1038;174542;ASUS VivoBook Flip 14;27/04/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][27/04/2023] User1038: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000342;20000;Admin;108494;Acer Swift 5 SF514-55T-50QX;18/07/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2023] Admin: Máy chạy rất mư...;System.Windows.Forms.Button, Text: 
+1000343;23183;User1050;167734;HP Omen 17;13/09/2023;5;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [5 ★][13/09/2023] User1050: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000344;27279;User1065;144229;ASUS VivoBook 15 X515;06/12/2023;4;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [4 ★][06/12/2023] User1065: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000345;26303;User1048;130536;ASUS ROG Strix G15;21/01/2023;2;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [2 ★][21/01/2023] User1048: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000346;20758;User1071;171247;HP Omen 15-ek0013dx;15/02/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][15/02/2023] User1071: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000347;29033;User1042;196353;Lenovo ThinkBook 14;21/03/2024;3;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [3 ★][21/03/2024] User1042: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000348;26863;User1044;196701;ASUS Chromebook Flip C436;15/10/2023;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][15/10/2023] User1044: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000349;28397;User1037;133677;Acer Spin 5;07/07/2023;1;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [1 ★][07/07/2023] User1037: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000350;21313;User1073;114844;ASUS VivoBook 15;12/02/2023;1;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [1 ★][12/02/2023] User1073: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000351;28115;User1028;141349;MacBook Pro 16-inch M3 Max (2024);06/07/2024;1;Âm thanh tốt, bàn phím gõ êm;System.Windows.Forms.TextBox, Text: [1 ★][06/07/2024] User1028: Âm thanh tốt...;System.Windows.Forms.Button, Text: 
+1000352;26320;User1024;166395;ASUS ROG Strix Scar 17;29/05/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][29/05/2023] User1024: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000353;21424;User1011;144625;MacBook Pro 15-inch (2019) 512GB;08/02/2023;3;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [3 ★][08/02/2023] User1011: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000354;29875;User1031;160369;MacBook Pro 16-inch (2021;03/03/2024;3;Dịch vụ bảo hành nhanh chóng;System.Windows.Forms.TextBox, Text: [3 ★][03/03/2024] User1031: Dịch vụ bảo ...;System.Windows.Forms.Button, Text: 
+1000355;24574;User1045;108494;Acer Swift 5 SF514-55T-50QX;23/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][23/03/2023] User1045: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000356;26656;User1055;137293;ASUS ZenBook 14;03/07/2024;1;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [1 ★][03/07/2024] User1055: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000357;24274;User1022;151149;HP Omen 16;31/01/2023;1;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [1 ★][31/01/2023] User1022: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000358;24516;User1012;104906;Lenovo Legion 7i;18/07/2024;4;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [4 ★][18/07/2024] User1012: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000359;23126;User1016;103771;ASUS ZenBook 14 OLED;15/08/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][15/08/2023] User1016: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000360;24861;User1035;168693;HP EliteBook 840 G7;27/12/2023;3;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [3 ★][27/12/2023] User1035: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000361;29732;User1059;116597;MacBook Pro 13-inch M2 (2022);24/04/2024;1;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [1 ★][24/04/2024] User1059: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000362;27112;User1017;105461;ASUS ExpertBook B1;03/02/2023;2;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [2 ★][03/02/2023] User1017: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000363;24936;User1036;137629;MacBook Air M2 (2022);18/01/2023;3;Chất lượng hoàn thiện tốt;System.Windows.Forms.TextBox, Text: [3 ★][18/01/2023] User1036: Chất lượng h...;System.Windows.Forms.Button, Text: 
+1000364;29875;User1031;140095;HP Spectre x360 13;15/03/2024;5;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [5 ★][15/03/2024] User1031: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000365;22923;User1003;182800;HP Omen 15;11/09/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][11/09/2023] User1003: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000366;25491;User1010;111062;ASUS ZenBook Duo 14;21/07/2024;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][21/07/2024] User1010: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000367;22044;User1057;184013;HP ProBook 640;27/04/2024;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][27/04/2024] User1057: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000368;25329;User1041;137629;MacBook Air M2 (2022);01/06/2024;3;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [3 ★][01/06/2024] User1041: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000369;26863;User1044;188082;MacBook Air M1 (2020) 256GB;08/05/2024;2;Giá hơi cao so với cấu hình;System.Windows.Forms.TextBox, Text: [2 ★][08/05/2024] User1044: Giá hơi cao ...;System.Windows.Forms.Button, Text: 
+1000370;28144;User1040;167671;Acer Nitro 5 AN515-58-50RS;14/01/2024;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][14/01/2024] User1040: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000371;25044;User1029;155884;Lenovo Chromebook Flex 5;10/12/2023;3;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [3 ★][10/12/2023] User1029: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000372;23938;User1039;192611;Dell G15 Gaming;18/05/2024;3;Máy nhẹ, tiện mang đi học;System.Windows.Forms.TextBox, Text: [3 ★][18/05/2024] User1039: Máy nhẹ, tiệ...;System.Windows.Forms.Button, Text: 
+1000373;27958;User1033;129025;HP Pavilion 14-ce3600;24/03/2024;4;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [4 ★][24/03/2024] User1033: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000374;27842;User1046;109174;Lenovo ThinkPad X13;17/08/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][17/08/2023] User1046: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000375;21518;User1001;178164;ASUS VivoBook 14;26/01/2023;2;Pin yếu, dùng nhanh hết;System.Windows.Forms.TextBox, Text: [2 ★][26/01/2023] User1001: Pin yếu, dùn...;System.Windows.Forms.Button, Text: 
+1000376;21313;User1073;178164;ASUS VivoBook 14;20/07/2023;2;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [2 ★][20/07/2023] User1073: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000377;22923;User1003;190366;Acer Predator Helios 300 PH317-55;19/03/2024;2;Bàn phím dễ bấm, touchpad nhạy;System.Windows.Forms.TextBox, Text: [2 ★][19/03/2024] User1003: Bàn phím dễ ...;System.Windows.Forms.Button, Text: 
+1000378;26299;User1069;144625;MacBook Pro 15-inch (2019) 512GB;07/01/2024;2;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [2 ★][07/01/2024] User1069: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 
+1000379;23340;User1061;178081;ASUS ROG Strix G15 Advantage Edition;09/07/2023;5;Hài lòng với sản phẩm này;System.Windows.Forms.TextBox, Text: [5 ★][09/07/2023] User1061: Hài lòng với...;System.Windows.Forms.Button, Text: 
+1000380;24495;User1007;177250;Lenovo IdeaPad Flex 5;28/09/2023;4;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [4 ★][28/09/2023] User1007: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000381;24274;User1022;108151;Acer Nitro 5 AN515-58;02/07/2024;2;Màn hình bị ám nhẹ ở góc;System.Windows.Forms.TextBox, Text: [2 ★][02/07/2024] User1022: Màn hình bị ...;System.Windows.Forms.Button, Text: 
+1000382;22434;User1014;160054;Acer Nitro 5 AN515-45;01/02/2023;4;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [4 ★][01/02/2023] User1014: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000383;28397;User1037;144625;MacBook Pro 15-inch (2019) 512GB;03/08/2023;5;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [5 ★][03/08/2023] User1037: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000384;25015;User1032;110012;HP EliteBook 840;25/03/2023;5;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [5 ★][25/03/2023] User1032: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000385;28272;User1079;192476;ASUS ZenBook 13 OLED;21/09/2023;4;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [4 ★][21/09/2023] User1079: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000386;28397;User1037;110012;HP EliteBook 840;10/06/2024;5;Màn hình hiển thị sắc nét, màu đẹp;System.Windows.Forms.TextBox, Text: [5 ★][10/06/2024] User1037: Màn hình hiể...;System.Windows.Forms.Button, Text: 
+1000387;24274;User1022;106047;Acer Predator Helios 300 PH315-55;05/06/2023;2;Máy hơi nóng khi chơi game lâu;System.Windows.Forms.TextBox, Text: [2 ★][05/06/2023] User1022: Máy hơi nóng...;System.Windows.Forms.Button, Text: 
+1000388;20855;User1025;176078;HP Pavilion 14;08/11/2023;4;Sạc nhanh, không bị nóng;System.Windows.Forms.TextBox, Text: [4 ★][08/11/2023] User1025: Sạc nhanh, k...;System.Windows.Forms.Button, Text: 
+1000389;21424;User1011;128854;HP Chromebook x360;20/08/2023;1;Chưa được như kỳ vọng;System.Windows.Forms.TextBox, Text: [1 ★][20/08/2023] User1011: Chưa được nh...;System.Windows.Forms.Button, Text: 
+1000390;26188;User1074;104114;Acer Nitro 5;22/03/2024;1;Máy khởi động nhanh, hiệu năng ổn;System.Windows.Forms.TextBox, Text: [1 ★][22/03/2024] User1074: Máy khởi độn...;System.Windows.Forms.Button, Text: 
+1000391;24274;User1022;129514;HP Envy 13;20/01/2024;2;Cảm thấy rất đáng tiền;System.Windows.Forms.TextBox, Text: [2 ★][20/01/2024] User1022: Cảm thấy rất...;System.Windows.Forms.Button, Text: 
+1000392;22370;User1005;135972;Acer Predator Helios 300;10/09/2023;5;Ổ cứng hơi nhỏ, nên nâng cấp SSD;System.Windows.Forms.TextBox, Text: [5 ★][10/09/2023] User1005: Ổ cứng hơi n...;System.Windows.Forms.Button, Text: 
+1000393;26188;User1074;183177;Lenovo Yoga Slim 7 Carbon;27/12/2023;2;Cấu hình mạnh, chơi game tốt;System.Windows.Forms.TextBox, Text: [2 ★][27/12/2023] User1074: Cấu hình mạn...;System.Windows.Forms.Button, Text: 
+1000394;29829;User1067;117836;HP Spectre x360;29/04/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][29/04/2023] User1067: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000395;22738;User1023;135743;ASUS TUF Gaming A15;05/12/2023;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][05/12/2023] User1023: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000396;20000;Admin;141419;HP Elite Dragonfly;03/10/2023;4;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [4 ★][03/10/2023] Admin: Quạt kêu hơi to...;System.Windows.Forms.Button, Text: 
+1000397;22370;User1005;111305;Lenovo IdeaPad Gaming 3 15IMH05;05/08/2023;1;Máy chạy rất mượt, pin dùng khá lâu;System.Windows.Forms.TextBox, Text: [1 ★][05/08/2023] User1005: Máy chạy rất...;System.Windows.Forms.Button, Text: 
+1000398;22044;User1057;135215;Lenovo Yoga 9i;25/02/2024;4;Thiết kế đẹp, nhìn sang trọng;System.Windows.Forms.TextBox, Text: [4 ★][25/02/2024] User1057: Thiết kế đẹp...;System.Windows.Forms.Button, Text: 
+1000399;22434;User1014;135215;Lenovo Yoga 9i;02/06/2023;5;Quạt kêu hơi to khi chạy nặng;System.Windows.Forms.TextBox, Text: [5 ★][02/06/2023] User1014: Quạt kêu hơi...;System.Windows.Forms.Button, Text: 

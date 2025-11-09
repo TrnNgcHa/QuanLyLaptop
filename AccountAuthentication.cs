@@ -120,7 +120,7 @@ namespace QuanLyLaptop
             MainMenu.Accounts.Add(newAccount);
             CurrentAccount = newAccount;
 
-            var form = new Advanced(CurrentAccount);
+            var form = new Advanced();
             form.ShowDialog();
             this.Close();
         }
@@ -138,7 +138,7 @@ namespace QuanLyLaptop
             //Gán tài khoản hiện tại bằng tài khoản đã qua kiểm tra thành công
             CurrentAccount = MainMenu.Accounts.First(acc => acc.AccountName == txtTenDN.Text && acc.Password == Convert.ToInt32(txtMatKhauDN.Text));
 
-            var form = new Advanced(CurrentAccount);
+            var form = new Advanced();
             form.ShowDialog();
             this.Close();
             return;
